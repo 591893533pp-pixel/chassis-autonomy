@@ -1,0 +1,16 @@
+{
+  "checked_date": "2026-11-27",
+  "user_confirmed_power_topology": "Both MID-360S and the switch share one 12 V / 2 A branch.",
+  "sources": [
+    {
+      "path": "/home/pc/\u6587\u6863/ChatGPT/\u5e95\u76d8\u8c03\u8bd5/\u90e8\u7f72\u51c6\u5907/lidar_commission_20261125/hms_reference_1.txt",
+      "sha256": "4eb824fa8a4f73c5d07b759f59698fa21dd7aafae2c6d6a8cce19a591cd054bd"
+    },
+    {
+      "path": "/home/pc/\u6587\u6863/ChatGPT/\u5e95\u76d8\u8c03\u8bd5/chassis-autonomy/.validation/ptp_next/mid360s_manual.pdf",
+      "sha256": "bf064396c2a5254bc3fc98044d65b2dcf3ad3354e942eee1ee46b37e6e0c80d4"
+    }
+  ],
+  "online_hms_fetch_this_turn": "HTTP 403; used saved official text from 2026-11-25",
+  "live_read_attempt": "No datagram received; bind failed EADDRNOTAVAIL, subsequent check confirmed link down and no IPv4 address on enp85s0. No transmit performed."
+}

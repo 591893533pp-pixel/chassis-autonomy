@@ -1,0 +1,1633 @@
+[
+  {
+    "source_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/observation.json",
+    "source_sha256": "34da88f8ddf78dd031035e202c3a0a3033a2fd1cdcc6315f0da45679c0f0fafc",
+    "sensors": {
+      "192.168.1.132": {
+        "samples": 32,
+        "sn": "BDLCN9S0039449",
+        "states": {
+          "1": 32
+        },
+        "hms": [],
+        "powerup_counts": [
+          87
+        ],
+        "first_diagnostic": {
+          "monotonic": 568.77706756,
+          "data": {
+            "ip": "192.168.1.132",
+            "device_type": 35,
+            "info": {
+              "pcl_data_type": 1,
+              "pattern_mode": 0,
+              "lidar_ipcfg": {
+                "lidar_ip": "192.168.1.132",
+                "lidar_subnet_mask": "255.255.255.0",
+                "lidar_gateway": "192.168.1.1"
+              },
+              "state_info_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56201,
+                "src_port": 0
+              },
+              "ponitcloud_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56301,
+                "src_port": 0
+              },
+              "imu_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56401,
+                "src_port": 0
+              },
+              "install_attitude": {
+                "roll_deg": 0.0,
+                "pitch_deg": 0.0,
+                "yaw_deg": 0.0,
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 0
+              },
+              "fov_cfg0": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg1": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg_en": 0,
+              "detect_mode": 0,
+              "func_io_cfg": {
+                "IN0": 0,
+                "IN1": 0,
+                "OUT0": 0,
+                "OUT1": 0
+              },
+              "work_tgt_mode": 1,
+              "imu_data_en": 1,
+              "esc_mode": 0,
+              "sn": "BDLCN9S0039449",
+              "product_info": "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09",
+              "version_app": [
+                35,
+                1,
+                1,
+                8
+              ],
+              "version_loader": [
+                35,
+                1,
+                99,
+                1
+              ],
+              "version_hardware": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mac": [
+                12,
+                154,
+                230,
+                98,
+                107,
+                239
+              ],
+              "cur_work_state": 1,
+              "core_temp": 3777,
+              "powerup_cnt": 87,
+              "local_time_now": 1795573140518139486,
+              "last_sync_time": 1795573139506937108,
+              "time_offset": 8027,
+              "time_sync_type": 1,
+              "lidar_diag_status": 0,
+              "FW_TYPE": 1,
+              "hms_code": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "last_diagnostic": {
+          "monotonic": 597.776857844,
+          "data": {
+            "ip": "192.168.1.132",
+            "device_type": 35,
+            "info": {
+              "pcl_data_type": 1,
+              "pattern_mode": 0,
+              "lidar_ipcfg": {
+                "lidar_ip": "192.168.1.132",
+                "lidar_subnet_mask": "255.255.255.0",
+                "lidar_gateway": "192.168.1.1"
+              },
+              "state_info_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56201,
+                "src_port": 56200
+              },
+              "ponitcloud_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56301,
+                "src_port": 56300
+              },
+              "imu_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56401,
+                "src_port": 56400
+              },
+              "install_attitude": {
+                "roll_deg": 0.0,
+                "pitch_deg": 0.0,
+                "yaw_deg": 0.0,
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 0
+              },
+              "fov_cfg0": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg1": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg_en": 0,
+              "detect_mode": 0,
+              "func_io_cfg": {
+                "IN0": 0,
+                "IN1": 0,
+                "OUT0": 0,
+                "OUT1": 0
+              },
+              "work_tgt_mode": 1,
+              "imu_data_en": 1,
+              "esc_mode": 0,
+              "sn": "BDLCN9S0039449",
+              "product_info": "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09",
+              "version_app": [
+                35,
+                1,
+                1,
+                8
+              ],
+              "version_loader": [
+                35,
+                1,
+                99,
+                1
+              ],
+              "version_hardware": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mac": [
+                12,
+                154,
+                230,
+                98,
+                107,
+                239
+              ],
+              "cur_work_state": 1,
+              "core_temp": 3802,
+              "powerup_cnt": 87,
+              "local_time_now": 1795573169518359788,
+              "last_sync_time": 1795573168509215948,
+              "time_offset": 28076,
+              "time_sync_type": 1,
+              "lidar_diag_status": 0,
+              "FW_TYPE": 1,
+              "hms_code": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "device_time_window_beijing": [
+          "2026-11-25T10:19:00.518139+08:00",
+          "2026-11-25T10:19:29.518360+08:00"
+        ]
+      },
+      "192.168.1.159": {
+        "samples": 31,
+        "sn": "ARMCP9M0033988",
+        "states": {
+          "4": 31
+        },
+        "hms": [
+          "0x02100003",
+          "0x02160003"
+        ],
+        "powerup_counts": [
+          77
+        ],
+        "first_diagnostic": {
+          "monotonic": 568.779617315,
+          "data": {
+            "ip": "192.168.1.159",
+            "device_type": 35,
+            "info": {
+              "pcl_data_type": 1,
+              "pattern_mode": 0,
+              "lidar_ipcfg": {
+                "lidar_ip": "192.168.1.159",
+                "lidar_subnet_mask": "255.255.255.0",
+                "lidar_gateway": "192.168.1.1"
+              },
+              "state_info_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56201,
+                "src_port": 0
+              },
+              "ponitcloud_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56301,
+                "src_port": 0
+              },
+              "imu_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56401,
+                "src_port": 0
+              },
+              "install_attitude": {
+                "roll_deg": 0.0,
+                "pitch_deg": 0.0,
+                "yaw_deg": 0.0,
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 0
+              },
+              "fov_cfg0": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg1": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg_en": 0,
+              "detect_mode": 0,
+              "func_io_cfg": {
+                "IN0": 0,
+                "IN1": 0,
+                "OUT0": 0,
+                "OUT1": 0
+              },
+              "work_tgt_mode": 1,
+              "imu_data_en": 1,
+              "esc_mode": 0,
+              "sn": "ARMCP9M0033988",
+              "product_info": "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09",
+              "version_app": [
+                35,
+                1,
+                1,
+                8
+              ],
+              "version_loader": [
+                35,
+                1,
+                99,
+                1
+              ],
+              "version_hardware": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mac": [
+                52,
+                145,
+                240,
+                230,
+                254,
+                41
+              ],
+              "cur_work_state": 4,
+              "core_temp": 3309,
+              "powerup_cnt": 77,
+              "local_time_now": 1795573140520754668,
+              "last_sync_time": 1795573139506937108,
+              "time_offset": 30142,
+              "time_sync_type": 1,
+              "lidar_diag_status": 0,
+              "FW_TYPE": 1,
+              "hms_code": [
+                34996227,
+                34603011,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "last_diagnostic": {
+          "monotonic": 597.779658089,
+          "data": {
+            "ip": "192.168.1.159",
+            "device_type": 35,
+            "info": {
+              "pcl_data_type": 1,
+              "pattern_mode": 0,
+              "lidar_ipcfg": {
+                "lidar_ip": "192.168.1.159",
+                "lidar_subnet_mask": "255.255.255.0",
+                "lidar_gateway": "192.168.1.1"
+              },
+              "state_info_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56201,
+                "src_port": 56200
+              },
+              "ponitcloud_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56301,
+                "src_port": 56300
+              },
+              "imu_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56401,
+                "src_port": 56400
+              },
+              "install_attitude": {
+                "roll_deg": 0.0,
+                "pitch_deg": 0.0,
+                "yaw_deg": 0.0,
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 0
+              },
+              "fov_cfg0": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg1": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg_en": 0,
+              "detect_mode": 0,
+              "func_io_cfg": {
+                "IN0": 0,
+                "IN1": 0,
+                "OUT0": 0,
+                "OUT1": 0
+              },
+              "work_tgt_mode": 1,
+              "imu_data_en": 1,
+              "esc_mode": 0,
+              "sn": "ARMCP9M0033988",
+              "product_info": "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09",
+              "version_app": [
+                35,
+                1,
+                1,
+                8
+              ],
+              "version_loader": [
+                35,
+                1,
+                99,
+                1
+              ],
+              "version_hardware": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mac": [
+                52,
+                145,
+                240,
+                230,
+                254,
+                41
+              ],
+              "cur_work_state": 4,
+              "core_temp": 3334,
+              "powerup_cnt": 77,
+              "local_time_now": 1795573169520649610,
+              "last_sync_time": 1795573168509215948,
+              "time_offset": 72349,
+              "time_sync_type": 1,
+              "lidar_diag_status": 0,
+              "FW_TYPE": 1,
+              "hms_code": [
+                34996227,
+                34603011,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "device_time_window_beijing": [
+          "2026-11-25T10:19:00.520755+08:00",
+          "2026-11-25T10:19:29.520650+08:00"
+        ]
+      }
+    },
+    "topic_counts": {
+      "/livox/imu_192_168_1_132": 5630,
+      "/livox/lidar_192_168_1_132": 288
+    }
+  },
+  {
+    "source_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/recovery_1025/observation.json",
+    "source_sha256": "c4279960ce256276d00cc6e32a695fcfe9780cb578a2763672c0c66dbe15dae7",
+    "sensors": {
+      "192.168.1.132": {
+        "samples": 31,
+        "sn": "BDLCN9S0039449",
+        "states": {
+          "1": 31
+        },
+        "hms": [],
+        "powerup_counts": [
+          88
+        ],
+        "first_diagnostic": {
+          "monotonic": 943.44683085,
+          "data": {
+            "ip": "192.168.1.132",
+            "device_type": 35,
+            "info": {
+              "pcl_data_type": 1,
+              "pattern_mode": 0,
+              "lidar_ipcfg": {
+                "lidar_ip": "192.168.1.132",
+                "lidar_subnet_mask": "255.255.255.0",
+                "lidar_gateway": "192.168.1.1"
+              },
+              "state_info_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56201,
+                "src_port": 0
+              },
+              "ponitcloud_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56301,
+                "src_port": 0
+              },
+              "imu_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56401,
+                "src_port": 0
+              },
+              "install_attitude": {
+                "roll_deg": 0.0,
+                "pitch_deg": 0.0,
+                "yaw_deg": 0.0,
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 0
+              },
+              "fov_cfg0": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg1": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg_en": 0,
+              "detect_mode": 0,
+              "func_io_cfg": {
+                "IN0": 0,
+                "IN1": 0,
+                "OUT0": 0,
+                "OUT1": 0
+              },
+              "work_tgt_mode": 1,
+              "imu_data_en": 1,
+              "esc_mode": 0,
+              "sn": "BDLCN9S0039449",
+              "product_info": "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09",
+              "version_app": [
+                35,
+                1,
+                1,
+                8
+              ],
+              "version_loader": [
+                35,
+                1,
+                99,
+                1
+              ],
+              "version_hardware": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mac": [
+                12,
+                154,
+                230,
+                98,
+                107,
+                239
+              ],
+              "cur_work_state": 1,
+              "core_temp": 3974,
+              "powerup_cnt": 88,
+              "local_time_now": 1795573515188217086,
+              "last_sync_time": 1795573514916047809,
+              "time_offset": -15870,
+              "time_sync_type": 1,
+              "lidar_diag_status": 0,
+              "FW_TYPE": 1,
+              "hms_code": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "last_diagnostic": {
+          "monotonic": 972.446480088,
+          "data": {
+            "ip": "192.168.1.132",
+            "device_type": 35,
+            "info": {
+              "pcl_data_type": 1,
+              "pattern_mode": 0,
+              "lidar_ipcfg": {
+                "lidar_ip": "192.168.1.132",
+                "lidar_subnet_mask": "255.255.255.0",
+                "lidar_gateway": "192.168.1.1"
+              },
+              "state_info_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56201,
+                "src_port": 56200
+              },
+              "ponitcloud_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56301,
+                "src_port": 56300
+              },
+              "imu_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56401,
+                "src_port": 56400
+              },
+              "install_attitude": {
+                "roll_deg": 0.0,
+                "pitch_deg": 0.0,
+                "yaw_deg": 0.0,
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 0
+              },
+              "fov_cfg0": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg1": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg_en": 0,
+              "detect_mode": 0,
+              "func_io_cfg": {
+                "IN0": 0,
+                "IN1": 0,
+                "OUT0": 0,
+                "OUT1": 0
+              },
+              "work_tgt_mode": 1,
+              "imu_data_en": 1,
+              "esc_mode": 0,
+              "sn": "BDLCN9S0039449",
+              "product_info": "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09",
+              "version_app": [
+                35,
+                1,
+                1,
+                8
+              ],
+              "version_loader": [
+                35,
+                1,
+                99,
+                1
+              ],
+              "version_hardware": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mac": [
+                12,
+                154,
+                230,
+                98,
+                107,
+                239
+              ],
+              "cur_work_state": 1,
+              "core_temp": 4011,
+              "powerup_cnt": 88,
+              "local_time_now": 1795573544188098714,
+              "last_sync_time": 1795573543917579471,
+              "time_offset": 9219,
+              "time_sync_type": 1,
+              "lidar_diag_status": 0,
+              "FW_TYPE": 1,
+              "hms_code": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "device_time_window_beijing": [
+          "2026-11-25T10:25:15.188217+08:00",
+          "2026-11-25T10:25:44.188099+08:00"
+        ]
+      },
+      "192.168.1.159": {
+        "samples": 31,
+        "sn": "ARMCP9M0033988",
+        "states": {
+          "1": 31
+        },
+        "hms": [],
+        "powerup_counts": [
+          79
+        ],
+        "first_diagnostic": {
+          "monotonic": 943.450423801,
+          "data": {
+            "ip": "192.168.1.159",
+            "device_type": 35,
+            "info": {
+              "pcl_data_type": 1,
+              "pattern_mode": 0,
+              "lidar_ipcfg": {
+                "lidar_ip": "192.168.1.159",
+                "lidar_subnet_mask": "255.255.255.0",
+                "lidar_gateway": "192.168.1.1"
+              },
+              "state_info_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56201,
+                "src_port": 0
+              },
+              "ponitcloud_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56301,
+                "src_port": 0
+              },
+              "imu_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56401,
+                "src_port": 0
+              },
+              "install_attitude": {
+                "roll_deg": 0.0,
+                "pitch_deg": 0.0,
+                "yaw_deg": 0.0,
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 0
+              },
+              "fov_cfg0": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg1": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg_en": 0,
+              "detect_mode": 0,
+              "func_io_cfg": {
+                "IN0": 0,
+                "IN1": 0,
+                "OUT0": 0,
+                "OUT1": 0
+              },
+              "work_tgt_mode": 1,
+              "imu_data_en": 1,
+              "esc_mode": 0,
+              "sn": "ARMCP9M0033988",
+              "product_info": "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09",
+              "version_app": [
+                35,
+                1,
+                1,
+                8
+              ],
+              "version_loader": [
+                35,
+                1,
+                99,
+                1
+              ],
+              "version_hardware": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mac": [
+                52,
+                145,
+                240,
+                230,
+                254,
+                41
+              ],
+              "cur_work_state": 1,
+              "core_temp": 3519,
+              "powerup_cnt": 79,
+              "local_time_now": 1795573515192124768,
+              "last_sync_time": 1795573514916047809,
+              "time_offset": -21310,
+              "time_sync_type": 1,
+              "lidar_diag_status": 0,
+              "FW_TYPE": 1,
+              "hms_code": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "last_diagnostic": {
+          "monotonic": 972.450155918,
+          "data": {
+            "ip": "192.168.1.159",
+            "device_type": 35,
+            "info": {
+              "pcl_data_type": 1,
+              "pattern_mode": 0,
+              "lidar_ipcfg": {
+                "lidar_ip": "192.168.1.159",
+                "lidar_subnet_mask": "255.255.255.0",
+                "lidar_gateway": "192.168.1.1"
+              },
+              "state_info_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56201,
+                "src_port": 56200
+              },
+              "ponitcloud_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56301,
+                "src_port": 56300
+              },
+              "imu_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56401,
+                "src_port": 56400
+              },
+              "install_attitude": {
+                "roll_deg": 0.0,
+                "pitch_deg": 0.0,
+                "yaw_deg": 0.0,
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 0
+              },
+              "fov_cfg0": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg1": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg_en": 0,
+              "detect_mode": 0,
+              "func_io_cfg": {
+                "IN0": 0,
+                "IN1": 0,
+                "OUT0": 0,
+                "OUT1": 0
+              },
+              "work_tgt_mode": 1,
+              "imu_data_en": 1,
+              "esc_mode": 0,
+              "sn": "ARMCP9M0033988",
+              "product_info": "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09",
+              "version_app": [
+                35,
+                1,
+                1,
+                8
+              ],
+              "version_loader": [
+                35,
+                1,
+                99,
+                1
+              ],
+              "version_hardware": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mac": [
+                52,
+                145,
+                240,
+                230,
+                254,
+                41
+              ],
+              "cur_work_state": 1,
+              "core_temp": 3506,
+              "powerup_cnt": 79,
+              "local_time_now": 1795573544192019056,
+              "last_sync_time": 1795573543917579471,
+              "time_offset": 32745,
+              "time_sync_type": 1,
+              "lidar_diag_status": 0,
+              "FW_TYPE": 1,
+              "hms_code": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "device_time_window_beijing": [
+          "2026-11-25T10:25:15.192125+08:00",
+          "2026-11-25T10:25:44.192019+08:00"
+        ]
+      }
+    },
+    "topic_counts": {
+      "/livox/imu_192_168_1_132": 5605,
+      "/livox/lidar_192_168_1_132": 288,
+      "/livox/imu_192_168_1_159": 5600,
+      "/livox/lidar_192_168_1_159": 286
+    }
+  },
+  {
+    "source_path": "/home/pc/文档/ChatGPT/底盘调试/chassis-autonomy/.validation/boot_audit/recovery_20261126_141801.json",
+    "source_sha256": "8f678f0c816a4c8ebbd7e4befde412591bb43781ca65c24d9242d5edb95304b6",
+    "sensors": {
+      "192.168.1.132": {
+        "samples": 62,
+        "sn": "BDLCN9S0039449",
+        "states": {
+          "1": 62
+        },
+        "hms": [],
+        "powerup_counts": [
+          91
+        ],
+        "first_diagnostic": {
+          "monotonic": 330.752130908,
+          "data": {
+            "ip": "192.168.1.132",
+            "device_type": 35,
+            "info": {
+              "pcl_data_type": 1,
+              "pattern_mode": 0,
+              "lidar_ipcfg": {
+                "lidar_ip": "192.168.1.132",
+                "lidar_subnet_mask": "255.255.255.0",
+                "lidar_gateway": "192.168.1.1"
+              },
+              "state_info_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56201,
+                "src_port": 0
+              },
+              "ponitcloud_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56301,
+                "src_port": 0
+              },
+              "imu_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56401,
+                "src_port": 0
+              },
+              "install_attitude": {
+                "roll_deg": 0.0,
+                "pitch_deg": 0.0,
+                "yaw_deg": 0.0,
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 0
+              },
+              "fov_cfg0": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg1": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg_en": 0,
+              "detect_mode": 0,
+              "func_io_cfg": {
+                "IN0": 0,
+                "IN1": 0,
+                "OUT0": 0,
+                "OUT1": 0
+              },
+              "work_tgt_mode": 1,
+              "imu_data_en": 1,
+              "esc_mode": 0,
+              "sn": "BDLCN9S0039449",
+              "product_info": "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09",
+              "version_app": [
+                35,
+                1,
+                1,
+                8
+              ],
+              "version_loader": [
+                35,
+                1,
+                99,
+                1
+              ],
+              "version_hardware": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mac": [
+                12,
+                154,
+                230,
+                98,
+                107,
+                239
+              ],
+              "cur_work_state": 1,
+              "core_temp": 3937,
+              "powerup_cnt": 91,
+              "local_time_now": 1795673822523672602,
+              "last_sync_time": 1795673822247950648,
+              "time_offset": -71289,
+              "time_sync_type": 1,
+              "lidar_diag_status": 0,
+              "FW_TYPE": 1,
+              "hms_code": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "last_diagnostic": {
+          "monotonic": 389.751494295,
+          "data": {
+            "ip": "192.168.1.132",
+            "device_type": 35,
+            "info": {
+              "pcl_data_type": 1,
+              "pattern_mode": 0,
+              "lidar_ipcfg": {
+                "lidar_ip": "192.168.1.132",
+                "lidar_subnet_mask": "255.255.255.0",
+                "lidar_gateway": "192.168.1.1"
+              },
+              "state_info_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56201,
+                "src_port": 56200
+              },
+              "ponitcloud_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56301,
+                "src_port": 56300
+              },
+              "imu_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56401,
+                "src_port": 56400
+              },
+              "install_attitude": {
+                "roll_deg": 0.0,
+                "pitch_deg": 0.0,
+                "yaw_deg": 0.0,
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 0
+              },
+              "fov_cfg0": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg1": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg_en": 0,
+              "detect_mode": 0,
+              "func_io_cfg": {
+                "IN0": 0,
+                "IN1": 0,
+                "OUT0": 0,
+                "OUT1": 0
+              },
+              "work_tgt_mode": 1,
+              "imu_data_en": 1,
+              "esc_mode": 0,
+              "sn": "BDLCN9S0039449",
+              "product_info": "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09",
+              "version_app": [
+                35,
+                1,
+                1,
+                8
+              ],
+              "version_loader": [
+                35,
+                1,
+                99,
+                1
+              ],
+              "version_hardware": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mac": [
+                12,
+                154,
+                230,
+                98,
+                107,
+                239
+              ],
+              "cur_work_state": 1,
+              "core_temp": 3986,
+              "powerup_cnt": 91,
+              "local_time_now": 1795673881523825788,
+              "last_sync_time": 1795673881251668739,
+              "time_offset": -31910,
+              "time_sync_type": 1,
+              "lidar_diag_status": 0,
+              "FW_TYPE": 1,
+              "hms_code": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "device_time_window_beijing": [
+          "2026-11-26T14:17:02.523673+08:00",
+          "2026-11-26T14:18:01.523826+08:00"
+        ]
+      },
+      "192.168.1.159": {
+        "samples": 62,
+        "sn": "ARMCP9M0033988",
+        "states": {
+          "1": 62
+        },
+        "hms": [],
+        "powerup_counts": [
+          82
+        ],
+        "first_diagnostic": {
+          "monotonic": 330.755669435,
+          "data": {
+            "ip": "192.168.1.159",
+            "device_type": 35,
+            "info": {
+              "pcl_data_type": 1,
+              "pattern_mode": 0,
+              "lidar_ipcfg": {
+                "lidar_ip": "192.168.1.159",
+                "lidar_subnet_mask": "255.255.255.0",
+                "lidar_gateway": "192.168.1.1"
+              },
+              "state_info_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56201,
+                "src_port": 0
+              },
+              "ponitcloud_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56301,
+                "src_port": 0
+              },
+              "imu_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56401,
+                "src_port": 0
+              },
+              "install_attitude": {
+                "roll_deg": 0.0,
+                "pitch_deg": 0.0,
+                "yaw_deg": 0.0,
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 0
+              },
+              "fov_cfg0": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg1": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg_en": 0,
+              "detect_mode": 0,
+              "func_io_cfg": {
+                "IN0": 0,
+                "IN1": 0,
+                "OUT0": 0,
+                "OUT1": 0
+              },
+              "work_tgt_mode": 1,
+              "imu_data_en": 1,
+              "esc_mode": 0,
+              "sn": "ARMCP9M0033988",
+              "product_info": "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09",
+              "version_app": [
+                35,
+                1,
+                1,
+                8
+              ],
+              "version_loader": [
+                35,
+                1,
+                99,
+                1
+              ],
+              "version_hardware": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mac": [
+                52,
+                145,
+                240,
+                230,
+                254,
+                41
+              ],
+              "cur_work_state": 1,
+              "core_temp": 3457,
+              "powerup_cnt": 82,
+              "local_time_now": 1795673822527601778,
+              "last_sync_time": 1795673822247950648,
+              "time_offset": -15662,
+              "time_sync_type": 1,
+              "lidar_diag_status": 0,
+              "FW_TYPE": 1,
+              "hms_code": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "last_diagnostic": {
+          "monotonic": 389.755257657,
+          "data": {
+            "ip": "192.168.1.159",
+            "device_type": 35,
+            "info": {
+              "pcl_data_type": 1,
+              "pattern_mode": 0,
+              "lidar_ipcfg": {
+                "lidar_ip": "192.168.1.159",
+                "lidar_subnet_mask": "255.255.255.0",
+                "lidar_gateway": "192.168.1.1"
+              },
+              "state_info_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56201,
+                "src_port": 56200
+              },
+              "ponitcloud_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56301,
+                "src_port": 56300
+              },
+              "imu_host_ipcfg": {
+                "ip": "192.168.1.4",
+                "dst_port": 56401,
+                "src_port": 56400
+              },
+              "install_attitude": {
+                "roll_deg": 0.0,
+                "pitch_deg": 0.0,
+                "yaw_deg": 0.0,
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 0
+              },
+              "fov_cfg0": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg1": {
+                "yaw_start": 0,
+                "yaw_stop": 0,
+                "pitch_start": -7,
+                "pitch_stop": 52
+              },
+              "fov_cfg_en": 0,
+              "detect_mode": 0,
+              "func_io_cfg": {
+                "IN0": 0,
+                "IN1": 0,
+                "OUT0": 0,
+                "OUT1": 0
+              },
+              "work_tgt_mode": 1,
+              "imu_data_en": 1,
+              "esc_mode": 0,
+              "sn": "ARMCP9M0033988",
+              "product_info": "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09",
+              "version_app": [
+                35,
+                1,
+                1,
+                8
+              ],
+              "version_loader": [
+                35,
+                1,
+                99,
+                1
+              ],
+              "version_hardware": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mac": [
+                52,
+                145,
+                240,
+                230,
+                254,
+                41
+              ],
+              "cur_work_state": 1,
+              "core_temp": 3482,
+              "powerup_cnt": 82,
+              "local_time_now": 1795673881527386064,
+              "last_sync_time": 1795673881251668739,
+              "time_offset": 49102,
+              "time_sync_type": 1,
+              "lidar_diag_status": 0,
+              "FW_TYPE": 1,
+              "hms_code": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "device_time_window_beijing": [
+          "2026-11-26T14:17:02.527602+08:00",
+          "2026-11-26T14:18:01.527386+08:00"
+        ]
+      }
+    },
+    "topic_counts": {
+      "/front_left/imu": 11456,
+      "/front_left/points": 582,
+      "/rear_right/imu": 11452,
+      "/rear_right/points": 588
+    }
+  },
+  {
+    "source_path": "/home/pc/文档/ChatGPT/底盘调试/移动建图准备_20261126/20261126_141317/fusion_health.json",
+    "source_sha256": "ed9fd47e1b080521d1f73232fddea44f883a3ed855a152456208ccd6bc5a7ff7",
+    "note": "Fusion health snapshots, not independent diagnostic packet counts; do not count these as separate boot failures.",
+    "matching_snapshots": 87,
+    "first": {
+      "monotonic": 107.593620466,
+      "phase": "startup",
+      "ok": false,
+      "fusion": {
+        "state": "WAIT_PTP",
+        "ptp_packets_verified": false,
+        "ptp_master_healthy": true,
+        "ptp_master_reason": "ok",
+        "ptp_master_generation": "0255b496f2f646f59b10f8233c9686a4",
+        "calibrated": false,
+        "relative_calibrated": false,
+        "pairs": 0,
+        "last_pair_dt_ms": null,
+        "last_output_age_s": null,
+        "rejected": 0,
+        "motion_deskew": false,
+        "self_filter_enabled": false,
+        "self_filter_removed_last": {
+          "rear_right": 0,
+          "front_left": 0
+        },
+        "self_filter_removed_total": {
+          "rear_right": 0,
+          "front_left": 0
+        },
+        "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+        "monotonic": 107.390362449,
+        "device_ptp_reason": "192.168.1.159:identity_workstate_or_hms",
+        "device_offset_limit_ns": 500000,
+        "device_offset_ns": {
+          "192.168.1.132": -7556,
+          "192.168.1.159": -56744
+        },
+        "device_hms_warnings": {
+          "192.168.1.132": [
+            67436546
+          ],
+          "192.168.1.159": [
+            34996227,
+            34603011,
+            67436546
+          ]
+        }
+      }
+    },
+    "last": {
+      "monotonic": 150.834875971,
+      "phase": "startup",
+      "ok": false,
+      "fusion": {
+        "state": "WAIT_PTP",
+        "ptp_packets_verified": false,
+        "ptp_master_healthy": true,
+        "ptp_master_reason": "ok",
+        "ptp_master_generation": "0255b496f2f646f59b10f8233c9686a4",
+        "calibrated": false,
+        "relative_calibrated": false,
+        "pairs": 0,
+        "last_pair_dt_ms": null,
+        "last_output_age_s": null,
+        "rejected": 0,
+        "motion_deskew": false,
+        "self_filter_enabled": false,
+        "self_filter_removed_last": {
+          "rear_right": 0,
+          "front_left": 0
+        },
+        "self_filter_removed_total": {
+          "rear_right": 0,
+          "front_left": 0
+        },
+        "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+        "monotonic": 150.390521026,
+        "device_ptp_reason": "192.168.1.159:identity_workstate_or_hms",
+        "device_offset_limit_ns": 500000,
+        "device_offset_ns": {
+          "192.168.1.132": 10928,
+          "192.168.1.159": 16794
+        },
+        "device_hms_warnings": {
+          "192.168.1.132": [
+            67436546
+          ],
+          "192.168.1.159": [
+            34996227,
+            34603011,
+            67436546
+          ]
+        }
+      }
+    }
+  },
+  {
+    "source_path": "/home/pc/文档/ChatGPT/底盘调试/移动建图准备_20261126/20261126_141531/fusion_health.json",
+    "source_sha256": "0f9114eac8b66e7e2b3cc80dc89d67f7e0db17c9119d5a8a3d1e34530e9b2e27",
+    "note": "Fusion health snapshots, not independent diagnostic packet counts; do not count these as separate boot failures.",
+    "matching_snapshots": 23,
+    "first": {
+      "monotonic": 242.630054598,
+      "phase": "startup",
+      "ok": false,
+      "fusion": {
+        "state": "WAIT_PTP",
+        "ptp_packets_verified": false,
+        "ptp_master_healthy": true,
+        "ptp_master_reason": "ok",
+        "ptp_master_generation": "0255b496f2f646f59b10f8233c9686a4",
+        "calibrated": false,
+        "relative_calibrated": false,
+        "pairs": 0,
+        "last_pair_dt_ms": null,
+        "last_output_age_s": null,
+        "rejected": 0,
+        "motion_deskew": false,
+        "self_filter_enabled": false,
+        "self_filter_removed_last": {
+          "rear_right": 0,
+          "front_left": 0
+        },
+        "self_filter_removed_total": {
+          "rear_right": 0,
+          "front_left": 0
+        },
+        "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+        "monotonic": 242.395675152,
+        "device_ptp_reason": "192.168.1.159:identity_workstate_or_hms",
+        "device_offset_limit_ns": 500000,
+        "device_offset_ns": {
+          "192.168.1.132": -11096,
+          "192.168.1.159": -19526
+        },
+        "device_hms_warnings": {
+          "192.168.1.132": [
+            67436546
+          ],
+          "192.168.1.159": [
+            34996227,
+            34603011,
+            67436546
+          ]
+        }
+      }
+    },
+    "last": {
+      "monotonic": 253.717125791,
+      "phase": "startup",
+      "ok": false,
+      "fusion": {
+        "state": "WAIT_PTP",
+        "ptp_packets_verified": false,
+        "ptp_master_healthy": false,
+        "ptp_master_reason": "software_ptp_not_master",
+        "ptp_master_generation": "0255b496f2f646f59b10f8233c9686a4",
+        "calibrated": false,
+        "relative_calibrated": false,
+        "pairs": 0,
+        "last_pair_dt_ms": null,
+        "last_output_age_s": null,
+        "rejected": 0,
+        "motion_deskew": false,
+        "self_filter_enabled": false,
+        "self_filter_removed_last": {
+          "rear_right": 0,
+          "front_left": 0
+        },
+        "self_filter_removed_total": {
+          "rear_right": 0,
+          "front_left": 0
+        },
+        "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+        "monotonic": 253.395689851,
+        "device_ptp_reason": "192.168.1.159:identity_workstate_or_hms",
+        "device_offset_limit_ns": 500000,
+        "device_offset_ns": {
+          "192.168.1.132": 49548,
+          "192.168.1.159": 19019
+        },
+        "device_hms_warnings": {
+          "192.168.1.132": [
+            67436546
+          ],
+          "192.168.1.159": [
+            34996227,
+            34603011,
+            67436546
+          ]
+        }
+      }
+    }
+  }
+]
