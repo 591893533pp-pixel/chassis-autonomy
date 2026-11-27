@@ -6,6 +6,16 @@ set(SDK_LIBRARY_SHARED livox_lidar_sdk_shared)
 add_library(${SDK_LIBRARY_STATIC} STATIC "")
 add_library(${SDK_LIBRARY_SHARED} SHARED "")
 
+# The SDK bundles spdlog 1.3.1 while ROS Jazzy loads system spdlog 1.12.
+# Export only the public C API on Linux: interposing either version's C++
+# logger/shared_ptr symbols corrupts destruction at process exit.
+if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
+  set_property(TARGET ${SDK_LIBRARY_SHARED} APPEND_STRING PROPERTY LINK_FLAGS
+    " -Wl,--version-script=${CMAKE_CURRENT_SOURCE_DIR}/exports.map")
+  set_property(TARGET ${SDK_LIBRARY_SHARED} APPEND PROPERTY LINK_DEPENDS
+    "${CMAKE_CURRENT_SOURCE_DIR}/exports.map")
+endif()
+
 set(LIVOX_SDK_MAJOR_VERSION "0")
 set(LIVOX_SDK_MINOR_VERSION "0")
 set(LIVOX_SDK_PATCH_VERSION "2")

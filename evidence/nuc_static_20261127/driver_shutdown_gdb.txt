@@ -1,0 +1,117 @@
+SIGINT is used by the debugger.
+Are you sure you want to change it? (y or n) [answered Y; input not from terminal]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff73b76c0 (LWP 12109)]
+[New Thread 0x7ffff6bb66c0 (LWP 12110)]
+[New Thread 0x7ffff51ff6c0 (LWP 12111)]
+[New Thread 0x7ffff49fe6c0 (LWP 12112)]
+[New Thread 0x7fffeffff6c0 (LWP 12113)]
+[New Thread 0x7fffee6556c0 (LWP 12114)]
+[New Thread 0x7fffede546c0 (LWP 12115)]
+[New Thread 0x7fffed6536c0 (LWP 12116)]
+[New Thread 0x7fffece526c0 (LWP 12117)]
+[New Thread 0x7fffec5b16c0 (LWP 12118)]
+[New Thread 0x7fffebdb06c0 (LWP 12119)]
+[New Thread 0x7fffeb5af6c0 (LWP 12120)]
+[New Thread 0x7fffeadae6c0 (LWP 12121)]
+[New Thread 0x7fffea5ad6c0 (LWP 12122)]
+[INFO] [1795770169.166193108] [shutdown_diagnosis]: Livox Ros Driver2 Version: 1.2.7
+[INFO] [1795770169.166338573] [shutdown_diagnosis]: Data Source is raw lidar.
+[INFO] [1795770169.166346824] [shutdown_diagnosis]: Config file : /home/pc/chassis-autonomy/mapping_trial/config/dual.json
+LdsLidar *GetInstance
+config lidar type: 8
+successfully parse base config, counts: 2
+[New Thread 0x7fffe9cd56c0 (LWP 12123)]
+[New Thread 0x7fffe94d46c0 (LWP 12124)]
+[New Thread 0x7fffe8cd36c0 (LWP 12125)]
+[New Thread 0x7fffdbfff6c0 (LWP 12126)]
+[New Thread 0x7fffdb7fe6c0 (LWP 12127)]
+[INFO] [1795770169.167154779] [shutdown_diagnosis]: Init lds lidar success!
+[New Thread 0x7fffdaffd6c0 (LWP 12128)]
+[New Thread 0x7fffda7fc6c0 (LWP 12129)]
+GetFreeIndex key:livox_lidar_2214701248.
+GetFreeIndex key:livox_lidar_2667686080.
+Init queue, real query size:16.
+Lidar[0] storage queue size: 10
+Init queue, real query size:16.
+Lidar[1] storage queue size: 10
+set pcl data type, handle: 2214701248, data type: 1
+set scan pattern, handle: 2214701248, scan pattern: 0
+begin to change work mode to 'Normal', handle: 2214701248
+set pcl data type, handle: 2667686080, data type: 1
+set scan pattern, handle: 2667686080, scan pattern: 0
+begin to change work mode to 'Normal', handle: 2667686080
+successfully set data type, handle: 2214701248, set_bit: 2
+successfully set pattern mode, handle: 2214701248, set_bit: 0
+successfully set lidar attitude, ip: 192.168.1.132
+successfully change work mode, handle: 2214701248
+successfully enable Livox Lidar imu, ip: 192.168.1.132
+successfully set data type, handle: 2667686080, set_bit: 2
+successfully set pattern mode, handle: 2667686080, set_bit: 0
+successfully set lidar attitude, ip: 192.168.1.159
+successfully change work mode, handle: 2667686080
+successfully enable Livox Lidar imu, ip: 192.168.1.159
+[INFO] [1795770172.176216602] [shutdown_diagnosis]: livox/imu_192_168_1_132 publish use imu format
+[INFO] [1795770172.178855155] [shutdown_diagnosis]: livox/lidar_192_168_1_132 publish use PointCloud2 format
+[INFO] [1795770172.194721231] [shutdown_diagnosis]: livox/imu_192_168_1_159 publish use imu format
+[INFO] [1795770172.208413088] [shutdown_diagnosis]: livox/lidar_192_168_1_159 publish use PointCloud2 format
+[INFO] [1795770188.598540713] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[Thread 0x7fffda7fc6c0 (LWP 12129) exited]
+[Thread 0x7fffdaffd6c0 (LWP 12128) exited]
+[Livox Lidar SDK Deinit completely!
+lddc destory!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Thread 0x7fffdbfff6c0 (LWP 12126) exited]
+[Thread 0x7fffea5ad6c0 (LWP 12122) exited]
+[Thread 0x7fffee6556c0 (LWP 12114) exited]
+[Thread 0x7fffede546c0 (LWP 12115) exited]
+[Thread 0x7fffed6536c0 (LWP 12116) exited]
+[Thread 0x7fffece526c0 (LWP 12117) exited]
+[Thread 0x7fffeadae6c0 (LWP 12121) exited]
+[Thread 0x7fffeb5af6c0 (LWP 12120) exited]
+[Thread 0x7fffec5b16c0 (LWP 12118) exited]
+[Thread 0x7fffebdb06c0 (LWP 12119) exited]
+[Thread 0x7ffff49fe6c0 (LWP 12112) exited]
+[Thread 0x7fffdb7fe6c0 (LWP 12127) exited]
+[Thread 0x7fffe9cd56c0 (LWP 12123) exited]
+[Thread 0x7fffe8cd36c0 (LWP 12125) exited]
+[Thread 0x7fffe94d46c0 (LWP 12124) exited]
+[Thread 0x7fffeffff6c0 (LWP 12113) exited]
+
+Thread 1 "livox_ros_drive" received signal SIGSEGV, Segmentation fault.
+0x00007ffff767bdd0 in std::_Sp_counted_ptr_inplace<spdlog::logger, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_dispose() () from /lib/x86_64-linux-gnu/libspdlog.so.1.12
+
+Thread 4 (Thread 0x7ffff51ff6c0 (LWP 12111) "livox_ros_drive"):
+#0  0x00007ffff7498e31 in __futex_abstimed_wait_common64 (private=-182461664, cancel=true, abstime=0x7ffff51fdc90, op=137, expected=0, futex_word=0x555555621560) at ./nptl/futex-internal.c:57
+#1  __futex_abstimed_wait_common (cancel=true, private=-182461664, abstime=0x7ffff51fdc90, clockid=32767, expected=0, futex_word=0x555555621560) at ./nptl/futex-internal.c:87
+#2  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x555555621560, expected=expected@entry=0, clockid=clockid@entry=1, abstime=abstime@entry=0x7ffff51fdc90, private=private@entry=0) at ./nptl/futex-internal.c:139
+#3  0x00007ffff749c1d6 in __pthread_cond_wait_common (abstime=<optimized out>, clockid=<optimized out>, mutex=0x555555621510, cond=0x555555621538) at ./nptl/pthread_cond_wait.c:503
+#4  ___pthread_cond_clockwait64 (abstime=<optimized out>, clockid=<optimized out>, mutex=0x555555621510, cond=0x555555621538) at ./nptl/pthread_cond_wait.c:691
+#5  ___pthread_cond_clockwait64 (cond=0x555555621538, mutex=0x555555621510, clockid=<optimized out>, abstime=<optimized out>) at ./nptl/pthread_cond_wait.c:679
+#6  0x00007ffff7a91575 in ?? () from /opt/ros/jazzy/lib/librcl_logging_spdlog.so
+#7  0x00007ffff78ecdb4 in ?? () from /lib/x86_64-linux-gnu/libstdc++.so.6
+#8  0x00007ffff749cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#9  0x00007ffff7529e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 3 (Thread 0x7ffff6bb66c0 (LWP 12110) "livox_ros_d-ust"):
+#0  syscall () at ../sysdeps/unix/sysv/linux/x86_64/syscall.S:38
+#1  0x00007ffff772d2fe in ?? () from /lib/x86_64-linux-gnu/liblttng-ust.so.1
+#2  0x00007ffff749cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#3  0x00007ffff7529e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 2 (Thread 0x7ffff73b76c0 (LWP 12109) "livox_ros_d-ust"):
+#0  0x00007ffff752c08b in __recvmsg_syscall (flags=0, msg=0x7ffff73b5490, fd=3) at ../sysdeps/unix/sysv/linux/recvmsg.c:27
+#1  __libc_recvmsg (fd=3, msg=0x7ffff73b5490, flags=0) at ../sysdeps/unix/sysv/linux/recvmsg.c:41
+#2  0x00007ffff77587c6 in ?? () from /lib/x86_64-linux-gnu/liblttng-ust.so.1
+#3  0x00007ffff772d527 in ?? () from /lib/x86_64-linux-gnu/liblttng-ust.so.1
+#4  0x00007ffff749cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#5  0x00007ffff7529e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 1 (Thread 0x7ffff73bb900 (LWP 12105) "livox_ros_drive"):
+#0  0x00007ffff767bdd0 in std::_Sp_counted_ptr_inplace<spdlog::logger, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_dispose() () from /lib/x86_64-linux-gnu/libspdlog.so.1.12
+#1  0x00007ffff40d7ab9 in std::shared_ptr<spdlog::logger>::~shared_ptr() () from /home/pc/chassis-autonomy/sensors/sdk-install/lib/liblivox_lidar_sdk_shared.so
+#2  0x00007ffff7447a76 in __run_exit_handlers (status=0, listp=<optimized out>, run_list_atexit=run_list_atexit@entry=true, run_dtors=run_dtors@entry=true) at ./stdlib/exit.c:108
+#3  0x00007ffff7447bbe in __GI_exit (status=<optimized out>) at ./stdlib/exit.c:138
+#4  0x00007ffff742a1d1 in __libc_start_call_main (main=main@entry=0x555555559be0 <main>, argc=argc@entry=20, argv=argv@entry=0x7fffffffdb78) at ../sysdeps/nptl/libc_start_call_main.h:74
+#5  0x00007ffff742a28b in __libc_start_main_impl (main=0x555555559be0 <main>, argc=20, argv=0x7fffffffdb78, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffdb68) at ../csu/libc-start.c:360
+#6  0x000055555555a6e5 in _start ()

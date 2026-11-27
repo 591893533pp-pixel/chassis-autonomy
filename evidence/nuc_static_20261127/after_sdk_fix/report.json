@@ -1,0 +1,70 @@
+{
+  "scope": "STATIC_SENSOR_MAPPING_CHECK",
+  "failure": "RuntimeError: Health became invalid: {'state': 'WAIT_PTP', 'ptp_packets_verified': True, 'ptp_master_healthy': True, 'ptp_master_reason': 'ok', 'ptp_master_generation': 'f06b503463a941caaef60e619ece2e49', 'calibrated': False, 'relative_calibrated': False, 'pairs': 416, 'last_pair_dt_ms': 0.080306, 'last_output_age_s': 0.1975770660001217, 'rejected': 32, 'motion_deskew': False, 'self_filter_enabled': False, 'self_filter_removed_last': {'rear_right': 0, 'front_left': 0}, 'self_filter_removed_total': {'rear_right': 0, 'front_left': 0}, 'scope': 'STATIONARY_TRIAL_NOT_NAVIGATION', 'monotonic': 1730.719428473, 'device_ptp_reason': '192.168.1.159:identity_workstate_or_hms', 'device_offset_limit_ns': 500000, 'device_offset_ns': {'192.168.1.159': 48238, '192.168.1.132': 51217}, 'device_hms_warnings': {'192.168.1.159': [67436546, 67239938], '192.168.1.132': [67436546]}} raw={'schema': 'chassis_raw_strict_20261126_v1', 'boot_id': 'ca7e7a4b-2142-47b7-a552-d4461d07dfda', 'generation': '0e669b1a-3e17-4cd0-b86a-fe7942f73260', 'monotonic': 1730.742215603, 'utc': 1795770456.5352633, 'ready': True, 'fault': None, 'streams': {'192.168.1.132:56300': {'seen': 1730.741058884, 'stamp_ns': 1795770456533133132, 'sequence': 52275, 'age_ns': 959723, 'count': 2120954, 'max_abs_age_ns': 3577806}, '192.168.1.132:56400': {'seen': 1730.737353701, 'stamp_ns': 1795770456530144632, 'sequence': 10787, 'age_ns': 193829, 'count': 203613, 'max_abs_age_ns': 666582}, '192.168.1.159:56300': {'seen': 1730.742164592, 'stamp_ns': 1795770456533693438, 'sequence': 8624, 'age_ns': 1490632, 'count': 2120955, 'max_abs_age_ns': 3355486}, '192.168.1.159:56400': {'seen': 1730.741075807, 'stamp_ns': 1795770456533751328, 'sequence': 46968, 'age_ns': 341623, 'count': 203614, 'max_abs_age_ns': 841439}}, 'ptp_recovery': {'pending': False, 'healthy_seconds': 0, 'last': None, 'blocked_by': None, 'count_10min': 0}, 'sequence_gap_evidence': None, 'capture_stats': {'packets': 4660344, 'drops': 0}, 'point_gap_policy': 'no_packet_loss_grace', 'tolerated_point_gaps': 0, 'last_point_gap_evidence': None, 'point_gap_pending': {}, 'phase': 'armed', 'utc_offset_seconds': 0, 'warmup_seconds': 10, 'healthy_seconds': 1018.045459682, 'startup_resets': 1, 'last_startup_fault': {'reason': '192.168.1.159:56300:stamp_interval_ns=10560000', 'monotonic': 712.675633483, 'utc': 1795769438.468681, 'streams': {'192.168.1.159:56300': {'seen': 712.675598012, 'stamp_ns': 1795769438467256012, 'sequence': 50357, 'age_ns': 1346351, 'count': 55, 'max_abs_age_ns': 2144629}, '192.168.1.132:56300': {'seen': 712.675110761, 'stamp_ns': 1795769438467286306, 'sequence': 28473, 'age_ns': 852616, 'count': 53, 'max_abs_age_ns': 1773470}, '192.168.1.132:56400': {'seen': 712.671366333, 'stamp_ns': 1795769438464327666, 'sequence': 3782, 'age_ns': 38477, 'count': 5, 'max_abs_age_ns': 259144}, '192.168.1.159:56400': {'seen': 712.672688064, 'stamp_ns': 1795769438465382532, 'sequence': 39962, 'age_ns': 335498, 'count': 5, 'max_abs_age_ns': 335498}}, 'sequence_gap_evidence': {'stream': '192.168.1.159:56300', 'previous_sequence': 50282, 'sequence': 50304, 'sequence_delta': 22, 'previous_stamp_ns': 1795769438431256012, 'stamp_ns': 1795769438441816012, 'interval_ns': 10560000, 'capture_ns': 1795769438443249196, 'receive_wall_ns': 1795769438448476006, 'monotonic': 712.655428461}}}",
+  "requested_lio_seconds": 90,
+  "elapsed_s": 50.978843261000065,
+  "odom_messages": 287,
+  "adapted_clouds": 416,
+  "cleanup": [
+    {
+      "name": "fastlio",
+      "returncode": 0,
+      "forced": false
+    },
+    {
+      "name": "bag",
+      "returncode": 2,
+      "forced": false
+    },
+    {
+      "name": "driver",
+      "returncode": 0,
+      "forced": false
+    },
+    {
+      "name": "adapter",
+      "returncode": 0,
+      "forced": false
+    },
+    {
+      "name": "fusion",
+      "returncode": 0,
+      "forced": false
+    }
+  ],
+  "body_anchor_verified": false,
+  "ground_issue_resolved": false,
+  "controller_started": false,
+  "motion_allowed_by_option": false,
+  "operator_automatic_enable": false,
+  "stop_reason": null,
+  "nearfield_filter": "1m_per_sensor_excluded_mapping_experiment_only_not_obstacle_map",
+  "configuration_hashes": {
+    "devices.json": "a6c3a295a22c34921b77224448457dff42c0fdaa95b0d68fb461da3e1dfe88c5",
+    "extrinsics_active.json": "b9eec4c5509d75a9d3d7041e6dbe039de9720b8a816672086f947043ddac1cc4",
+    "lio.yaml": "0196c37ab8b5ca7d33e11a2a506dc0a6cce80f1b9ac97b00ac8471a740558958",
+    "self_filter.json": "acefe3c3fd3eb3cdcd18053f819195f68fc11a9e22cfdd0c0a11dfbd0469788d",
+    "dual.json": "d7d45f5b86b56001b946cf24284aba52db09f09b2b4ffc9cfa03ad49f8667199"
+  },
+  "odom_span_s": 28.599963903427124,
+  "after_20s_max_position_change_m": 0.00280306930589201,
+  "after_20s_max_angle_change_deg": 0.05943167784580613,
+  "cloud_summary": {
+    "max_scan_span_ms": 100.45875199999999,
+    "both_sensors_all": true,
+    "all_sorted": true,
+    "min_points": 22858
+  },
+  "backend": "FAST-LIO-SAM; exports in optimized/KEY_FRAMES; accumulated_map.pcd is a diagnostic uncorrected overlay",
+  "tf_chain_checks": 321,
+  "cleanup_expected": true,
+  "pipeline_observed": false,
+  "optimized_export": {
+    "export_valid": true,
+    "keyframes": 1,
+    "points": 7733,
+    "loop_factors": 0,
+    "loop_observed": false,
+    "note": "Zero loop factors means no loop closure was accepted; enabling the backend alone is not a loop test."
+  }
+}

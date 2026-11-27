@@ -1,0 +1,40 @@
+[INFO] [1795770411.700522764] [dual_lidar_static_trial]: Livox Ros Driver2 Version: 1.2.7
+[INFO] [1795770411.700680072] [dual_lidar_static_trial]: Data Source is raw lidar.
+[INFO] [1795770411.700686983] [dual_lidar_static_trial]: Config file : /home/pc/chassis-autonomy/mapping_trial/config/dual.json
+LdsLidar *GetInstance
+config lidar type: 8
+successfully parse base config, counts: 2
+[INFO] [1795770411.701157017] [dual_lidar_static_trial]: Init lds lidar success!
+GetFreeIndex key:livox_lidar_2214701248.
+GetFreeIndex key:livox_lidar_2667686080.
+Rejected oversized LiDAR scan: handle=2214701248 span_ns=198229965
+Rejected oversized LiDAR scan: handle=2667686080 span_ns=198229965
+Init queue, real query size:16.
+Lidar[1] storage queue size: 10
+Init queue, real query size:16.
+Lidar[0] storage queue size: 10
+set pcl data type, handle: 2667686080, data type: 1
+set scan pattern, handle: 2667686080, scan pattern: 0
+begin to change work mode to 'Normal', handle: 2667686080
+set pcl data type, handle: 2214701248, data type: 1
+set scan pattern, handle: 2214701248, scan pattern: 0
+begin to change work mode to 'Normal', handle: 2214701248
+successfully set data type, handle: 2214701248, set_bit: 2
+successfully set pattern mode, handle: 2214701248, set_bit: 0
+successfully set data type, handle: 2667686080, set_bit: 2
+successfully set pattern mode, handle: 2667686080, set_bit: 0
+successfully set lidar attitude, ip: 192.168.1.159
+successfully set lidar attitude, ip: 192.168.1.132
+successfully change work mode, handle: 2214701248
+successfully enable Livox Lidar imu, ip: 192.168.1.132
+successfully change work mode, handle: 2667686080
+successfully enable Livox Lidar imu, ip: 192.168.1.159
+[INFO] [1795770414.702510805] [dual_lidar_static_trial]: livox/imu_192_168_1_132 publish use imu format
+[INFO] [1795770414.704714259] [dual_lidar_static_trial]: livox/lidar_192_168_1_132 publish use PointCloud2 format
+[INFO] [1795770414.712145006] [dual_lidar_static_trial]: livox/imu_192_168_1_159 publish use imu format
+[INFO] [1795770414.727386473] [dual_lidar_static_trial]: livox/lidar_192_168_1_159 publish use PointCloud2 format
+[INFO] [1795770460.775584080] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1795770460.776575606] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Livox Lidar SDK Deinit completely!
+lddc destory!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+lds destory!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

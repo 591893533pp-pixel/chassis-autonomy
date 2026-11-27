@@ -1,0 +1,26 @@
+{
+  "boot_id": "ca7e7a4b-2142-47b7-a552-d4461d07dfda",
+  "monotonic": 1877.79464431,
+  "utc": 1795770603.5876932,
+  "healthy": true,
+  "reason": "ok",
+  "mode": "software",
+  "generation": "f06b503463a941caaef60e619ece2e49",
+  "interface": "enp85s0",
+  "port_state": "MASTER",
+  "port_age_s": 0.00038042200003474136,
+  "ptp_timescale": 0,
+  "utc_offset_applied_seconds": 0,
+  "ptp_pid": 2483,
+  "supervisor_pid": 2474,
+  "restart_count": 0,
+  "command": [
+    "/usr/sbin/ptp4l",
+    "-i",
+    "enp85s0",
+    "-f",
+    "/opt/livox-navigation-home-runtime/config/ptp4l.conf",
+    "-S",
+    "-m"
+  ]
+}

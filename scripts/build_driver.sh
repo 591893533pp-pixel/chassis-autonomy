@@ -7,6 +7,7 @@ source /opt/ros/jazzy/setup.bash
 cmake -S "$HERE/sensors/Livox-SDK2" -B "$HERE/sensors/build/sdk" -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="$HERE/sensors/sdk-install"
 cmake --build "$HERE/sensors/build/sdk" -j2
 cmake --install "$HERE/sensors/build/sdk"
+python3 "$HERE/tools/check_livox_exports.py"
 # Driver source uses ament directly; no colcon requirement, package-specific prefix matches runtime.
 cmake -S "$HERE/sensors/driver_workspace/src/livox_ros_driver2" -B "$HERE/sensors/driver_workspace/build" \
   -DROS_EDITION=ROS2 -DDISTRO_ROS=jazzy -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 \
