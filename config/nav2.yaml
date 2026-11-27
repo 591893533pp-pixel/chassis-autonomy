@@ -1,0 +1,337 @@
+amcl:
+  ros__parameters:
+    alpha1: 0.2
+    alpha2: 0.2
+    alpha3: 0.1
+    alpha4: 0.2
+    alpha5: 0.1
+    base_frame_id: base_link_trial
+    beam_skip_distance: 0.5
+    beam_skip_error_threshold: 0.9
+    beam_skip_threshold: 0.3
+    do_beamskip: false
+    global_frame_id: map
+    lambda_short: 0.1
+    laser_likelihood_max_dist: 2.0
+    laser_max_range: 12.0
+    laser_min_range: 0.1
+    laser_model_type: likelihood_field
+    max_beams: 180
+    max_particles: 4000
+    min_particles: 1000
+    odom_frame_id: trial_odom
+    pf_err: 0.05
+    pf_z: 0.99
+    recovery_alpha_fast: 0.0
+    recovery_alpha_slow: 0.0
+    resample_interval: 1
+    robot_model_type: nav2_amcl::OmniMotionModel
+    save_pose_rate: -1.0
+    sigma_hit: 0.2
+    tf_broadcast: true
+    transform_tolerance: 0.2
+    update_min_a: 0.03
+    update_min_d: 0.03
+    z_hit: 0.5
+    z_max: 0.05
+    z_rand: 0.5
+    z_short: 0.05
+    scan_topic: /chassis_nav/localization_scan
+    set_initial_pose: false
+    always_reset_initial_pose: true
+bt_navigator:
+  ros__parameters:
+    global_frame: map
+    robot_base_frame: base_link_trial
+    odom_topic: /chassis_nav/odom
+    bt_loop_duration: 10
+    default_server_timeout: 20
+    wait_for_service_timeout: 1000
+    action_server_result_timeout: 900.0
+    navigators:
+    - navigate_to_pose
+    navigate_to_pose:
+      plugin: nav2_bt_navigator::NavigateToPoseNavigator
+    error_code_names:
+    - compute_path_error_code
+    - follow_path_error_code
+    - smooth_path_error_code
+    default_nav_to_pose_bt_xml: __CHASSIS_NAV_BT__
+controller_server:
+  ros__parameters:
+    controller_frequency: 10.0
+    costmap_update_timeout: 0.3
+    min_x_velocity_threshold: 0.001
+    min_y_velocity_threshold: 0.001
+    min_theta_velocity_threshold: 0.001
+    failure_tolerance: 0.0
+    progress_checker_plugins:
+    - progress_checker
+    goal_checker_plugins:
+    - general_goal_checker
+    controller_plugins:
+    - FollowPath
+    use_realtime_priority: false
+    progress_checker:
+      plugin: nav2_controller::SimpleProgressChecker
+      required_movement_radius: 0.04
+      movement_time_allowance: 30.0
+    general_goal_checker:
+      stateful: true
+      plugin: nav2_controller::SimpleGoalChecker
+      xy_goal_tolerance: 0.05
+      yaw_goal_tolerance: 0.08726646259971647
+    FollowPath:
+      plugin: dwb_core::DWBLocalPlanner
+      min_vel_x: -0.05
+      min_vel_y: -0.05
+      max_vel_x: 0.05
+      max_vel_y: 0.05
+      max_vel_theta: 0.04
+      min_speed_xy: 0.0
+      max_speed_xy: 0.05
+      min_speed_theta: 0.0
+      acc_lim_x: 0.05
+      acc_lim_y: 0.05
+      acc_lim_theta: 0.08
+      decel_lim_x: -0.1
+      decel_lim_y: -0.1
+      decel_lim_theta: -0.08
+      vx_samples: 9
+      vy_samples: 9
+      vtheta_samples: 9
+      sim_time: 3.0
+      linear_granularity: 0.01
+      angular_granularity: 0.01
+      transform_tolerance: 0.2
+      xy_goal_tolerance: 0.05
+      trans_stopped_velocity: 0.01
+      short_circuit_trajectory_evaluation: true
+      stateful: true
+      PathAlign.scale: 24.0
+      PathAlign.forward_point_distance: 0.1
+      GoalAlign.scale: 16.0
+      GoalAlign.forward_point_distance: 0.1
+      PathDist.scale: 32.0
+      GoalDist.scale: 24.0
+      RotateToGoal.scale: 32.0
+      RotateToGoal.slowing_factor: 5.0
+      RotateToGoal.lookahead_time: -1.0
+      critics:
+      - RotateToGoal
+      - Oscillation
+      - ObstacleFootprint
+      - GoalAlign
+      - PathAlign
+      - PathDist
+      - GoalDist
+      ObstacleFootprint.scale: 0.02
+    enable_stamped_cmd_vel: false
+    odom_topic: /chassis_nav/odom
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      update_frequency: 5.0
+      publish_frequency: 5.0
+      global_frame: trial_odom
+      robot_base_frame: base_link_trial
+      rolling_window: true
+      width: 5
+      height: 5
+      resolution: 0.025
+      footprint: '[[0.25999999046325684, -0.250415563583374], [0.25999999046325684,
+        0.250415563583374], [0.12636236095640746, 0.2598788661866697], [-0.12802059633625962,
+        0.2598788661866697], [-0.25999999046325684, 0.250415563583374], [-0.25999999046325684,
+        -0.250415563583374], [-0.12719227454130821, -0.25987874345772677], [0.12719068525756416,
+        -0.25987874345772677]]'
+      plugins:
+      - obstacle_layer
+      - inflation_layer
+      inflation_layer:
+        plugin: nav2_costmap_2d::InflationLayer
+        cost_scaling_factor: 4.0
+        inflation_radius: 0.45
+      voxel_layer:
+        plugin: nav2_costmap_2d::VoxelLayer
+        enabled: true
+        publish_voxel_map: true
+        origin_z: 0.0
+        z_resolution: 0.05
+        z_voxels: 16
+        max_obstacle_height: 2.0
+        mark_threshold: 0
+        observation_sources: scan
+        scan:
+          topic: /scan
+          max_obstacle_height: 2.0
+          clearing: true
+          marking: true
+          data_type: LaserScan
+          raytrace_max_range: 3.0
+          raytrace_min_range: 0.0
+          obstacle_max_range: 2.5
+          obstacle_min_range: 0.0
+      static_layer:
+        plugin: nav2_costmap_2d::StaticLayer
+        map_subscribe_transient_local: true
+      always_send_full_costmap: true
+      footprint_padding: 0.03
+      transform_tolerance: 0.2
+      obstacle_layer:
+        plugin: nav2_costmap_2d::ObstacleLayer
+        enabled: true
+        observation_sources: front_left rear_right
+        front_left:
+          topic: /chassis_nav/front_left/obstacles
+          data_type: PointCloud2
+          clearing: true
+          marking: true
+          observation_persistence: 0.0
+          expected_update_rate: 0.3
+          raytrace_min_range: 0.1
+          raytrace_max_range: 10.0
+          obstacle_min_range: 0.1
+          obstacle_max_range: 10.0
+          min_obstacle_height: -2.0
+          max_obstacle_height: 2.0
+        rear_right:
+          topic: /chassis_nav/rear_right/obstacles
+          data_type: PointCloud2
+          clearing: true
+          marking: true
+          observation_persistence: 0.0
+          expected_update_rate: 0.3
+          raytrace_min_range: 0.1
+          raytrace_max_range: 10.0
+          obstacle_min_range: 0.1
+          obstacle_max_range: 10.0
+          min_obstacle_height: -2.0
+          max_obstacle_height: 2.0
+      track_unknown_space: true
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      update_frequency: 1.0
+      publish_frequency: 1.0
+      global_frame: map
+      robot_base_frame: base_link_trial
+      footprint: '[[0.25999999046325684, -0.250415563583374], [0.25999999046325684,
+        0.250415563583374], [0.12636236095640746, 0.2598788661866697], [-0.12802059633625962,
+        0.2598788661866697], [-0.25999999046325684, 0.250415563583374], [-0.25999999046325684,
+        -0.250415563583374], [-0.12719227454130821, -0.25987874345772677], [0.12719068525756416,
+        -0.25987874345772677]]'
+      resolution: 0.025
+      track_unknown_space: true
+      plugins:
+      - static_layer
+      - obstacle_layer
+      - inflation_layer
+      obstacle_layer:
+        plugin: nav2_costmap_2d::ObstacleLayer
+        enabled: true
+        observation_sources: front_left rear_right
+        front_left:
+          topic: /chassis_nav/front_left/obstacles
+          data_type: PointCloud2
+          clearing: true
+          marking: true
+          observation_persistence: 0.0
+          expected_update_rate: 0.3
+          raytrace_min_range: 0.1
+          raytrace_max_range: 10.0
+          obstacle_min_range: 0.1
+          obstacle_max_range: 10.0
+          min_obstacle_height: -2.0
+          max_obstacle_height: 2.0
+        rear_right:
+          topic: /chassis_nav/rear_right/obstacles
+          data_type: PointCloud2
+          clearing: true
+          marking: true
+          observation_persistence: 0.0
+          expected_update_rate: 0.3
+          raytrace_min_range: 0.1
+          raytrace_max_range: 10.0
+          obstacle_min_range: 0.1
+          obstacle_max_range: 10.0
+          min_obstacle_height: -2.0
+          max_obstacle_height: 2.0
+      static_layer:
+        plugin: nav2_costmap_2d::StaticLayer
+        map_subscribe_transient_local: true
+      inflation_layer:
+        plugin: nav2_costmap_2d::InflationLayer
+        cost_scaling_factor: 4.0
+        inflation_radius: 0.45
+      always_send_full_costmap: true
+      footprint_padding: 0.03
+      transform_tolerance: 0.2
+planner_server:
+  ros__parameters:
+    expected_planner_frequency: 20.0
+    planner_plugins:
+    - GridBased
+    costmap_update_timeout: 1.0
+    GridBased:
+      plugin: nav2_smac_planner::SmacPlannerHybrid
+      tolerance: 0.1
+      downsample_costmap: false
+      allow_unknown: false
+      max_iterations: 1000000
+      max_on_approach_iterations: 1000
+      max_planning_time: 5.0
+      motion_model_for_search: REEDS_SHEPP
+      angle_quantization_bins: 72
+      minimum_turning_radius: 1.25
+      reverse_penalty: 2.0
+      change_penalty: 0.0
+      non_straight_penalty: 1.2
+      cost_penalty: 2.0
+      retrospective_penalty: 0.015
+      analytic_expansion_ratio: 3.5
+      analytic_expansion_max_length: 4.0
+      smooth_path: false
+collision_monitor:
+  ros__parameters:
+    base_frame_id: base_link_trial
+    odom_frame_id: trial_odom
+    cmd_vel_in_topic: /chassis_nav/cmd_vel_raw
+    cmd_vel_out_topic: /chassis_nav/cmd_vel_safe
+    state_topic: /chassis_nav/collision_state
+    transform_tolerance: 0.15
+    source_timeout: 0.3
+    base_shift_correction: true
+    stop_pub_timeout: 1.0
+    enable_stamped_cmd_vel: false
+    polygons:
+    - StopFootprint
+    StopFootprint:
+      type: polygon
+      points: '[[-0.31999999046325683, -0.31987874345772677], [0.31999999046325683,
+        -0.31987874345772677], [0.31999999046325683, 0.3198788661866697], [-0.31999999046325683,
+        0.3198788661866697]]'
+      action_type: stop
+      min_points: 1
+      visualize: true
+      polygon_pub_topic: /chassis_nav/stop_polygon
+      enabled: true
+    observation_sources:
+    - front_left
+    - rear_right
+    front_left:
+      type: pointcloud
+      topic: /chassis_nav/front_left/obstacles
+      min_height: 0.019692706036983153
+      max_height: 0.3757937226527306
+      enabled: true
+    rear_right:
+      type: pointcloud
+      topic: /chassis_nav/rear_right/obstacles
+      min_height: 0.019692706036983153
+      max_height: 0.3757937226527306
+      enabled: true
+map_server:
+  ros__parameters:
+    yaml_filename: ''
+    frame_id: map
+    topic_name: map

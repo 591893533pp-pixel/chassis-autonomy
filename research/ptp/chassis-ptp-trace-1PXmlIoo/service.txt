@@ -1,0 +1,14 @@
+# /etc/systemd/system/nuc-ptp-master.service
+[Unit]
+Description=NUC software PTP master for the two Mid-360 lidars (chassis-only variant, no RK3588)
+# Never run together with nuc-ptp-slave / nuc-phc2sys / nuc-ptp-health (the full robot's RK slave clock).
+Conflicts=nuc-ptp-slave.service nuc-phc2sys.service nuc-ptp-health.service
+After=network-online.target nuc-lidar-rx-ring.service
+Wants=network-online.target
+[Service]
+ExecStart=/usr/bin/python3 -Es /opt/livox-navigation-home-runtime/scripts/ptp_supervisor.py --config /opt/livox-navigation-home-runtime/config/ptp4l.conf
+Restart=on-failure
+RestartSec=3
+UMask=0022
+[Install]
+WantedBy=multi-user.target

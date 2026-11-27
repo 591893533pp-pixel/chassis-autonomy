@@ -1,0 +1,382 @@
+{
+  "status": "GROUND_DIAGNOSTIC_ONLY_BODY_FRAME_UNVERIFIED",
+  "candidate_sha256": "dc1c200895777138dc54c426c59988070ea1b4abfbd12a0197861133df4bea96",
+  "assumptions": [
+    "Candidate low broad plane must be visually confirmed as floor",
+    "Plane normal is ground normal, not verified chassis up",
+    "No chassis x/y/yaw inferred; optical height is not base_link z"
+  ],
+  "scenes": {
+    "A": {
+      "rear_right": {
+        "height_above_candidate_plane_m": 0.30476704967206736,
+        "sensor_z_tilt_to_plane_normal_deg": 25.599770145488847,
+        "normal_sensor": [
+          0.4320250103782162,
+          -0.007025542783251324,
+          0.9018342598040415
+        ],
+        "plane_distance_sensor_m": -0.30476704967206736,
+        "normal_in_provisional_body": [
+          0.012333394447112513,
+          0.0023977818473222418,
+          0.9999210658965161
+        ],
+        "plane_z_at_provisional_origin_m": -0.03255460424754624,
+        "support": 3076,
+        "plane_rmse_m": 0.004847598229858064,
+        "tangent_std_m": [
+          0.6686490462325635,
+          1.0193451169695444
+        ],
+        "xy_bounds": [
+          [
+            -6.035922209465526,
+            -1.6869111345344021
+          ],
+          [
+            0.5133369099819787,
+            2.476510246279244
+          ]
+        ],
+        "eligible": true,
+        "source_sha256": "56e0aad60aac81af2fb80943448e031de3358b45ffcefd379ca71ebd4df055e1",
+        "halves": [
+          {
+            "height_above_candidate_plane_m": 0.3048090920874112,
+            "sensor_z_tilt_to_plane_normal_deg": 25.599040270365354
+          },
+          {
+            "height_above_candidate_plane_m": 0.3043966396959289,
+            "sensor_z_tilt_to_plane_normal_deg": 25.58603072471698
+          }
+        ]
+      },
+      "front_left": {
+        "height_above_candidate_plane_m": 0.30690010107164717,
+        "sensor_z_tilt_to_plane_normal_deg": 24.803441088152887,
+        "normal_sensor": [
+          0.4194664887663531,
+          0.005801147994675849,
+          0.9077522853091431
+        ],
+        "plane_distance_sensor_m": -0.30690010107164717,
+        "normal_in_provisional_body": [
+          0.01613725201573608,
+          0.007781638823809736,
+          0.9998395047179307
+        ],
+        "plane_z_at_provisional_origin_m": -0.048176154056708484,
+        "support": 3110,
+        "plane_rmse_m": 0.00534194668021301,
+        "tangent_std_m": [
+          0.5136107199793886,
+          1.9191868972885384
+        ],
+        "xy_bounds": [
+          [
+            -3.2522941509849534,
+            -1.10639500580775
+          ],
+          [
+            1.8991740540032807,
+            5.363050228801273
+          ]
+        ],
+        "eligible": true,
+        "source_sha256": "c2f8cfbf505f76bf316ef2e52b799a2bb6938330a4b105b4f620f5195330903b",
+        "halves": [
+          {
+            "height_above_candidate_plane_m": 0.30744042101044927,
+            "sensor_z_tilt_to_plane_normal_deg": 24.829826138711265
+          },
+          {
+            "height_above_candidate_plane_m": 0.3068221307360332,
+            "sensor_z_tilt_to_plane_normal_deg": 24.789729259654592
+          }
+        ]
+      },
+      "cross_sensor_ground_normal_difference_deg": 0.3777267794683791,
+      "height_difference_constraint_residual_m": 0.016889683943605016
+    },
+    "B": {
+      "rear_right": {
+        "height_above_candidate_plane_m": 0.30441109677191447,
+        "sensor_z_tilt_to_plane_normal_deg": 25.304265378595453,
+        "normal_sensor": [
+          0.42741615007817507,
+          -0.002776264139621329,
+          0.9040507325420284
+        ],
+        "plane_distance_sensor_m": -0.30441109677191447,
+        "normal_in_provisional_body": [
+          0.0057127210308340354,
+          0.0017864933234706445,
+          0.9999820864695672
+        ],
+        "plane_z_at_provisional_origin_m": -0.031081444592408535,
+        "support": 4305,
+        "plane_rmse_m": 0.004955159871398016,
+        "tangent_std_m": [
+          0.6508483854832767,
+          1.1930816463741907
+        ],
+        "xy_bounds": [
+          [
+            -5.609664199046014,
+            -3.211920770465845
+          ],
+          [
+            0.1757572191626691,
+            3.273721930748135
+          ]
+        ],
+        "eligible": true,
+        "source_sha256": "6d0807c91ee9c9ea9a4dbbe4d3c59651c4bd5e215773bba79b53ad750177ae42",
+        "halves": [
+          {
+            "height_above_candidate_plane_m": 0.30465809007670347,
+            "sensor_z_tilt_to_plane_normal_deg": 25.307002175112295
+          },
+          {
+            "height_above_candidate_plane_m": 0.3047946437427961,
+            "sensor_z_tilt_to_plane_normal_deg": 25.31530437655542
+          }
+        ]
+      },
+      "front_left": {
+        "height_above_candidate_plane_m": 0.31068689493295387,
+        "sensor_z_tilt_to_plane_normal_deg": 25.430183008207194,
+        "normal_sensor": [
+          0.42940702000365755,
+          -0.0018358624355588897,
+          0.903109207560579
+        ],
+        "plane_distance_sensor_m": -0.31068689493295387,
+        "normal_in_provisional_body": [
+          0.002986412913813806,
+          0.005387549696907834,
+          0.9999810276431108
+        ],
+        "plane_z_at_provisional_origin_m": -0.054185152233325366,
+        "support": 1424,
+        "plane_rmse_m": 0.005450408690179209,
+        "tangent_std_m": [
+          0.3037394673522875,
+          0.8528214558887762
+        ],
+        "xy_bounds": [
+          [
+            -2.1084825155111933,
+            -0.21077108080412874
+          ],
+          [
+            1.2464530150178736,
+            5.471816591823595
+          ]
+        ],
+        "eligible": true,
+        "source_sha256": "481d3ff9c2cd8b36d28545f9e0c76d9b7d2279e017028b20943ec3f03adfc8aa",
+        "halves": [
+          {
+            "eligible": false,
+            "reason": "insufficient floor support/extent"
+          },
+          {
+            "eligible": false,
+            "reason": "insufficient floor support/extent"
+          }
+        ]
+      },
+      "cross_sensor_ground_normal_difference_deg": 0.25878670479011917,
+      "height_difference_constraint_residual_m": 0.023191458576702018
+    },
+    "C": {
+      "rear_right": {
+        "height_above_candidate_plane_m": 0.3034083614444216,
+        "sensor_z_tilt_to_plane_normal_deg": 25.37428151122603,
+        "normal_sensor": [
+          0.4285175195289966,
+          -0.0032187567888951295,
+          0.9035277389551746
+        ],
+        "plane_distance_sensor_m": -0.3034083614444216,
+        "normal_in_provisional_body": [
+          0.0068877194615026005,
+          0.0023357132671426046,
+          0.9999735515323159
+        ],
+        "plane_z_at_provisional_origin_m": -0.030343185019124176,
+        "support": 2743,
+        "plane_rmse_m": 0.005200597150307258,
+        "tangent_std_m": [
+          0.49007225799840676,
+          0.9520294808869357
+        ],
+        "xy_bounds": [
+          [
+            -5.975919218283169,
+            -1.386236830136214
+          ],
+          [
+            0.22253574132890122,
+            2.6432685412963735
+          ]
+        ],
+        "eligible": true,
+        "source_sha256": "687d762eb436d147a3633d5f0bdcdabab59844d91530f362433cdc4ed91aaed3",
+        "halves": [
+          {
+            "height_above_candidate_plane_m": 0.30321569573063,
+            "sensor_z_tilt_to_plane_normal_deg": 25.359924204958777
+          },
+          {
+            "height_above_candidate_plane_m": 0.30334883965399345,
+            "sensor_z_tilt_to_plane_normal_deg": 25.37548756669185
+          }
+        ]
+      },
+      "front_left": {
+        "height_above_candidate_plane_m": 0.3074992485288829,
+        "sensor_z_tilt_to_plane_normal_deg": 25.062769906713157,
+        "normal_sensor": [
+          0.42360608834194424,
+          0.002020246754981463,
+          0.9058442473862082
+        ],
+        "plane_distance_sensor_m": -0.3074992485288829,
+        "normal_in_provisional_body": [
+          0.010242727115201078,
+          0.007215989014936232,
+          0.9999215049411526
+        ],
+        "plane_z_at_provisional_origin_m": -0.04969666771631046,
+        "support": 2952,
+        "plane_rmse_m": 0.005206040826365269,
+        "tangent_std_m": [
+          0.5726484128637901,
+          1.4670825227336477
+        ],
+        "xy_bounds": [
+          [
+            -3.301329927527681,
+            -0.08852144256044117
+          ],
+          [
+            1.8585669480740028,
+            5.516958017794339
+          ]
+        ],
+        "eligible": true,
+        "source_sha256": "125ace2ae39222f540fe29e64fc6eaa975c76c2a752c6090b465f3c248d97c4e",
+        "halves": [
+          {
+            "height_above_candidate_plane_m": 0.3074879264829361,
+            "sensor_z_tilt_to_plane_normal_deg": 25.05771679835535
+          },
+          {
+            "height_above_candidate_plane_m": 0.3071927437412653,
+            "sensor_z_tilt_to_plane_normal_deg": 25.044035163657192
+          }
+        ]
+      },
+      "cross_sensor_ground_normal_difference_deg": 0.33933412286366016,
+      "height_difference_constraint_residual_m": 0.020496450613993328
+    },
+    "D": {
+      "rear_right": {
+        "height_above_candidate_plane_m": 0.3034655053265654,
+        "sensor_z_tilt_to_plane_normal_deg": 25.228402830643496,
+        "normal_sensor": [
+          0.42622187131166717,
+          -0.0022448136078010916,
+          0.9046158727479012
+        ],
+        "plane_distance_sensor_m": -0.3034655053265654,
+        "normal_in_provisional_body": [
+          0.004402683416094592,
+          0.0012280395879224904,
+          0.9999895540941955
+        ],
+        "plane_z_at_provisional_origin_m": -0.029849757849211768,
+        "support": 1868,
+        "plane_rmse_m": 0.005443266322708569,
+        "tangent_std_m": [
+          0.5326997568891335,
+          0.7821096312443747
+        ],
+        "xy_bounds": [
+          [
+            -4.121679415964708,
+            -1.059825281796498
+          ],
+          [
+            -0.47599926402304205,
+            3.0857415864717326
+          ]
+        ],
+        "eligible": true,
+        "source_sha256": "7e81d8854f5b5191beef38f81f0614a5b39647ffe3bafb410abb6f06471af45d",
+        "halves": [
+          {
+            "height_above_candidate_plane_m": 0.3023737844500102,
+            "sensor_z_tilt_to_plane_normal_deg": 25.1964841187938
+          },
+          {
+            "height_above_candidate_plane_m": 0.3037011089723963,
+            "sensor_z_tilt_to_plane_normal_deg": 25.25220497781458
+          }
+        ]
+      },
+      "front_left": {
+        "height_above_candidate_plane_m": 0.3094713398967274,
+        "sensor_z_tilt_to_plane_normal_deg": 25.228423870037357,
+        "normal_sensor": [
+          0.4262273419077437,
+          0.00081175885904248,
+          0.9046157162341446
+        ],
+        "plane_distance_sensor_m": -0.3094713398967274,
+        "normal_in_provisional_body": [
+          0.007344712696127357,
+          0.006015532011898491,
+          0.9999549332695075
+        ],
+        "plane_z_at_provisional_origin_m": -0.052249464583955074,
+        "support": 2467,
+        "plane_rmse_m": 0.005226820982651668,
+        "tangent_std_m": [
+          0.47977707333499103,
+          0.87904939579751
+        ],
+        "xy_bounds": [
+          [
+            -3.3359955157201417,
+            -0.7160078010426681
+          ],
+          [
+            1.5672136585711018,
+            5.923295465475346
+          ]
+        ],
+        "eligible": true,
+        "source_sha256": "09c35e65264e00fedd7fa3607fe38cbe848096d53c7c3c7a6ee792acfecd5a7e",
+        "halves": [
+          {
+            "height_above_candidate_plane_m": 0.3092026764231596,
+            "sensor_z_tilt_to_plane_normal_deg": 25.21433517245109
+          },
+          {
+            "height_above_candidate_plane_m": 0.30935943058467724,
+            "sensor_z_tilt_to_plane_normal_deg": 25.227290053297605
+          }
+        ]
+      },
+      "cross_sensor_ground_normal_difference_deg": 0.32196405602498945,
+      "height_difference_constraint_residual_m": 0.023474652642119814
+    }
+  },
+  "user_ground_confirmation": "User confirms A/B/C/D are on the same flat hard floor, without carpet/ramp/step.",
+  "visual_review": "D selected low planes reviewed in top/side views; supports occupy different floor regions. Floor flatness not independently measured.",
+  "interpretation": "Global validation metrics passed, but per-surface ground alignment remains unresolved. A common rigid body transform cannot eliminate inter-sensor plane mismatch. Do not independently set both sensor heights while claiming to preserve the frozen relative transform."
+}

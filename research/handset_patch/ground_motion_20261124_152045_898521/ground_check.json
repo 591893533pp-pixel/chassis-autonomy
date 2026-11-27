@@ -1,0 +1,8 @@
+{
+  "phase": "motion",
+  "limit_linear_m_s": 0.05,
+  "limit_yaw_rad_s": 0.04,
+  "timeout_seconds": 120,
+  "automatic_enable": false,
+  "motion_commands_locked": false
+}

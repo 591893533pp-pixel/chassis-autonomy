@@ -1,0 +1,498 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "path": "cad/chassis_id_me/CMakeLists.txt",
+      "bytes": 199,
+      "sha256": "aa93ce239dde56b48e8a75868382c321ff99c29a597e790b9455fdbc43b27f7d",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/CMakeLists.txt",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/README.txt",
+      "bytes": 2865,
+      "sha256": "7e8fc77acd2b778de7965c87a5a9f19ae0c30287b59bdc56e764d2a6443977d3",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/README.txt",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/axis_changes.json",
+      "bytes": 723,
+      "sha256": "36b237a83cf475d3a250bf6898db7eaa32387bded42bf534c2832bf978cc671c",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/axis_changes.json",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/chassis_id_me.urdf",
+      "bytes": 62101,
+      "sha256": "7b2408ca61541ff340e66dc81daf95bd6811724432891bfb21f9939ba729586e",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/chassis_id_me.urdf",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/export_info.json",
+      "bytes": 533,
+      "sha256": "ee6037c568806afbc4c7bdf25ff5ab30fc0a92a80bb845f4ff44b89634235cfc",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/export_info.json",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/launch/chassis_id_me.launch",
+      "bytes": 707,
+      "sha256": "c3398288e5a5ff2efa8ac2ca54ce37122a2e010ffd0844f5054534d326fa2e13",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/launch/chassis_id_me.launch",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/mass_list.txt",
+      "bytes": 2044,
+      "sha256": "1b7abb416f6c98c937b1f9a22d39adeb2d98c39743d65d9e1ee1150f87ff6adc",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/mass_list.txt",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/mass_review.json",
+      "bytes": 93373,
+      "sha256": "633719191a91f38ffb3b0bb9ab8b4ba247f7d1bef8af94015f9a790adb77fa04",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/mass_review.json",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/BATT_ID_U.stl",
+      "bytes": 1099484,
+      "sha256": "8eab5abcc15202807b518054500fba8c7b744e4cccd4ea04fff0c4fb12e59293",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/BATT_ID_U.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/BATT_ID_U_1.stl",
+      "bytes": 1876284,
+      "sha256": "2ddabeef44061f2a495031a366b52cdf2ea875a238c18a88223d070cfb14fb51",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/BATT_ID_U_1.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/BATT_ID_U_2.stl",
+      "bytes": 1099284,
+      "sha256": "9bad28b03147c500154ce49b6745e22a3b88c5a298567f4ef6d96852088c548f",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/BATT_ID_U_2.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/BATT_ID_U_3.stl",
+      "bytes": 1873784,
+      "sha256": "bdfcaf84d80e7e552674eb8454c0ef1d192c376d0233c49f145933510542f31f",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/BATT_ID_U_3.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/BATT_SM_L.stl",
+      "bytes": 1500484,
+      "sha256": "223da2c560f0292e2812daf4ba4bb99398a56ca320b37ba4b4be839baa14cf0c",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/BATT_SM_L.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/BATT_SM_R.stl",
+      "bytes": 1501684,
+      "sha256": "e4fe6173315c85966d24c4db748914a2b8e2b6c3249bfd34c4277eda17039806",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/BATT_SM_R.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/CAHSSIS_S_D.stl",
+      "bytes": 30503984,
+      "sha256": "186e65ff3e316d645a18588f08c976de89c80d39e4f2e4c227c02f0e3cd19e53",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/CAHSSIS_S_D.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/CAHSSIS_S_U.stl",
+      "bytes": 25405184,
+      "sha256": "3f1cf94fed436a478b9d7758c448422ef442324ff1e2bbe3d85d0b46c9989db9",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/CAHSSIS_S_U.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/CAHSSIS_S_U_1.stl",
+      "bytes": 27560384,
+      "sha256": "c67ebe488b794cd62b8e2e890752acdf438cd39bcdb6aa65f41dd916182f2bbe",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/CAHSSIS_S_U_1.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/CHASSIS_BASE.stl",
+      "bytes": 2763684,
+      "sha256": "e85cdc426fa9ba8bc3830c32ba9e502c0e5d84087b6c4674744b8719cb5f4c9f",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/CHASSIS_BASE.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/MID_360.stl",
+      "bytes": 98685084,
+      "sha256": "f3e93f8ab0fa6db0f5b08217cd8322504548a841d693624d7bab8c7f8c7f0453",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/MID_360.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/MID_360_1.stl",
+      "bytes": 98663184,
+      "sha256": "b49ae138e73d50d32c219c5dc213ca05654f0280884b42d39cae002d79a7a40f",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/MID_360_1.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/MID_360_RACK.stl",
+      "bytes": 830184,
+      "sha256": "f8751809507f8d2aa031c18aa60b8a417b88caefcf09a0b6b95d1a5769d02d4a",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/MID_360_RACK.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/Part_1.stl",
+      "bytes": 1871584,
+      "sha256": "ef30aa77fa73bbe77db584552fe73d4749657a3e54d0d7b8c6965aa52cfb095f",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/Part_1.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/Part_2.stl",
+      "bytes": 2103184,
+      "sha256": "794c0c9bcc1c8cb9ae8021dc38cc3aca15047c9b74723682b88758011c4988e2",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/Part_2.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/Part_51.stl",
+      "bytes": 203484,
+      "sha256": "9cab54ba9b74df72bae34d57079c52217c961896247f509750e3a4d072421573",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/Part_51.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/RS02.stl",
+      "bytes": 10437584,
+      "sha256": "ef083df0fe09bdc7a831e1d4a46b80414a3955ebb9bf1384d888ea59bdf72c5c",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/RS02.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/WHEEL_MOT_BACK.stl",
+      "bytes": 1024384,
+      "sha256": "ea496f2abbfcd185ecc0482e28aef67406493f8040347b69e7506fd55df89d60",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/WHEEL_MOT_BACK.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/WHEEL_MOT_BASE.stl",
+      "bytes": 1044384,
+      "sha256": "e1f289a552c72e28f07e9354bf48a8e3f69e8a08707637d647401bf5b34db19b",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/WHEEL_MOT_BASE.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/WHEEL_MOT_CON.stl",
+      "bytes": 874284,
+      "sha256": "339f56219d8461a7667a4b2c4c0bbb1c1a9ee2170e3bd692686a8be7e5d25a01",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/WHEEL_MOT_CON.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/WHEEL_MOT_DRV.stl",
+      "bytes": 725884,
+      "sha256": "46e172f38287774b809cd0d73e2d5540ba1d765d57904bdb5d4ccb41566d824d",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/WHEEL_MOT_DRV.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/WHEEL_MOT_STOP.stl",
+      "bytes": 649584,
+      "sha256": "63b6ff53960508ada090ee824c9d9442b6907422db4fb9cd6ecc00a34c398c92",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/WHEEL_MOT_STOP.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/YIS320.stl",
+      "bytes": 162984,
+      "sha256": "42a09bd9fe39225ac149a95acb0cfbcba966e63fbaadedac4f5628c683a4b0a1",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/YIS320.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/_01.stl",
+      "bytes": 159710784,
+      "sha256": "8aa186a2758ff3823b32a792e9098a83b7a509a975617932b0c7b2bdf2c007f3",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/_01.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/meshes/_4005.stl",
+      "bytes": 57684,
+      "sha256": "1782b0ba6b8b48f143eec82b4d86e336534ec1bf55189a9fa3142861293b492a",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/meshes/_4005.stl",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/package.xml",
+      "bytes": 524,
+      "sha256": "9df0befe0670722ea0b2537d4d0f21221f0cfd86c5fa2b2792cdadee33602c18",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/package.xml",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/source_mass_properties/chassis.json",
+      "bytes": 35220,
+      "sha256": "150fc2ebf07c0150d38af3ac72c4bc8d01d10dc321e9ac2a8c2660ddb887b8e4",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/source_mass_properties/chassis.json",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/source_mass_properties/imu.json",
+      "bytes": 1593,
+      "sha256": "66e867a79ddc894d39dc8250f15606335c801ed4e4c823d0aff18e8c44f1e351",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/source_mass_properties/imu.json",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/source_mass_properties/rack.json",
+      "bytes": 126527,
+      "sha256": "cc77dd4e60f0b80acbaa390104cff6db101226395121c6f28f11e04645c40c6e",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/source_mass_properties/rack.json",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/source_mass_properties/wheel.json",
+      "bytes": 126918,
+      "sha256": "bc18a512c9a3ad8f8b46b972c1b014d99b32f49ce3ec32e53a531f709130d56b",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/source_mass_properties/wheel.json",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/urdf/chassis_id_me.urdf",
+      "bytes": 63517,
+      "sha256": "326ef8da6b1ea7eefc9e6e5ce3ea13baa5fcb1b3629e2190f13034e56af3af32",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/urdf/chassis_id_me.urdf",
+      "available_locally": true
+    },
+    {
+      "path": "cad/chassis_id_me/validation.json",
+      "bytes": 12060,
+      "sha256": "90cedff7028e879b185ea559bfea2ede21c38c6b3c0fc5a1ea34a2dd87162c0a",
+      "original_path": "/home/pc/下载/chassis_urdf/chassis_id_me/validation.json",
+      "available_locally": true
+    },
+    {
+      "path": "mapping/20261126_145615/export_report.json",
+      "bytes": 927,
+      "sha256": "532dc203c0f172661aeb3fa4fdaaf9247fb7d0e4d4530577650ad1ad35440fcf",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/移动建图准备_20261126/results/20261126_145615/full_export/export_report.json",
+      "available_locally": true
+    },
+    {
+      "path": "mapping/20261126_145615/registered_all_frames_xyzi.pcd",
+      "bytes": 226568434,
+      "sha256": "7cf84e6b0eddd88f86237fabe5ab21e66eedeab5ac0c17bd414f067602c35a10",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/移动建图准备_20261126/results/20261126_145615/full_export/registered_all_frames_xyzi.pcd",
+      "available_locally": true
+    },
+    {
+      "path": "mapping/20261126_145615/trajectory.csv",
+      "bytes": 602760,
+      "sha256": "788f1e6c3c19a456fd8feefa8251e88916016a51d14c3bdf1fa1151640e2c543",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/移动建图准备_20261126/results/20261126_145615/full_export/trajectory.csv",
+      "available_locally": true
+    },
+    {
+      "path": "ptp/chassis-ptp-trace-0AabSzlj/ptp_control.pcap",
+      "bytes": 163150,
+      "sha256": "247bbe8df420b4c6a750e0168cb7bb39dcf838b66d15465416c19d6b4c736e67",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/同步诊断_20261125/chassis-ptp-trace-0AabSzlj/ptp_control.pcap",
+      "available_locally": true
+    },
+    {
+      "path": "ptp/chassis-ptp-trace-1PXmlIoo/ptp_control.pcap",
+      "bytes": 548798,
+      "sha256": "b5c0d32bf73f72f5c47797de96755c1fdb96ccd6d6029c50b0fcb9d013aca298",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/同步诊断_20261125/chassis-ptp-trace-1PXmlIoo/ptp_control.pcap",
+      "available_locally": true
+    },
+    {
+      "path": "ptp/chassis-ptp-trace-1PXmlIoo/sensor_headers.pcap",
+      "bytes": 194027320,
+      "sha256": "815761000bc5bd22f71f94950b089dd87472e86460f3d55faa6d475230c3f0bf",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/同步诊断_20261125/chassis-ptp-trace-1PXmlIoo/sensor_headers.pcap",
+      "available_locally": true
+    },
+    {
+      "path": "ptp/sample_sensor_headers.pcap",
+      "bytes": 141736,
+      "sha256": "62be936f4df7ac9d3252b0863bef7e87b094e6778b6e47f128df1fd8c9cb15ec",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/同步诊断_20261125/sample_sensor_headers.pcap",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/cloud_132.npz",
+      "bytes": 3151170,
+      "sha256": "e146aa1be7c6111cd43162d8e18ba074764e8c05a2df657eb28ca54fcf52b97d",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/cloud_132.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_01/A/front_left.npz",
+      "bytes": 6817678,
+      "sha256": "c0e9a9305743b2a10a38cafdd1d62f2d255fd92e3433eb3af6da46cff94fc9ce",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_01/A/front_left.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_01/A/rear_right.npz",
+      "bytes": 6916676,
+      "sha256": "37fef33d06d711ca6f3a558eec285d7af1810335b5145794ddeeec6c70f93e05",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_01/A/rear_right.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_01/A2/front_left.npz",
+      "bytes": 6794988,
+      "sha256": "a2fb656b8ec1095e3ef780037e61e109e115f09bf8471f2ec4be5dbbbd4b286b",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_01/A2/front_left.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_01/A2/rear_right.npz",
+      "bytes": 6893998,
+      "sha256": "ba26874e5676c9aef33b85297f4731187cd8ffb242c6d45aa17963e791be0089",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_01/A2/rear_right.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_01/B/front_left.npz",
+      "bytes": 7147776,
+      "sha256": "585693dbf754c2a12156ab6c29d66112579fc376ec85291f2ab6d32b6285d54f",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_01/B/front_left.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_01/B/rear_right.npz",
+      "bytes": 6784338,
+      "sha256": "36e844d4c78ddc0248e92594026277799e0efceee68f68e2d4afd8544fffe8ad",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_01/B/rear_right.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_01/C/front_left.npz",
+      "bytes": 7009859,
+      "sha256": "975f57e2a4f6e7ee34e05a75d4ba354a55a96a914b98a50c12941c7fb1a667d8",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_01/C/front_left.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_01/C/rear_right.npz",
+      "bytes": 6726240,
+      "sha256": "3fe5efbdf59d65201406a8fc98e74987bd2646929c6db1e9ea1ff533d331c0ca",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_01/C/rear_right.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_02/A/front_left.npz",
+      "bytes": 6954253,
+      "sha256": "c2f8cfbf505f76bf316ef2e52b799a2bb6938330a4b105b4f620f5195330903b",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_02/A/front_left.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_02/A/rear_right.npz",
+      "bytes": 6811572,
+      "sha256": "56e0aad60aac81af2fb80943448e031de3358b45ffcefd379ca71ebd4df055e1",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_02/A/rear_right.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_02/B/front_left.npz",
+      "bytes": 6989864,
+      "sha256": "481d3ff9c2cd8b36d28545f9e0c76d9b7d2279e017028b20943ec3f03adfc8aa",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_02/B/front_left.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_02/B/rear_right.npz",
+      "bytes": 7116669,
+      "sha256": "6d0807c91ee9c9ea9a4dbbe4d3c59651c4bd5e215773bba79b53ad750177ae42",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_02/B/rear_right.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_02/B_repeat/front_left.npz",
+      "bytes": 6986775,
+      "sha256": "6567a85d43ea51e514b3bc1d0d4fc3c7d9bfe94faf211b0321c39045f10a6ab3",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_02/B_repeat/front_left.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_02/B_repeat/rear_right.npz",
+      "bytes": 7109392,
+      "sha256": "0e3ece5d03fc80fc16266bfb8c47c7af60a22b68e2db48b502baa2abfd748c95",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_02/B_repeat/rear_right.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_02/C/front_left.npz",
+      "bytes": 7060486,
+      "sha256": "125ace2ae39222f540fe29e64fc6eaa975c76c2a752c6090b465f3c248d97c4e",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_02/C/front_left.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_02/C/rear_right.npz",
+      "bytes": 6907810,
+      "sha256": "687d762eb436d147a3633d5f0bdcdabab59844d91530f362433cdc4ed91aaed3",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_02/C/rear_right.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_02/D/front_left.npz",
+      "bytes": 7012882,
+      "sha256": "09c35e65264e00fedd7fa3607fe38cbe848096d53c7c3c7a6ee792acfecd5a7e",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_02/D/front_left.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/corner_20261125_02/D/rear_right.npz",
+      "bytes": 6765351,
+      "sha256": "7e81d8854f5b5191beef38f81f0614a5b39647ffe3bafb410abb6f06471af45d",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/corner_20261125_02/D/rear_right.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/recovery_1025/cloud_132.npz",
+      "bytes": 6455384,
+      "sha256": "d352ce60bbb94de2b3f02564e938af1ac81966c8607e679ca084c2f28e8239cb",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/recovery_1025/cloud_132.npz",
+      "available_locally": true
+    },
+    {
+      "path": "initial_lidar/recovery_1025/cloud_159.npz",
+      "bytes": 6929598,
+      "sha256": "be5cea00cbff034db1fa57c4556502304ae2778e1852bafce376296c5f8369ab",
+      "original_path": "/home/pc/文档/ChatGPT/底盘调试/部署准备/lidar_commission_20261125/recovery_1025/cloud_159.npz",
+      "available_locally": true
+    }
+  ],
+  "remote_only": [
+    {
+      "kind": "rosbag2",
+      "host": "pc@10.23.2.190",
+      "path": "/home/pc/motion_mapping_trial_20261126/runs/20261126_145615",
+      "approx_bytes": 5800000000,
+      "sha256": null,
+      "status": "未连回目标NUC核实；不得视为已归档"
+    },
+    {
+      "kind": "calibration_sessions",
+      "host": "pc@10.23.2.190",
+      "path": "/home/pc/dual_lidar_calibration_20261125/sessions",
+      "sha256": null,
+      "status": "原始A/B/C/D数据需从目标NUC补归档"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+sending: GET DEFAULT_DATA_SET
+sending: GET CURRENT_DATA_SET
+sending: GET PARENT_DATA_SET
+sending: GET TIME_PROPERTIES_DATA_SET
+sending: GET PORT_DATA_SET
+	48210b.fffe.7e770e-0 seq 0 RESPONSE MANAGEMENT DEFAULT_DATA_SET 
+		twoStepFlag             1
+		slaveOnly               0
+		numberPorts             1
+		priority1               128
+		clockClass              248
+		clockAccuracy           0xfe
+		offsetScaledLogVariance 0xffff
+		priority2               128
+		clockIdentity           48210b.fffe.7e770e
+		domainNumber            0
+	48210b.fffe.7e770e-0 seq 1 RESPONSE MANAGEMENT CURRENT_DATA_SET 
+		stepsRemoved     0
+		offsetFromMaster 0.0
+		meanPathDelay    0.0
+	48210b.fffe.7e770e-0 seq 2 RESPONSE MANAGEMENT PARENT_DATA_SET 
+		parentPortIdentity                    48210b.fffe.7e770e-0
+		parentStats                           0
+		observedParentOffsetScaledLogVariance 0xffff
+		observedParentClockPhaseChangeRate    0x7fffffff
+		grandmasterPriority1                  128
+		gm.ClockClass                         248
+		gm.ClockAccuracy                      0xfe
+		gm.OffsetScaledLogVariance            0xffff
+		grandmasterPriority2                  128
+		grandmasterIdentity                   48210b.fffe.7e770e
+	48210b.fffe.7e770e-0 seq 3 RESPONSE MANAGEMENT TIME_PROPERTIES_DATA_SET 
+		currentUtcOffset      37
+		leap61                0
+		leap59                0
+		currentUtcOffsetValid 0
+		ptpTimescale          0
+		timeTraceable         0
+		frequencyTraceable    0
+		timeSource            0xa0
+	48210b.fffe.7e770e-1 seq 4 RESPONSE MANAGEMENT PORT_DATA_SET 
+		portIdentity            48210b.fffe.7e770e-1
+		portState               MASTER
+		logMinDelayReqInterval  0
+		peerMeanPathDelay       0
+		logAnnounceInterval     1
+		announceReceiptTimeout  3
+		logSyncInterval         0
+		delayMechanism          1
+		logMinPdelayReqInterval 0
+		versionNumber           2

@@ -1,0 +1,1242 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- main project dir: /home/pc/chassis-autonomy/sensors/Livox-SDK2
+CMake Deprecation Warning at sdk_core/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at samples/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- main project dir: /home/pc/chassis-autonomy/sensors/Livox-SDK2/samples
+CMake Deprecation Warning at samples/livox_lidar_quick_start/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at samples/multi_lidars_upgrade/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at samples/logger/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at samples/debug_point_cloud/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at samples/lidar_cmd_observer/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at samples/livox_lidar_rmc_time_sync/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at samples/livox_lidar_ip_set/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at samples/livox_lidar_info_get/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pc/chassis-autonomy/sensors/build/sdk
+[  2%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o
+[  2%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o
+[  4%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/device_manager.cpp.o
+[  4%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/device_manager.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/device_manager.cpp:36:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/device_manager.cpp:36:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[  5%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/livox_lidar_sdk.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/livox_lidar_sdk.cpp:29:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[  6%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/livox_lidar_sdk.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/livox_lidar_sdk.cpp:29:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[  7%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/params_check.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/params_check.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[  8%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/params_check.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/params_check.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[  9%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/parse_cfg_file.cpp.o
+[ 10%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/parse_cfg_file.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/parse_cfg_file.cpp:25:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/parse_cfg_file.cpp:25:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 12%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade_manager.cpp.o
+[ 13%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade_manager.cpp.o
+[ 14%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_loop.cpp.o
+[ 15%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_loop.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/io_loop.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/io_loop.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 16%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/thread_base.cpp.o
+[ 17%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/thread_base.cpp.o
+[ 18%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_thread.cpp.o
+[ 19%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_thread.cpp.o
+[ 20%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/logging.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.cpp:25:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 21%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/logging.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/base/logging.cpp:25:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 23%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/network/unix/network_util.cpp.o
+[ 24%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/network/unix/network_util.cpp.o
+[ 25%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_base.cpp.o
+[ 26%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_base.cpp.o
+[ 27%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_epoll.cpp.o
+[ 28%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_epoll.cpp.o
+[ 29%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_poll.cpp.o
+[ 31%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_select.cpp.o
+[ 31%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_poll.cpp.o
+[ 32%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_kqueue.cpp.o
+[ 34%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_select.cpp.o
+[ 36%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/wake_up/unix/wake_up_pipe.cpp.o
+[ 36%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_kqueue.cpp.o
+[ 37%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/comm_port.cpp.o
+[ 38%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/wake_up/unix/wake_up_pipe.cpp.o
+[ 39%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/comm_port.cpp.o
+[ 40%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/sdk_protocol.cpp.o
+[ 41%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/generate_seq.cpp.o
+[ 42%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/sdk_protocol.cpp.o
+[ 43%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/firmware.cpp.o
+[ 45%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/generate_seq.cpp.o
+[ 46%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/firmware.cpp.o
+[ 47%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/livox_lidar_upgrader.cpp.o
+[ 48%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/livox_lidar_upgrader.cpp.o
+[ 49%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_manager.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/logger_handler/logger_manager.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 50%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_manager.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/logger_handler/logger_manager.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 51%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_handler.cpp.o
+[ 52%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/logger_handler/logger_handler.cpp:36:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/logger_handler/logger_handler.cpp:36:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 53%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/file_manager.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/logger_handler/file_manager.cpp:40:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 54%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/file_manager.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/logger_handler/file_manager.cpp:40:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 56%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/data_handler/data_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/data_handler/data_handler.cpp:26:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 57%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/data_handler/data_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/data_handler/data_handler.cpp:26:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 58%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/command_impl.cpp.o
+[ 59%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/command_impl.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_handler.h:30,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_manager.h:35,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/command_impl.cpp:29:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_handler.h:30,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_manager.h:35,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/command_impl.cpp:29:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 60%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/general_command_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_handler.h:30,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_manager.h:35,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/general_command_handler.cpp:36:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 61%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/general_command_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_handler.h:30,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./debug_point_cloud_handler/debug_point_cloud_manager.h:35,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/general_command_handler.cpp:36:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 62%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/hap_command_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 63%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/hap_command_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 64%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/mid360_command_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 65%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/mid360_command_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 67%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/build_request.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/build_request.cpp:33:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 68%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/build_request.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/build_request.cpp:33:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 69%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/parse_lidar_state_info.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:3:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 70%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/parse_lidar_state_info.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:3:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 71%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/mid360s_command_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/mid360s_command_handler.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 72%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/mid360s_command_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/mid360s_command_handler.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/mid360s_command_handler.cpp:37:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/mid360s_command_handler.cpp:37:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 73%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/avia2_command_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/avia2_command_handler.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 74%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/avia2_command_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/avia2_command_handler.cpp:30:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/avia2_command_handler.cpp:37:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/command_handler/avia2_command_handler.cpp:37:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 75%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_handler.h:30,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_manager.h:35,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_manager.cpp:1:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 76%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_handler.h:30,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_manager.h:35,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_manager.cpp:1:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 78%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_handler.h:30,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_handler.cpp:25:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 79%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o
+In file included from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/fmt.h:21,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/common.h:28,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/spdlog.h:12,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/./base/logging.h:27,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_handler.h:30,
+                 from /home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/debug_point_cloud_handler/debug_point_cloud_handler.cpp:25:
+/home/pc/chassis-autonomy/sensors/Livox-SDK2/sdk_core/../3rdparty/spdlog/spdlog/fmt/bundled/format.h:407:6: warning: identifier ‘char8_t’ is a keyword in C++20 [-Wc++20-compat]
+  407 | enum char8_t: unsigned char {};
+      |      ^~~~~~~
+[ 80%] Linking CXX shared library liblivox_lidar_sdk_shared.so
+[ 80%] Built target livox_lidar_sdk_shared
+[ 81%] Linking CXX static library liblivox_lidar_sdk_static.a
+[ 81%] Built target livox_lidar_sdk_static
+[ 83%] Building CXX object samples/multi_lidars_upgrade/CMakeFiles/multi_lidars_upgrade.dir/main.cpp.o
+[ 83%] Building CXX object samples/livox_lidar_quick_start/CMakeFiles/livox_lidar_quick_start.dir/main.cpp.o
+[ 84%] Linking CXX executable livox_lidar_quick_start
+[ 85%] Linking CXX executable multi_lidars_upgrade
+[ 85%] Built target livox_lidar_quick_start
+[ 86%] Building CXX object samples/logger/CMakeFiles/logger.dir/main.cpp.o
+[ 86%] Built target multi_lidars_upgrade
+[ 87%] Building CXX object samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/main.cpp.o
+[ 89%] Linking CXX executable logger
+[ 90%] Linking CXX executable debug_point_cloud
+[ 90%] Built target logger
+[ 91%] Building CXX object samples/lidar_cmd_observer/CMakeFiles/lidar_cmd_observer.dir/main.cpp.o
+[ 91%] Built target debug_point_cloud
+[ 92%] Building CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/main.cpp.o
+[ 93%] Linking CXX executable lidar_cmd_observer
+[ 93%] Built target lidar_cmd_observer
+[ 94%] Building CXX object samples/livox_lidar_ip_set/CMakeFiles/livox_lidar_ip_set.dir/main.cpp.o
+[ 95%] Building CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/linux/synchro.cpp.o
+[ 96%] Linking CXX executable livox_lidar_ip_set
+[ 96%] Built target livox_lidar_ip_set
+[ 97%] Building CXX object samples/livox_lidar_info_get/CMakeFiles/livox_lidar_info_get.dir/main.cpp.o
+[ 98%] Linking CXX executable livox_lidar_rmc_time_sync
+[ 98%] Built target livox_lidar_rmc_time_sync
+[100%] Linking CXX executable livox_lidar_info_get
+[100%] Built target livox_lidar_info_get
+-- Install configuration: "Release"
+-- Installing: /home/pc/chassis-autonomy/sensors/sdk-install/lib/liblivox_lidar_sdk_static.a
+-- Installing: /home/pc/chassis-autonomy/sensors/sdk-install/include/livox_lidar_def.h
+-- Installing: /home/pc/chassis-autonomy/sensors/sdk-install/include/livox_lidar_api.h
+-- Installing: /home/pc/chassis-autonomy/sensors/sdk-install/include/livox_lidar_cfg.h
+-- Installing: /home/pc/chassis-autonomy/sensors/sdk-install/lib/liblivox_lidar_sdk_shared.so
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- livox_ros_driver2 version: 1.2.7
+-- Found ament_cmake_auto: 2.5.7 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.10 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.5 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+  /opt/ros/jazzy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+  CMakeLists.txt:225 (ament_auto_find_build_dependencies)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found flann version 1.9.2
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.27
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.14  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+-- Found PCL_MODELER: /usr/include/pcl-1.14  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'apr-1'
+--   Package 'apr-1', required by 'virtual:world', not found
+-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/pc/chassis-autonomy/sensors/driver_workspace/src/livox_ros_driver2/3rdparty;/home/pc/chassis-autonomy/sensors/driver_workspace/src/livox_ros_driver2/src
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (7.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pc/chassis-autonomy/sensors/driver_workspace/build
+[  3%] Generating Rust code for ROS interfaces
+[  3%] Generating type hashes for ROS interfaces
+[  3%] Built target livox_interfaces2__rosidl_generator_type_description
+[  3%] Built target livox_interfaces2__rs
+[  3%] Built target ament_cmake_python_copy_livox_ros_driver2
+[  4%] Generating C code for ROS interfaces
+[  6%] Building CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o
+[  7%] Building C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__description.c.o
+[  9%] Building C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o
+[ 11%] Building C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o
+[ 12%] Building C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__description.c.o
+[ 14%] Building C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o
+[ 15%] Building C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o
+[ 17%] Linking C shared library liblivox_ros_driver2__rosidl_generator_c.so
+[ 17%] Built target livox_interfaces2__rosidl_generator_c
+[ 19%] Generating C++ code for ROS interfaces
+[ 19%] Built target livox_interfaces2__cpp
+running egg_info
+creating livox_ros_driver2.egg-info
+writing livox_ros_driver2.egg-info/PKG-INFO
+writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[ 19%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[ 20%] Generating C type support for eProsima Fast-RTPS
+[ 22%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o
+[ 23%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o
+[ 25%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[ 25%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[ 26%] Generating C introspection for ROS interfaces
+[ 28%] Building C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o
+[ 30%] Building C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o
+[ 31%] Linking CXX executable livox_ros_driver2_node
+[ 33%] Linking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[ 33%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[ 34%] Generating C type support dispatch for ROS interfaces
+[ 34%] Built target livox_ros_driver2_node
+[ 36%] Generating C++ type support for eProsima Fast-RTPS
+[ 38%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o
+[ 39%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o
+[ 41%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o
+[ 42%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so
+[ 42%] Built target livox_interfaces2__rosidl_typesupport_c
+[ 44%] Generating C++ introspection for ROS interfaces
+[ 46%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o
+[ 47%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o
+[ 49%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o
+[ 50%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[ 52%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[ 52%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[ 53%] Generating C++ type support dispatch for ROS interfaces
+[ 53%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[ 57%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o
+[ 57%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o
+[ 58%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[ 58%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[ 58%] Built target livox_interfaces2
+[ 60%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o
+[ 61%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o
+[ 63%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o
+[ 65%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o
+[ 66%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o
+[ 68%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o
+[ 69%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o
+[ 71%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o
+[ 73%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o
+[ 74%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o
+[ 76%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o
+[ 77%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o
+/home/pc/chassis-autonomy/sensors/driver_workspace/src/livox_ros_driver2/src/comm/pub_handler.cpp: In member function ‘void livox_ros::LidarPubHandler::ProcessDoubleEchoPoint(livox_ros::RawPacket&)’:
+/home/pc/chassis-autonomy/sensors/driver_workspace/src/livox_ros_driver2/src/comm/pub_handler.cpp:494:12: warning: unused variable ‘index’ [-Wunused-variable]
+  494 |   uint32_t index = 0;
+      |            ^~~~~
+[ 79%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o
+[ 80%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o
+[ 82%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o
+[ 84%] Generating Python code for ROS interfaces
+[ 85%] Linking CXX shared library liblivox_ros_driver2.so
+[ 85%] Built target livox_ros_driver2
+[ 85%] Built target livox_interfaces2__py
+[ 88%] Building C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o
+[ 88%] Building C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o
+[ 90%] Linking C shared library liblivox_interfaces2__rosidl_generator_py.so
+[ 90%] Built target livox_interfaces2__rosidl_generator_py
+[ 93%] Building C object CMakeFiles/livox_ros_driver2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 93%] Building C object CMakeFiles/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 96%] Linking C shared module rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.so
+[ 96%] Linking C shared module rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.so
+[ 96%] Built target livox_ros_driver2_s__rosidl_typesupport_introspection_c
+[ 96%] Built target livox_ros_driver2_s__rosidl_typesupport_fastrtps_c
+[ 98%] Building C object CMakeFiles/livox_ros_driver2_s__rosidl_typesupport_c.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o
+[100%] Linking C shared module rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.so
+[100%] Built target livox_ros_driver2_s__rosidl_typesupport_c
+-- Install configuration: "Release"
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.json
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.json
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__description.c
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__description.c
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Up-to-date: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2-1.0.0-py3.12.egg-info
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2-1.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2-1.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2-1.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2-1.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_msg.py
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/__init__.py
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_point_s.c
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_point.py
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_msg_s.c
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/__init__.py
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.so
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2'...
+Compiling '/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/__init__.py'...
+Listing '/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg'...
+Compiling '/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/__init__.py'...
+Compiling '/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_msg.py'...
+Compiling '/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_point.py'...
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so" to ""
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/Cargo.toml
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/build.rs
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/src
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg/rmw.rs
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/lib.rs
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg.rs
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node" to ""
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/lib/liblivox_ros_driver2.so" to ""
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/config
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360s_config.json
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/config/AVIA2_config.json
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_AVIA2_launch.py
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_AVIA2_launch.py
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360s_launch.py
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360s_launch.py
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+-- Installing: /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/package.xml

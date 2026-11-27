@@ -1,0 +1,167 @@
+{
+  "invalid_packets": [],
+  "sensors": {
+    "192.168.1.132": {
+      "count": 89,
+      "duration_s": 88.000049532,
+      "sn": [
+        "BDLCN9S0039449"
+      ],
+      "product_info": [
+        "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09"
+      ],
+      "powerup_counts": [
+        89
+      ],
+      "work_states": [
+        1
+      ],
+      "sync_types": [
+        1
+      ],
+      "diag_statuses": [
+        0
+      ],
+      "offset_abs_max_ns": 500106034,
+      "sync_age_min_ms": 487.751415,
+      "sync_age_max_ms": 1499.345523,
+      "hms_values": [
+        "0x04020002",
+        "0x04050002",
+        "0x04060002"
+      ],
+      "hms_transitions": [
+        {
+          "capture_ns": 1795578456250234815,
+          "before": [
+            "0x04050002"
+          ],
+          "after": [
+            "0x04050002",
+            "0x04020002"
+          ]
+        },
+        {
+          "capture_ns": 1795578457250238526,
+          "before": [
+            "0x04050002",
+            "0x04020002"
+          ],
+          "after": [
+            "0x04050002",
+            "0x04020002",
+            "0x04060002"
+          ]
+        },
+        {
+          "capture_ns": 1795578458250224411,
+          "before": [
+            "0x04050002",
+            "0x04020002",
+            "0x04060002"
+          ],
+          "after": [
+            "0x04050002",
+            "0x04060002"
+          ]
+        },
+        {
+          "capture_ns": 1795578459250244155,
+          "before": [
+            "0x04050002",
+            "0x04060002"
+          ],
+          "after": [
+            "0x04050002"
+          ]
+        }
+      ],
+      "first_sample_hms": [
+        "0x04050002"
+      ],
+      "diag_gap_max_s": 1.000053754,
+      "local_time_backward_count": 0
+    },
+    "192.168.1.159": {
+      "count": 89,
+      "duration_s": 87.999840606,
+      "sn": [
+        "ARMCP9M0033988"
+      ],
+      "product_info": [
+        "DevType:Mid-360 FmType:App FmVer:35010108 BuildTime:2025/06/09"
+      ],
+      "powerup_counts": [
+        80
+      ],
+      "work_states": [
+        1
+      ],
+      "sync_types": [
+        1
+      ],
+      "diag_statuses": [
+        0
+      ],
+      "offset_abs_max_ns": 500151640,
+      "sync_age_min_ms": 487.617414,
+      "sync_age_max_ms": 1499.064673,
+      "hms_values": [
+        "0x04020002",
+        "0x04050002",
+        "0x04060002"
+      ],
+      "hms_transitions": [
+        {
+          "capture_ns": 1795578456250397509,
+          "before": [
+            "0x04050002"
+          ],
+          "after": [
+            "0x04050002",
+            "0x04020002"
+          ]
+        },
+        {
+          "capture_ns": 1795578457250499612,
+          "before": [
+            "0x04050002",
+            "0x04020002"
+          ],
+          "after": [
+            "0x04050002",
+            "0x04020002",
+            "0x04060002"
+          ]
+        },
+        {
+          "capture_ns": 1795578458250399808,
+          "before": [
+            "0x04050002",
+            "0x04020002",
+            "0x04060002"
+          ],
+          "after": [
+            "0x04050002",
+            "0x04060002"
+          ]
+        },
+        {
+          "capture_ns": 1795578459250509406,
+          "before": [
+            "0x04050002",
+            "0x04060002"
+          ],
+          "after": [
+            "0x04050002"
+          ]
+        }
+      ],
+      "first_sample_hms": [
+        "0x04050002"
+      ],
+      "diag_gap_max_s": 1.000255264,
+      "local_time_backward_count": 0
+    }
+  }
+}

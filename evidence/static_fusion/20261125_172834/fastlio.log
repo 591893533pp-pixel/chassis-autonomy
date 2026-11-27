@@ -1,0 +1,14 @@
+Multi thread started 
+Multi thread started 
+p_pre->lidar_type 8
+[WARN] [1795598929.054437420] [fast_lio_sam]: No IMU for lidar scan: lidar=[1795598928.500149488, 1795598928.600459576], imu_front=1795598928.605617762, imu_last=1795598928.761104822
+[WARN] [1795598929.063257261] [fast_lio_sam]: No point, skip this scan!
+[INFO] [1795598933.948631303] [fast_lio_sam]: LIO_AUDIT features=3811 matched=3765 residual=0.011529 pos=[-0.0019 0.0061 0.0051] vel=0.0032 grav=[-0.0039 -0.0021 -9.8090]
+[INFO] [1795598938.951998860] [fast_lio_sam]: LIO_AUDIT features=3812 matched=3760 residual=0.011527 pos=[-0.0024 0.0093 0.0046] vel=0.0047 grav=[-0.0039 -0.0017 -9.8090]
+[INFO] [1795598943.950737374] [fast_lio_sam]: LIO_AUDIT features=3871 matched=3815 residual=0.011406 pos=[-0.0024 0.0103 0.0058] vel=0.0038 grav=[-0.0041 -0.0008 -9.8090]
+[INFO] [1795598948.950664833] [fast_lio_sam]: LIO_AUDIT features=3858 matched=3803 residual=0.011470 pos=[-0.0038 0.0108 0.0074] vel=0.0033 grav=[-0.0041 -0.0003 -9.8090]
+[INFO] [1795598953.950165158] [fast_lio_sam]: LIO_AUDIT features=3881 matched=3812 residual=0.011563 pos=[-0.0031 0.0120 0.0058] vel=0.0012 grav=[-0.0041 0.0001 -9.8090]
+[WARN] [1795598958.432493346] [fast_lio_sam]: catch sig 2
+[WARN] [1795598958.432601699] [fast_lio_sam]: catch sig 2
+Rebuild thread terminated normally
+Rebuild thread terminated normally

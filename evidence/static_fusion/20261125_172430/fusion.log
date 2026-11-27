@@ -1,0 +1,17 @@
+[INFO] [1795598670.852246583] [dual_lidar_fusion]: Output /livox/fused_preview; PTP required; CAD calibrated=False; no motion deskew
+[INFO] [1795598672.418280441] [dual_lidar_fusion]: PTP checks passed
+[INFO] [1795598775.844430319] [dual_lidar_fusion]: PTP unavailable: fusion paused (ok; ok)
+Traceback (most recent call last):
+  File "/home/pc/fusion_mapping_trial_20261125/fusion_node.py", line 155, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/pc/fusion_mapping_trial_20261125/fusion_node.py", line 154, in main
+    finally:node.destroy_node();rclpy.shutdown()
+                                ^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+    _shutdown(context=context)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+    context.shutdown()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+    self.__context.shutdown()
+rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333

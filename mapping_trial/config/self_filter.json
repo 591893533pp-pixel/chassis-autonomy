@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "frame": "base_link_trial",
+  "coordinate_revision": "actual_body_20260917",
+  "boxes": [],
+  "note": "Whole-robot AABBs not applicable to bare chassis. Static trial masks each raw sensor range <1m; no obstacle-navigation use."
+}

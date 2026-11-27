@@ -1,0 +1,55 @@
+{
+  "scope": "STATIONARY_FUSION_AND_LIO_ONLY",
+  "failure": null,
+  "requested_lio_seconds": 90,
+  "elapsed_s": 106.11748475599961,
+  "odom_messages": 879,
+  "adapted_clouds": 1007,
+  "cleanup": [
+    {
+      "name": "fastlio",
+      "returncode": 0,
+      "forced": false
+    },
+    {
+      "name": "bag",
+      "returncode": 2,
+      "forced": false
+    },
+    {
+      "name": "driver",
+      "returncode": 0,
+      "forced": false
+    },
+    {
+      "name": "adapter",
+      "returncode": 0,
+      "forced": false
+    },
+    {
+      "name": "fusion",
+      "returncode": 1,
+      "forced": false
+    }
+  ],
+  "body_anchor_verified": false,
+  "ground_issue_resolved": false,
+  "controller_started": false,
+  "configuration_hashes": {
+    "devices.json": "a6c3a295a22c34921b77224448457dff42c0fdaa95b0d68fb461da3e1dfe88c5",
+    "extrinsics_active.json": "b9eec4c5509d75a9d3d7041e6dbe039de9720b8a816672086f947043ddac1cc4",
+    "lio.yaml": "1c4db84cccf25a5a9fe15d08ee18bf8d5c03aa7fb750c77dc5f38ca4e14122ba",
+    "self_filter.json": "acefe3c3fd3eb3cdcd18053f819195f68fc11a9e22cfdd0c0a11dfbd0469788d",
+    "dual.json": "d7d45f5b86b56001b946cf24284aba52db09f09b2b4ffc9cfa03ad49f8667199"
+  },
+  "odom_span_s": 87.79992938041687,
+  "after_20s_max_position_change_m": 0.005949386871833939,
+  "after_20s_max_angle_change_deg": 0.10667174328719382,
+  "cloud_summary": {
+    "max_scan_span_ms": 100.451072,
+    "both_sensors_all": true,
+    "all_sorted": true,
+    "min_points": 26460
+  },
+  "pipeline_observed": true
+}

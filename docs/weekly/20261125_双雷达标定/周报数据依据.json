@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-25",
+  "training_translation_spread_mm": [
+    21.510081771723666,
+    11.19296633587483,
+    7.108917097189571
+  ],
+  "training_rotation_spread_deg": [
+    0.3037064381037787,
+    0.12412542291981259,
+    0.21133930095747283
+  ],
+  "holdout_D": {
+    "baseline": {
+      "matched_planar_points": 20949,
+      "plane_rmse_m": 0.04340519335970976,
+      "plane_abs_p95_m": 0.08611072781244508,
+      "mutual_overlap_within_10cm": 0.4653042243253774
+    },
+    "candidate": {
+      "matched_planar_points": 21008,
+      "plane_rmse_m": 0.020136166063574046,
+      "plane_abs_p95_m": 0.03943767444073732,
+      "mutual_overlap_within_10cm": 0.483930972939683
+    },
+    "status": "RELATIVE_CHECKS_PASS_REVIEW_REQUIRED"
+  },
+  "D_rmse_reduction_percent": 53.60885528904209,
+  "ground_height_separation_mm": {
+    "A": 15.621549809162243,
+    "B": 23.10370764091683,
+    "C": 19.353482697186287,
+    "D": 22.399706734743305
+  },
+  "source_files": [
+    "部署准备/lidar_commission_20261125/corner_20261125_01/result/report.json",
+    "部署准备/lidar_commission_20261125/corner_20261125_02/result/report.json",
+    "标定稳定性复核_20261125/common_planes_candidate_v1/holdout_D/report.json",
+    "车体外参核对_20261125/ground_audit.json"
+  ]
+}

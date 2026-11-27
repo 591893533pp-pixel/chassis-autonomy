@@ -1,0 +1,9 @@
+{
+  "localization_tf_ownership_passed": true,
+  "tf_messages": 2057,
+  "synthetic_only": true,
+  "hardware_started": false,
+  "odom_messages": 97,
+  "production_loop_thresholds": true
+}
+/home/pc/文档/ChatGPT/底盘调试/回环与自主导航接入_20261127/reports/localization_20261127_150353

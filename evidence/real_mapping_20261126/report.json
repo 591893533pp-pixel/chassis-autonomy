@@ -1,0 +1,64 @@
+{
+  "scope": "MANUAL_MAPPING_TRIAL",
+  "failure": null,
+  "requested_lio_seconds": 900,
+  "elapsed_s": 311.1099522510003,
+  "odom_messages": 2954,
+  "adapted_clouds": 3064,
+  "cleanup": [
+    {
+      "name": "control",
+      "returncode": 1,
+      "forced": false
+    },
+    {
+      "name": "fastlio",
+      "returncode": 0,
+      "forced": false
+    },
+    {
+      "name": "bag",
+      "returncode": 2,
+      "forced": false
+    },
+    {
+      "name": "driver",
+      "returncode": 0,
+      "forced": false
+    },
+    {
+      "name": "adapter",
+      "returncode": 0,
+      "forced": false
+    },
+    {
+      "name": "fusion",
+      "returncode": 0,
+      "forced": false
+    }
+  ],
+  "body_anchor_verified": false,
+  "ground_issue_resolved": false,
+  "controller_started": true,
+  "motion_allowed_by_option": true,
+  "operator_automatic_enable": false,
+  "stop_reason": "operator_dual_trigger",
+  "nearfield_filter": "1m_per_sensor_excluded_mapping_experiment_only_not_obstacle_map",
+  "configuration_hashes": {
+    "devices.json": "a6c3a295a22c34921b77224448457dff42c0fdaa95b0d68fb461da3e1dfe88c5",
+    "extrinsics_active.json": "b9eec4c5509d75a9d3d7041e6dbe039de9720b8a816672086f947043ddac1cc4",
+    "lio.yaml": "1c4db84cccf25a5a9fe15d08ee18bf8d5c03aa7fb750c77dc5f38ca4e14122ba",
+    "self_filter.json": "acefe3c3fd3eb3cdcd18053f819195f68fc11a9e22cfdd0c0a11dfbd0469788d",
+    "dual.json": "d7d45f5b86b56001b946cf24284aba52db09f09b2b4ffc9cfa03ad49f8667199"
+  },
+  "cloud_summary": {
+    "max_scan_span_ms": 100.455936,
+    "both_sensors_all": true,
+    "all_sorted": true,
+    "min_points": 23093
+  },
+  "tf_chain_checks": 5475,
+  "cleanup_expected": true,
+  "pipeline_observed": true,
+  "control_cleanup_confirmed": true
+}

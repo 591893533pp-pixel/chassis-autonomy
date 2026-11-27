@@ -1,0 +1,13 @@
+{
+  "lift_max_profile_velocity_mm_s": 150.0,
+  "lift_max_acceleration_m_s2": 0.30,
+  "lift_max_jerk_m_s3": 1.50,
+  "lift_csp_max_step_mm": 2.0,
+  "lift_csp_following_error_mm": 25.0,
+  "lift_csp_following_error_timeout_ms": 20,
+  "lift_min_position_mm": 0.0,
+  "lift_max_position_mm": 395.0,
+  "lift_teleop_max_position_mm": 395.0,
+  "control_mode": "PV",
+  "csp_parameters_active": false
+}

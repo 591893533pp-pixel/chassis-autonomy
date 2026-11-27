@@ -1,0 +1,7 @@
+Multi thread started 
+Multi thread started 
+p_pre->lidar_type 8
+[WARN] [1795763033.546851616] [fast_lio_sam]: No point, skip this scan!
+[INFO] [1795763036.013124506] [fast_lio_sam]: LIO_AUDIT features=1625 matched=1624 residual=0.003437 pos=[-0.0004 0.0125 -0.0010] vel=0.0163 grav=[0.0005 -0.0013 -9.8090]
+Rebuild thread terminated normally
+Rebuild thread terminated normally

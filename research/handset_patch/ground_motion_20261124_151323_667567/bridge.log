@@ -1,0 +1,8 @@
+Bridge mapping: physical vx/vy -> legacy -vx/-vy; yaw unchanged; revision final_front_20260917
+Low-speed bounded profile: motor velocity mode + filtered wheel PI (crawl kp=0.12 ki=0.12 trim<=15%, matched target/feedback tau=120ms)
+Body hold ON; acceleration shaping retained; stop overrides
+Wheel PI ON
+Wheel PI profile baseline; crawl kp=0.12 ki=0.12; normal kp=0.2 ki=0.3; tau=0.12 s; normal cap=25%
+Integral gate OFF
+Control target 100 Hz; wheel feedback nominal 100 Hz; Bridge ready; HARDWARE; waiting for neutral START command
+Bridge exited; connected-device cleanup attempted (see any failures above)

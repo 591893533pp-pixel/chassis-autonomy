@@ -1,0 +1,1 @@
+2544 /usr/sbin/ptp4l -i enp85s0 -f /opt/livox-navigation-home-runtime/config/ptp4l.conf -S -m

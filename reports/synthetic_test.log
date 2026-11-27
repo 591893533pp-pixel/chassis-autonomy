@@ -1,0 +1,13 @@
+{
+  "export_valid": true,
+  "keyframes": 17,
+  "points": 34000,
+  "loop_factors": 1,
+  "loop_observed": true,
+  "note": "Zero loop factors means no loop closure was accepted; enabling the backend alone is not a loop test.",
+  "synthetic_only": true,
+  "hardware_started": false,
+  "odom_messages": 447,
+  "production_loop_thresholds": true
+}
+/home/pc/文档/ChatGPT/底盘调试/回环与自主导航接入_20261127/reports/synthetic_20261127_145243

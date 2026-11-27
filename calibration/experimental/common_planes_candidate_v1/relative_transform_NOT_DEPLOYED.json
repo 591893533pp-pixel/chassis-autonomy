@@ -1,0 +1,47 @@
+{
+  "parent": "rear_right_optical",
+  "child": "front_left_optical",
+  "convention": "p_parent = R @ p_child + t; meters; column vectors",
+  "T_parent_from_child": [
+    [
+      -0.6324384926164127,
+      0.0024777886007321124,
+      0.774606618626984,
+      0.36835980466809687
+    ],
+    [
+      -0.00259420634544142,
+      -0.9999960511029163,
+      0.0010806812715295688,
+      -0.007949043747421697
+    ],
+    [
+      0.7746062374849023,
+      -0.0013260249708980949,
+      0.6324424230768044,
+      -0.1928881337502181
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "translation_m": [
+    0.36835980466809687,
+    -0.007949043747421697,
+    -0.1928881337502181
+  ],
+  "rpy_deg_xyz": [
+    -0.12013033955171536,
+    -50.769346336312935,
+    -179.76497913570418
+  ],
+  "checks_passed": true,
+  "review_required": true,
+  "deployed": false,
+  "scope": "Static relative alignment only; body anchor unverified",
+  "report": "holdout_D/report.json",
+  "candidate_sha256": "dc1c200895777138dc54c426c59988070ea1b4abfbd12a0197861133df4bea96"
+}

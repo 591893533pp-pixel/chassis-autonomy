@@ -1,0 +1,8 @@
+{
+  "scripts/ptp_supervisor.py": "330083666d5be79212dcbbb71a5f212f4f72328ea2089daa595abe2c9d3b5394",
+  "scripts/raw_time_monitor.py": "08429d2748b02675be02c7a8aa5aa00f659490fd935454544dea870ca74a6ea4",
+  "scripts/ptp_health.py": "c8ab6b234b2a808d56fdc4655447c20924bddf816cb6567408d958d3c2ca4011",
+  "scripts/timing_policy.py": "cfd64887391fcf7d2a38cf4a8d7d4182510fd192745fb3461c14813519b998d7",
+  "scripts/stop_navigation_all.py": "db19be7a6a523e8ded9e4aedd73844b49f877436a57de3df69e8c9c7c5e83aa3",
+  "config/ptp4l.conf": "1dc6fd171f53e70931a8624e6eb3ba406372b819821ce9298fc7bbcad52e836b"
+}

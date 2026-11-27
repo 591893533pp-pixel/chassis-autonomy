@@ -1,0 +1,51 @@
+{
+  "rows": 17966,
+  "enabled_valid_rows": 4601,
+  "enabled_valid_duration_s": 46.00014888000078,
+  "max_abs_requested": {
+    "requested_vx": 0.0,
+    "requested_vy": 0.0,
+    "requested_wz": 0.0
+  },
+  "wheels": {
+    "1": {
+      "peak_abs_feedback_rad_s": 0.320256351568,
+      "mean_feedback_rad_s": 0.000612443611304398,
+      "max_abs_command_rad_s": 0.0,
+      "fault_codes": [
+        "0"
+      ]
+    },
+    "2": {
+      "peak_abs_feedback_rad_s": 0.298771648737,
+      "mean_feedback_rad_s": 0.00017904891852799288,
+      "max_abs_command_rad_s": 0.0,
+      "fault_codes": [
+        "0"
+      ]
+    },
+    "3": {
+      "peak_abs_feedback_rad_s": 0.392767223621,
+      "mean_feedback_rad_s": -0.0003369388369075972,
+      "max_abs_command_rad_s": 0.0,
+      "fault_codes": [
+        "0"
+      ]
+    },
+    "4": {
+      "peak_abs_feedback_rad_s": 0.343083848325,
+      "mean_feedback_rad_s": 5.618079350709306e-05,
+      "max_abs_command_rad_s": 0.0,
+      "fault_codes": [
+        "0"
+      ]
+    }
+  },
+  "exit": {
+    "exit_code": 0,
+    "ended": "2026-11-24T15:04:18.596163+08:00"
+  },
+  "physical_estop_verified": false,
+  "exit_cause": "180-second timeout, before physical estop press",
+  "physical_observation": "User reports motor-side power light stays on with estop pressed"
+}

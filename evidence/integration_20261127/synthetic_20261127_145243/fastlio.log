@@ -1,0 +1,26 @@
+Multi thread started 
+Multi thread started 
+p_pre->lidar_type 8
+[WARN] [1795762363.581787658] [fast_lio_sam]: No point, skip this scan!
+[INFO] [1795762366.006555845] [fast_lio_sam]: LIO_AUDIT features=1625 matched=1624 residual=0.003437 pos=[-0.0004 0.0125 -0.0010] vel=0.0163 grav=[0.0005 -0.0013 -9.8090]
+[INFO] [1795762368.506731401] [fast_lio_sam]: LIO_AUDIT features=1650 matched=1650 residual=0.003568 pos=[-0.0458 0.2578 -0.0016] vel=0.0902 grav=[0.0005 -0.0015 -9.8090]
+[INFO] [1795762371.011997575] [fast_lio_sam]: LIO_AUDIT features=1650 matched=1649 residual=0.004230 pos=[-0.5253 0.7418 -0.0008] vel=0.1865 grav=[0.0006 -0.0017 -9.8090]
+[INFO] [1795762373.400156090] [fast_lio_sam]: [LOOP] range next=4 ready=6 latest=6
+[INFO] [1795762373.516330191] [fast_lio_sam]: LIO_AUDIT features=1647 matched=1647 residual=0.003748 pos=[-1.4896 0.3959 -0.0005] vel=0.2466 grav=[0.0005 -0.0017 -9.8090]
+[INFO] [1795762374.400074857] [fast_lio_sam]: [LOOP] range next=7 ready=8 latest=8
+[INFO] [1795762375.400075647] [fast_lio_sam]: [LOOP] range next=9 ready=9 latest=9
+[INFO] [1795762376.015052528] [fast_lio_sam]: LIO_AUDIT features=1619 matched=1619 residual=0.003646 pos=[-1.2223 -0.6887 -0.0009] vel=0.2374 grav=[0.0005 -0.0017 -9.8090]
+[INFO] [1795762376.400097576] [fast_lio_sam]: [LOOP] range next=10 ready=11 latest=11
+[INFO] [1795762377.400111025] [fast_lio_sam]: [LOOP] range next=12 ready=12 latest=12
+[INFO] [1795762378.400054599] [fast_lio_sam]: [LOOP] range next=13 ready=13 latest=13
+[INFO] [1795762378.508585046] [fast_lio_sam]: LIO_AUDIT features=1629 matched=1629 residual=0.004357 pos=[-0.2871 -0.6244 -0.0006] vel=0.1559 grav=[0.0004 -0.0018 -9.8090]
+[INFO] [1795762379.400066791] [fast_lio_sam]: [LOOP] range next=14 ready=14 latest=14
+[INFO] [1795762379.400743193] [fast_lio_sam]: [LOOP] ICP start cur=14 pre=0 src=1745 target=1777
+[INFO] [1795762379.428478312] [fast_lio_sam]: [LOOP] ICP pass cur=14 pre=0 score=0.026
+[INFO] [1795762380.400066191] [fast_lio_sam]: [LOOP] range next=15 ready=15 latest=15
+[INFO] [1795762381.020307016] [fast_lio_sam]: LIO_AUDIT features=1640 matched=1640 residual=0.003472 pos=[-0.0137 -0.1571 -0.0004] vel=0.0632 grav=[0.0004 -0.0017 -9.8090]
+[INFO] [1795762383.400085186] [fast_lio_sam]: [LOOP] range next=16 ready=16 latest=16
+[INFO] [1795762383.514732381] [fast_lio_sam]: LIO_AUDIT features=1612 matched=1612 residual=0.003173 pos=[-0.0001 -0.0138 -0.0007] vel=0.0062 grav=[0.0004 -0.0017 -9.8090]
+current global keyframe map saved to /home/pc/文档/ChatGPT/底盘调试/回环与自主导航接入_20261127/reports/synthetic_20261127_145243/optimized/KEY_FRAMES/global.pcd
+Rebuild thread terminated normally
+Rebuild thread terminated normally

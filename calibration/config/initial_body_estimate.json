@@ -1,0 +1,49 @@
+{
+  "calibrated": false,
+  "frame": "base_link",
+  "source": "Original deployment geometry, used only as numerical initialization",
+  "note": "NOT calibrated for current chassis. Relative and absolute body poses require verification.",
+  "max_pair_dt_ms": 20.0,
+  "max_age_ms": 500.0,
+  "sensors": {
+    "front_left": {
+      "mesh": "mid_360.stl",
+      "xyz_m": [
+        0.15158417885979805,
+        0.15039257801166206,
+        0.26671643651479354
+      ],
+      "rpy_deg": [
+        -0.2318704761729537,
+        -26.792470870950737,
+        -134.23127217985032
+      ],
+      "housing_axis_correction_deg": 180,
+      "axis_evidence": "Historical rpy already includes housing-axis convention. Do not add another 180 degree rotation.",
+      "ip": "192.168.1.132"
+    },
+    "rear_right": {
+      "mesh": "mid_360__2.stl",
+      "xyz_m": [
+        -0.1518875927351724,
+        -0.1518875997883178,
+        0.27447416338746916
+      ],
+      "rpy_deg": [
+        1.2722218725854067e-14,
+        -24.999970874985877,
+        45.00002056461398
+      ],
+      "housing_axis_correction_deg": 180,
+      "axis_evidence": "Historical rpy already includes housing-axis convention. Do not add another 180 degree rotation.",
+      "ip": "192.168.1.159"
+    }
+  },
+  "relative_calibrated": false,
+  "calibration_report": null,
+  "independent_validation": null,
+  "anchor": "rear_right old CAD estimate, absolute body pose unverified",
+  "require_device_diagnostics": true,
+  "max_device_offset_ns": 500000,
+  "coordinate_revision": "actual_body_20260917"
+}

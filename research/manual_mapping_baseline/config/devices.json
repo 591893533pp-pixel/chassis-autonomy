@@ -1,0 +1,19 @@
+{
+  "coordinate_revision": "actual_body_20260917",
+  "interface": "enp85s0",
+  "host_ip": "192.168.1.4",
+  "devices": [
+    {
+      "name": "rear_right",
+      "ip": "192.168.1.159",
+      "mac": "34:91:f0:e6:fe:29",
+      "serial": "ARMCP9M0033988"
+    },
+    {
+      "name": "front_left",
+      "ip": "192.168.1.132",
+      "mac": "0c:9a:e6:62:6b:ef",
+      "serial": "BDLCN9S0039449"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "joint": "dof_wheel_front_left_inv",
+    "axis_before": "-0.707107 0.707107 -0",
+    "axis_after": "0.707107 -0.707107 0",
+    "origin_and_type_unchanged": true
+  },
+  {
+    "joint": "dof_wheel_front_right_inv",
+    "axis_before": "0.707107 -0.707107 -0",
+    "axis_after": "-0.707107 0.707107 0",
+    "origin_and_type_unchanged": true
+  },
+  {
+    "joint": "dof_wheel_rear_left_inv",
+    "axis_before": "0.707107 -0.707107 -0",
+    "axis_after": "-0.707107 0.707107 0",
+    "origin_and_type_unchanged": true
+  },
+  {
+    "joint": "dof_wheel_rear_right_inv",
+    "axis_before": "0.707107 -0.707107 -0",
+    "axis_after": "-0.707107 0.707107 0",
+    "origin_and_type_unchanged": true
+  }
+]

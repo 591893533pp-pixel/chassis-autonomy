@@ -1,0 +1,110 @@
+common:
+    lid_topic:  "/rslidar_points"
+    imu_topic:  "/rslidar_imu_data"
+    time_sync_en: false         # ONLY turn on when external time synchronization is really not possible
+    time_offset_lidar_to_imu: 0.0 # Time offset between lidar and IMU calibrated by other algorithms, e.g. LI-Init (can be found in README).
+                                # This param will take effect no matter what time_sync_en is. So if the time offset is not known exactly, please set as 0.0
+
+    flip_en: true               # true: standardize Airy IMU, local point clouds, and extrinsic_R/T to the Mid360 convention.
+                                # Keep extrinsic_R/T in the sensor's original Airy/DIFOP convention; do not pre-flip them manually.
+
+    grav_align: true            # Whether to use gravity alignment for initial roll/pitch estimation.
+
+gnss:
+    topic: "handsfree/rtk/gnss"
+    heading_topic: "handsfree/rtk/heading"
+    gnssPathVis: true
+    gnssEnableFlag: true
+    gpsFactorMinDis: 5.0
+    gnss_dt: 0.2
+    extrinsic_T: [0.0, 0.0, 0.0] # GNSS antenna position relative to LiDAR center
+    extrinsic_R: [1.0, 0.0, 0.0,
+                  0.0, 1.0, 0.0,
+                  0.0, 0.0, 1.0] # GNSS antenna rotation relative to LiDAR frame
+    heading_offset_deg: 0.0
+    useYawFactor: false
+    yawFactorSigma: 0.10 # rad, yaw factor noise for GNSS heading
+    useGnssElevation: false
+
+s-graph:
+    groundEnableFlag: true
+    groundAssociationAngleDeg: 20.0
+    groundAssociationDistance: 1.0
+    floorHeight: 4.0
+    
+preprocess:
+    lidar_type: 4                # 1 for Livox serials LiDAR, 2 for Velodyne LiDAR, 3 for ouster LiDAR, 4 for RoboSense LiDAR
+    scan_line: 96
+    timestamp_unit: 0                 # 0-second, 1-milisecond, 2-microsecond, 3-nanosecond.
+    blind: 1.0
+
+mapping:
+    acc_cov: 0.1
+    gyr_cov: 0.1
+    b_acc_cov: 0.0001
+    b_gyr_cov: 0.0001
+    fov_degree:    360.0
+    det_range:     100.0
+    extrinsic_est_en:  false      # true: enable the online estimation of IMU-LiDAR extrinsic
+    extrinsic_T: [ 0.00418, 0.00425, -0.00446 ] # LiDAR position in the IMU coordinate frame
+    extrinsic_R: [ 0.000076, -0.999999,  0.001261, # LiDAR rotation in the IMU coordinate frame
+                -0.999999, -0.000076,  0.001208,
+                -0.001208, -0.001261, -0.999999 ]
+
+# === DIFOP PACKET DECODE ===
+# Header frame: LiDAR
+# Child frame: IMU
+# Quaternion: qx=0.710241, qy=-0.703957, qz=-0.001208, qw=-0.000053
+# Position XYZ: x=0.004250, y=0.004180, z=-0.004460
+# ==========================
+
+lio_sam:
+
+    # CPU Params
+    numberOfCores: 4                              # number of cores for mapping optimization
+
+    # Surrounding map
+    surroundingkeyframeAddingDistThreshold: 1.0   # meters, regulate keyframe adding threshold
+    surroundingkeyframeAddingAngleThreshold: 0.2  # radians, regulate keyframe adding threshold
+    surroundingKeyframeDensity: 2.0               # meters, downsample surrounding keyframe poses   
+    surroundingKeyframeSearchRadius: 50.0         # meters, within n meters scan-to-map optimization (when loop closure disabled)
+
+    # Loop closure
+    loopClosureEnableFlag: true
+    loopClosureFrequency: 1.0                     # Hz, regulate loop closure constraint add frequency
+    surroundingKeyframeSize: 50                   # submap size (when loop closure enabled)
+    historyKeyframeSearchRadius: 5.0             # meters, key frame that is within n meters from current pose will be considerd for loop closure
+    historyKeyframeSearchTimeDiff: 15.0          # seconds, key frame that is n seconds older will be considered for loop closure
+    historyKeyframeSearchNum: 25                  # number of hostory key frames will be fused into a submap for loop closure
+    historyKeyframeFitnessScore: 0.3              # icp threshold, the smaller the better alignment
+    icpMaxCorrDistance: 2.0                       # meters, loop-closure ICP max correspondence distance
+    loopWeight: 0.2                               # loop factor variance scale, smaller is stronger
+    loopCurNum: 5                                 # max current keyframes processed per loop tick
+    loopPreNum: 3                                 # max ICP attempts per current keyframe
+    odomRollPitchScale: 1.0                               # odom roll/pitch variance multiplier
+    mappingICPSize: 0.2                            # meters, loop-closure ICP voxel size
+
+    # Visualization
+    globalMapVisualizationSearchRadius: 1000.0    # meters, global map visualization radius
+    globalMapVisualizationPoseDensity: 10.0       # meters, global map visualization keyframe density
+    globalMapVisualizationLeafSize: 0.1          # meters, global map visualization cloud density
+
+    keyframe_export_en: true                      # export each keyframe as a full-resolution PCD
+    keyframe_global_pcd_en: true                  # stitch exported keyframes into one global PCD
+
+publish:
+    path_en:  true
+    scan_publish_en:  true       # false: close all the point cloud output
+    dense_publish_en: true       # false: low down the points number in a global-frame point clouds scan.
+    scan_bodyframe_pub_en: true  # true: output the point cloud scans in IMU-body-frame
+
+result_save:
+    feat_accum_save_en: false    # save accumulated world-frame undistorted feature scans as PCD
+    interval: -1                 # how many LiDAR frames to accumulate before writing one PCD; -1 saves only once at shutdown
+    imu_state_save_en: false      # save each IMU state to ROOT_DIR/IMU_STATES/imu_states.txt
+    scan_frame_save_en: false     # save each undistorted scan in LiDAR body frame and pose to ROOT_DIR/SCAN_FRAMES/
+
+zupt:
+    use_zupt: false              # enable zero velocity update
+    zupt_acc_var_threshold: 0.0001   # (m/s²)² acceleration variance threshold for ZUPT
+    zupt_gyro_var_threshold: 0.00001 # (rad/s)² gyroscope variance threshold for ZUPT

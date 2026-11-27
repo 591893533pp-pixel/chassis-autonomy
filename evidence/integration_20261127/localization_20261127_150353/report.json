@@ -1,0 +1,8 @@
+{
+  "localization_tf_ownership_passed": true,
+  "tf_messages": 2057,
+  "synthetic_only": true,
+  "hardware_started": false,
+  "odom_messages": 97,
+  "production_loop_thresholds": true
+}

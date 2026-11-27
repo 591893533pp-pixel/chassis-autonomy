@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "status": "speed15_user_requested_unvalidated_hardware",
+  "units": {
+    "speed": "m/s",
+    "acceleration": "m/s^2",
+    "jerk": "m/s^3"
+  },
+  "scope": [
+    "rk_teleop",
+    "gamepad",
+    "nav2"
+  ],
+  "approved_targets": {
+    "max_planar_speed": 1.5,
+    "normal_planar_acceleration": 1.0,
+    "normal_planar_deceleration": 1.0
+  },
+  "commissioning": {
+    "stage": "acceleration_first",
+    "proposed_speed_cap": 0.5,
+    "speed_steps": [
+      0.5,
+      0.8,
+      1.0,
+      1.5
+    ],
+    "gamepad_initial_speed": 0.05,
+    "web_initial_speed": 0.05
+  },
+  "pending": [
+    "verify motor/wheel speed capability before changing current 10rad/s clamp",
+    "define jerk for faster acceleration response",
+    "separate normal braking from immediate zero/fault stop",
+    "validate directional collision zones and measured braking distance",
+    "build and test NUC bridges and RK ARM trajectory client"
+  ],
+  "unchanged_groups": [
+    "angular_motion",
+    "lift"
+  ],
+  "active": {
+    "max_planar_speed": 1.5,
+    "planar_acceleration": 1.0,
+    "planar_deceleration": 1.0,
+    "planar_jerk": 0.5,
+    "wheel_limit_rad_s": 25.0
+  }
+}

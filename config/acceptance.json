@@ -1,0 +1,35 @@
+{
+  "schema": "chassis_nav_acceptance_v1",
+  "motion_validated": false,
+  "checks": {
+    "body_anchor": {
+      "passed": false,
+      "evidence": null
+    },
+    "physical_envelope": {
+      "passed": false,
+      "evidence": null
+    },
+    "nearfield_obstacles": {
+      "passed": false,
+      "evidence": null
+    },
+    "ptp_motion": {
+      "passed": false,
+      "evidence": null
+    },
+    "map_and_relocalization": {
+      "passed": false,
+      "evidence": null
+    },
+    "nav2_plan_and_cancel": {
+      "passed": false,
+      "evidence": null
+    },
+    "stop_and_watchdogs": {
+      "passed": false,
+      "evidence": null
+    }
+  },
+  "note": "Do not mark passed based on compilation or this CAD model. Attach target NUC test evidence for each item."
+}

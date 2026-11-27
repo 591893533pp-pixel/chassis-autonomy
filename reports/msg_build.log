@@ -1,0 +1,267 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.7 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.10 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (3.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pc/chassis_integration_20261127/build_support/build_ascii
+[  4%] Generating Rust code for ROS interfaces
+[  4%] Generating type hashes for ROS interfaces
+[  4%] Built target livox_ros_driver2__rosidl_generator_type_description
+[  4%] Built target livox_ros_driver2__rs
+[  6%] Generating C code for ROS interfaces
+[  6%] Built target ament_cmake_python_copy_livox_ros_driver2
+[  8%] Generating C++ code for ROS interfaces
+[  8%] Built target livox_ros_driver2__cpp
+[ 11%] Building C object CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__description.c.o
+[ 13%] Building C object CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o
+[ 15%] Building C object CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o
+[ 17%] Building C object CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__description.c.o
+running egg_info
+creating livox_ros_driver2.egg-info
+writing livox_ros_driver2.egg-info/PKG-INFO
+writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[ 20%] Building C object CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o
+[ 20%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[ 22%] Building C object CMakeFiles/livox_ros_driver2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o
+[ 24%] Linking C shared library liblivox_ros_driver2__rosidl_generator_c.so
+[ 24%] Built target livox_ros_driver2__rosidl_generator_c
+[ 28%] Generating C introspection for ROS interfaces
+[ 28%] Generating C++ introspection for ROS interfaces
+[ 33%] Building C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o
+[ 33%] Building CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o
+[ 35%] Building C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o
+[ 37%] Linking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[ 37%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c
+[ 40%] Generating C++ type support dispatch for ROS interfaces
+[ 42%] Building CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o
+[ 44%] Building CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o
+[ 46%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[ 48%] Building CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o
+[ 48%] Built target livox_ros_driver2__rosidl_typesupport_introspection_cpp
+[ 51%] Generating C type support dispatch for ROS interfaces
+[ 53%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[ 53%] Built target livox_ros_driver2__rosidl_typesupport_cpp
+[ 55%] Generating C++ type support for eProsima Fast-RTPS
+[ 57%] Building CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o
+[ 60%] Building CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o
+[ 62%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so
+[ 62%] Built target livox_ros_driver2__rosidl_typesupport_c
+[ 64%] Generating C type support for eProsima Fast-RTPS
+[ 66%] Building CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o
+[ 68%] Building CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o
+[ 71%] Building CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o
+[ 73%] Building CXX object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o
+[ 75%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[ 77%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[ 77%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_cpp
+[ 77%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c
+[ 77%] Built target livox_ros_driver2
+[ 80%] Generating Python code for ROS interfaces
+[ 80%] Built target livox_ros_driver2__py
+[ 84%] Building C object CMakeFiles/livox_ros_driver2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o
+[ 84%] Building C object CMakeFiles/livox_ros_driver2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o
+[ 86%] Linking C shared library liblivox_ros_driver2__rosidl_generator_py.so
+[ 86%] Built target livox_ros_driver2__rosidl_generator_py
+[ 91%] Building C object CMakeFiles/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 91%] Building C object CMakeFiles/livox_ros_driver2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 93%] Linking C shared module rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.so
+[ 95%] Linking C shared module rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.so
+[ 95%] Built target livox_ros_driver2_s__rosidl_typesupport_introspection_c
+[ 95%] Built target livox_ros_driver2_s__rosidl_typesupport_fastrtps_c
+[ 97%] Building C object CMakeFiles/livox_ros_driver2_s__rosidl_typesupport_c.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o
+[100%] Linking C shared module rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.so
+[100%] Built target livox_ros_driver2_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/msg/CustomPoint.json
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/msg/CustomMsg.json
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__description.c
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__description.c
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/environment/library_path.sh
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/environment/library_path.dsv
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg
+-- Up-to-date: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/environment/pythonpath.sh
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/environment/pythonpath.dsv
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2-0.0.0-py3.12.egg-info
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/msg
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_msg.py
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/msg/__init__.py
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_point_s.c
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_point.py
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_msg_s.c
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/__init__.py
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.so
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2'...
+Compiling '/home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/__init__.py'...
+Listing '/home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/msg'...
+Compiling '/home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/msg/__init__.py'...
+Compiling '/home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_msg.py'...
+Compiling '/home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/msg/_custom_point.py'...
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis_integration_20261127/build_support/install/lib/python3.12/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis_integration_20261127/build_support/install/lib/liblivox_ros_driver2__rosidl_generator_py.so" to ""
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/rust
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/rust/Cargo.toml
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/rust/build.rs
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/rust/src
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/rust/src/msg
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/rust/src/msg/rmw.rs
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/rust/src/lib.rs
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/rust/src/msg.rs
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/msg/CustomPoint.idl
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/msg/CustomMsg.idl
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/msg/CustomPoint.msg
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/msg/CustomMsg.msg
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/environment/ament_prefix_path.sh
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/environment/path.sh
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/environment/path.dsv
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/local_setup.bash
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/local_setup.sh
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/local_setup.zsh
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/local_setup.dsv
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/package.dsv
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/ament_index/resource_index/packages/livox_ros_driver2
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_cExport.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cExport.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_cppExport.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/livox_ros_driver2__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_pyExport.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/export_livox_ros_driver2__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+-- Installing: /home/pc/chassis_integration_20261127/build_support/install/share/livox_ros_driver2/package.xml

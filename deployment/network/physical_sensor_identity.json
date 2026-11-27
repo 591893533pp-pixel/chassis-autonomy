@@ -1,0 +1,23 @@
+{
+  "time": "2026-11-24T16:59:00.298325+08:00",
+  "photo": "img_v3_0217o_65907924-79f1-4d73-a1ab-42e2dd24b9bg.jpg",
+  "A": {
+    "description": "photo lower sensor beside Keeplink switch",
+    "ip": "192.168.1.132",
+    "serial": "BDLCN9S0039449",
+    "evidence": "User confirms hand intervention at A; .132 cloud changed strongly then recovered; .159 stable",
+    "position": "front_left"
+  },
+  "B": {
+    "description": "photo upper sensor beside POWER V1.3 board",
+    "ip": "192.168.1.159",
+    "serial": "ARMCP9M0033988",
+    "evidence": "remaining of two discovered sensors; not independently occluded",
+    "position": "rear_right"
+  },
+  "forward_direction": "User physically verified joystick-up movement toward lower-left of reference photo; software +X forward.",
+  "navigation_position_labels": "front_left=.132; rear_right=.159; established from user-confirmed forward and photo geometry",
+  "extrinsics": "Sensor roles confirmed; numerical mounting position/rotation and old calibration applicability not yet validated.",
+  "updated": "2026-11-24T17:14:31.765347+08:00",
+  "forward_evidence_log": "ground_motion_20261124_171051_263577"
+}

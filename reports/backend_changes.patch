@@ -1,0 +1,242 @@
+--- original/include/common_utils.h
++++ integration/include/common_utils.h
+@@ -250,6 +250,23 @@
+ extern std::ofstream imu_pose_file;
+ extern std::ofstream keyframe_pose_file;
+ 
++// Resolve every export path before starting worker threads. A new run must not
++// append poses to an older map or silently replace a completed map.
++inline void configureResultDirectory(const std::string &requested)
++{
++    if (requested.empty()) return; // Compatibility for existing callers.
++    const fs::path dir(requested);
++    if (!dir.is_absolute()) throw std::runtime_error("result_save/output_dir must be absolute");
++    if (fs::exists(dir) && !fs::is_empty(dir))
++        throw std::runtime_error("result_save/output_dir must be new or empty");
++    fs::create_directories(dir);
++    result_dir = dir.string() + "/";
++    scan_frames_dir = result_dir + "SCAN_FRAMES/";
++    imu_states_dir = result_dir + "IMU_STATES/";
++    keyframe_frames_dir = result_dir + "KEY_FRAMES/";
++    ikdtree_output_dir = result_dir + "TREE_CLOUDS/";
++}
++
+ inline void prepareResultDirs()
+ {
+     if (scan_frame_save_en)
+--- original/include/utility.h
++++ integration/include/utility.h
+@@ -35,6 +35,11 @@
+ extern int   loopCurNum;
+ extern int   loopPreNum;
+ extern double odomRollPitchScale;
++
++extern double loopMinOverlap;
++extern double loopOverlapDistance;
++extern double loopMaxCorrectionTranslation;
++extern double loopMaxCorrectionAngle;
+ 
+ // global map visualization radius
+ extern float globalMapVisualizationSearchRadius;
+--- original/include/map_optimization.h
++++ integration/include/map_optimization.h
+@@ -84,6 +84,7 @@
+ void visualizeLoopClosure();
+ void publishGlobalMap();
+ 
++void exportGraphAudit();
+ void shutdownMapOptimization();
+ 
+ void loopClosureThread();
+--- original/src/utility.cpp
++++ integration/src/utility.cpp
+@@ -24,6 +24,11 @@
+ float historyKeyframeFitnessScore;
+ float icpMaxCorrDistance;
+ float loopWeight;
++double loopMinOverlap;
++double loopOverlapDistance;
++double loopMaxCorrectionTranslation;
++double loopMaxCorrectionAngle;
++
+ int   loopCurNum;
+ int   loopPreNum;
+ double odomRollPitchScale = 1.0;
+@@ -123,6 +128,11 @@
+     rosparam_get("lio_sam/historyKeyframeFitnessScore", historyKeyframeFitnessScore, 0.3f);
+     rosparam_get("lio_sam/icpMaxCorrDistance", icpMaxCorrDistance, 2.0f);
+     rosparam_get("lio_sam/loopWeight", loopWeight, 0.2f);
++    rosparam_get("lio_sam/loopMinOverlap", loopMinOverlap, 0.6);
++    rosparam_get("lio_sam/loopOverlapDistance", loopOverlapDistance, 0.2);
++    rosparam_get("lio_sam/loopMaxCorrectionTranslation", loopMaxCorrectionTranslation, 0.5);
++    rosparam_get("lio_sam/loopMaxCorrectionAngle", loopMaxCorrectionAngle, 0.35);
++
+     rosparam_get("lio_sam/loopCurNum", loopCurNum, 5);
+     rosparam_get("lio_sam/loopPreNum", loopPreNum, 3);
+     rosparam_get("lio_sam/odomRollPitchScale", odomRollPitchScale, 100.0);
+--- original/src/mapOptimization.cpp
++++ integration/src/mapOptimization.cpp
+@@ -430,7 +430,8 @@
+         const Eigen::Affine3f T_pre_map = T_map_pre.inverse();
+         for (int keyNear = historyBegin; keyNear <= historyEnd; ++keyNear)
+         {
+-            if (!clouds[keyNear] || clouds[keyNear]->empty())
++            if (current_time - poses6D[keyNear].time <= historyKeyframeSearchTimeDiff ||
++                !clouds[keyNear] || clouds[keyNear]->empty())
+                 continue;
+             const Eigen::Affine3f T_map_k = pclPointToAffine3f(poses6D[keyNear]);
+             const Eigen::Affine3f T_pre_k = T_pre_map * T_map_k;
+@@ -466,8 +467,9 @@
+         const Eigen::Affine3f T_pre_cur_guess = T_pre_map * T_map_cur;
+         icp.align(aligned, T_pre_cur_guess.matrix());
+ 
+-        const double score = icp.getFitnessScore();
+-        if (!icp.hasConverged() ||
++        const double score = icp.getFitnessScore(icpMaxCorrDistance * icpMaxCorrDistance);
++        if (!icp.hasConverged() || !std::isfinite(score) ||
++            !icp.getFinalTransformation().allFinite() ||
+             score > historyKeyframeFitnessScore)
+         {
+             ROS_PRINT_INFO(
+@@ -479,6 +481,33 @@
+         }
+ 
+         const Eigen::Affine3f T_pre_cur(icp.getFinalTransformation());
++        // Reject low-overlap matches and large corrections, including matches
++        // against a single small repeated patch. Scores are squared metres.
++        pcl::KdTreeFLANN<PointTypeIndex> targetTree;
++        targetTree.setInputCloud(prevKeyframeCloudDS);
++        size_t overlapCount = 0;
++        std::vector<int> nearest(1);
++        std::vector<float> distance2(1);
++        for (const auto &pt : aligned) {
++            if (isFinitePoint(pt) && targetTree.nearestKSearch(pt, 1, nearest, distance2) == 1 &&
++                distance2[0] <= loopOverlapDistance * loopOverlapDistance) ++overlapCount;
++        }
++        const double overlap = aligned.empty() ? 0.0 : double(overlapCount) / aligned.size();
++        const Eigen::Affine3f delta = T_pre_cur_guess.inverse() * T_pre_cur;
++        const double correctionTranslation = delta.translation().norm();
++        const double correctionAngle = Eigen::AngleAxisf(delta.rotation()).angle();
++        const bool geometryOK = overlap >= loopMinOverlap &&
++            correctionTranslation <= loopMaxCorrectionTranslation &&
++            correctionAngle <= loopMaxCorrectionAngle;
++        std::ofstream audit(result_dir + "loop_candidates.csv", std::ios::app);
++        audit << std::setprecision(12) << current_time << "," << loopKeyCur << "," << id
++              << "," << score << "," << overlap << "," << correctionTranslation
++              << "," << correctionAngle << "," << geometryOK << "\n";
++        if (!geometryOK) {
++            ROS_PRINT_INFO("[LOOP] geometry reject cur=%d pre=%d overlap=%.3f d=%.3f angle=%.3f",
++                           loopKeyCur, id, overlap, correctionTranslation, correctionAngle);
++            continue;
++        }
+         // 入图顺序为 Between(cur, pre)，测量应为 T_cur_pre，因此必须取 ICP 结果的逆。
+         const Eigen::Affine3f T_cur_pre = T_pre_cur.inverse();
+         float pre_x, pre_y, pre_z, pre_roll, pre_pitch, pre_yaw;
+@@ -585,6 +614,8 @@
+     {
+         gtSAMgraph.add(BetweenFactor<Pose3>(factor.from, factor.to, factor.pose, factor.noise));
+         addedEdges.emplace_back(factor.from, factor.to);
++        std::ofstream audit(result_dir + "loop_factors.csv", std::ios::app);
++        audit << factor.from << "," << factor.to << "\n";
+     }
+ 
+     {
+@@ -994,6 +1025,26 @@
+ }
+ 
+ // 在工作线程退出后释放 ROS 发布资源和 iSAM2 实例。
++// Called only after all worker threads have joined and final iSAM update completed.
++void exportGraphAudit()
++{
++    std::ofstream poses(result_dir + "graph_poses.csv");
++    poses << "id,stamp,odom_x,odom_y,odom_z,map_x,map_y,map_z,map_roll,map_pitch,map_yaw\n";
++    poses << std::setprecision(12);
++    for (size_t i=0; i<cloudKeyPoses6D->size(); ++i) {
++        const auto &p=cloudKeyPoses6D->at(i);
++        const auto &o=cloudKeyOdomPoses6D->at(i);
++        poses << i << "," << p.time << "," << o.x << "," << o.y << "," << o.z
++              << "," << p.x << "," << p.y << "," << p.z << "," << p.roll << "," << p.pitch << "," << p.yaw << "\n";
++    }
++    std::ofstream summary(result_dir + "graph_summary.json");
++    summary << "{\"keyframes\":" << cloudKeyPoses6D->size()
++            << ",\"loop_factors\":" << loopEdges.size()
++            << ",\"sam_enabled\":true,\"loop_enabled\":" << (loopClosureEnableFlag ? "true" : "false")
++            << ",\"final_update_completed\":true,\"cloud_frame\":\"" << map_frame
++            << "\",\"keyframe_scan_frame\":\"lidar\",\"graph_pose_frame\":\"imu\"}\n";
++}
++
+ void shutdownMapOptimization()
+ {
+     pubKeyPoses.reset();
+--- original/src/laserMapping.cpp
++++ integration/src/laserMapping.cpp
+@@ -1124,8 +1124,11 @@
+ #endif
+ }
+ 
++bool publish_map_odom_tf = true;
++
+ void publishMapToOdomTf(const TimeType& stamp)
+ {
++    if (!publish_map_odom_tf) return;
+     TransformStampedMsg map_to_odom_msg;
+     map_to_odom_msg.header.stamp = stamp;
+     map_to_odom_msg.header.frame_id = map_frame;
+@@ -1288,7 +1291,7 @@
+         if (pcl_wait_save->size() > 0 && res_save_interval > 0  && scan_wait_num >= res_save_interval)
+         {
+             const std::string stamp_str = format_unix_time(lidar_end_time);
+-            const std::string all_points_dir = string(string(ROOT_DIR) + "PCD/") + stamp_str + string(".pcd");
++            const std::string all_points_dir = (result_dir + "PCD/") + stamp_str + string(".pcd");
+             pcl::PCDWriter pcd_writer;
+             cout << "current accumulated feature cloud saved to /PCD/" << stamp_str << ".pcd" << endl;
+             pcd_writer.writeBinary(all_points_dir, *pcl_wait_save);
+@@ -1744,6 +1747,9 @@
+         ROS_PRINT_WARN("TEST ONLY: main processing will pause at scan %d for %d ms", diagnostic_stall_scan, diagnostic_stall_ms);
+     rosparam_get("sam_enable", sam_enable, false);
+     rosparam_get("publish/path_en", path_en, true);
++    rosparam_get("publish/map_to_odom_tf_en", publish_map_odom_tf, true);
++    if (sam_enable && !publish_map_odom_tf)
++        throw std::runtime_error("SAM owns map->odom; disabling this TF requires sam_enable=false");
+     rosparam_get("publish/scan_publish_en", scan_pub_en, true);
+     rosparam_get("publish/dense_publish_en", dense_pub_en, true);
+     rosparam_get("publish/scan_bodyframe_pub_en", scan_body_pub_en, true);
+@@ -1878,6 +1884,9 @@
+     }
+ 
+     /*** debug record ***/
++    std::string requested_output_dir;
++    rosparam_get("result_save/output_dir", requested_output_dir, std::string(""));
++    configureResultDirectory(requested_output_dir);
+     prepareResultDirs();
+ 
+     {
+@@ -2204,9 +2213,9 @@
+             if (input_finished)
+             {
+                 const bool scene_done =
+-                    !groundEnableFlag || sceneDone.load();
++                    !sam_enable || !groundEnableFlag || sceneDone.load();
+                 const bool loop_done =
+-                    !loopClosureEnableFlag || loopDone.load();
++                    !sam_enable || !loopClosureEnableFlag || loopDone.load();
+                 if (scene_done && loop_done)
+                     break;
+             }
+@@ -2235,6 +2244,7 @@
+         if (sam_enable)
+         {
+             poseGraphUpdate();
++            exportGraphAudit();
+             publishSamMsg();
+             visualizeLoopClosure();
+             publishGlobalMap();
+@@ -2244,7 +2254,7 @@
+     {
+         const std::string stamp_str = format_unix_time(lidar_end_time);
+         const std::string file_name = stamp_str + string(".pcd");
+-        const std::string all_points_dir = string(string(ROOT_DIR) + "PCD/") + file_name;
++        const std::string all_points_dir = (result_dir + "PCD/") + file_name;
+         pcl::PCDWriter pcd_writer;
+         cout << "current accumulated feature cloud saved to /PCD/" << file_name<<endl;
+         pcd_writer.writeBinary(all_points_dir, *pcl_wait_save);

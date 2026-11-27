@@ -1,0 +1,63 @@
+{
+  "streams": {
+    "192.168.1.159:56300": {
+      "count": 624571,
+      "age_min_ns": 542707,
+      "age_max_ns": 4496882,
+      "stamp_gap_max_ns": 602872,
+      "capture_gap_max_ns": 2321729,
+      "backward_or_duplicate_stamps": 0,
+      "sequence_breaks": 0,
+      "non_ptp_packets": 0,
+      "age_over_5ms": 0,
+      "first_capture_ns": 1795578925700686629,
+      "last_capture_ns": 1795579225497347819,
+      "duration_s": 299.79666119
+    },
+    "192.168.1.159:56400": {
+      "count": 59960,
+      "age_min_ns": -30216,
+      "age_max_ns": 783070,
+      "stamp_gap_max_ns": 6095650,
+      "capture_gap_max_ns": 6420308,
+      "backward_or_duplicate_stamps": 0,
+      "sequence_breaks": 0,
+      "non_ptp_packets": 0,
+      "age_over_5ms": 0,
+      "first_capture_ns": 1795578925700686689,
+      "last_capture_ns": 1795579225494743735,
+      "duration_s": 299.794057046
+    },
+    "192.168.1.132:56300": {
+      "count": 624573,
+      "age_min_ns": 526346,
+      "age_max_ns": 4318810,
+      "stamp_gap_max_ns": 563010,
+      "capture_gap_max_ns": 2393901,
+      "backward_or_duplicate_stamps": 0,
+      "sequence_breaks": 0,
+      "non_ptp_packets": 0,
+      "age_over_5ms": 0,
+      "first_capture_ns": 1795578925700933209,
+      "last_capture_ns": 1795579225497347871,
+      "duration_s": 299.796414662
+    },
+    "192.168.1.132:56400": {
+      "count": 59960,
+      "age_min_ns": -30808,
+      "age_max_ns": 969487,
+      "stamp_gap_max_ns": 6033890,
+      "capture_gap_max_ns": 6371160,
+      "backward_or_duplicate_stamps": 0,
+      "sequence_breaks": 0,
+      "non_ptp_packets": 0,
+      "age_over_5ms": 0,
+      "first_capture_ns": 1795578925701611653,
+      "last_capture_ns": 1795579225496339050,
+      "duration_s": 299.794727397
+    }
+  },
+  "invalid_count": 0,
+  "invalid_examples": [],
+  "limitations": "Kernel receive time minus packet timestamp includes latency; this is a continuity/large-jump check, not a precision clock calibration. Inspect sensor_tcpdump.log for capture loss. Snaplen truncation is intentional."
+}

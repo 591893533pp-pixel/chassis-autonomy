@@ -1,0 +1,12 @@
+2: enp85s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 48:21:0b:7e:77:0e brd ff:ff:ff:ff:ff:ff promiscuity 0  allmulti 0 minmtu 68 maxmtu 9216 numtxqueues 4 numrxqueues 4 gso_max_size 65536 gso_max_segs 65535 tso_max_size 65536 tso_max_segs 65535 gro_max_size 65536 parentbus pci parentdev 0000:55:00.0 
+    inet 192.168.16.4/24 brd 192.168.16.255 scope global noprefixroute enp85s0
+       valid_lft forever preferred_lft forever
+    inet 192.168.1.4/24 brd 192.168.1.255 scope global noprefixroute enp85s0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::be77:ae1c:91ca:459/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+    RX:   bytes  packets errors dropped  missed   mcast           
+    30828116962 23616802      0       0       0   10997 
+    TX:   bytes  packets errors dropped carrier collsns           
+        8206260    35911      0      20       0       0 

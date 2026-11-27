@@ -1,0 +1,29 @@
+{
+  "profile": "flydigi_xinput",
+  "name": "Microsoft X-Box 360 pad",
+  "vendor": "045e",
+  "product": "028e",
+  "axes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    16,
+    17
+  ],
+  "buttons": [
+    304,
+    305,
+    307,
+    308,
+    310,
+    311,
+    314,
+    315,
+    316,
+    317,
+    318
+  ]
+}

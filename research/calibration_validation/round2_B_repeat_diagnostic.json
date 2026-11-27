@@ -1,0 +1,46 @@
+{
+  "status": "REPEATABILITY_DIAGNOSTIC_NOT_DEPLOYED",
+  "transform": [
+    [
+      -0.633861099965783,
+      0.0009524304156791505,
+      0.7734463128275095,
+      0.3809306904537886
+    ],
+    [
+      -0.0008873127547772134,
+      -0.9999994792126201,
+      0.0005042326460678483,
+      -0.007819492508725089
+    ],
+    [
+      0.773446390272941,
+      -0.0003666753188321801,
+      0.6338616149625779,
+      -0.19263264231752408
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "comparisons": {
+    "A": {
+      "translation_m": 0.011050151930897499,
+      "rotation_deg": 0.1327457257968777
+    },
+    "B": {
+      "translation_m": 0.00039485636902773097,
+      "rotation_deg": 0.010363426448172116
+    }
+  },
+  "score": {
+    "matched_planar_points": 18856,
+    "plane_rmse_m": 0.02049491935401314,
+    "plane_abs_p95_m": 0.0410609933720457,
+    "mutual_overlap_within_10cm": 0.4342760072734233
+  },
+  "note": "B_repeat is the same physical pose as B. It is not independent validation and does not replace C."
+}

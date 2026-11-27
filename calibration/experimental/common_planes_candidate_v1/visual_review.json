@@ -1,0 +1,8 @@
+{
+  "training_planes_visual_review": "Paired broad walls and ceiling appear geometrically consistent in A/B plots. No measured physical plane labels supplied.",
+  "holdout_D_visual_review": "Shared wall and ceiling double surfaces reduced in top/side views; remaining visibility differences preserved.",
+  "candidate_sha256": "dc1c200895777138dc54c426c59988070ea1b4abfbd12a0197861133df4bea96",
+  "relative_numeric_checks_passed": true,
+  "deployed": false,
+  "absolute_body_anchor_verified": false
+}

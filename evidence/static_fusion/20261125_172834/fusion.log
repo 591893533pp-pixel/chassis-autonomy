@@ -1,0 +1,3 @@
+[INFO] [1795598915.110389934] [dual_lidar_fusion]: Output /livox/fused_preview; PTP required; CAD calibrated=False; no motion deskew
+[INFO] [1795598916.418853769] [dual_lidar_fusion]: PTP checks passed
+[INFO] [1795598960.102756677] [dual_lidar_fusion]: PTP unavailable: fusion paused (ok; ok)

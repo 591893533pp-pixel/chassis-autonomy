@@ -1,0 +1,21 @@
+[WARN] [ros2bag]: Positional "topics" argument deprecated. Please use optional "--topics" argument instead.
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1795598929.054016508] [rosbag2_recorder]: Press SPACE for pausing/resuming
+[INFO] [1795598929.054034483] [rosbag2_recorder]: Event publisher thread: Started
+[INFO] [1795598929.063502256] [rosbag2_recorder]: Starting recording to '/home/pc/fusion_mapping_trial_20261125/runs/20261125_172834/bag'
+[INFO] [1795598929.065660039] [rosbag2_recorder]: Listening for topics...
+[INFO] [1795598929.065692867] [rosbag2_recorder]: Recording...
+[INFO] [1795598929.065719209] [rosbag2_recorder]: Topics discovery started.
+[INFO] [1795598929.157921731] [rosbag2_recorder]: Subscribed to topic '/cloud_registered'
+[INFO] [1795598929.162297881] [rosbag2_recorder]: Subscribed to topic '/Odometry'
+[INFO] [1795598929.166266461] [rosbag2_recorder]: Subscribed to topic '/tf'
+[INFO] [1795598930.466773613] [rosbag2_recorder]: Subscribed to topic '/front_left/imu'
+[INFO] [1795598930.468083678] [rosbag2_recorder]: Subscribed to topic '/rear_right/imu'
+[INFO] [1795598930.957921302] [rosbag2_recorder]: Subscribed to topic '/tf_static'
+[INFO] [1795598930.960308298] [rosbag2_recorder]: Subscribed to topic '/livox/fusion_status'
+[INFO] [1795598930.961517379] [rosbag2_recorder]: Subscribed to topic '/slam/points'
+[INFO] [1795598930.961549284] [rosbag2_recorder]: All requested topics are subscribed. Stopping discovery...
+[INFO] [1795598930.961556032] [rosbag2_recorder]: Topics discovery stopped.
+[INFO] [1795598958.596292552] [rosbag2_recorder]: Pausing recording.
+[INFO] [1795598958.596376551] [rosbag2_cpp]: Writing remaining messages from cache to the bag. It may take a while
+[INFO] [1795598958.603414897] [rosbag2_recorder]: Recording stopped
+[INFO] [1795598958.604253150] [rosbag2_recorder]: Event publisher thread: Exited

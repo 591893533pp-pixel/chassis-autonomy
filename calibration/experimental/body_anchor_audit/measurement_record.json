@@ -1,0 +1,51 @@
+{
+  "status": "AWAITING_PHYSICAL_REFERENCE_AND_GROUND_CONSISTENCY_REVIEW",
+  "body_axes": {
+    "x": "user-confirmed forward",
+    "y": "left",
+    "z": "up"
+  },
+  "body_origin": {
+    "x_y_reference": null,
+    "height_above_ground_m": null,
+    "existing_model_origin_is_ground": null,
+    "note": "Existing base_link height is unverified. Do not relabel floor projection as existing base_link."
+  },
+  "reference_sensor": "rear_right",
+  "physical_measurements": {
+    "rear_right_optical_origin_x_m": null,
+    "rear_right_optical_origin_y_m": null,
+    "rear_right_optical_origin_height_above_ground_m": null,
+    "rear_right_yaw_deg": null,
+    "chassis_roll_to_ground_deg": null,
+    "chassis_pitch_to_ground_deg": null
+  },
+  "factory_drawing": {
+    "optical_origin_above_bottom_mm": 47.0,
+    "datum": "MID360S user manual p16, along sensor local +Z from bottom plane, not vertical world height for tilted mounting",
+    "axis_note": "p19 +X opposite connector side; verify actual connector orientation; historical rpy already includes 180 degree housing convention"
+  },
+  "ground_estimates_not_calibration": {
+    "front_left": {
+      "height_range_m": [
+        0.30690010107164717,
+        0.31068689493295387
+      ],
+      "sensor_z_tilt_range_deg": [
+        24.803441088152887,
+        25.430183008207194
+      ]
+    },
+    "rear_right": {
+      "height_range_m": [
+        0.3034083614444216,
+        0.30476704967206736
+      ],
+      "sensor_z_tilt_range_deg": [
+        25.228402830643496,
+        25.599770145488847
+      ]
+    }
+  },
+  "deployed": false
+}

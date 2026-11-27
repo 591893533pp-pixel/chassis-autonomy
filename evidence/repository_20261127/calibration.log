@@ -1,0 +1,12 @@
+test_corner_known_transform (test_registration.RegistrationTest.test_corner_known_transform) ... ok
+test_label_rejects_traversal (test_registration.RegistrationTest.test_label_rejects_traversal) ... ok
+test_single_plane_degenerate (test_registration.RegistrationTest.test_single_plane_degenerate) ... ok
+test_current_failure_never_bypassed (test_static_policy.StaticPolicyTest.test_current_failure_never_bypassed) ... ok
+test_history_only_is_scoped_advisory (test_static_policy.StaticPolicyTest.test_history_only_is_scoped_advisory) ... ok
+test_three_independent_static_scenes (test_workflow.WorkflowTest.test_three_independent_static_scenes) ... ok
+test_train_validation_leak_rejected (test_workflow.WorkflowTest.test_train_validation_leak_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 6.352s
+
+OK

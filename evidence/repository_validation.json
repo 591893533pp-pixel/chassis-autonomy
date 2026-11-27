@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-27",
+  "scope": "organized repository local build and offline validation",
+  "source_root": "/home/pc/文档/ChatGPT/底盘调试/chassis-autonomy",
+  "hardware_started": false,
+  "remote_deployed": false,
+  "remote_pushed": false,
+  "cpp_tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "python_tests": {
+    "passed": 77,
+    "failed": 0,
+    "additional": "fusion coordinate assertions passed"
+  },
+  "real_driver_sdk_build": "passed",
+  "sam_build": "passed against full driver messages",
+  "new_synthetic_backend": {
+    "export_valid": true,
+    "keyframes": 17,
+    "points": 34000,
+    "loop_factors": 1,
+    "loop_observed": true,
+    "note": "Zero loop factors means no loop closure was accepted; enabling the backend alone is not a loop test.",
+    "synthetic_only": true,
+    "hardware_started": false,
+    "odom_messages": 447,
+    "production_loop_thresholds": true
+  },
+  "cad_mesh_references_resolved": 59,
+  "local_assets": {
+    "files": 68,
+    "bytes": 1036153288,
+    "sha256_verified": true
+  },
+  "binary_sha256": {
+    "control/program/build/remote_bridge": "bf25a9fec656d00f4f3f4854a7297f5c18c6820a06a5779104e448270440438c",
+    "sensors/sdk-install/lib/liblivox_lidar_sdk_shared.so": "5259814796860d692da1667b4b549d51a454928443113b5708788350f7b8bbb5",
+    "sensors/driver_workspace/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node": "8cef82fd3b036ccdaf0ddc942e938ec22a3e84a75859ea24721df2f5d9633200",
+    "mapping_ws/install/lib/fast_lio_sam/fastlio_mapping": "b7d6fca1b22947b80a40e27fb40ddaa361c258046fa52ebff258373a5a5181fd"
+  },
+  "remaining": {
+    "fastlio_compiled": true,
+    "missing_packages": [
+      "nav2_map_server",
+      "nav2_amcl",
+      "nav2_smac_planner",
+      "dwb_core",
+      "nav2_bt_navigator",
+      "nav2_collision_monitor",
+      "nav2_lifecycle_manager",
+      "nav2_rviz_plugins",
+      "rviz2"
+    ],
+    "found_packages": {
+      "robot_state_publisher": "/opt/ros/jazzy"
+    },
+    "physical_acceptance": false,
+    "acceptance_reason": "现场验收尚未完成：body_anchor, physical_envelope, nearfield_obstacles, ptp_motion, map_and_relocalization, nav2_plan_and_cancel, stop_and_watchdogs",
+    "configuration_sha256": "275b9b1049ff9dc917b3d801bac2cb2234725271d5232a7e71b0c2e94cfe007c",
+    "hardware_started": false
+  }
+}

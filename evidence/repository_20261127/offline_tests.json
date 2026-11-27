@@ -1,0 +1,35 @@
+{
+  "hardware_started": false,
+  "results": [
+    {
+      "suite": "footprint_navigation",
+      "passed": true,
+      "seconds": 0.52,
+      "log": ".validation/footprint_navigation.log"
+    },
+    {
+      "suite": "calibration",
+      "passed": true,
+      "seconds": 6.59,
+      "log": ".validation/calibration.log"
+    },
+    {
+      "suite": "timing_gates",
+      "passed": true,
+      "seconds": 0.12,
+      "log": ".validation/timing_gates.log"
+    },
+    {
+      "suite": "fusion_coordinates",
+      "passed": true,
+      "seconds": 0.17,
+      "log": ".validation/fusion_coordinates.log"
+    },
+    {
+      "suite": "gamepad_core",
+      "passed": true,
+      "seconds": 0.27,
+      "log": ".validation/gamepad_core.log"
+    }
+  ]
+}

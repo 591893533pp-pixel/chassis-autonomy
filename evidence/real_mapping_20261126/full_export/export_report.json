@@ -1,0 +1,28 @@
+{
+  "source_run": "/home/pc/motion_mapping_trial_20261126/runs/20261126_145615",
+  "source_topic": "/cloud_registered",
+  "frame": "trial_map",
+  "frames": 2955,
+  "expected_frames": 2955,
+  "points": 14160514,
+  "invalid_points_removed": 0,
+  "first_stamp_ns": 1795676189400449037,
+  "last_stamp_ns": 1795676484800280332,
+  "bounds_min": [
+    -53.12214660644531,
+    -81.93544006347656,
+    -6.1591410636901855
+  ],
+  "bounds_max": [
+    54.00767517089844,
+    79.89090728759766,
+    42.69865798950195
+  ],
+  "loop_optimized": false,
+  "additional_downsampling": false,
+  "caveat": "All recorded FAST-LIO registered output frames; upstream filtering and 1m nearfield exclusion remain. Not raw full-density data or navigation-validated map.",
+  "path_length_m": 10.919337984101366,
+  "start_to_end_m": 0.23707969402924248,
+  "bytes": 226568434,
+  "sha256": "7cf84e6b0eddd88f86237fabe5ab21e66eedeab5ac0c17bd414f067602c35a10"
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-27",
+  "target": "pc@10.23.2.190",
+  "target_status": "No route to host",
+  "deployed": false,
+  "hardware_motion_started": false,
+  "backend_build": "passed locally, ROS Jazzy + GTSAM 4.2",
+  "backend_binary_sha256": "55b80963c85841ffb9a80d49bb1a44b03167d7987ccec4d0c713ffc92f854b5a",
+  "synthetic_mapping": {
+    "export_valid": true,
+    "keyframes": 17,
+    "points": 34000,
+    "loop_factors": 1,
+    "loop_observed": true,
+    "note": "Zero loop factors means no loop closure was accepted; enabling the backend alone is not a loop test.",
+    "synthetic_only": true,
+    "hardware_started": false,
+    "odom_messages": 447,
+    "production_loop_thresholds": true
+  },
+  "synthetic_localization_tf": {
+    "localization_tf_ownership_passed": true,
+    "tf_messages": 2057,
+    "synthetic_only": true,
+    "hardware_started": false,
+    "odom_messages": 97,
+    "production_loop_thresholds": true
+  },
+  "python_unit_tests": 12,
+  "python_unit_tests_passed": true,
+  "browser_smoke": {
+    "synthetic_only": true,
+    "map_and_body_visible": true,
+    "readonly_goal_rejected": true,
+    "missing_token_rejected": true,
+    "hardware_started": false
+  },
+  "nav2_runtime_tested": false,
+  "real_bag_replay_done": false,
+  "physical_anchor_verified": false,
+  "nearfield_verified": false,
+  "autonomous_navigation_validated": false,
+  "next": "SSH recovery -> real bag replay -> body/nearfield acceptance -> localization/plan checks -> supervised low speed point-to-point trial"
+}

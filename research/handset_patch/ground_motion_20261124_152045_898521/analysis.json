@@ -1,0 +1,35 @@
+{
+  "session": "ground_motion_20261124_152045_898521",
+  "user_observation": "向前移动，松手就停",
+  "rows": 8668,
+  "enabled_valid_rows": 6871,
+  "nonzero_command_rows": 2322,
+  "duration_s": 87.00004369999988,
+  "max_requested_planar_m_s": 0.05000000054248163,
+  "max_requested_yaw_rad_s": 0.0,
+  "motor_fault_values": {
+    "1": [
+      "0"
+    ],
+    "2": [
+      "0"
+    ],
+    "3": [
+      "0"
+    ],
+    "4": [
+      "0"
+    ]
+  },
+  "tail_zero_command_duration_s": 3.419998499999565,
+  "last_enabled": "0",
+  "bridge_cleanup_log": "Bridge exited; connected-device cleanup attempted; no failure messages",
+  "termination": "operator-side interruption; SSH returned 255; bridge log confirms cleanup attempted, no controller processes found",
+  "limitations": [
+    "Physical forward/stop is user observation; wheel odometry is not independent ground truth.",
+    "Log contains multiple positive/negative vx/vy inputs, not a single half-second pulse; other physical directions unconfirmed.",
+    "Yaw input remained zero; turning untested.",
+    "Physical estop and disconnect-stop not accepted.",
+    "Earlier CAN transient controller warning and feedback timeout recovered after motor power cycle; root cause unconfirmed."
+  ]
+}

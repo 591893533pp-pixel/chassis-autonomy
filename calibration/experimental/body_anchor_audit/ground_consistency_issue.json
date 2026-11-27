@@ -1,0 +1,15 @@
+{
+  "status": "GLOBAL_RELATIVE_METRICS_PASS_GROUND_CONSISTENCY_UNRESOLVED",
+  "source_report": "ground_audit.json",
+  "frozen_candidate_sha256": "dc1c200895777138dc54c426c59988070ea1b4abfbd12a0197861133df4bea96",
+  "ground_plane_vertical_separation_at_provisional_body_origin_m": [
+    0.015621549809162243,
+    0.02310370764091683,
+    0.019353482697186286,
+    0.022399706734743306
+  ],
+  "original_D_validation_preserved": true,
+  "body_calibration_ready": false,
+  "deployed": false,
+  "reason": "Need physical anchor and resolve/characterize inter-sensor ground discrepancy before absolute body calibration."
+}

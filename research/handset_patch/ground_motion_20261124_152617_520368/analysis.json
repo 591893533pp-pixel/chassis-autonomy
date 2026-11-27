@@ -1,0 +1,29 @@
+{
+  "session": "ground_motion_20261124_152617_520368",
+  "user_report": "后退、左右横移、左右转向；物理急停均验证",
+  "source": "现场用户确认，未独立测量方向和急停停止距离",
+  "request_ranges": {
+    "requested_vx": [
+      -0.05,
+      0.05
+    ],
+    "requested_vy": [
+      -0.006036392,
+      0.001225967
+    ],
+    "requested_wz": [
+      -0.04,
+      0.04
+    ]
+  },
+  "exit_reason": "bridge motor fault; exit 1 before 180-second deadline",
+  "terminal_fault_snapshot": {
+    "motor1_fault": 2,
+    "motor2_fault": 2,
+    "motor3_fault": 2,
+    "motor4_fault": 2
+  },
+  "estop_correlation": "用户报告已验证急停；未记录按下时间，不能证明故障与急停的因果关系或直接确定故障含义",
+  "cleanup": "Bridge exited; no cleanup failure messages; no remaining control processes",
+  "remaining": "手柄断连停车；自主定位、地图、导航、多点巡航"
+}

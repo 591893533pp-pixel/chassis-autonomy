@@ -1,0 +1,252 @@
+{
+  "packet_count": 931,
+  "ptp_count": 753,
+  "truncated_frames": 0,
+  "versions": [
+    [
+      2,
+      0
+    ]
+  ],
+  "sync_sources": [
+    [
+      "48210bfffe7e770e0001",
+      0
+    ]
+  ],
+  "streams": [
+    {
+      "type": "Announce",
+      "identity": "48210bfffe7e770e0001",
+      "domain": 0,
+      "requester": "",
+      "sources": [
+        "192.168.16.4"
+      ],
+      "count": 45,
+      "interval_median_s": 2.000148061,
+      "interval_max_s": 2.000362801,
+      "nonconsecutive_sequences": 0,
+      "sequence_delta_examples": [],
+      "log_intervals": [
+        1
+      ]
+    },
+    {
+      "type": "Delay_Req",
+      "identity": "0c9ae6fffe626bef0000",
+      "domain": 0,
+      "requester": "",
+      "sources": [
+        "192.168.1.132"
+      ],
+      "count": 88,
+      "interval_median_s": 0.999999336,
+      "interval_max_s": 1.999956984,
+      "nonconsecutive_sequences": 0,
+      "sequence_delta_examples": [],
+      "log_intervals": [
+        127
+      ]
+    },
+    {
+      "type": "Delay_Req",
+      "identity": "3491f0fffee6fe290000",
+      "domain": 0,
+      "requester": "",
+      "sources": [
+        "192.168.1.159"
+      ],
+      "count": 88,
+      "interval_median_s": 0.999998839,
+      "interval_max_s": 2.000049114,
+      "nonconsecutive_sequences": 0,
+      "sequence_delta_examples": [],
+      "log_intervals": [
+        127
+      ]
+    },
+    {
+      "type": "Delay_Resp",
+      "identity": "48210bfffe7e770e0001",
+      "domain": 0,
+      "requester": "0c9ae6fffe626bef0000",
+      "sources": [
+        "192.168.16.4"
+      ],
+      "count": 88,
+      "interval_median_s": 0.999999625,
+      "interval_max_s": 1.999955244,
+      "nonconsecutive_sequences": 0,
+      "sequence_delta_examples": [],
+      "log_intervals": [
+        0
+      ]
+    },
+    {
+      "type": "Delay_Resp",
+      "identity": "48210bfffe7e770e0001",
+      "domain": 0,
+      "requester": "3491f0fffee6fe290000",
+      "sources": [
+        "192.168.16.4"
+      ],
+      "count": 88,
+      "interval_median_s": 0.999998961,
+      "interval_max_s": 1.999957007,
+      "nonconsecutive_sequences": 0,
+      "sequence_delta_examples": [],
+      "log_intervals": [
+        0
+      ]
+    },
+    {
+      "type": "Follow_Up",
+      "identity": "48210bfffe7e770e0001",
+      "domain": 0,
+      "requester": "",
+      "sources": [
+        "192.168.16.4"
+      ],
+      "count": 89,
+      "interval_median_s": 1.000155532,
+      "interval_max_s": 1.000434185,
+      "nonconsecutive_sequences": 0,
+      "sequence_delta_examples": [],
+      "log_intervals": [
+        0
+      ]
+    },
+    {
+      "type": "Pdelay_Req",
+      "identity": "0c9ae6fffe626bef0001",
+      "domain": 0,
+      "requester": "",
+      "sources": [
+        "0c:9a:e6:62:6b:ef"
+      ],
+      "count": 89,
+      "interval_median_s": 1.0000010124999998,
+      "interval_max_s": 1.000109894,
+      "nonconsecutive_sequences": 0,
+      "sequence_delta_examples": [],
+      "log_intervals": [
+        0
+      ]
+    },
+    {
+      "type": "Pdelay_Req",
+      "identity": "3491f0fffee6fe290001",
+      "domain": 0,
+      "requester": "",
+      "sources": [
+        "34:91:f0:e6:fe:29"
+      ],
+      "count": 89,
+      "interval_median_s": 1.0000015615,
+      "interval_max_s": 1.000109839,
+      "nonconsecutive_sequences": 0,
+      "sequence_delta_examples": [],
+      "log_intervals": [
+        0
+      ]
+    },
+    {
+      "type": "Sync",
+      "identity": "48210bfffe7e770e0001",
+      "domain": 0,
+      "requester": "",
+      "sources": [
+        "192.168.16.4"
+      ],
+      "count": 89,
+      "interval_median_s": 1.00016126,
+      "interval_max_s": 1.000382509,
+      "nonconsecutive_sequences": 0,
+      "sequence_delta_examples": [],
+      "log_intervals": [
+        0
+      ]
+    }
+  ],
+  "announces": [
+    {
+      "source": "48210bfffe7e770e0001",
+      "grandmaster": "48210bfffe7e770e",
+      "domain": 0,
+      "clock_class": 248,
+      "utc_offset": 37
+    },
+    {
+      "source": "48210bfffe7e770e0001",
+      "grandmaster": "48210bfffe7e770e",
+      "domain": 0,
+      "clock_class": 248,
+      "utc_offset": 37
+    },
+    {
+      "source": "48210bfffe7e770e0001",
+      "grandmaster": "48210bfffe7e770e",
+      "domain": 0,
+      "clock_class": 248,
+      "utc_offset": 37
+    },
+    {
+      "source": "48210bfffe7e770e0001",
+      "grandmaster": "48210bfffe7e770e",
+      "domain": 0,
+      "clock_class": 248,
+      "utc_offset": 37
+    },
+    {
+      "source": "48210bfffe7e770e0001",
+      "grandmaster": "48210bfffe7e770e",
+      "domain": 0,
+      "clock_class": 248,
+      "utc_offset": 37
+    },
+    {
+      "source": "48210bfffe7e770e0001",
+      "grandmaster": "48210bfffe7e770e",
+      "domain": 0,
+      "clock_class": 248,
+      "utc_offset": 37
+    },
+    {
+      "source": "48210bfffe7e770e0001",
+      "grandmaster": "48210bfffe7e770e",
+      "domain": 0,
+      "clock_class": 248,
+      "utc_offset": 37
+    },
+    {
+      "source": "48210bfffe7e770e0001",
+      "grandmaster": "48210bfffe7e770e",
+      "domain": 0,
+      "clock_class": 248,
+      "utc_offset": 37
+    },
+    {
+      "source": "48210bfffe7e770e0001",
+      "grandmaster": "48210bfffe7e770e",
+      "domain": 0,
+      "clock_class": 248,
+      "utc_offset": 37
+    },
+    {
+      "source": "48210bfffe7e770e0001",
+      "grandmaster": "48210bfffe7e770e",
+      "domain": 0,
+      "clock_class": 248,
+      "utc_offset": 37
+    }
+  ],
+  "matched_sync_followups": 89,
+  "two_step_sync_without_captured_followup": 0,
+  "followup_delay_max_ms": 0.084306,
+  "origin_vs_capture_max_abs_us": 31.823,
+  "host_step_max_abs_ms": 0.009879,
+  "host_unhealthy_samples": 0,
+  "observed_anomalies": [],
+  "limitations": "Capture boundary may lose pair members. Sequence jumps can reflect capture loss: inspect tcpdump.log. Source count alone does not prove competing masters. NIC capture does not prove sensor-side receipt or identify a past HMS onset."
+}

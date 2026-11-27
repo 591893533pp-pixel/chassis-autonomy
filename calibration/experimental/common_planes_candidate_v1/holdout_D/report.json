@@ -1,0 +1,110 @@
+{
+  "status": "RELATIVE_CHECKS_PASS_REVIEW_REQUIRED",
+  "checks_passed": true,
+  "deployed": false,
+  "calibrated": false,
+  "scope": "Static relative LiDAR extrinsics only; no internal, body-anchor, IMU or dynamic timing calibration.",
+  "candidate_sha256": "dc1c200895777138dc54c426c59988070ea1b4abfbd12a0197861133df4bea96",
+  "validator_sha256": "46b56f3451d723f4c7a2635c538a2fc8dd21ce19bb803c26a7c2c55b16336b9b",
+  "freeze": {
+    "frozen_at": "2026-11-25T16:47:08.638642+08:00",
+    "fresh_holdout": "corner_20261125_02/D",
+    "rule": "Validate frozen transform without refitting or selecting on D. Preserve original rejected fit.",
+    "sha256": {
+      "标定稳定性复核_20261125/common_planes_candidate_v1/candidate.json": "dc1c200895777138dc54c426c59988070ea1b4abfbd12a0197861133df4bea96",
+      "标定稳定性复核_20261125/common_planes_candidate_v1/seed_stability.json": "05d85ef6b4c2ab7dd1f4502f2bcfbba9a83fcc296090e7989fa77fca1922d72b",
+      "标定稳定性复核_20261125/fit_common_planes_candidate.py": "bfd0fdb227705d303b9fd0b209c65894fdfe5a17b50158b868f3b8e64fec3fa3",
+      "标定稳定性复核_20261125/audit_planes.py": "d05d046cb8b03d5d10ca4b5740ec6cc4d01153956415e6e1dc0dcc1c5a04b1c9",
+      "双雷达标定工具/config/settings.json": "297fbabb9972016a3b78d960df517f046eb3fabc71cedd5a590c61f870af7037",
+      "双雷达标定工具/config/initial_body_estimate.json": "4403e8973e9aaaf995374746946c79073717b2b5b260f4b5e691dad0fa197df1"
+    }
+  },
+  "holdout": "corner_20261125_02/D",
+  "evidence_sha256": {
+    "rear_right.npz": "7e81d8854f5b5191beef38f81f0614a5b39647ffe3bafb410abb6f06471af45d",
+    "metadata.json": "6611abba3d4849c3b9a3e4dceeb222c593de9e7149362aee6e6fa65311858729",
+    "diagnostics.json": "25bbc7cbc09678fefdc1949748702e3103d4ad060d3fc341536f3fa5ac51d9aa",
+    "front_left.npz": "09c35e65264e00fedd7fa3607fe38cbe848096d53c7c3c7a6ee792acfecd5a7e"
+  },
+  "pose_note": "D：用户手柄移到新位置并确认停稳、双扳机退出，用于冻结候选后的独立复核；具体位移未测量",
+  "static_review": {
+    "policy": "stationary_geometry_history_review_v1",
+    "scope": "stationary relative geometry only; NOT navigation/PTP system acceptance",
+    "eligible": true,
+    "warnings": [
+      "front_left:保留0x04050002历史同步告警",
+      "rear_right:保留0x04050002历史同步告警"
+    ],
+    "errors": [],
+    "note": "Historical warning onset and root cause remain unknown. Existing capture recorded no host/stream/cleanup failures beyond the exact HMS warning. Point-cloud stationarity and independent-scene validation are still required."
+  },
+  "T_rear_right_from_front_left": [
+    [
+      -0.6324384926164127,
+      0.0024777886007321124,
+      0.774606618626984,
+      0.36835980466809687
+    ],
+    [
+      -0.00259420634544142,
+      -0.9999960511029163,
+      0.0010806812715295688,
+      -0.007949043747421697
+    ],
+    [
+      0.7746062374849023,
+      -0.0013260249708980949,
+      0.6324424230768044,
+      -0.1928881337502181
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rpy_deg": [
+    -0.12013033955171536,
+    -50.769346336312935,
+    -179.76497913570418
+  ],
+  "baseline": {
+    "matched_planar_points": 20949,
+    "plane_rmse_m": 0.04340519335970976,
+    "plane_abs_p95_m": 0.08611072781244508,
+    "mutual_overlap_within_10cm": 0.4653042243253774
+  },
+  "candidate": {
+    "matched_planar_points": 21008,
+    "plane_rmse_m": 0.020136166063574046,
+    "plane_abs_p95_m": 0.03943767444073732,
+    "mutual_overlap_within_10cm": 0.483930972939683
+  },
+  "correction_translation_m": 0.0233083310067321,
+  "correction_rotation_deg": 1.158199525333649,
+  "normalized_information_eigenvalues": [
+    0.04800708919149656,
+    0.2590709058885111,
+    0.3521632331184035,
+    1.0391312331867415,
+    1.4594106706592611,
+    2.842216867955594
+  ],
+  "training_scene_difference": {
+    "translation_m": 0.007108917097189571,
+    "rotation_deg": 0.21133930095747283
+  },
+  "limits": {
+    "min_matches": 1500,
+    "max_plane_rmse_m": 0.025,
+    "max_plane_p95_m": 0.05,
+    "min_normalized_information_eigenvalue": 0.015,
+    "max_initial_correction_angle_deg": 8,
+    "max_initial_correction_translation_m": 0.15,
+    "max_trial_translation_spread_m": 0.01,
+    "max_trial_rotation_spread_deg": 0.3,
+    "min_mutual_overlap": 0.15
+  },
+  "reasons": []
+}

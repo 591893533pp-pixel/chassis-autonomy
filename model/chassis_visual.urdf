@@ -1,0 +1,1308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="chassis_id_me">
+  <link name="cad_01">
+    <inertial>
+      <mass value="0.9" />
+      <origin xyz="0.00144300067888767 -0.00144319965141337 8.79193143184075e-07" rpy="0 -0 0" />
+      <inertia ixx="0.00213738070396628" ixy="-0.000664945274612162" ixz="-3.98137982698026e-09" iyy="0.00213738025361617" iyz="6.4549405327691e-09" izz="0.00147241640642173" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.178282 0.178282 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/_01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_01_1">
+    <inertial>
+      <mass value="0.9" />
+      <origin xyz="0.00144272527232577 -0.00144352948912472 4.19456804408302e-07" rpy="0 -0 0" />
+      <inertia ixx="0.00213738754466338" ixy="-0.000664945274599676" ixz="1.25289514500855e-09" iyy="0.00213737341295093" iyz="1.22073654675091e-09" izz="0.00147241640638987" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.178282 0.178282 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/_01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_01_2">
+    <inertial>
+      <mass value="0.9" />
+      <origin xyz="0.0014435796453737 -0.00144327909271699 4.19456804408302e-07" rpy="0 -0 0" />
+      <inertia ixx="0.00213738048669541" ixy="-0.000664945274637217" ixz="1.25290162365899e-09" iyy="0.00213738047091891" iyz="1.22072989739418e-09" izz="0.00147241640638987" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.178282 0.178282 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/_01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_01_3">
+    <inertial>
+      <mass value="0.9" />
+      <origin xyz="0.00144319677376948 -0.00144339574703957 6.59101933165376e-07" rpy="0 -0 0" />
+      <inertia ixx="0.00213738070399713" ixy="-0.000664945274630488" ixz="2.92709673961036e-09" iyy="0.00213738025362197" iyz="-4.53533694438049e-10" izz="0.00147241640638508" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.178282 0.178282 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/_01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_4005">
+    <inertial>
+      <mass value="0.0106920964372274" />
+      <origin xyz="0.00176821572609077 -0.00176766637561036 3.46944695195361e-17" rpy="0 -0 0" />
+      <inertia ixx="4.2221631867821e-06" ixy="-1.39253418490675e-06" ixz="0" iyy="4.2221427265274e-06" iyz="0" izz="2.82961877171043e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.160605 0.160605 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/_4005.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_4005_1">
+    <inertial>
+      <mass value="0.0106920964372274" />
+      <origin xyz="0.0017680930020321 -0.00176759300203219 4.85722573273506e-17" rpy="0 -0 0" />
+      <inertia ixx="4.22215295665475e-06" ixy="-1.39253418494432e-06" ixz="0" iyy="4.22215295665475e-06" iyz="0" izz="2.82961877171043e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.160605 0.160605 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/_4005.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_4005_2">
+    <inertial>
+      <mass value="0.0106920964372274" />
+      <origin xyz="0.00176818166008445 -0.00176764600847714 4.85722573273506e-17" rpy="0 -0 0" />
+      <inertia ixx="4.22216034708375e-06" ixy="-1.39253418492471e-06" ixz="0" iyy="4.22214556622575e-06" iyz="0" izz="2.82961877171043e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.160605 0.160605 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/_4005.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_4005_3">
+    <inertial>
+      <mass value="0.0106920964372274" />
+      <origin xyz="0.00176797027824285 -0.00176751962800312 6.93889390390723e-18" rpy="0 -0 0" />
+      <inertia ixx="4.2221427265274e-06" ixy="-1.39253418490675e-06" ixz="0" iyy="4.2221631867821e-06" iyz="0" izz="2.82961877171043e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.160605 0.160605 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/_4005.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_batt_id_u">
+    <inertial>
+      <mass value="0.187608325485242" />
+      <origin xyz="0.045040398666649 -0.112009360418766 0.00949114004097011" rpy="0 -0 0" />
+      <inertia ixx="0.000684298905938548" ixy="1.74184266302959e-07" ixz="1.89468945671736e-05" iyy="0.000540859406797925" iyz="-1.72923083887482e-08" izz="0.00121017281934295" />
+    </inertial>
+    <visual>
+      <origin xyz="0.225 -0.112 -0.2255" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/BATT_ID_U.stl" scale="1 1 1" />
+      </geometry>
+      <material name="1.000000_0.756863_0.054902_0.000000_0.000000">
+        <color rgba="1 0.756863 0.054902 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_batt_id_u_1">
+    <inertial>
+      <mass value="0.517846162154786" />
+      <origin xyz="0.0094671134524739 -0.112078116279071 -0.0185233364871332" rpy="0 -0 0" />
+      <inertia ixx="0.00309339197284472" ixy="-4.73932459905301e-06" ixz="2.59344205368877e-05" iyy="0.0026710411591339" iyz="2.06390562808629e-06" izz="0.00478136201808202" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.174 -0.112 -0.18475" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/BATT_ID_U_1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="1.000000_0.756863_0.054902_0.000000_0.000000">
+        <color rgba="1 0.756863 0.054902 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_batt_id_u_2">
+    <inertial>
+      <mass value="0.187605169760735" />
+      <origin xyz="-0.0450405407396182 -0.11200853329059 0.00949124473103749" rpy="0 -0 0" />
+      <inertia ixx="0.000684277268651976" ixy="-1.7066181289171e-07" ixz="-1.89436414904666e-05" iyy="0.000540859828662464" iyz="-7.50733888249194e-09" izz="0.00121015254210638" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.225 -0.112 -0.2255" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/BATT_ID_U_2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="1.000000_0.756863_0.054902_0.000000_0.000000">
+        <color rgba="1 0.756863 0.054902 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_batt_id_u_3">
+    <inertial>
+      <mass value="0.517852375071672" />
+      <origin xyz="-0.00946771617211687 0.111921181495858 -0.0185241246086386" rpy="0 -0 0" />
+      <inertia ixx="0.00309340969371677" ixy="4.74640226404551e-06" ixz="-2.59392191944414e-05" iyy="0.00267105361281317" iyz="2.13241015636233e-06" izz="0.00478138926011359" />
+    </inertial>
+    <visual>
+      <origin xyz="0.174 0.112 -0.18475" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/BATT_ID_U_3.stl" scale="1 1 1" />
+      </geometry>
+      <material name="1.000000_0.756863_0.054902_0.000000_0.000000">
+        <color rgba="1 0.756863 0.054902 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_batt_sm_l">
+    <inertial>
+      <mass value="1.14977191038427" />
+      <origin xyz="-0.015291421794045 0.168175142511602 0.0703328746245927" rpy="0 -0 0" />
+      <inertia ixx="0.0137933201713451" ixy="5.70101274882538e-07" ixz="1.6214315585626e-05" iyy="0.00424378543393185" iyz="1.194162928679e-06" izz="0.0135090716082312" />
+    </inertial>
+    <visual>
+      <origin xyz="0.11482 0.168206 -0.134" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/BATT_SM_L.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_batt_sm_r">
+    <inertial>
+      <mass value="1.1497719459529" />
+      <origin xyz="0.0152914220200072 -0.168236860555429 0.0703328729385296" rpy="0 -0 0" />
+      <inertia ixx="0.0137933205463221" ixy="-5.70046185209726e-07" ixz="-1.62143008571849e-05" iyy="0.00424378557492304" iyz="1.19395953665695e-06" izz="0.0135090719017012" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.11482 -0.168206 -0.134" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/BATT_SM_R.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_cahssis_s_d">
+    <inertial>
+      <mass value="0.822143736142135" />
+      <origin xyz="0.0892012807011451 -0.137422230951433 -0.0352097775491638" rpy="0 -0 0" />
+      <inertia ixx="0.0238353503855779" ixy="-1.13701258348237e-05" ixz="1.94238543052026e-07" iyy="0.0193410787528787" iyz="2.20732711858255e-05" izz="0.0407794583546486" />
+    </inertial>
+    <visual>
+      <origin xyz="0.089232 -0.138729 -0.124" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/CAHSSIS_S_D.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.874510_0.874510_0.874510_0.000000_0.000000">
+        <color rgba="0.87451 0.87451 0.87451 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_cahssis_s_u">
+    <inertial>
+      <mass value="0.512217824063396" />
+      <origin xyz="-0.0712186032039659 -0.146572130330568 0.0842519519910296" rpy="0 -0 0" />
+      <inertia ixx="0.0096241878411377" ixy="-0.00457626134713607" ixz="2.75604644550661e-05" iyy="0.00871879766701669" iyz="0.000735608678191238" izz="0.0168187132805744" />
+    </inertial>
+    <visual>
+      <origin xyz="-4.10262e-15 -0.254 -0.17" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/CAHSSIS_S_U.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.874510_0.874510_0.874510_0.000000_0.000000">
+        <color rgba="0.87451 0.87451 0.87451 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_cahssis_s_u_1">
+    <inertial>
+      <mass value="0.500223433126042" />
+      <origin xyz="0.0727794415058568 0.144189970300409 0.0839802647758241" rpy="0 -0 0" />
+      <inertia ixx="0.00931380675056151" ixy="-0.00449390917723553" ixz="-3.89260779053621e-05" iyy="0.00848308589398217" iyz="-0.000714822221861958" izz="0.0163120716910581" />
+    </inertial>
+    <visual>
+      <origin xyz="4.16334e-17 0.254 -0.17" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/CAHSSIS_S_U_1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.874510_0.874510_0.874510_0.000000_0.000000">
+        <color rgba="0.87451 0.87451 0.87451 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_chassis_base">
+    <inertial>
+      <mass value="7.18771079716414" />
+      <origin xyz="-4.73366479352279e-07 0.00633559470686881 0.102829324960963" rpy="0 -0 0" />
+      <inertia ixx="0.0757102554265336" ixy="3.31221349017483e-07" ixz="-1.84312923026977e-07" iyy="0.0904390190493862" iyz="0.00338172857079699" izz="0.151731553179106" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/CHASSIS_BASE.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_mid_360">
+    <inertial>
+      <mass value="0.265" />
+      <origin xyz="-0.0354513039917123 0.00998628047304205 0.00874831185573148" rpy="0 -0 0" />
+      <inertia ixx="0.000136852245423006" ixy="8.97428934174675e-06" ixz="-7.08370229234398e-06" iyy="0.00013684116973028" iyz="7.03549646069624e-06" izz="0.000138524910730346" />
+    </inertial>
+    <visual>
+      <origin xyz="0.107407 -0.132863 -0.278594" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/MID_360.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.768627_0.886275_0.952941_0.000000_0.000000">
+        <color rgba="0.768627 0.886275 0.952941 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_mid_360_1">
+    <inertial>
+      <mass value="0.265" />
+      <origin xyz="0.0354514497802001 -0.00998718218304713 0.00874830088781494" rpy="0 -0 0" />
+      <inertia ixx="0.000136852287901894" ixy="8.97428415388973e-06" ixz="7.08368479542018e-06" iyy="0.00013684112813342" iyz="-7.035515619127e-06" izz="0.000138524914457977" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.107407 0.132863 -0.278594" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/MID_360_1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.768627_0.886275_0.952941_0.000000_0.000000">
+        <color rgba="0.768627 0.886275 0.952941 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_mid_360_rack">
+    <inertial>
+      <mass value="0.268269780305536" />
+      <origin xyz="0.0371878411342135 -0.010615107789982 0.0679388490309157" rpy="0 -0 0" />
+      <inertia ixx="0.000702562144035339" ixy="1.51043467646068e-06" ixz="-9.83562554747361e-06" iyy="0.000685429991176346" iyz="-0.000108018666019892" izz="0.000169487033148978" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.128962 0.162348 -0.136" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/MID_360_RACK.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.650980_0.486275_0.019608_0.000000_0.000000">
+        <color rgba="0.65098 0.486275 0.0196078 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_mid_360_rack_1">
+    <inertial>
+      <mass value="0.268269780305536" />
+      <origin xyz="0.037188523660227 0.0093856512837344 0.0679388490309158" rpy="0 -0 0" />
+      <inertia ixx="0.0007025621299771" ixy="1.51051440240695e-06" ixz="-9.83512287280555e-06" iyy="0.000685430005234623" iyz="-0.00010801871178969" izz="0.000169487033148978" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.128962 0.182348 -0.136" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/MID_360_RACK.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.650980_0.486275_0.019608_0.000000_0.000000">
+        <color rgba="0.65098 0.486275 0.0196078 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_part_1">
+    <inertial>
+      <mass value="0.0239183447199206" />
+      <origin xyz="0.00750067718620759 0.0254192966996076 5.08921400174916e-07" rpy="0 -0 0" />
+      <inertia ixx="1.3041484542129e-05" ixy="2.07771443881291e-07" ixz="3.54382216743237e-13" iyy="1.20100663973952e-06" iyz="3.15282978107724e-11" izz="1.27360441928426e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 -0.022 0" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/Part_1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.647059_0.647059_0.647059_0.000000_0.000000">
+        <color rgba="0.647059 0.647059 0.647059 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_part_1_1">
+    <inertial>
+      <mass value="0.0239183447199206" />
+      <origin xyz="0.00750067829504908 0.0254194377387214 -7.19699304383643e-07" rpy="0 -0 0" />
+      <inertia ixx="1.30414873390435e-05" ixy="2.07691733322575e-07" ixz="-1.2664499055328e-12" iyy="1.20100384282012e-06" iyz="3.04258276461021e-11" izz="1.27360441928475e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 -0.022 0" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/Part_1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.647059_0.647059_0.647059_0.000000_0.000000">
+        <color rgba="0.647059 0.647059 0.647059 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_part_1_2">
+    <inertial>
+      <mass value="0.0239183447199206" />
+      <origin xyz="-0.000998228608196449 0.0394181693068075 1.03813284191398e-07" rpy="0 -0 0" />
+      <inertia ixx="1.30414917467433e-05" ixy="2.07566054051983e-07" ixz="6.46002569519697e-13" iyy="1.20099943512101e-06" iyz="-3.02414705873915e-11" izz="1.27360441928468e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.0085 -0.008 -1.86261e-18" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/Part_1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.647059_0.647059_0.647059_0.000000_0.000000">
+        <color rgba="0.647059 0.647059 0.647059 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_part_1_3">
+    <inertial>
+      <mass value="0.0239183447199206" />
+      <origin xyz="-0.000168900971480047 0.0394181751075366 1.03813299528398e-07" rpy="0 -0 0" />
+      <inertia ixx="1.30414884412221e-05" ixy="2.07660313451522e-07" ixz="6.46249767275003e-13" iyy="1.20100274064226e-06" iyz="-3.02414610579815e-11" izz="1.27360441928468e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.0076703 -0.008 4.53227e-19" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/Part_1.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.647059_0.647059_0.647059_0.000000_0.000000">
+        <color rgba="0.647059 0.647059 0.647059 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_part_2">
+    <inertial>
+      <mass value="0.00221750425871585" />
+      <origin xyz="-2.11568034842717e-07 0.00314929775516968 -0.00950000000000015" rpy="0 -0 0" />
+      <inertia ixx="1.71050081503525e-07" ixy="-5.93147722641435e-14" ixz="-5.4114289380219e-48" iyy="1.87198041852205e-07" iyz="3.37849751864178e-48" izz="4.95011254731614e-08" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.0085 0 -0.0095" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/Part_2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.647059_0.647059_0.647059_0.000000_0.000000">
+        <color rgba="0.647059 0.647059 0.647059 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_part_2_1">
+    <inertial>
+      <mass value="0.00221750425871585" />
+      <origin xyz="-2.53094742289514e-07 0.00314928315971585 -0.00950000000000017" rpy="0 -0 0" />
+      <inertia ixx="1.71050081503954e-07" ixy="-1.0216483122481e-13" ixz="4.37364350605187e-29" iyy="1.87198041851777e-07" iyz="8.94951533105701e-29" izz="4.95011254731614e-08" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.0085 0 -0.0095" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/Part_2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.647059_0.647059_0.647059_0.000000_0.000000">
+        <color rgba="0.647059 0.647059 0.647059 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_part_2_2">
+    <inertial>
+      <mass value="0.00221750425871585" />
+      <origin xyz="-1.15680504221184e-08 0.00314927254677853 -0.00950002295165497" rpy="0 -0 0" />
+      <inertia ixx="1.71050081502669e-07" ixy="-5.93156243556965e-14" ixz="-3.22540911697878e-13" iyy="1.87198041851235e-07" iyz="-3.65392316635523e-13" izz="4.95011254749869e-08" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.0085 0 -0.0095" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/Part_2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.647059_0.647059_0.647059_0.000000_0.000000">
+        <color rgba="0.647059 0.647059 0.647059 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_part_2_3">
+    <inertial>
+      <mass value="0.00221750425871585" />
+      <origin xyz="2.99588333494501e-08 0.00314925795210508 -0.00950002295172641" rpy="0 -0 0" />
+      <inertia ixx="1.71050081502468e-07" ixy="-1.64655615905947e-14" ixz="-3.22541025374481e-13" iyy="1.87198041851437e-07" iyz="-3.65392430342546e-13" izz="4.95011254749869e-08" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.0085 0 -0.0095" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/Part_2.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.647059_0.647059_0.647059_0.000000_0.000000">
+        <color rgba="0.647059 0.647059 0.647059 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_part_51">
+    <inertial>
+      <mass value="0.0161836958164534" />
+      <origin xyz="-0.00496306443121422 0.00636309630014663 -1.64974946880075e-16" rpy="0 -0 0" />
+      <inertia ixx="1.93190636570208e-06" ixy="3.44431502649668e-08" ixz="-5.22643903873325e-30" iyy="3.35421253760912e-06" iyz="-4.93368386031804e-28" izz="1.92087893269071e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.139041 -0.115 -0.18475" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/Part_51.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+        <color rgba="0.917647 0.917647 0.917647 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_part_51_1">
+    <inertial>
+      <mass value="0.0161836958164534" />
+      <origin xyz="-0.00496304754615087 0.00636290947003774 1.68845517923125e-08" rpy="0 -0 0" />
+      <inertia ixx="1.93190654850807e-06" ixy="3.44469244811663e-08" ixz="9.14080072117184e-14" iyy="3.35421235479304e-06" iyz="3.80347893919996e-12" izz="1.9208789327008e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.139041 -0.115 -0.18475" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/Part_51.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+        <color rgba="0.917647 0.917647 0.917647 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_part_51_2">
+    <inertial>
+      <mass value="0.0161836958164534" />
+      <origin xyz="-0.00496306443071206 0.00636289630015574 1.68845168170924e-08" rpy="0 -0 0" />
+      <inertia ixx="1.93190636570207e-06" ixy="3.44431502645106e-08" ixz="9.13979919804872e-14" iyy="3.35421253759904e-06" iyz="3.80347942394103e-12" izz="1.9208789327008e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.139041 -0.115 -0.18475" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/Part_51.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+        <color rgba="0.917647 0.917647 0.917647 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_part_51_3">
+    <inertial>
+      <mass value="0.0161836958164534" />
+      <origin xyz="-0.00496304754617793 0.00636310947009289 -1.38777878078145e-16" rpy="0 -0 0" />
+      <inertia ixx="1.93190654850807e-06" ixy="3.44469244812875e-08" ixz="0" iyy="3.35421235480314e-06" iyz="0" izz="1.92087893269071e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.139041 -0.115 -0.18475" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/Part_51.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.917647_0.917647_0.917647_0.000000_0.000000">
+        <color rgba="0.917647 0.917647 0.917647 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_root" />
+  <link name="cad_rs02">
+    <inertial>
+      <mass value="0.38" />
+      <origin xyz="-0.0131929025059175 0.0132169662170268 -1.02842176236823e-06" rpy="0 -0 0" />
+      <inertia ixx="0.000224872374896496" ixy="-4.00327881648968e-05" ixz="1.49915389398321e-08" iyy="0.000224791967976548" iyz="2.02348859739118e-08" izz="0.000185312948768713" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.156716 0.156716 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/RS02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.301961_0.290196_0.262745_0.000000_0.000000">
+        <color rgba="0.301961 0.290196 0.262745 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_rs02_1">
+    <inertial>
+      <mass value="0.38" />
+      <origin xyz="-0.0131929559027949 0.0132171088311588 -1.02842176236823e-06" rpy="0 -0 0" />
+      <inertia ixx="0.000224872080799211" ixy="-4.00327884591676e-05" ixz="1.49916132666174e-08" iyy="0.000224792262073833" iyz="2.0234830906778e-08" izz="0.000185312948768713" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.156716 0.156716 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/RS02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.301961_0.290196_0.262745_0.000000_0.000000">
+        <color rgba="0.301961 0.290196 0.262745 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_rs02_2">
+    <inertial>
+      <mass value="0.38" />
+      <origin xyz="-0.0131929173279775 0.0132170058041111 -1.02842176236823e-06" rpy="0 -0 0" />
+      <inertia ixx="0.000224872293260408" ixy="-4.00327882467977e-05" ixz="1.49915595716238e-08" iyy="0.000224792049612636" iyz="2.02348706882987e-08" izz="0.000185312948768713" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.156716 0.156716 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/RS02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.301961_0.290196_0.262745_0.000000_0.000000">
+        <color rgba="0.301961 0.290196 0.262745 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_rs02_3">
+    <inertial>
+      <mass value="0.38" />
+      <origin xyz="-0.0131930092991484 0.0132172514454869 -1.02842176239598e-06" rpy="0 -0 0" />
+      <inertia ixx="0.000224871786701924" ixy="-4.00327887512779e-05" ixz="1.49916875932004e-08" iyy="0.00022479255617112" iyz="2.02347758393711e-08" izz="0.000185312948768713" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.156716 0.156716 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/RS02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.301961_0.290196_0.262745_0.000000_0.000000">
+        <color rgba="0.301961 0.290196 0.262745 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_back">
+    <inertial>
+      <mass value="0.11085158902572" />
+      <origin xyz="-0.0084621229540299 0.00852954297777478 0.00223410000974532" rpy="0 -0 0" />
+      <inertia ixx="9.69692141150434e-05" ixy="-2.42447840284252e-05" ixz="-3.8893409691554e-06" iyy="9.68614519824596e-05" iyz="3.17530467898058e-06" izz="7.2145938616062e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.136917 0.136917 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_BACK.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_back_1">
+    <inertial>
+      <mass value="0.11085158902572" />
+      <origin xyz="-0.0084621208428847 0.00852974094046901 0.00223410000974533" rpy="0 -0 0" />
+      <inertia ixx="9.69690360029131e-05" ixy="-2.42447844236034e-05" ixz="-3.88932930558382e-06" iyy="9.68616300945899e-05" iyz="3.17531896530625e-06" izz="7.2145938616062e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.136917 0.136917 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_BACK.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_back_2">
+    <inertial>
+      <mass value="0.11085158902572" />
+      <origin xyz="-0.00846212236808708 0.00852959792863948 0.00223410000974533" rpy="0 -0 0" />
+      <inertia ixx="9.69691646743373e-05" ixy="-2.42447841382507e-05" ixz="-3.88933773156412e-06" iyy="9.68615014231656e-05" iyz="3.17530864461052e-06" izz="7.2145938616062e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.136917 0.136917 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_BACK.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_back_3">
+    <inertial>
+      <mass value="0.11085158902572" />
+      <origin xyz="-0.00846211873101253 0.00852993890315563 0.00223410000974529" rpy="0 -0 0" />
+      <inertia ixx="9.69688578907799e-05" ixy="-2.42447848174731e-05" ixz="-3.88931764195974e-06" iyy="9.68618082067231e-05" iyz="3.17533325158909e-06" izz="7.2145938616062e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.136917 0.136917 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_BACK.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_base">
+    <inertial>
+      <mass value="0.209815906097288" />
+      <origin xyz="-0.0302851225536269 -0.0231009049256514 -0.0384514451338454" rpy="0 -0 0" />
+      <inertia ixx="0.000283809129648953" ixy="-8.37045473225003e-05" ixz="1.97325805886656e-06" iyy="0.000283807898400027" iyz="-1.97323941646657e-06" izz="0.000215078413335927" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.182348 0.128962 -0.124" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_BASE.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_base_1">
+    <inertial>
+      <mass value="0.209815906097288" />
+      <origin xyz="-0.0302852074077844 -0.0231007936820289 -0.0384514451338454" rpy="0 -0 0" />
+      <inertia ixx="0.000283808514721012" ixy="-8.37045473247641e-05" ixz="1.97325081074015e-06" iyy="0.000283808513327968" iyz="-1.97324666463483e-06" izz="0.000215078413335927" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.182348 0.128962 -0.124" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_BASE.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_base_2">
+    <inertial>
+      <mass value="0.209815906097288" />
+      <origin xyz="-0.0302851461076474 -0.0231008740464648 -0.0384514451338454" rpy="0 -0 0" />
+      <inertia ixx="0.000283808958956077" ixy="-8.37045473235815e-05" ixz="1.97325604692041e-06" iyy="0.000283808069092903" iyz="-1.97324142842967e-06" izz="0.000215078413335927" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.182348 0.128962 -0.124" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_BASE.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_base_3">
+    <inertial>
+      <mass value="0.209815906097288" />
+      <origin xyz="-0.0302852922615333 -0.0231006824380946 -0.0384514451338454" rpy="0 -0 0" />
+      <inertia ixx="0.000283807899793071" ixy="-8.37045473225105e-05" ixz="1.97324356258712e-06" iyy="0.000283809128255909" iyz="-1.97325391277647e-06" izz="0.000215078413335927" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.182348 0.128962 -0.124" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_BASE.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_con">
+    <inertial>
+      <mass value="0.0186299900109797" />
+      <origin xyz="0.00215314061412701 -0.0021525962278557 4.16333634234434e-17" rpy="0 -0 0" />
+      <inertia ixx="2.96763903776737e-06" ixy="-9.44403323402851e-07" ixz="0" iyy="2.9676251618189e-06" iyz="0" izz="2.02322877636493e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.159544 0.159544 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_CON.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.768627_0.886275_0.952941_0.000000_0.000000">
+        <color rgba="0.768627 0.886275 0.952941 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_con_1">
+    <inertial>
+      <mass value="0.0186299900109797" />
+      <origin xyz="0.00215302037216827 -0.0021525203721684 4.85722573273506e-17" rpy="0 -0 0" />
+      <inertia ixx="2.96763209979315e-06" ixy="-9.44403323428335e-07" ixz="0" iyy="2.96763209979311e-06" iyz="0" izz="2.02322877636493e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.159544 0.159544 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_CON.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.768627_0.886275_0.952941_0.000000_0.000000">
+        <color rgba="0.768627 0.886275 0.952941 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_con_2">
+    <inertial>
+      <mass value="0.0186299900109797" />
+      <origin xyz="0.00215310723710581 -0.00215257517173296 4.85722573273506e-17" rpy="0 -0 0" />
+      <inertia ixx="2.96763711191119e-06" ixy="-9.44403323415035e-07" ixz="0" iyy="2.96762708767507e-06" iyz="0" izz="2.02322877636493e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.159544 0.159544 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_CON.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.768627_0.886275_0.952941_0.000000_0.000000">
+        <color rgba="0.768627 0.886275 0.952941 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_con_3">
+    <inertial>
+      <mass value="0.0186299900109797" />
+      <origin xyz="0.00215290013048816 -0.00215244451603933 1.38777878078145e-17" rpy="0 -0 0" />
+      <inertia ixx="2.96762516181894e-06" ixy="-9.44403323402851e-07" ixz="0" iyy="2.96763903776733e-06" iyz="0" izz="2.02322877636493e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.159544 0.159544 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_CON.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.768627_0.886275_0.952941_0.000000_0.000000">
+        <color rgba="0.768627 0.886275 0.952941 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_drv">
+    <inertial>
+      <mass value="0.059594534089215" />
+      <origin xyz="0.00677561618113198 -0.00677500407101071 0" rpy="0 -0 0" />
+      <inertia ixx="9.54588018598516e-06" ixy="-1.80332161319125e-06" ixz="0" iyy="9.54585369010455e-06" iyz="0" izz="7.74254532480493e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.16414 0.16414 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_DRV.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.498039_0.498039_0.498039_0.000000_0.000000">
+        <color rgba="0.498039 0.498039 0.498039 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_drv_1">
+    <inertial>
+      <mass value="0.059594534089215" />
+      <origin xyz="0.00677546207731045 -0.00677496207731063 2.08166817117217e-17" rpy="0 -0 0" />
+      <inertia ixx="9.54586693804485e-06" ixy="-1.80332161323991e-06" ixz="0" iyy="9.54586693804485e-06" iyz="0" izz="7.74254532480493e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.16414 0.16414 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_DRV.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.498039_0.498039_0.498039_0.000000_0.000000">
+        <color rgba="0.498039 0.498039 0.498039 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_drv_2">
+    <inertial>
+      <mass value="0.059594534089215" />
+      <origin xyz="0.00677557340468254 -0.00677499241437574 2.08166817117217e-17" rpy="0 -0 0" />
+      <inertia ixx="9.5458765085965e-06" ixy="-1.80332161321452e-06" ixz="0" iyy="9.5458573674932e-06" iyz="0" izz="7.74254532480493e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.16414 0.16414 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_DRV.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.498039_0.498039_0.498039_0.000000_0.000000">
+        <color rgba="0.498039 0.498039 0.498039 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_drv_3">
+    <inertial>
+      <mass value="0.059594534089215" />
+      <origin xyz="0.00677530797364308 -0.00677492008304444 -2.77555756156289e-17" rpy="0 -0 0" />
+      <inertia ixx="9.54585369010454e-06" ixy="-1.80332161319125e-06" ixz="0" iyy="9.54588018598516e-06" iyz="0" izz="7.74254532480493e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.16414 0.16414 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_DRV.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.498039_0.498039_0.498039_0.000000_0.000000">
+        <color rgba="0.498039 0.498039 0.498039 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_stop">
+    <inertial>
+      <mass value="0.00944271284944398" />
+      <origin xyz="0.00104206825073331 -0.00104139826159927 7.63278329429795e-17" rpy="0 -0 0" />
+      <inertia ixx="5.44864279436864e-06" ixy="-1.81157837927086e-06" ixz="0" iyy="5.44861617717285e-06" iyz="0" izz="3.63705110645101e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.16414 0.16414 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_STOP.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_stop_1">
+    <inertial>
+      <mass value="0.00944271284944398" />
+      <origin xyz="0.0010419352073667 -0.00104133520736682 4.85722573273506e-17" rpy="0 -0 0" />
+      <inertia ixx="5.44862948577074e-06" ixy="-1.81157837931975e-06" ixz="0" iyy="5.44862948577074e-06" iyz="0" izz="3.63705110645101e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.16414 0.16414 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_STOP.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_stop_2">
+    <inertial>
+      <mass value="0.00944271284944398" />
+      <origin xyz="0.00104203132027751 -0.00104138075893363 4.85722573273506e-17" rpy="0 -0 0" />
+      <inertia ixx="5.44863910014254e-06" ixy="-1.81157837929423e-06" ixz="0" iyy="5.44861987139895e-06" iyz="0" izz="3.63705110645101e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.16414 0.16414 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_STOP.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_wheel_mot_stop_3">
+    <inertial>
+      <mass value="0.00944271284944398" />
+      <origin xyz="0.00104180216423168 -0.00104127215264577 4.85722573273506e-17" rpy="0 -0 0" />
+      <inertia ixx="5.44861617717285e-06" ixy="-1.81157837927086e-06" ixz="0" iyy="5.44864279436864e-06" iyz="0" izz="3.63705110645101e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-0.16414 0.16414 -0.08" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/WHEEL_MOT_STOP.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="cad_yis320">
+    <inertial>
+      <mass value="0.012" />
+      <origin xyz="-3.78381493416981e-18 -0.0101151020778501 -0.00449929561326136" rpy="0 -0 0" />
+      <inertia ixx="5.88802923870957e-07" ixy="0" ixz="0" iyy="5.77563703131252e-07" iyz="1.98550777555537e-12" izz="1.00440608456743e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="-4.11997e-18 -0.01035 -0.009" rpy="0 -0 0" />
+      <geometry>
+        <mesh filename="package://chassis_id_me/meshes/YIS320.stl" scale="1 1 1" />
+      </geometry>
+      <material name="0.615686_0.811765_0.929412_0.000000_0.000000">
+        <color rgba="0.615686 0.811765 0.929412 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="cad_dof_wheel_front_left_inv" type="continuous">
+    <origin xyz="0.0141421 -0.0141421 4.16334e-17" rpy="0 -0 0" />
+    <axis xyz="0.707107 -0.707107 0" />
+    <parent link="cad_wheel_mot_drv_1" />
+    <child link="cad_01_2" />
+  </joint>
+  <joint name="cad_dof_wheel_front_right_inv" type="continuous">
+    <origin xyz="0.0141421 -0.0141421 4.85723e-17" rpy="1.5708 -0.785398 2.35619" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_wheel_mot_drv" />
+    <child link="cad_01" />
+  </joint>
+  <joint name="cad_dof_wheel_rear_left_inv" type="continuous">
+    <origin xyz="0.0141421 -0.0141421 2.08167e-17" rpy="1.5708 -0.785398 2.35619" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_wheel_mot_drv_3" />
+    <child link="cad_01_3" />
+  </joint>
+  <joint name="cad_dof_wheel_rear_right_inv" type="continuous">
+    <origin xyz="0.0141421 -0.0141421 4.16334e-17" rpy="0 -0 3.14159" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_wheel_mot_drv_2" />
+    <child link="cad_01_1" />
+  </joint>
+  <joint name="cad_fixed_node_to_root_joint" type="fixed">
+    <origin xyz="8.23994e-18 1.73472e-18 -0.04" rpy="0 -0 0" />
+    <axis xyz="0 0 1" />
+    <parent link="cad_root" />
+    <child link="cad_chassis_base" />
+  </joint>
+  <joint name="cad_frame_imu" type="fixed">
+    <origin xyz="-4.11997e-18 0.01035 0.049" rpy="0 -0 0" />
+    <axis xyz="-0 -0 1" />
+    <parent link="cad_chassis_base" />
+    <child link="cad_yis320" />
+  </joint>
+  <joint name="cad_紧固_1" type="fixed">
+    <origin xyz="-0.0256326 -0.0277539 -0.044" rpy="0 -0 0" />
+    <axis xyz="0.707107 -0.707107 0" />
+    <parent link="cad_wheel_mot_base" />
+    <child link="cad_rs02" />
+  </joint>
+  <joint name="cad_紧固_10" type="fixed">
+    <origin xyz="0.0125 0.0055 -0.0095" rpy="-3.14159 -3.79682e-42 1.5708" />
+    <axis xyz="0 -1 0" />
+    <parent link="cad_part_51_2" />
+    <child link="cad_part_2_3" />
+  </joint>
+  <joint name="cad_紧固_11" type="fixed">
+    <origin xyz="0.0125 0.0055 -0.0095" rpy="-3.14159 -2.09494e-43 1.5708" />
+    <axis xyz="0 -1 0" />
+    <parent link="cad_part_51_1" />
+    <child link="cad_part_2_2" />
+  </joint>
+  <joint name="cad_紧固_12" type="fixed">
+    <origin xyz="0.0125 0.0055 0.0095" rpy="-2.45359e-41 7.40742e-43 -1.5708" />
+    <axis xyz="0 -1 0" />
+    <parent link="cad_part_51_3" />
+    <child link="cad_part_2" />
+  </joint>
+  <joint name="cad_紧固_13" type="fixed">
+    <origin xyz="-0.0085 0.014 0" rpy="-3.14159 3.05437e-29 -1.5708" />
+    <axis xyz="-0 -1 2.73454e-16" />
+    <parent link="cad_part_1_2" />
+    <child link="cad_batt_id_u_3" />
+  </joint>
+  <joint name="cad_紧固_14" type="fixed">
+    <origin xyz="8.32667e-17 0.224 -5.55112e-17" rpy="-6.10381e-29 2.73454e-16 1.5708" />
+    <axis xyz="-1 0 0" />
+    <parent link="cad_batt_id_u_3" />
+    <child link="cad_part_1_1" />
+  </joint>
+  <joint name="cad_紧固_15" type="fixed">
+    <origin xyz="-0.0076703 0.014 0" rpy="-3.14159 1.04524e-29 1.5708" />
+    <axis xyz="-0 1 -2.73454e-16" />
+    <parent link="cad_part_1_3" />
+    <child link="cad_batt_id_u_1" />
+  </joint>
+  <joint name="cad_紧固_16" type="fixed">
+    <origin xyz="-5.55112e-17 -0.224 5.55112e-17" rpy="-2.46519e-32 -2.73454e-16 -1.5708" />
+    <axis xyz="-1 0 0" />
+    <parent link="cad_batt_id_u_1" />
+    <child link="cad_part_1" />
+  </joint>
+  <joint name="cad_紧固_17" type="fixed">
+    <origin xyz="0 0.00833827 -0.0095" rpy="3.14159 -2.46519e-32 3.14159" />
+    <axis xyz="-0 -1 -1.7792e-16" />
+    <parent link="cad_part_2_1" />
+    <child link="cad_part_1_2" />
+  </joint>
+  <joint name="cad_紧固_18" type="fixed">
+    <origin xyz="1.38778e-17 0.00833827 -0.0095" rpy="3.14159 -1.38102e-33 -3.14159" />
+    <axis xyz="-0 -1 -1.7792e-16" />
+    <parent link="cad_part_2" />
+    <child link="cad_part_1_3" />
+  </joint>
+  <joint name="cad_紧固_19" type="fixed">
+    <origin xyz="-0.051 0.224 0.04075" rpy="0 -0 1.58193e-44" />
+    <axis xyz="0 -1.23909e-16 -1" />
+    <parent link="cad_batt_id_u_3" />
+    <child link="cad_batt_id_u" />
+  </joint>
+  <joint name="cad_紧固_1_1" type="fixed">
+    <origin xyz="-0.0256326 -0.0277539 -0.044" rpy="0 -0 0" />
+    <axis xyz="0.707107 -0.707107 0" />
+    <parent link="cad_wheel_mot_base_1" />
+    <child link="cad_rs02_1" />
+  </joint>
+  <joint name="cad_紧固_1_2" type="fixed">
+    <origin xyz="-0.11482 -0.168206 0.134" rpy="0 -0 0" />
+    <axis xyz="5.04871e-29 1.22465e-16 -1" />
+    <parent link="cad_chassis_base" />
+    <child link="cad_batt_sm_l" />
+  </joint>
+  <joint name="cad_紧固_1_3" type="fixed">
+    <origin xyz="-0.0256326 -0.0277539 -0.044" rpy="0 -0 0" />
+    <axis xyz="0.707107 -0.707107 0" />
+    <parent link="cad_wheel_mot_base_3" />
+    <child link="cad_rs02_3" />
+  </joint>
+  <joint name="cad_紧固_1_4" type="fixed">
+    <origin xyz="-0.0256326 -0.0277539 -0.044" rpy="0 -0 0" />
+    <axis xyz="0.707107 -0.707107 0" />
+    <parent link="cad_wheel_mot_base_2" />
+    <child link="cad_rs02_2" />
+  </joint>
+  <joint name="cad_紧固_2" type="fixed">
+    <origin xyz="-0.019799 0.019799 2.08167e-17" rpy="5.55112e-17 -5.55112e-17 -1.11022e-16" />
+    <axis xyz="0.707107 -0.707107 0" />
+    <parent link="cad_rs02" />
+    <child link="cad_wheel_mot_back" />
+  </joint>
+  <joint name="cad_紧固_20" type="fixed">
+    <origin xyz="0.051 2.77556e-17 0.04075" rpy="0 0 -1.86384e-45" />
+    <axis xyz="0 -1.23909e-16 -1" />
+    <parent link="cad_batt_id_u_1" />
+    <child link="cad_batt_id_u_2" />
+  </joint>
+  <joint name="cad_紧固_21" type="fixed">
+    <origin xyz="0.01975 0.0502325 0.142594" rpy="0.0149983 -0.0143436 2.31158" />
+    <axis xyz="0.298836 -0.298836 -0.906308" />
+    <parent link="cad_mid_360_rack_1" />
+    <child link="cad_mid_360" />
+  </joint>
+  <joint name="cad_紧固_22" type="fixed">
+    <origin xyz="0.01975 0.0302325 0.142594" rpy="-0.0149983 0.0143436 -0.830015" />
+    <axis xyz="-0.298836 0.298836 -0.906308" />
+    <parent link="cad_mid_360_rack" />
+    <child link="cad_mid_360_1" />
+  </joint>
+  <joint name="cad_紧固_23" type="fixed">
+    <origin xyz="0.182348 -0.128962 0.124" rpy="0 -0 0" />
+    <axis xyz="0 0 1" />
+    <parent link="cad_chassis_base" />
+    <child link="cad_wheel_mot_base_1" />
+  </joint>
+  <joint name="cad_紧固_24" type="fixed">
+    <origin xyz="0.128962 0.182348 0.124" rpy="0 -0 1.5708" />
+    <axis xyz="0 0 1" />
+    <parent link="cad_chassis_base" />
+    <child link="cad_wheel_mot_base_3" />
+  </joint>
+  <joint name="cad_紧固_25" type="fixed">
+    <origin xyz="-0.182348 0.128962 0.124" rpy="0 -0 3.14159" />
+    <axis xyz="0 0 1" />
+    <parent link="cad_chassis_base" />
+    <child link="cad_wheel_mot_base_2" />
+  </joint>
+  <joint name="cad_紧固_26" type="fixed">
+    <origin xyz="-0.128962 -0.182348 0.124" rpy="0 0 -1.5708" />
+    <axis xyz="0 0 1" />
+    <parent link="cad_chassis_base" />
+    <child link="cad_wheel_mot_base" />
+  </joint>
+  <joint name="cad_紧固_27" type="fixed">
+    <origin xyz="-0.089232 0.138729 0.124" rpy="0 -0 0" />
+    <axis xyz="0 0 1" />
+    <parent link="cad_chassis_base" />
+    <child link="cad_cahssis_s_d" />
+  </joint>
+  <joint name="cad_紧固_28" type="fixed">
+    <origin xyz="0.089232 0.115271 0.046" rpy="0 -0 0" />
+    <axis xyz="0 0 -1" />
+    <parent link="cad_cahssis_s_d" />
+    <child link="cad_cahssis_s_u" />
+  </joint>
+  <joint name="cad_紧固_29" type="fixed">
+    <origin xyz="0.089232 -0.392729 0.046" rpy="0 -0 0" />
+    <axis xyz="0 0 -1" />
+    <parent link="cad_cahssis_s_d" />
+    <child link="cad_cahssis_s_u_1" />
+  </joint>
+  <joint name="cad_紧固_2_1" type="fixed">
+    <origin xyz="-0.019799 0.019799 1.38778e-17" rpy="0 0 -1.11022e-16" />
+    <axis xyz="0.707107 -0.707107 0" />
+    <parent link="cad_rs02_1" />
+    <child link="cad_wheel_mot_back_1" />
+  </joint>
+  <joint name="cad_紧固_2_2" type="fixed">
+    <origin xyz="0.11482 0.168206 0.134" rpy="0 -0 0" />
+    <axis xyz="4.68871e-29 1.22465e-16 -1" />
+    <parent link="cad_chassis_base" />
+    <child link="cad_batt_sm_r" />
+  </joint>
+  <joint name="cad_紧固_2_3" type="fixed">
+    <origin xyz="-0.019799 0.019799 4.85723e-17" rpy="5.55112e-17 -5.55112e-17 -1.11022e-16" />
+    <axis xyz="0.707107 -0.707107 0" />
+    <parent link="cad_rs02_3" />
+    <child link="cad_wheel_mot_back_3" />
+  </joint>
+  <joint name="cad_紧固_2_4" type="fixed">
+    <origin xyz="-0.019799 0.019799 0" rpy="0 0 -1.11022e-16" />
+    <axis xyz="0.707107 -0.707107 0" />
+    <parent link="cad_rs02_2" />
+    <child link="cad_wheel_mot_back_2" />
+  </joint>
+  <joint name="cad_紧固_3" type="fixed">
+    <origin xyz="0.00282843 -0.00282843 6.93889e-18" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_rs02" />
+    <child link="cad_wheel_mot_con" />
+  </joint>
+  <joint name="cad_紧固_3_1" type="fixed">
+    <origin xyz="0.00282843 -0.00282843 0" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_rs02_1" />
+    <child link="cad_wheel_mot_con_1" />
+  </joint>
+  <joint name="cad_紧固_3_2" type="fixed">
+    <origin xyz="0.00282843 -0.00282843 3.46945e-17" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_rs02_3" />
+    <child link="cad_wheel_mot_con_3" />
+  </joint>
+  <joint name="cad_紧固_3_3" type="fixed">
+    <origin xyz="0.00282843 -0.00282843 1.38778e-17" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_rs02_2" />
+    <child link="cad_wheel_mot_con_2" />
+  </joint>
+  <joint name="cad_紧固_3_4" type="fixed">
+    <origin xyz="0.0141421 -0.350555 0.002" rpy="-5.82772e-17 4.32978e-17 0.785398" />
+    <axis xyz="1.29893e-16 1.44873e-16 -1" />
+    <parent link="cad_batt_sm_r" />
+    <child link="cad_mid_360_rack_1" />
+  </joint>
+  <joint name="cad_紧固_4" type="fixed">
+    <origin xyz="0.00106066 -0.00106066 3.46945e-17" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_wheel_mot_con" />
+    <child link="cad_4005" />
+  </joint>
+  <joint name="cad_紧固_4_1" type="fixed">
+    <origin xyz="0.00106066 -0.00106066 0" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_wheel_mot_con_1" />
+    <child link="cad_4005_1" />
+  </joint>
+  <joint name="cad_紧固_4_2" type="fixed">
+    <origin xyz="0.00106066 -0.00106066 3.46945e-17" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_wheel_mot_con_3" />
+    <child link="cad_4005_3" />
+  </joint>
+  <joint name="cad_紧固_4_3" type="fixed">
+    <origin xyz="4.16334e-17 0.336412 0.002" rpy="-2.31468e-16 2.16489e-16 -2.35619" />
+    <axis xyz="1.29893e-16 1.44873e-16 -1" />
+    <parent link="cad_batt_sm_l" />
+    <child link="cad_mid_360_rack" />
+  </joint>
+  <joint name="cad_紧固_4_4" type="fixed">
+    <origin xyz="0.00106066 -0.00106066 1.38778e-17" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_wheel_mot_con_2" />
+    <child link="cad_4005_2" />
+  </joint>
+  <joint name="cad_紧固_5" type="fixed">
+    <origin xyz="-0.018208 -0.0351786 -0.044" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_wheel_mot_base" />
+    <child link="cad_wheel_mot_stop" />
+  </joint>
+  <joint name="cad_紧固_5_1" type="fixed">
+    <origin xyz="0.0242211 -0.0532062 0.05075" rpy="0 -0 0" />
+    <axis xyz="1.17757e-13 -1 -1.83697e-16" />
+    <parent link="cad_batt_sm_r" />
+    <child link="cad_part_51_3" />
+  </joint>
+  <joint name="cad_紧固_5_2" type="fixed">
+    <origin xyz="-0.018208 -0.0351786 -0.044" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_wheel_mot_base_1" />
+    <child link="cad_wheel_mot_stop_1" />
+  </joint>
+  <joint name="cad_紧固_5_3" type="fixed">
+    <origin xyz="-0.018208 -0.0351786 -0.044" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_wheel_mot_base_3" />
+    <child link="cad_wheel_mot_stop_3" />
+  </joint>
+  <joint name="cad_紧固_5_4" type="fixed">
+    <origin xyz="-0.018208 -0.0351786 -0.044" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_wheel_mot_base_2" />
+    <child link="cad_wheel_mot_stop_2" />
+  </joint>
+  <joint name="cad_紧固_6" type="fixed">
+    <origin xyz="0.00353553 -0.00353553 3.46945e-17" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_4005" />
+    <child link="cad_wheel_mot_drv" />
+  </joint>
+  <joint name="cad_紧固_6_1" type="fixed">
+    <origin xyz="0.0242211 -0.283206 0.05075" rpy="3.14159 -1.44211e-29 2.35514e-13" />
+    <axis xyz="1.17757e-13 -1 -1.83697e-16" />
+    <parent link="cad_batt_sm_r" />
+    <child link="cad_part_51_1" />
+  </joint>
+  <joint name="cad_紧固_6_2" type="fixed">
+    <origin xyz="0.00353553 -0.00353553 0" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_4005_1" />
+    <child link="cad_wheel_mot_drv_1" />
+  </joint>
+  <joint name="cad_紧固_6_3" type="fixed">
+    <origin xyz="0.00353553 -0.00353553 3.46945e-17" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_4005_3" />
+    <child link="cad_wheel_mot_drv_3" />
+  </joint>
+  <joint name="cad_紧固_6_4" type="fixed">
+    <origin xyz="0.00353553 -0.00353553 0" rpy="0 -0 0" />
+    <axis xyz="-0.707107 0.707107 0" />
+    <parent link="cad_4005_2" />
+    <child link="cad_wheel_mot_drv_2" />
+  </joint>
+  <joint name="cad_紧固_7" type="fixed">
+    <origin xyz="-0.0242211 0.283206 0.05075" rpy="3.14159 -4.9606e-43 -3.14159" />
+    <axis xyz="1.17757e-13 -1 -1.83697e-16" />
+    <parent link="cad_batt_sm_l" />
+    <child link="cad_part_51_2" />
+  </joint>
+  <joint name="cad_紧固_8" type="fixed">
+    <origin xyz="-0.0242211 0.0532062 0.05075" rpy="-2.44929e-16 -1.44211e-29 3.14159" />
+    <axis xyz="1.17757e-13 -1 -1.83697e-16" />
+    <parent link="cad_batt_sm_l" />
+    <child link="cad_part_51" />
+  </joint>
+  <joint name="cad_紧固_9" type="fixed">
+    <origin xyz="0.0125 0.0055 0.0095" rpy="-3.61195e-30 2.12647e-43 -1.5708" />
+    <axis xyz="0 -1 0" />
+    <parent link="cad_part_51" />
+    <child link="cad_part_2_1" />
+  </joint>
+  <link name="chassis_model_base" />
+  <joint name="model_to_cad" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="cad_root" />
+    <origin xyz="1.734719999999998e-18 -8.23994e-18 0.04" rpy="0.0 0.0 1.5707963267948963" />
+  </joint>
+</robot>

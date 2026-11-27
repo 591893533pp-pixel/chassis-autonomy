@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+iface=enp85s0
+# Avoid resetting a live receiver when the desired setting is already applied.
+current=$(/usr/sbin/ethtool -g "$iface" | awk '/Current hardware settings:/{current=1;next} current && $1=="RX:"{print $2;exit}')
+if [ "$current" != 4096 ]; then
+    /usr/sbin/ethtool -G "$iface" rx 4096
+fi
+/usr/sbin/ethtool -g "$iface"

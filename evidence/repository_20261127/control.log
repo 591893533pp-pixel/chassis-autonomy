@@ -1,0 +1,96 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.27
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pc/文档/ChatGPT/底盘调试/chassis-autonomy/control/program/build
+[  6%] Building CXX object CMakeFiles/ruckig.dir/third_party/ruckig/src/ruckig/brake.cpp.o
+[  6%] Building CXX object CMakeFiles/body_control_tests.dir/tests/body_control_tests.cpp.o
+[  6%] Building CXX object CMakeFiles/wheel_balance_tests.dir/tests/wheel_balance_tests.cpp.o
+[  8%] Building CXX object CMakeFiles/elmue_can.dir/third_party/elmue_can/src/socketcan.cpp.o
+[ 10%] Building CXX object CMakeFiles/ruckig.dir/third_party/ruckig/src/ruckig/position_first_step1.cpp.o
+[ 13%] Linking CXX executable wheel_balance_tests
+[ 15%] Linking CXX executable body_control_tests
+[ 17%] Building CXX object CMakeFiles/elmue_can.dir/third_party/elmue_can/src/elmue_can.cpp.o
+[ 17%] Built target wheel_balance_tests
+[ 19%] Building CXX object CMakeFiles/elmue_can.dir/third_party/elmue_can/src/robstride_protocol.cpp.o
+[ 19%] Built target body_control_tests
+[ 21%] Building CXX object CMakeFiles/ruckig.dir/third_party/ruckig/src/ruckig/position_first_step2.cpp.o
+[ 23%] Building CXX object CMakeFiles/elmue_can.dir/third_party/elmue_can/src/robstride_elmue.cpp.o
+[ 26%] Building CXX object CMakeFiles/ruckig.dir/third_party/ruckig/src/ruckig/position_second_step1.cpp.o
+[ 28%] Building CXX object CMakeFiles/ruckig.dir/third_party/ruckig/src/ruckig/position_second_step2.cpp.o
+[ 30%] Building CXX object CMakeFiles/elmue_can.dir/third_party/elmue_can/src/zeroerr_canopen.cpp.o
+[ 32%] Building CXX object CMakeFiles/ruckig.dir/third_party/ruckig/src/ruckig/position_third_step1.cpp.o
+[ 34%] Building CXX object CMakeFiles/ruckig.dir/third_party/ruckig/src/ruckig/position_third_step2.cpp.o
+[ 36%] Building CXX object CMakeFiles/ruckig.dir/third_party/ruckig/src/ruckig/velocity_second_step1.cpp.o
+[ 39%] Building CXX object CMakeFiles/ruckig.dir/third_party/ruckig/src/ruckig/velocity_second_step2.cpp.o
+[ 41%] Linking CXX static library libelmue_can.a
+[ 41%] Built target elmue_can
+[ 43%] Building CXX object CMakeFiles/ruckig.dir/third_party/ruckig/src/ruckig/velocity_third_step1.cpp.o
+[ 45%] Building CXX object CMakeFiles/ruckig.dir/third_party/ruckig/src/ruckig/velocity_third_step2.cpp.o
+[ 47%] Building CXX object CMakeFiles/socketcan_tests.dir/tests/socketcan_tests.cpp.o
+[ 50%] Building CXX object CMakeFiles/check_can.dir/remote/check_can.cpp.o
+[ 52%] Building CXX object CMakeFiles/feedback_snapshot_tests.dir/tests/feedback_snapshot_tests.cpp.o
+[ 54%] Linking CXX executable socketcan_tests
+[ 54%] Built target socketcan_tests
+[ 56%] Linking CXX executable check_can
+[ 58%] Linking CXX executable feedback_snapshot_tests
+[ 58%] Built target check_can
+[ 58%] Built target feedback_snapshot_tests
+[ 60%] Linking CXX static library libruckig.a
+[ 60%] Built target ruckig
+[ 69%] Building CXX object CMakeFiles/poke_chassis_lift.dir/src/chassis_xdrive_odom.cpp.o
+[ 67%] Building CXX object CMakeFiles/lift_profile.dir/remote/lift_profile.cpp.o
+[ 69%] Building CXX object CMakeFiles/poke_chassis_lift.dir/src/base.cpp.o
+[ 67%] Building CXX object CMakeFiles/poke_chassis_lift.dir/src/auxiliary.cpp.o
+[ 71%] Linking CXX shared library liblift_profile.so
+[ 71%] Built target lift_profile
+[ 73%] Linking CXX static library libpoke_chassis_lift.a
+[ 73%] Built target poke_chassis_lift
+[ 82%] Building CXX object CMakeFiles/base_tests.dir/tests/base_tests.cpp.o
+[ 82%] Building CXX object CMakeFiles/chassis_tests.dir/tests/chassis_tests.cpp.o
+[ 82%] Building CXX object CMakeFiles/auxiliary_config_tests.dir/tests/auxiliary_config_tests.cpp.o
+[ 82%] Building CXX object CMakeFiles/config_reference.dir/examples/config_reference.cpp.o
+[ 84%] Linking CXX executable auxiliary_config_tests
+[ 84%] Built target auxiliary_config_tests
+[ 86%] Linking CXX executable config_reference
+[ 89%] Building CXX object CMakeFiles/remote_bridge.dir/remote/bridge.cpp.o
+[ 89%] Built target config_reference
+[ 91%] Building CXX object CMakeFiles/single_wheel.dir/remote/single_wheel.cpp.o
+[ 93%] Linking CXX executable chassis_tests
+[ 95%] Linking CXX executable base_tests
+[ 95%] Built target chassis_tests
+[ 95%] Built target base_tests
+[ 97%] Linking CXX executable single_wheel
+[ 97%] Built target single_wheel
+[100%] Linking CXX executable remote_bridge
+[100%] Built target remote_bridge
+Internal ctest changing into directory: /home/pc/文档/ChatGPT/底盘调试/chassis-autonomy/control/program/build
+Test project /home/pc/文档/ChatGPT/底盘调试/chassis-autonomy/control/program/build
+    Start 1: base_tests
+1/7 Test #1: base_tests .......................   Passed    0.01 sec
+    Start 2: chassis_tests
+2/7 Test #2: chassis_tests ....................   Passed    0.01 sec
+    Start 3: auxiliary_config_tests
+3/7 Test #3: auxiliary_config_tests ...........   Passed    0.00 sec
+    Start 4: socketcan_tests
+4/7 Test #4: socketcan_tests ..................   Passed    0.16 sec
+    Start 5: wheel_balance_tests
+5/7 Test #5: wheel_balance_tests ..............   Passed    0.00 sec
+    Start 6: body_control_tests
+6/7 Test #6: body_control_tests ...............   Passed    0.01 sec
+    Start 7: feedback_snapshot_tests
+7/7 Test #7: feedback_snapshot_tests ..........   Passed    0.22 sec
+
+100% tests passed, 0 tests failed out of 7
+
+Total Test time (real) =   0.42 sec

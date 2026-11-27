@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-17",
+  "upstream_core": "/home/pc/navslam/src/poke_teleop/poke_teleop/core.py",
+  "upstream_core_unchanged": true,
+  "test_change": "Only import path changed for standalone execution",
+  "driver_change": "Require observed ACK clear before triggering; require ACK set and final controlword reset success",
+  "files": {
+    "remote/vendor/navslam_core.py": "c3246fa54ecb36c9d1a8081b349c3ffcb47659e8d4e9064c499cf48426c8bc4a",
+    "remote/vendor/test_upstream_core.py": "173c6fa4bcbe661abe8364a8854643188efe8a28315c5c19a6c54ce0a8dc5ac3",
+    "third_party/elmue_can/src/zeroerr_canopen.cpp": "a2cac75d5a3f9f5989bfd4da758a7c3fc5ebece2466e3d55ecac16b8e682f44c",
+    "third_party/elmue_can/src/socketcan.cpp": "82e3b1b52c554bf67724f31a58a164439538f635f32f6965420b366bf55a2e0c",
+    "third_party/elmue_can/src/elmue_can.cpp": "7c3a9fbfde67992488fbc8eafc54efed70ca2aaa1a906bf098c32509e4b916ef",
+    "third_party/elmue_can/include/elmue_can/elmue_can.h": "9d42ffedfcb75d794e781df0d1fad1e3670e8bbf00915018128630748fa886ef"
+  },
+  "socketcan_change": "Added native classic CAN transport, netlink configuration validation, nonblocking TX, RX frame translation and latched CAN errors; original USB path retained. XCAN CH1 uses can0; no hardware motion tested."
+}

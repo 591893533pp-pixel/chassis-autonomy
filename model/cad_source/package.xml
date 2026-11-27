@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>chassis_id_me</name><version>0.1.0</version>
+  <description>CHASSIS_ID_ME Onshape model with four continuous wheel joints.</description>
+  <maintainer email="owner@example.invalid">Model owner</maintainer><license>Proprietary</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>robot_state_publisher</exec_depend><exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>tf2_ros</exec_depend><exec_depend>rviz</exec_depend>
+</package>

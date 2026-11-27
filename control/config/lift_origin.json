@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "can_interface": "can0",
+  "node_id": 1,
+  "counts_per_mm": 116.66666666666667,
+  "operator_confirmed_lower_stop": true,
+  "observed_min_counts": -17,
+  "observed_max_counts": -17,
+  "reserve_counts": 12,
+  "origin_counts": -29,
+  "utc": "2026-10-15T12:21:59.299570+00:00",
+  "evidence": "/home/pc/rk3588 link/remote control/logs/lift_origin_20261015_202157_737947"
+}

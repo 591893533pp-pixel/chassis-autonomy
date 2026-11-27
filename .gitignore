@@ -1,0 +1,50 @@
+# Build / execution output
+**/build/
+**/build_ascii/
+**/install/
+**/sdk-install/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.runtime/
+.validation/
+release/
+**/logs/
+**/runs/
+**/*_runs/
+**/sessions/
+**/observations/
+**/STATE.json
+**/LAST_LOG.txt
+**/STOP
+# Heavy assets / capture output: use assets/manifest.json
+assets/local/
+*.pcd
+*.mcap
+*.db3
+*.pcap
+*.pcapng
+*.npz
+*.npy
+*.stl
+*.STL
+*.zip
+*.tar.gz
+*.deb
+# Host-specific settings and credentials
+.env
+.env.*
+!.env.example
+*.local.yaml
+*.local.json
+*.local.sh
+.ssh/
+id_rsa*
+id_ed25519*
+*.pem
+*.key
+# Historical reports checked in; future smoke outputs ignored
+reports/synthetic_20*/
+reports/localization_20*/
+.validation_*.log
+!tests/fixtures/navigation_grid.npz

@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "variant": "chassis_only",
+  "since": "2026-11-23",
+  "note": "纯底盘版：无升降立柱、无上半身、无 RK3588，只有 NUC。删除本文件或 enabled=false 即恢复完整机器人行为（还需 RK 从钟等系统配置）。"
+}

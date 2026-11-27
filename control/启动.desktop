@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=手柄与升降控制
+Exec=/bin/bash "/home/pc/rk3588 link/remote control/start.sh"
+Path=/home/pc/rk3588 link/remote control
+Terminal=true
+Icon=utilities-terminal
+Categories=Utility;

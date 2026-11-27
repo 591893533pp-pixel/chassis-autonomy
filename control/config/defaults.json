@@ -1,0 +1,7 @@
+{
+  "max_linear_speed": 1.5,
+  "initial_gear": 1,
+  "lift_speed_mm_s": 10,
+  "final_max_linear_speed": 1.5,
+  "final_max_linear_m_s": 1.5
+}

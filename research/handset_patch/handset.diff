@@ -1,0 +1,352 @@
+--- before/remote control/scripts/remote_session.py
++++ after/remote control/scripts/remote_session.py
+@@ -6,6 +6,7 @@
+ sys.path.insert(0,str(ROOT/'program/remote'))
+ sys.path.insert(0,str(ROOT/'lift_reference'))
+ from run_remote import manual_config
++from joystick_layout import detect_device, wait_initialized
+ from vendor.navslam_core import TeleopCore
+ from lift_pv_remote import Joystick,Bus,enable_pv,operation_enabled,record_and_validate
+ from lift_policy import LiftPolicy,COUNTS_MM
+@@ -153,11 +154,17 @@
+             lift_request_mm_s=a.lift_speed_mm_s,lift_max_mm_s=MAX_SPEED_MM_S,quantized_counts_s=math.floor(a.lift_speed_mm_s*COUNTS_MM),
+             chassis_max_m_s=a.max_linear_speed,initial_gear=a.initial_gear,simultaneous_motion=simultaneous,logs=str(a.log_dir or ROOT/'logs'),hardware_started=False),ensure_ascii=False,indent=2));return 0
+     lock=open(f'/tmp/poke-remote-{os.getuid()}.lock','a');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+-    if not Path('/dev/input/js0').exists():raise RuntimeError('未找到DINPUT手柄 /dev/input/js0')
++    if not Path('/dev/input/js0').exists():raise RuntimeError('未找到手柄 /dev/input/js0')
++    layout=detect_device() if a.chassis_only else None
++    if layout is not None:
++        cfg=layout.chassis_config(cfg)
+     bridge=ROOT/'program/build/remote_bridge'
+     if not bridge.exists():raise RuntimeError('先执行 ./build.sh 编译本目录遥控程序')
+     folder=a.log_dir or ROOT/'logs'/('remote_'+datetime.datetime.now().strftime('%Y%m%d_%H%M%S_%f'))
+     folder.mkdir(parents=True,exist_ok=False)
++    if layout is not None:
++        (folder/'joystick_layout.json').write_text(json.dumps(vars(layout),ensure_ascii=False,indent=2))
++        print('手柄布局：'+layout.profile+'；START使能/失能，LB降档/RB升档，双扳机退出',flush=True)
+     (ROOT/'LAST_LOG.txt').write_text(str(folder)+'\n')
+     (ROOT/'STATE.json').write_text(json.dumps(dict(pid=os.getpid(),start_ticks=Path('/proc/self/stat').read_text().split()[21],log=str(folder),running=True)))
+     (folder/'session.json').write_text(json.dumps(dict(control_target_hz=CONTROL_HZ,lift_feedback_target_hz=CONTROL_HZ,lift=not a.chassis_only,lift_mode='PV',lift_limits=LIMITS,lift_request_mm_s=a.lift_speed_mm_s,
+@@ -177,7 +184,8 @@
+         raise KeyboardInterrupt
+     for sig in (signal.SIGINT,signal.SIGTERM,signal.SIGHUP):signal.signal(sig,stop)
+     try:
+-        joy=Joystick(folder)
++        joy=Joystick(folder,layout=layout)
++        wait_initialized(joy)
+         # This C++ bridge owns only wheel frames. It never enables/commands the lift.
+         proc=subprocess.Popen([str(bridge),'--hardware','socketcan:can0','--log',str(folder/'feedback.csv')],stdin=subprocess.PIPE,stdout=bridge_log,stderr=bridge_log,text=True,start_new_session=True)
+         if not a.chassis_only:lift=LiftWorker(folder,a.lift_speed_mm_s,allow_simultaneous=simultaneous)
+--- before/remote control/lift_reference/lift_pv_remote.py
++++ after/remote control/lift_reference/lift_pv_remote.py
+@@ -76,12 +76,13 @@
+ 
+ 
+ class Joystick:
+-    def __init__(self, folder):
++    def __init__(self, folder, layout=None):
+         self.mutex = threading.Lock()
+         self.sample = None
+         self.error = None
+         self.done = threading.Event()
+         self.folder = folder
++        self.layout = layout
+         self.thread = threading.Thread(target=self.run, daemon=True)
+         self.thread.start()
+ 
+@@ -92,7 +93,9 @@
+                 na, nb = bytearray(1), bytearray(1)
+                 fcntl.ioctl(fd, 0x80016a11, na, True)
+                 fcntl.ioctl(fd, 0x80016a12, nb, True)
+-                if na[0] != 8 or nb[0] < 12:
++                if self.layout is not None:
++                    self.layout.validate_fd(fd)
++                elif na[0] != 8 or nb[0] < 12:
+                     raise RuntimeError('unverified joystick layout')
+                 axes, buttons = [0.]*na[0], [0]*nb[0]
+                 ia, ib = set(), set()
+@@ -126,7 +129,14 @@
+             return None
+         if time.monotonic()-sample[0] > .15:
+             raise RuntimeError('joystick reader heartbeat stale')
+-        if sample[3] and ((sample[1][4] < -.6 and sample[1][5] < -.6) or (sample[2][8] and sample[2][9])):
++        stop_pressed = False
++        if sample[3]:
++            if self.layout is not None:
++                stop_pressed = self.layout.dual_trigger(sample[1], sample[2])
++            else:
++                stop_pressed = ((sample[1][4] < -.6 and sample[1][5] < -.6)
++                                or (sample[2][8] and sample[2][9]))
++        if stop_pressed:
+             raise RuntimeError('dual trigger stop')
+         return sample
+ 
+--- before/mapping/programs/remote_control/scripts/remote_session.py
++++ after/mapping/programs/remote_control/scripts/remote_session.py
+@@ -6,6 +6,7 @@
+ sys.path.insert(0,str(ROOT/'program/remote'))
+ sys.path.insert(0,str(ROOT/'lift_reference'))
+ from run_remote import manual_config
++from joystick_layout import detect_device, wait_initialized
+ from control_timing import CONTROL_HZ, Periodic
+ from vendor.navslam_core import TeleopCore
+ from lift_pv_remote import Joystick,Bus,enable_pv,operation_enabled,record_and_validate
+@@ -112,11 +113,17 @@
+             lift_request_mm_s=a.lift_speed_mm_s,lift_max_mm_s=50,quantized_counts_s=math.floor(a.lift_speed_mm_s*COUNTS_MM),
+             chassis_max_m_s=a.max_linear_speed,initial_gear=a.initial_gear,logs=str(a.log_dir or ROOT/'logs'),hardware_started=False),ensure_ascii=False,indent=2));return 0
+     lock=open(f'/tmp/poke-remote-{os.getuid()}.lock','a');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+-    if not Path('/dev/input/js0').exists():raise RuntimeError('未找到DINPUT手柄 /dev/input/js0')
++    if not Path('/dev/input/js0').exists():raise RuntimeError('未找到手柄 /dev/input/js0')
++    layout=detect_device() if a.chassis_only else None
++    if layout is not None:
++        cfg=layout.chassis_config(cfg)
+     bridge=ROOT/'program/build/remote_bridge'
+     if not bridge.exists():raise RuntimeError('先执行 ./build.sh 编译本目录遥控程序')
+     folder=a.log_dir or ROOT/'logs'/('remote_'+datetime.datetime.now().strftime('%Y%m%d_%H%M%S_%f'))
+     folder.mkdir(parents=True,exist_ok=False)
++    if layout is not None:
++        (folder/'joystick_layout.json').write_text(json.dumps(vars(layout),ensure_ascii=False,indent=2))
++        print('手柄布局：'+layout.profile+'；START使能/失能，LB降档/RB升档，双扳机退出',flush=True)
+     (ROOT/'LAST_LOG.txt').write_text(str(folder)+'\n')
+     (ROOT/'STATE.json').write_text(json.dumps(dict(pid=os.getpid(),start_ticks=Path('/proc/self/stat').read_text().split()[21],log=str(folder),running=True)))
+     (folder/'session.json').write_text(json.dumps(dict(lift=not a.chassis_only,lift_mode='PV',lift_request_mm_s=a.lift_speed_mm_s,
+@@ -133,7 +140,8 @@
+         raise KeyboardInterrupt
+     for sig in (signal.SIGINT,signal.SIGTERM,signal.SIGHUP):signal.signal(sig,stop)
+     try:
+-        joy=Joystick(folder)
++        joy=Joystick(folder,layout=layout)
++        wait_initialized(joy)
+         # This C++ bridge owns only wheel frames. It never enables/commands the lift.
+         proc=subprocess.Popen([str(bridge),'--hardware','socketcan:can0','--log',str(folder/'feedback.csv')],stdin=subprocess.PIPE,stdout=bridge_log,stderr=bridge_log,text=True,start_new_session=True)
+         if not a.chassis_only:lift=LiftWorker(folder,a.lift_speed_mm_s)
+--- before/mapping/programs/remote_control/lift_reference/lift_pv_remote.py
++++ after/mapping/programs/remote_control/lift_reference/lift_pv_remote.py
+@@ -75,12 +75,13 @@
+ 
+ 
+ class Joystick:
+-    def __init__(self, folder):
++    def __init__(self, folder, layout=None):
+         self.mutex = threading.Lock()
+         self.sample = None
+         self.error = None
+         self.done = threading.Event()
+         self.folder = folder
++        self.layout = layout
+         self.thread = threading.Thread(target=self.run, daemon=True)
+         self.thread.start()
+ 
+@@ -91,7 +92,9 @@
+                 na, nb = bytearray(1), bytearray(1)
+                 fcntl.ioctl(fd, 0x80016a11, na, True)
+                 fcntl.ioctl(fd, 0x80016a12, nb, True)
+-                if na[0] != 8 or nb[0] < 12:
++                if self.layout is not None:
++                    self.layout.validate_fd(fd)
++                elif na[0] != 8 or nb[0] < 12:
+                     raise RuntimeError('unverified joystick layout')
+                 axes, buttons = [0.]*na[0], [0]*nb[0]
+                 ia, ib = set(), set()
+@@ -125,7 +128,14 @@
+             return None
+         if time.monotonic()-sample[0] > .15:
+             raise RuntimeError('joystick reader heartbeat stale')
+-        if sample[3] and ((sample[1][4] < -.6 and sample[1][5] < -.6) or (sample[2][8] and sample[2][9])):
++        stop_pressed = False
++        if sample[3]:
++            if self.layout is not None:
++                stop_pressed = self.layout.dual_trigger(sample[1], sample[2])
++            else:
++                stop_pressed = ((sample[1][4] < -.6 and sample[1][5] < -.6)
++                                or (sample[2][8] and sample[2][9]))
++        if stop_pressed:
+             raise RuntimeError('dual trigger stop')
+         return sample
+ 
+--- before/remote control/program/remote/joystick_layout.py
++++ after/remote control/program/remote/joystick_layout.py
+@@ -0,0 +1,90 @@
++"""Verified chassis joystick layouts. No CAN access or motion side effects."""
++import array
++import dataclasses
++import fcntl
++import os
++import time
++from pathlib import Path
++
++XBOX_AXES = (0, 1, 2, 3, 4, 5, 16, 17)
++XBOX_BUTTONS = (304, 305, 307, 308, 310, 311, 314, 315, 316, 317, 318)
++
++
++@dataclasses.dataclass(frozen=True)
++class Layout:
++    profile: str
++    name: str
++    vendor: str
++    product: str
++    axes: tuple
++    buttons: tuple
++
++    def validate_fd(self, fd):
++        if detect_fd(fd) != self:
++            raise RuntimeError('手柄设备或布局在启动过程中发生变化，请重新检查')
++
++    def chassis_config(self, config):
++        overrides = dict(button_auto=-1, button_lift_up=-1, button_lift_down=-1)
++        if self.profile == 'flydigi_xinput':
++            overrides.update(axis_yaw=3, axis_lt=2, axis_rt=5,
++                             button_enable=7, button_slower=4, button_faster=5,
++                             button_manual=0, button_lt=-1, button_rt=-1)
++        # Readers already convert Linux js axes to -value/32767. Keep trigger
++        # rest=+1, pressed=-1; a second inversion would reverse the stop input.
++        result = dataclasses.replace(config, **overrides)
++        result.validate()
++        return result
++
++    def dual_trigger(self, axes, buttons):
++        if self.profile == 'flydigi_xinput':
++            return axes[2] < -.6 and axes[5] < -.6
++        return ((axes[4] < -.6 and axes[5] < -.6)
++                or (buttons[8] and buttons[9]))
++
++
++def identify(name, vendor, product, axes, buttons):
++    axes, buttons = tuple(axes), tuple(buttons)
++    if (vendor, product) == ('045e', '028e'):
++        if (name != 'Microsoft X-Box 360 pad'
++                or axes != XBOX_AXES or buttons != XBOX_BUTTONS):
++            raise RuntimeError('Xbox 手柄描述符与已验证布局不符，拒绝套用映射')
++        profile = 'flydigi_xinput'
++    elif len(axes) == 8 and len(buttons) >= 12:
++        # Retain the existing DINPUT acceptance rule for original hardware.
++        profile = 'legacy_dinput'
++    else:
++        raise RuntimeError(f'未验证的手柄布局：{name}, {len(axes)}轴/{len(buttons)}键')
++    return Layout(profile, name, vendor, product, axes, buttons)
++
++
++def detect_fd(fd):
++    na, nb, name = bytearray(1), bytearray(1), bytearray(128)
++    axes, buttons = bytearray(64), array.array('H', [0] * 512)
++    for code, buf in ((0x80016a11, na), (0x80016a12, nb), (0x80806a13, name),
++                      (0x80406a32, axes), (0x84006a34, buttons)):
++        fcntl.ioctl(fd, code, buf, True)
++    dev = os.fstat(fd).st_rdev
++    identity = Path(f'/sys/dev/char/{os.major(dev)}:{os.minor(dev)}/device/id')
++    return identify(name.split(b'\0')[0].decode('utf-8', 'replace'),
++                    (identity/'vendor').read_text().strip().lower(),
++                    (identity/'product').read_text().strip().lower(),
++                    axes[:na[0]], buttons[:nb[0]])
++
++
++def detect_device(path='/dev/input/js0'):
++    fd = os.open(path, os.O_RDONLY | os.O_NONBLOCK)
++    try:
++        return detect_fd(fd)
++    finally:
++        os.close(fd)
++
++
++def wait_initialized(joystick, timeout=2.0):
++    """Fail before creating a CAN bridge if input is missing or malformed."""
++    deadline = time.monotonic() + timeout
++    while time.monotonic() < deadline:
++        sample = joystick.get()
++        if sample is not None and sample[3]:
++            return sample
++        time.sleep(.01)
++    raise RuntimeError('手柄初始化超时，未启动底盘控制桥')
+--- before/mapping/programs/remote_control/program/remote/joystick_layout.py
++++ after/mapping/programs/remote_control/program/remote/joystick_layout.py
+@@ -0,0 +1,90 @@
++"""Verified chassis joystick layouts. No CAN access or motion side effects."""
++import array
++import dataclasses
++import fcntl
++import os
++import time
++from pathlib import Path
++
++XBOX_AXES = (0, 1, 2, 3, 4, 5, 16, 17)
++XBOX_BUTTONS = (304, 305, 307, 308, 310, 311, 314, 315, 316, 317, 318)
++
++
++@dataclasses.dataclass(frozen=True)
++class Layout:
++    profile: str
++    name: str
++    vendor: str
++    product: str
++    axes: tuple
++    buttons: tuple
++
++    def validate_fd(self, fd):
++        if detect_fd(fd) != self:
++            raise RuntimeError('手柄设备或布局在启动过程中发生变化，请重新检查')
++
++    def chassis_config(self, config):
++        overrides = dict(button_auto=-1, button_lift_up=-1, button_lift_down=-1)
++        if self.profile == 'flydigi_xinput':
++            overrides.update(axis_yaw=3, axis_lt=2, axis_rt=5,
++                             button_enable=7, button_slower=4, button_faster=5,
++                             button_manual=0, button_lt=-1, button_rt=-1)
++        # Readers already convert Linux js axes to -value/32767. Keep trigger
++        # rest=+1, pressed=-1; a second inversion would reverse the stop input.
++        result = dataclasses.replace(config, **overrides)
++        result.validate()
++        return result
++
++    def dual_trigger(self, axes, buttons):
++        if self.profile == 'flydigi_xinput':
++            return axes[2] < -.6 and axes[5] < -.6
++        return ((axes[4] < -.6 and axes[5] < -.6)
++                or (buttons[8] and buttons[9]))
++
++
++def identify(name, vendor, product, axes, buttons):
++    axes, buttons = tuple(axes), tuple(buttons)
++    if (vendor, product) == ('045e', '028e'):
++        if (name != 'Microsoft X-Box 360 pad'
++                or axes != XBOX_AXES or buttons != XBOX_BUTTONS):
++            raise RuntimeError('Xbox 手柄描述符与已验证布局不符，拒绝套用映射')
++        profile = 'flydigi_xinput'
++    elif len(axes) == 8 and len(buttons) >= 12:
++        # Retain the existing DINPUT acceptance rule for original hardware.
++        profile = 'legacy_dinput'
++    else:
++        raise RuntimeError(f'未验证的手柄布局：{name}, {len(axes)}轴/{len(buttons)}键')
++    return Layout(profile, name, vendor, product, axes, buttons)
++
++
++def detect_fd(fd):
++    na, nb, name = bytearray(1), bytearray(1), bytearray(128)
++    axes, buttons = bytearray(64), array.array('H', [0] * 512)
++    for code, buf in ((0x80016a11, na), (0x80016a12, nb), (0x80806a13, name),
++                      (0x80406a32, axes), (0x84006a34, buttons)):
++        fcntl.ioctl(fd, code, buf, True)
++    dev = os.fstat(fd).st_rdev
++    identity = Path(f'/sys/dev/char/{os.major(dev)}:{os.minor(dev)}/device/id')
++    return identify(name.split(b'\0')[0].decode('utf-8', 'replace'),
++                    (identity/'vendor').read_text().strip().lower(),
++                    (identity/'product').read_text().strip().lower(),
++                    axes[:na[0]], buttons[:nb[0]])
++
++
++def detect_device(path='/dev/input/js0'):
++    fd = os.open(path, os.O_RDONLY | os.O_NONBLOCK)
++    try:
++        return detect_fd(fd)
++    finally:
++        os.close(fd)
++
++
++def wait_initialized(joystick, timeout=2.0):
++    """Fail before creating a CAN bridge if input is missing or malformed."""
++    deadline = time.monotonic() + timeout
++    while time.monotonic() < deadline:
++        sample = joystick.get()
++        if sample is not None and sample[3]:
++            return sample
++        time.sleep(.01)
++    raise RuntimeError('手柄初始化超时，未启动底盘控制桥')

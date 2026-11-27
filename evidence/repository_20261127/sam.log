@@ -1,0 +1,907 @@
+Current CPU archtecture: x86_64
+Processer number:  16
+core for MP: 3
+CMake Warning (dev) at CMakeLists.txt:38 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+  CMakeLists.txt:42 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found flann version 1.9.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+** WARNING ** io features related to pcap will be disabled
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_GEOMETRY
+-- looking for PCL_IO
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_TRACKING
+-- looking for PCL_RECOGNITION
+-- looking for PCL_STEREO
+-- looking for PCL_APPS
+-- looking for PCL_IN_HAND_SCANNER
+-- looking for PCL_MODELER
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_PEOPLE
+-- GTSAM include directory:  /opt/ros/jazzy/lib/cmake/GTSAM/../../../include
+Eigen:/usr/include/eigen3
+-- ROS2 detected
+-- Found rclcpp: 28.1.23 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.10 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.10 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.5 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.36.23 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found pcl_conversions: 2.6.5 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.10 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found tf2_eigen: 0.36.23 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+-- Found livox_ros_driver2: 1.0.0 (/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+-- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (3.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pc/chassis-autonomy/mapping_ws/build
+[  4%] Generating type hashes for ROS interfaces
+[  4%] Generating Rust code for ROS interfaces
+[  4%] Built target fast_lio_sam__rosidl_generator_type_description
+[  4%] Built target fast_lio_sam__rs
+[  4%] Built target ament_cmake_python_copy_fast_lio_sam
+[  8%] Building CXX object CMakeFiles/pcd_to_ikdtree_bin.dir/include/ikd-Tree/pcd_to_ikdtree_bin.cpp.o
+[  8%] Generating C code for ROS interfaces
+[ 10%] Building C object CMakeFiles/fast_lio_sam__rosidl_generator_c.dir/rosidl_generator_c/fast_lio_sam/msg/detail/pose6_d__description.c.o
+[ 12%] Building C object CMakeFiles/fast_lio_sam__rosidl_generator_c.dir/rosidl_generator_c/fast_lio_sam/msg/detail/pose6_d__functions.c.o
+[ 14%] Building C object CMakeFiles/fast_lio_sam__rosidl_generator_c.dir/rosidl_generator_c/fast_lio_sam/msg/detail/pose6_d__type_support.c.o
+[ 17%] Linking C shared library libfast_lio_sam__rosidl_generator_c.so
+[ 17%] Built target fast_lio_sam__rosidl_generator_c
+[ 19%] Generating C++ code for ROS interfaces
+[ 19%] Built target fast_lio_sam__cpp
+[ 21%] Generating C introspection for ROS interfaces
+[ 23%] Building C object CMakeFiles/fast_lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio_sam/msg/detail/pose6_d__type_support.c.o
+[ 25%] Linking C shared library libfast_lio_sam__rosidl_typesupport_introspection_c.so
+[ 25%] Built target fast_lio_sam__rosidl_typesupport_introspection_c
+[ 27%] Generating C type support dispatch for ROS interfaces
+[ 29%] Building CXX object CMakeFiles/fast_lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio_sam/msg/pose6_d__type_support.cpp.o
+[ 31%] Linking CXX shared library libfast_lio_sam__rosidl_typesupport_c.so
+[ 31%] Built target fast_lio_sam__rosidl_typesupport_c
+[ 34%] Generating C++ introspection for ROS interfaces
+[ 36%] Building CXX object CMakeFiles/fast_lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio_sam/msg/detail/pose6_d__type_support.cpp.o
+[ 38%] Linking CXX shared library libfast_lio_sam__rosidl_typesupport_introspection_cpp.so
+[ 38%] Built target fast_lio_sam__rosidl_typesupport_introspection_cpp
+[ 40%] Generating C++ type support dispatch for ROS interfaces
+[ 42%] Building CXX object CMakeFiles/fast_lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio_sam/msg/pose6_d__type_support.cpp.o
+[ 44%] Linking CXX shared library libfast_lio_sam__rosidl_typesupport_cpp.so
+[ 44%] Built target fast_lio_sam__rosidl_typesupport_cpp
+[ 46%] Building CXX object CMakeFiles/pcd_to_ikdtree_bin.dir/include/ikd-Tree/ikd_Tree.cpp.o
+running egg_info
+creating fast_lio_sam.egg-info
+writing fast_lio_sam.egg-info/PKG-INFO
+writing dependency_links to fast_lio_sam.egg-info/dependency_links.txt
+writing top-level names to fast_lio_sam.egg-info/top_level.txt
+writing manifest file 'fast_lio_sam.egg-info/SOURCES.txt'
+reading manifest file 'fast_lio_sam.egg-info/SOURCES.txt'
+writing manifest file 'fast_lio_sam.egg-info/SOURCES.txt'
+[ 46%] Built target ament_cmake_python_build_fast_lio_sam_egg
+[ 48%] Building CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o
+[ 51%] Linking CXX executable pcd_to_ikdtree_bin
+[ 51%] Built target pcd_to_ikdtree_bin
+[ 53%] Building CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o
+In file included from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/common_lib.h:8,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/src/IMU_Processing.hpp:12,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/src/laserMapping.cpp:14:
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:65: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                 ^~~~~~~~
+In file included from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:26,
+                 from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:71:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:73: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                         ^
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:47: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                               ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:77:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:55: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                                       ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:42: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                          ^~~
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:45: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                             ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:67: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                   ^~~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:86:
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:75: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                           ^
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:56: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                        ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:70:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:64: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                                ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+In file included from /usr/include/boost/bind/detail/requires_cxx11.hpp:9,
+                 from /usr/include/boost/bind/bind.hpp:24,
+                 from /usr/include/boost/bind.hpp:29,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/IKFoM_toolkit/esekfom/esekfom.hpp:42,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/use-ikfom.hpp:4,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/src/IMU_Processing.hpp:22:
+/usr/include/boost/bind.hpp:36:1: note: ‘#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.’
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[ 55%] Building CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o
+In file included from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/src/preprocess.h:6,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/src/preprocess.cpp:1:
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:65: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                 ^~~~~~~~
+In file included from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:26,
+                 from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:71:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:73: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                         ^
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:47: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                               ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:77:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:55: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                                       ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:42: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                          ^~~
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:45: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                             ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:67: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                   ^~~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:86:
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:75: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                           ^
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:56: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                        ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7,
+                 from /opt/ros/jazzy/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/src/preprocess.h:5:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:64: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                                ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+[ 57%] Building CXX object CMakeFiles/fastlio_mapping.dir/src/utility.cpp.o
+In file included from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/utility.h:14,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/src/utility.cpp:1:
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:65: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                 ^~~~~~~~
+In file included from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:26,
+                 from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:71:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:73: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                         ^
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:47: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                               ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:77:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:55: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                                       ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:42: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                          ^~~
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:45: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                             ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:67: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                   ^~~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:86:
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:75: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                           ^
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:56: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                        ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7,
+                 from /opt/ros/jazzy/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/utility.h:13:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:64: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                                ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+[ 59%] Building CXX object CMakeFiles/fastlio_mapping.dir/src/mapOptimization.cpp.o
+In file included from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/utility.h:14,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/src/mapOptimization.cpp:13:
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:65: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                 ^~~~~~~~
+In file included from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:26,
+                 from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:71:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:73: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                         ^
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:47: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                               ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:77:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:55: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                                       ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:42: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                          ^~~
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:45: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                             ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:67: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                   ^~~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:86:
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:75: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                           ^
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:56: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                        ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7,
+                 from /opt/ros/jazzy/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/utility.h:13:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:64: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                                ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+[ 61%] Building CXX object CMakeFiles/fastlio_mapping.dir/include/s-graph/plane.cpp.o
+In file included from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/common_utils.h:14,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/s-graph/plane.cpp:3:
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:65: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                 ^~~~~~~~
+In file included from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:26,
+                 from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:71:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:73: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                         ^
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:47: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                               ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:77:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:55: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                                       ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:42: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                          ^~~
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:45: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                             ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:67: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                   ^~~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:86:
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:75: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                           ^
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:56: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                        ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:70:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:64: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                                ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+[ 63%] Building CXX object CMakeFiles/fastlio_mapping.dir/include/s-graph/ground.cpp.o
+In file included from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/utility.h:14,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/s-graph/ground.h:6,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/s-graph/ground.cpp:1:
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:65: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                 ^~~~~~~~
+In file included from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:26,
+                 from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:71:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:73: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                         ^
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:47: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                               ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:77:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:55: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                                       ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:42: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                          ^~~
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:45: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                             ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:67: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                   ^~~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:86:
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:75: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                           ^
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:56: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                        ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7,
+                 from /opt/ros/jazzy/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/utility.h:13:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:64: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                                ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+[ 65%] Building CXX object CMakeFiles/fastlio_mapping.dir/include/s-graph/floorMap.cpp.o
+In file included from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/utility.h:14,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/s-graph/ground.h:6,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/s-graph/floorMap.h:4,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/s-graph/floorMap.cpp:1:
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:65: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                 ^~~~~~~~
+In file included from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:26,
+                 from /opt/ros/jazzy/include/nav_msgs/nav_msgs/msg/path.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:71:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:114:73: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  114 | using PoseStampedMsgConstPtr = geometry_msgs::msg::PoseStamped::ConstPtr;
+      |                                                                         ^
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:119:5: note: declared here
+  119 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:47: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                               ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:77:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:115:55: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  115 | using ImuMsgConstPtr = sensor_msgs::msg::Imu::ConstPtr;
+      |                                                       ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:186:5: note: declared here
+  186 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:42: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                          ^~~
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:116:45: warning: ‘sensor_msgs::msg::Imu_<std::allocator<void> >::Ptr’ is deprecated [-Wdeprecated-declarations]
+  116 | using ImuMsgPtr = sensor_msgs::msg::Imu::Ptr;
+      |                                             ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:183:5: note: declared here
+  183 |     Ptr;
+      |     ^~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:67: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                   ^~~~~~~~
+In file included from /home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp:7,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:86:
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:119:75: warning: ‘livox_ros_driver2::msg::CustomMsg_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  119 | using LivoxCustomMsgConstPtr = livox_ros_driver2::msg::CustomMsg::ConstPtr;
+      |                                                                           ^
+/home/pc/chassis-autonomy/sensors/driver_workspace/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp:168:5: note: declared here
+  168 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:56: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                        ^~~~~~~~
+In file included from /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7,
+                 from /opt/ros/jazzy/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59,
+                 from /home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/utility.h:13:
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+/home/pc/chassis-autonomy/mapping_ws/src/fast_lio_sam/include/ros_utils.h:121:64: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+  121 | using Pcl2MsgConstPtr = sensor_msgs::msg::PointCloud2::ConstPtr;
+      |                                                                ^
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:198:5: note: declared here
+  198 |     ConstPtr;
+      |     ^~~~~~~~
+[ 68%] Generating C type support for eProsima Fast-RTPS
+[ 70%] Building CXX object CMakeFiles/fast_lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio_sam/msg/detail/pose6_d__type_support_c.cpp.o
+[ 72%] Linking CXX shared library libfast_lio_sam__rosidl_typesupport_fastrtps_c.so
+[ 72%] Built target fast_lio_sam__rosidl_typesupport_fastrtps_c
+[ 74%] Generating C++ type support for eProsima Fast-RTPS
+[ 76%] Building CXX object CMakeFiles/fast_lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio_sam/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o
+[ 78%] Linking CXX shared library libfast_lio_sam__rosidl_typesupport_fastrtps_cpp.so
+[ 78%] Built target fast_lio_sam__rosidl_typesupport_fastrtps_cpp
+[ 78%] Built target fast_lio_sam
+[ 80%] Generating Python code for ROS interfaces
+[ 80%] Built target fast_lio_sam__py
+[ 82%] Building C object CMakeFiles/fast_lio_sam__rosidl_generator_py.dir/rosidl_generator_py/fast_lio_sam/msg/_pose6_d_s.c.o
+[ 85%] Linking C shared library libfast_lio_sam__rosidl_generator_py.so
+[ 85%] Built target fast_lio_sam__rosidl_generator_py
+[ 87%] Building C object CMakeFiles/fast_lio_sam_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/fast_lio_sam/_fast_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 89%] Linking C shared module rosidl_generator_py/fast_lio_sam/fast_lio_sam_s__rosidl_typesupport_fastrtps_c.so
+[ 89%] Built target fast_lio_sam_s__rosidl_typesupport_fastrtps_c
+[ 91%] Building C object CMakeFiles/fast_lio_sam_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/fast_lio_sam/_fast_lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 93%] Linking C shared module rosidl_generator_py/fast_lio_sam/fast_lio_sam_s__rosidl_typesupport_introspection_c.so
+[ 93%] Built target fast_lio_sam_s__rosidl_typesupport_introspection_c
+[ 95%] Building C object CMakeFiles/fast_lio_sam_s__rosidl_typesupport_c.dir/rosidl_generator_py/fast_lio_sam/_fast_lio_sam_s.ep.rosidl_typesupport_c.c.o
+[ 97%] Linking C shared module rosidl_generator_py/fast_lio_sam/fast_lio_sam_s__rosidl_typesupport_c.so
+[ 97%] Built target fast_lio_sam_s__rosidl_typesupport_c
+[100%] Linking CXX executable fastlio_mapping
+[100%] Built target fastlio_mapping
+-- Install configuration: "Release"
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/ament_index/resource_index/rosidl_interfaces/fast_lio_sam
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/msg/Pose6D.json
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__type_support.c
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__functions.c
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__type_support.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__functions.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__struct.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__description.c
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/pose6_d.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/environment/library_path.sh
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/environment/library_path.dsv
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/pose6_d.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__struct.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__type_support.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__builder.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__traits.hpp
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/dds_fastrtps
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__type_support.c
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/fast_lio_sam/fast_lio_sam/msg/detail/pose6_d__type_support.cpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/environment/pythonpath.sh
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/environment/pythonpath.dsv
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam-0.0.0-py3.12.egg-info
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/fast_lio_sam_s__rosidl_typesupport_c.so
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/msg
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/msg/_pose6_d.py
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/msg/__init__.py
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/msg/_pose6_d_s.c
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/_fast_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/__init__.py
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/_fast_lio_sam_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/_fast_lio_sam_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/fast_lio_sam_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/fast_lio_sam_s__rosidl_typesupport_fastrtps_c.so
+Listing '/home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam'...
+Compiling '/home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/__init__.py'...
+Listing '/home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/msg'...
+Compiling '/home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/msg/__init__.py'...
+Compiling '/home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/msg/_pose6_d.py'...
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/fast_lio_sam_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/fast_lio_sam_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/fast_lio_sam_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/fast_lio_sam_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/fast_lio_sam_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/mapping_ws/install/lib/python3.12/site-packages/fast_lio_sam/fast_lio_sam_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/mapping_ws/install/lib/libfast_lio_sam__rosidl_generator_py.so" to ""
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/rust
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/rust/Cargo.toml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/rust/build.rs
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/rust/src
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/rust/src/msg
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/rust/src/msg/rmw.rs
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/rust/src/lib.rs
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/rust/src/msg.rs
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/msg/Pose6D.idl
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/msg/Pose6D.msg
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/launch_ROS2
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/launch_ROS2/mapping
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/launch_ROS2/mapping/debug_mapping.launch.py
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/launch_ROS2/mapping/mapping_debug.launch.py
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/launch_ROS2/mapping/mapping_mid360.launch.py
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/launch_ROS2/mapping/mapping_airy.launch.py
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/launch_ROS2/odom
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/launch_ROS2/odom/odom_mid360.launch.py
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/launch_ROS2/odom/odom_airy.launch.py
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/mapping
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/mapping/airy.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/mapping/mid360.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/mapping/l2.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/debug_mid360.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/odom
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/odom/airy.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/odom/mid360.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/odom/hap.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/odom/velodyne.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/odom/l2.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/odom/kaist_urban.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/odom/horizon.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/odom/avia.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/odom/ouster64.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/odom/marsim.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/local
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/local/official_fastlio_mid360_reference.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/config/local/dual_mid360s_candidate.yaml
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/rviz_cfg/loam_ros2.rviz
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/rviz_cfg/sam_ros2.rviz
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/fast_lio_sam/fastlio_mapping
+-- Set non-toolchain portion of runtime path of "/home/pc/chassis-autonomy/mapping_ws/install/lib/fast_lio_sam/fastlio_mapping" to ""
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/lib/fast_lio_sam/pcd_to_ikdtree_bin
+-- Up-to-date: /home/pc/chassis-autonomy/mapping_ws/install/include
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/s-graph
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/s-graph/ground.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/s-graph/floorMap.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/s-graph/floorMap.cpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/s-graph/scene.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/s-graph/plane.cpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/s-graph/ground.cpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/s-graph/plane.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/s-graph/factor
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/s-graph/factor/floor_factor.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/queue.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/mtk
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/mtk/build_manifold.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/mtk/types
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/mtk/types/S2.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/mtk/types/vect.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/mtk/types/SOn.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/mtk/types/wrapped_cv_mat.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/mtk/src
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/mtk/src/vectview.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/mtk/src/mtkmath.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/mtk/src/SubManifold.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/mtk/startIdx.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/esekfom
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/esekfom/esekfom.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/IKFoM_toolkit/esekfom/util.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/utility.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/common_lib.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/ikd-Tree
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/ikd-Tree/ikdtree_public.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/ikd-Tree/ikd_Tree.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/ikd-Tree/pcd_to_ikdtree_bin.cpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/ikd-Tree/ikd_Tree.cpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/use-ikfom.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/map_optimization.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/so3_math.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/posebuffer.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/ros_utils.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/Exp_mat.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/imu_inbox.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/factor
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/factor/gnssYaw_factor.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/matplotlibcpp.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/common_utils.h
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/balm
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/balm/tools.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/include/balm/bavoxel.hpp
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/ament_index/resource_index/package_run_dependencies/fast_lio_sam
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/ament_index/resource_index/parent_prefix_path/fast_lio_sam
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/environment/ament_prefix_path.sh
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/environment/ament_prefix_path.dsv
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/environment/path.sh
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/environment/path.dsv
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/local_setup.bash
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/local_setup.sh
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/local_setup.zsh
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/local_setup.dsv
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/package.dsv
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/ament_index/resource_index/packages/fast_lio_sam
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/export_fast_lio_sam__rosidl_generator_cExport.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/export_fast_lio_sam__rosidl_generator_cExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/export_fast_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/export_fast_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/export_fast_lio_sam__rosidl_generator_cppExport.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/export_fast_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/export_fast_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/fast_lio_sam__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/fast_lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/fast_lio_sam__rosidl_typesupport_cExport.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/fast_lio_sam__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/fast_lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/fast_lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/fast_lio_sam__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/fast_lio_sam__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/export_fast_lio_sam__rosidl_generator_pyExport.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/export_fast_lio_sam__rosidl_generator_pyExport-release.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/fast_lio_samConfig.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/cmake/fast_lio_samConfig-version.cmake
+-- Installing: /home/pc/chassis-autonomy/mapping_ws/install/share/fast_lio_sam/package.xml

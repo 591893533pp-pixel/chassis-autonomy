@@ -1,0 +1,13 @@
+Bridge mapping: physical vx/vy -> legacy -vx/-vy; yaw unchanged; revision final_front_20260917
+Low-speed bounded profile: motor velocity mode + filtered wheel PI (crawl kp=0.12 ki=0.12 trim<=15%, matched target/feedback tau=120ms)
+Body hold ON; acceleration shaping retained; stop overrides
+Wheel PI ON
+Wheel PI profile baseline; crawl kp=0.12 ki=0.12; normal kp=0.2 ki=0.3; tau=0.12 s; normal cap=25%
+Integral gate OFF
+Control target 100 Hz; wheel feedback nominal 100 Hz; Bridge ready; HARDWARE; waiting for neutral START command
+SocketCAN error id=0x20000004 data=00 0c 00 00 00 00 00 00 ; fault latched, only stop/disable writes permitted
+FAULT missing or stale active velocity report from chassis motor 1 (max age_ms=816.543421, limit_ms=100)
+FAULT SNAPSHOT wheel_valid=0 age_ms=816.543 motor1_fault=0 motor2_fault=0 motor3_fault=0 motor4_fault=0 lift_status=0 lift_error_cached=0
+SocketCAN error id=0x20000004 data=00 40 00 00 00 00 00 00 ; fault latched, only stop/disable writes permitted
+DISABLE FAILED: one or more auxiliary devices failed to disable
+Bridge exited; connected-device cleanup attempted (see any failures above)

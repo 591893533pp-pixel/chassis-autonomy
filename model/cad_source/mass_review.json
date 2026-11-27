@@ -1,0 +1,3525 @@
+{
+  "updated_at": "2026-11-16T19:37:25+08:00",
+  "source_microversion": "9bd1fc50832501c55e1fb165",
+  "active_parts": 59,
+  "api_mass_available_parts": 59,
+  "missing_api_mass_parts": 0,
+  "source_api_total_mass_kg": 19.25819673313625,
+  "output_total_mass_kg": "20.77667673313624572",
+  "all_mass_centroid_and_inertia_refreshed": true,
+  "mass_discrepancies": [
+    {
+      "source_name": "RS02",
+      "count": 4,
+      "source_per_part_kg": 0.00038,
+      "output_per_part_kg": 0.38,
+      "reason": "Retain previously explicitly confirmed motor mass; source still differs by 1000x."
+    }
+  ],
+  "parts": [
+    {
+      "link": "01",
+      "source_name": "01",
+      "instance_path": [
+        "MjNVX8clOqh7x/kGd"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZOSBX"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 0.9,
+      "output_mass_kg": 0.9,
+      "native_export_mass_kg": 0.000405279,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999833264,
+          -1.6338078814324537e-07,
+          5.7723946363849515e-06
+        ],
+        [
+          1.633929055909806e-07,
+          0.9999999999977834,
+          -2.0991876467369433e-06
+        ],
+        [
+          -5.77239429344686e-06,
+          2.099188589976975e-06,
+          0.9999999999811365
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.0014430006788876712,
+        -0.0014431996514133651,
+        8.791931431840748e-07
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.0021373807039662797,
+          -0.0006649452746121616,
+          -3.981379826980262e-09
+        ],
+        [
+          -0.0006649452746121616,
+          0.0021373802536161714,
+          6.454940532769102e-09
+        ],
+        [
+          -3.981379826980262e-09,
+          6.454940532769102e-09,
+          0.0014724164064217342
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "01_1",
+      "source_name": "01",
+      "instance_path": [
+        "M7ly+LATNdfrrG66V"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZOSBX"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 0.9,
+      "output_mass_kg": 0.9,
+      "native_export_mass_kg": 0.000405279,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999859169,
+          -5.307179586686774e-06,
+          0.0
+        ],
+        [
+          5.307179586686774e-06,
+          0.9999999999859169,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.0014427252723257667,
+        -0.0014435294891247186,
+        4.1945680440830246e-07
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.002137387544663382,
+          -0.0006649452745996756,
+          1.2528951450085504e-09
+        ],
+        [
+          -0.0006649452745996756,
+          0.002137373412950932,
+          1.220736546750908e-09
+        ],
+        [
+          1.2528951450085504e-09,
+          1.220736546750908e-09,
+          0.0014724164063898712
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "01_2",
+      "source_name": "01",
+      "instance_path": [
+        "MMkSqBXaupKxBzp2s"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZOSBX"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 0.9,
+      "output_mass_kg": 0.9,
+      "native_export_mass_kg": 0.000405279,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.0014435796453736993,
+        -0.0014432790927169925,
+        4.1945680440830246e-07
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.002137380486695406,
+          -0.0006649452746372172,
+          1.2529016236589876e-09
+        ],
+        [
+          -0.0006649452746372172,
+          0.0021373804709189075,
+          1.2207298973941784e-09
+        ],
+        [
+          1.2529016236589876e-09,
+          1.2207298973941784e-09,
+          0.0014724164063898712
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "01_3",
+      "source_name": "01",
+      "instance_path": [
+        "MA/fxvcNPDl8X1YrT"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZOSBX"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 0.9,
+      "output_mass_kg": 0.9,
+      "native_export_mass_kg": 0.000405279,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999998199,
+          -1.633972813944546e-07,
+          5.776973130962776e-07
+        ],
+        [
+          1.6339549329880639e-07,
+          0.9999999999951956,
+          3.0955079789748474e-06
+        ],
+        [
+          -5.776978188049804e-07,
+          -3.0955078846553816e-06,
+          0.9999999999950421
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.0014431967737694822,
+        -0.001443395747039574,
+        6.591019331653759e-07
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.002137380703997132,
+          -0.0006649452746304877,
+          2.9270967396103648e-09
+        ],
+        [
+          -0.0006649452746304877,
+          0.002137380253621971,
+          -4.5353369443804906e-10
+        ],
+        [
+          2.9270967396103648e-09,
+          -4.5353369443804906e-10,
+          0.0014724164063850817
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "4005",
+      "source_name": "4005",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M0YfBYTZT+qABsBVt",
+        "MnXVihFoNTE6OAOHS"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WXB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.01069209643722744,
+      "output_mass_kg": 0.01069209643722744,
+      "native_export_mass_kg": 0.0106921,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          -3.673205103457597e-06,
+          0.0
+        ],
+        [
+          3.6732051032355525e-06,
+          0.999999999993254,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.0017682157260907694,
+        -0.0017676663756103612,
+        3.469446951953614e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          4.2221631867820995e-06,
+          -1.3925341849067468e-06,
+          0.0
+        ],
+        [
+          -1.3925341849067468e-06,
+          4.2221427265274025e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.829618771710426e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "4005_1",
+      "source_name": "4005",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MCXCAfzUphuOXnFrE",
+        "MnXVihFoNTE6OAOHS"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WXB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.01069209643722744,
+      "output_mass_kg": 0.01069209643722744,
+      "native_export_mass_kg": 0.0106921,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.001768093002032095,
+        -0.0017675930020321917,
+        4.85722573273506e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          4.222152956654749e-06,
+          -1.3925341849443226e-06,
+          0.0
+        ],
+        [
+          -1.3925341849443226e-06,
+          4.22215295665475e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.829618771710426e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "4005_2",
+      "source_name": "4005",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "Mv696tQdMPSrHS/hN",
+        "MnXVihFoNTE6OAOHS"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WXB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.01069209643722744,
+      "output_mass_kg": 0.01069209643722744,
+      "native_export_mass_kg": 0.0106921,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999964793,
+          -2.65358979335273e-06,
+          0.0
+        ],
+        [
+          2.65358979335273e-06,
+          0.9999999999964793,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.0017681816600844513,
+        -0.0017676460084771408,
+        4.85722573273506e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          4.222160347083749e-06,
+          -1.3925341849247115e-06,
+          0.0
+        ],
+        [
+          -1.3925341849247115e-06,
+          4.22214556622575e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.829618771710426e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "4005_3",
+      "source_name": "4005",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MjByRCIUvdciOZ17D",
+        "MnXVihFoNTE6OAOHS"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WXB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.01069209643722744,
+      "output_mass_kg": 0.01069209643722744,
+      "native_export_mass_kg": 0.0106921,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          3.6732051032355525e-06,
+          0.0
+        ],
+        [
+          -3.673205103457597e-06,
+          0.999999999993254,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.0017679702782428506,
+        -0.0017675196280031165,
+        6.938893903907228e-18
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          4.2221427265274e-06,
+          -1.3925341849067468e-06,
+          0.0
+        ],
+        [
+          -1.3925341849067468e-06,
+          4.2221631867821e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.829618771710426e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "batt_id_u",
+      "source_name": "BATT_ID_U",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M9XtRYwnJrYyo8bV4"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZOSBr"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 0.1876083254852418,
+      "output_mass_kg": 0.1876083254852418,
+      "native_export_mass_kg": 0.187603,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999823962,
+          -5.307179468898224e-06,
+          -2.6535897931569057e-06
+        ],
+        [
+          5.3071865104628774e-06,
+          0.9999999999823961,
+          2.653599540249505e-06
+        ],
+        [
+          2.653575709981193e-06,
+          -2.6536136232987454e-06,
+          0.9999999999929585
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.04504039866664899,
+        -0.11200936041876577,
+        0.009491140040970111
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.0006842989059385483,
+          1.7418426630295934e-07,
+          1.894689456717363e-05
+        ],
+        [
+          1.7418426630295934e-07,
+          0.0005408594067979249,
+          -1.7292308388748192e-08
+        ],
+        [
+          1.894689456717363e-05,
+          -1.7292308388748192e-08,
+          0.001210172819342947
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "batt_id_u_1",
+      "source_name": "BATT_ID_U",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M4iGuqa1jd7yh6eex"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZOSB3"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 0.5178461621547863,
+      "output_mass_kg": 0.5178461621547863,
+      "native_export_mass_kg": 0.517871,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999985468,
+          -4.692820531089943e-06,
+          2.6535897931569086e-06
+        ],
+        [
+          4.692813489525289e-06,
+          0.999999999985468,
+          2.6535995402495036e-06
+        ],
+        [
+          -2.6536022459847506e-06,
+          -2.653587087408964e-06,
+          0.9999999999929585
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.009467113452473898,
+        -0.11207811627907123,
+        -0.01852333648713317
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.0030933919728447193,
+          -4.739324599053008e-06,
+          2.5934420536887705e-05
+        ],
+        [
+          -4.739324599053008e-06,
+          0.0026710411591339025,
+          2.0639056280862884e-06
+        ],
+        [
+          2.5934420536887705e-05,
+          2.0639056280862884e-06,
+          0.004781362018082021
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "batt_id_u_2",
+      "source_name": "BATT_ID_U",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M8Zat+ABv6AfTjZMW"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZOSBz"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 0.1876051697607353,
+      "output_mass_kg": 0.1876051697607353,
+      "native_export_mass_kg": 0.187603,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999985468,
+          -4.692820531089943e-06,
+          2.6535897931569086e-06
+        ],
+        [
+          4.692813489525289e-06,
+          0.999999999985468,
+          2.6535995402495036e-06
+        ],
+        [
+          -2.6536022459847506e-06,
+          -2.653587087408964e-06,
+          0.9999999999929585
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.045040540739618225,
+        -0.11200853329058982,
+        0.009491244731037492
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.0006842772686519759,
+          -1.7066181289171047e-07,
+          -1.8943641490466586e-05
+        ],
+        [
+          -1.7066181289171047e-07,
+          0.000540859828662464,
+          -7.507338882491938e-09
+        ],
+        [
+          -1.8943641490466586e-05,
+          -7.507338882491938e-09,
+          0.001210152542106383
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "batt_id_u_3",
+      "source_name": "BATT_ID_U",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MDhHg1BOBJqIwPU+c"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZOSBv"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 0.5178523750716717,
+      "output_mass_kg": 0.5178523750716717,
+      "native_export_mass_kg": 0.517872,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999823962,
+          -5.307179468898224e-06,
+          -2.6535897931569057e-06
+        ],
+        [
+          5.3071865104628774e-06,
+          0.9999999999823961,
+          2.653599540249505e-06
+        ],
+        [
+          2.653575709981193e-06,
+          -2.6536136232987454e-06,
+          0.9999999999929585
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.009467716172116874,
+        0.11192118149585785,
+        -0.018524124608638615
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.0030934096937167664,
+          4.7464022640455074e-06,
+          -2.5939219194441437e-05
+        ],
+        [
+          4.7464022640455074e-06,
+          0.0026710536128131688,
+          2.132410156362334e-06
+        ],
+        [
+          -2.5939219194441437e-05,
+          2.132410156362334e-06,
+          0.004781389260113591
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "batt_sm_l",
+      "source_name": "BATT_SM_L",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MDEBeQvCFJPlLIz2w"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZOSB/"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 1.1497719103842747,
+      "output_mass_kg": 1.1497719103842747,
+      "native_export_mass_kg": 1.14977,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.015291421794044982,
+        0.168175142511602,
+        0.07033287462459273
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.013793320171345085,
+          5.701012748825376e-07,
+          1.6214315585626002e-05
+        ],
+        [
+          5.701012748825376e-07,
+          0.0042437854339318504,
+          1.1941629286789997e-06
+        ],
+        [
+          1.6214315585626002e-05,
+          1.1941629286789997e-06,
+          0.013509071608231185
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "batt_sm_r",
+      "source_name": "BATT_SM_R",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MgKZxAh4NNbiuVMxF"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZOSB7"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 1.1497719459529026,
+      "output_mass_kg": 1.1497719459529026,
+      "native_export_mass_kg": 1.14977,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.015291422020007203,
+        -0.16823686055542897,
+        0.07033287293852955
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.013793320546322128,
+          -5.700461852097263e-07,
+          -1.6214300857184852e-05
+        ],
+        [
+          -5.700461852097263e-07,
+          0.004243785574923037,
+          1.193959536656946e-06
+        ],
+        [
+          -1.6214300857184852e-05,
+          1.193959536656946e-06,
+          0.01350907190170115
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "cahssis_s_d",
+      "source_name": "CAHSSIS_S_D",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MhwZTpt//V0gb6iyl"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "aOSBPB"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 0.8221437361421345,
+      "output_mass_kg": 0.8221437361421345,
+      "native_export_mass_kg": 0.824245,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.08920128070114511,
+        -0.13742223095143274,
+        -0.035209777549163816
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.023835350385577943,
+          -1.1370125834823716e-05,
+          1.9423854305202554e-07
+        ],
+        [
+          -1.1370125834823716e-05,
+          0.019341078752878667,
+          2.2073271185825522e-05
+        ],
+        [
+          1.9423854305202554e-07,
+          2.2073271185825522e-05,
+          0.040779458354648565
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "cahssis_s_u",
+      "source_name": "CAHSSIS_S_U",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MXhMUXmMw+duSsLEW"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "aOSBXP"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 0.512217824063396,
+      "output_mass_kg": 0.512217824063396,
+      "native_export_mass_kg": 0.507681,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.07121860320396592,
+        -0.14657213033056815,
+        0.08425195199102958
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.009624187841137704,
+          -0.004576261347136073,
+          2.756046445506609e-05
+        ],
+        [
+          -0.004576261347136073,
+          0.008718797667016692,
+          0.0007356086781912379
+        ],
+        [
+          2.756046445506609e-05,
+          0.0007356086781912379,
+          0.0168187132805744
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "cahssis_s_u_1",
+      "source_name": "CAHSSIS_S_U",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MgNhc5b5Ue9pykuet"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "aOSBTP"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 0.5002234331260418,
+      "output_mass_kg": 0.5002234331260418,
+      "native_export_mass_kg": 0.495839,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.07277944150585676,
+        0.14418997030040862,
+        0.0839802647758241
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.009313806750561511,
+          -0.004493909177235532,
+          -3.89260779053621e-05
+        ],
+        [
+          -0.004493909177235532,
+          0.008483085893982169,
+          -0.0007148222218619579
+        ],
+        [
+          -3.89260779053621e-05,
+          -0.0007148222218619579,
+          0.016312071691058052
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "chassis_base",
+      "source_name": "CHASSIS_BASE",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "Mf0MuqFiMW/yDrTG1"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "aOSBLB"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 7.1877107971641365,
+      "output_mass_kg": 7.1877107971641365,
+      "native_export_mass_kg": 7.18795,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -4.733664793522787e-07,
+        0.006335594706868806,
+        0.10282932496096336
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.07571025542653358,
+          3.3122134901748323e-07,
+          -1.8431292302697657e-07
+        ],
+        [
+          3.3122134901748323e-07,
+          0.09043901904938623,
+          0.0033817285707969887
+        ],
+        [
+          -1.8431292302697657e-07,
+          0.0033817285707969887,
+          0.15173155317910583
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "mid_360",
+      "source_name": "MID-360",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MofwFNTmZsBSjJPwp"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZOSBD"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 0.2649999999999999,
+      "output_mass_kg": 0.2649999999999999,
+      "native_export_mass_kg": 0.000141398,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999971632,
+          2.386971153681607e-06,
+          -5.72117885034129e-08
+        ],
+        [
+          -2.386971150540547e-06,
+          0.9999999999971637,
+          5.327009024580302e-08
+        ],
+        [
+          5.72119154725792e-08,
+          -5.32699539149509e-08,
+          0.9999999999999968
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.03545130399171226,
+        0.009986280473042052,
+        0.008748311855731477
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.00013685224542300584,
+          8.974289341746752e-06,
+          -7.0837022923439774e-06
+        ],
+        [
+          8.974289341746752e-06,
+          0.00013684116973027957,
+          7.035496460696239e-06
+        ],
+        [
+          -7.0837022923439774e-06,
+          7.035496460696239e-06,
+          0.0001385249107303464
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "mid_360_1",
+      "source_name": "MID-360",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MFp34sU7VV7UXtK41"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "723b42c71ad118261820e5cc",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZOSBH"
+      },
+      "api_file": "chassis.json",
+      "api_mass_kg": 0.26500000000000007,
+      "output_mass_kg": 0.26500000000000007,
+      "native_export_mass_kg": 0.000141398,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999889879,
+          4.693653945880638e-06,
+          9.181054271460039e-08
+        ],
+        [
+          -4.693653932877814e-06,
+          0.9999999999889869,
+          -8.636238513156241e-08
+        ],
+        [
+          -9.181094816166173e-08,
+          8.63619590213622e-08,
+          0.999999999999991
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.035451449780200095,
+        -0.009987182183047125,
+        0.008748300887814938
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.00013685228790189376,
+          8.974284153889726e-06,
+          7.083684795420175e-06
+        ],
+        [
+          8.974284153889726e-06,
+          0.00013684112813342,
+          -7.035515619127001e-06
+        ],
+        [
+          7.083684795420175e-06,
+          -7.035515619127001e-06,
+          0.00013852491445797747
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "mid_360_rack",
+      "source_name": "MID_360_RACK",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MnulTpHuahTCQTU+/"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "84afbdd19963708a51bceb1c",
+        "partId": "ZJOBD"
+      },
+      "api_file": "rack.json",
+      "api_mass_kg": 0.2682697803055358,
+      "output_mass_kg": 0.2682697803055358,
+      "native_export_mass_kg": 0.26827,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999899192,
+          4.490192345316373e-06,
+          1.053394194452781e-21
+        ],
+        [
+          -4.490192345290233e-06,
+          0.9999999999899192,
+          -5.946217279247056e-22
+        ],
+        [
+          -1.0533968643771666e-21,
+          5.946169980626293e-22,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.037187841134213515,
+        -0.01061510778998197,
+        0.06793884903091574
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.0007025621440353386,
+          1.5104346764606847e-06,
+          -9.835625547473609e-06
+        ],
+        [
+          1.5104346764606847e-06,
+          0.0006854299911763465,
+          -0.0001080186660198917
+        ],
+        [
+          -9.835625547473609e-06,
+          -0.0001080186660198917,
+          0.00016948703314897763
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "mid_360_rack_1",
+      "source_name": "MID_360_RACK",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MwUlXznvnTkPM1max"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "84afbdd19963708a51bceb1c",
+        "partId": "ZJOBD"
+      },
+      "api_file": "rack.json",
+      "api_mass_kg": 0.2682697803055358,
+      "output_mass_kg": 0.2682697803055358,
+      "native_export_mass_kg": 0.26827,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0000000000000007,
+          -1.6339744818996535e-07,
+          -6.710569511203206e-24
+        ],
+        [
+          1.633974481545689e-07,
+          1.0000000000000007,
+          -2.6716211835226974e-23
+        ],
+        [
+          6.710495789686423e-24,
+          2.671278432087545e-23,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.037188523660226985,
+        0.0093856512837344,
+        0.06793884903091577
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.0007025621299771004,
+          1.5105144024069486e-06,
+          -9.835122872805548e-06
+        ],
+        [
+          1.5105144024069486e-06,
+          0.0006854300052346234,
+          -0.00010801871178969024
+        ],
+        [
+          -9.835122872805548e-06,
+          -0.00010801871178969024,
+          0.00016948703314897763
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "part_1",
+      "source_name": "Part 1",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MB105tcHNLqWFpteY"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZVNBD"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.0239183447199206,
+      "output_mass_kg": 0.0239183447199206,
+      "native_export_mass_kg": 0.0239183,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999961484,
+          -8.366018592786823e-06,
+          -2.653609287411172e-06
+        ],
+        [
+          8.36602563435148e-06,
+          0.999999999961484,
+          2.653580045923631e-06
+        ],
+        [
+          2.653587087408964e-06,
+          -2.6536022459847485e-06,
+          0.9999999999929585
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.007500677186207589,
+        0.025419296699607602,
+        5.089214001749163e-07
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          1.3041484542128979e-05,
+          2.077714438812912e-07,
+          3.5438221674323683e-13
+        ],
+        [
+          2.077714438812912e-07,
+          1.2010066397395246e-06,
+          3.1528297810772366e-11
+        ],
+        [
+          3.5438221674323683e-13,
+          3.1528297810772366e-11,
+          1.2736044192842638e-05
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "part_1_1",
+      "source_name": "Part 1",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "Mt7UlhQRMmjOewlWL"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZVNBD"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.0239183447199206,
+      "output_mass_kg": 0.0239183447199206,
+      "native_export_mass_kg": 0.0239183,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999951442,
+          -1.6339814071451621e-06,
+          2.6536092874111737e-06
+        ],
+        [
+          1.6339743655805073e-06,
+          0.9999999999951443,
+          2.6535800459236304e-06
+        ],
+        [
+          -2.6536136232987454e-06,
+          -2.6535757099811934e-06,
+          0.9999999999929585
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.007500678295049083,
+        0.025419437738721424,
+        -7.196993043836428e-07
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          1.3041487339043548e-05,
+          2.0769173332257541e-07,
+          -1.2664499055327967e-12
+        ],
+        [
+          2.0769173332257541e-07,
+          1.2010038428201153e-06,
+          3.042582764610207e-11
+        ],
+        [
+          -1.2664499055327967e-12,
+          3.042582764610207e-11,
+          1.2736044192847478e-05
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "part_1_2",
+      "source_name": "Part 1",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M3JCTRYVEyLu6Spqu"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZVNBD"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.0239183447199206,
+      "output_mass_kg": 0.0239183447199206,
+      "native_export_mass_kg": 0.0239183,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999596764,
+          8.98038457218888e-06,
+          1.2379687287983449e-21
+        ],
+        [
+          -8.980384572157263e-06,
+          0.9999999999561556,
+          -2.653589793174809e-06
+        ],
+        [
+          -2.3830256840782905e-11,
+          2.653589793067806e-06,
+          0.9999999999964793
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.000998228608196449,
+        0.03941816930680751,
+        1.0381328419139808e-07
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          1.3041491746743326e-05,
+          2.0756605405198345e-07,
+          6.460025695196972e-13
+        ],
+        [
+          2.0756605405198345e-07,
+          1.2009994351210058e-06,
+          -3.024147058739146e-11
+        ],
+        [
+          6.460025695196972e-13,
+          -3.024147058739146e-11,
+          1.2736044192846808e-05
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "part_1_3",
+      "source_name": "Part 1",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MyoyHwGkCACvHYq33"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZVNBD"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.0239183447199206,
+      "output_mass_kg": 0.0239183447199206,
+      "native_export_mass_kg": 0.0239183,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999994802,
+          1.0196154277557477e-06,
+          1.8141034041123024e-22
+        ],
+        [
+          -1.0196154277521584e-06,
+          0.9999999999959595,
+          -2.6535897931748094e-06
+        ],
+        [
+          -2.7056410922376293e-12,
+          2.65358979317343e-06,
+          0.9999999999964793
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.00016890097148004678,
+        0.0394181751075366,
+        1.0381329952839791e-07
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          1.3041488441222069e-05,
+          2.0766031345152194e-07,
+          6.462497672750026e-13
+        ],
+        [
+          2.0766031345152194e-07,
+          1.2010027406422602e-06,
+          -3.024146105798147e-11
+        ],
+        [
+          6.462497672750026e-13,
+          -3.024146105798147e-11,
+          1.2736044192846808e-05
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "part_2",
+      "source_name": "Part 2",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M8R1mmvdpP18qpKdD"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZVNBH"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.0022175042587158494,
+      "output_mass_kg": 0.0022175042587158494,
+      "native_export_mass_kg": 0.0022175,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999932537,
+          -3.6732052211035083e-06,
+          -2.453592306132607e-41
+        ],
+        [
+          3.6732052211035083e-06,
+          0.9999999999932537,
+          -2.453598740458196e-41
+        ],
+        [
+          -2.453583315372316e-41,
+          2.4535897278937095e-41,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -2.1156803484271657e-07,
+        0.0031492977551696804,
+        -0.009500000000000147
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          1.7105008150352532e-07,
+          -5.931477226414351e-14,
+          -5.411428938021902e-48
+        ],
+        [
+          -5.931477226414351e-14,
+          1.871980418522051e-07,
+          3.378497518641783e-48
+        ],
+        [
+          -5.411428938021902e-48,
+          3.378497518641783e-48,
+          4.9501125473161436e-08
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "part_2_1",
+      "source_name": "Part 2",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MjZ397bQ8bFEz+lrj"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZVNBH"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.0022175042587158494,
+      "output_mass_kg": 0.0022175042587158494,
+      "native_export_mass_kg": 0.0022175,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999799858,
+          -6.326794778911535e-06,
+          -3.5982622058308265e-22
+        ],
+        [
+          6.326794778911535e-06,
+          0.9999999999799858,
+          -6.49943313371498e-22
+        ],
+        [
+          3.5983033261915873e-22,
+          6.499410368118362e-22,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -2.5309474228951353e-07,
+        0.003149283159715848,
+        -0.009500000000000175
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          1.710500815039538e-07,
+          -1.0216483122480997e-13,
+          4.3736435060518714e-29
+        ],
+        [
+          -1.0216483122480997e-13,
+          1.8719804185177662e-07,
+          8.949515331057014e-29
+        ],
+        [
+          4.3736435060518714e-29,
+          8.949515331057014e-29,
+          4.9501125473161436e-08
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "part_2_2",
+      "source_name": "Part 2",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MLOhfv/tKlovkO0XN"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZVNBH"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.0022175042587158494,
+      "output_mass_kg": 0.0022175042587158494,
+      "native_export_mass_kg": 0.0022175,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999989733,
+          -3.6732049855895083e-06,
+          2.653589793212363e-06
+        ],
+        [
+          3.6731979440248524e-06,
+          0.999999999989733,
+          2.653599540522958e-06
+        ],
+        [
+          -2.653599540400181e-06,
+          -2.6535897933351405e-06,
+          0.9999999999929585
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -1.1568050422118384e-08,
+        0.00314927254677853,
+        -0.009500022951654969
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          1.7105008150266944e-07,
+          -5.931562435569655e-14,
+          -3.225409116978785e-13
+        ],
+        [
+          -5.931562435569655e-14,
+          1.871980418512355e-07,
+          -3.6539231663552304e-13
+        ],
+        [
+          -3.225409116978785e-13,
+          -3.6539231663552304e-13,
+          4.9501125474986945e-08
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "part_2_3",
+      "source_name": "Part 2",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MEvlr46mFvPVtLwc2"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZVNBH"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.0022175042587158494,
+      "output_mass_kg": 0.0022175042587158494,
+      "native_export_mass_kg": 0.0022175,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999959595,
+          -1.0196151922512217e-06,
+          2.6535897929674337e-06
+        ],
+        [
+          1.0196081506865664e-06,
+          0.9999999999959595,
+          2.653599540522958e-06
+        ],
+        [
+          -2.6535924986071176e-06,
+          -2.653596834890454e-06,
+          0.9999999999929585
+        ]
+      ],
+      "center_of_mass_link_m": [
+        2.995883334945014e-08,
+        0.003149257952105084,
+        -0.009500022951726408
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          1.7105008150246838e-07,
+          -1.6465561590594694e-14,
+          -3.2254102537448087e-13
+        ],
+        [
+          -1.6465561590594694e-14,
+          1.8719804185143664e-07,
+          -3.653924303425459e-13
+        ],
+        [
+          -3.2254102537448087e-13,
+          -3.653924303425459e-13,
+          4.9501125474986945e-08
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "part_51",
+      "source_name": "Part 51",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MeYsMiI8brv9mm+vv"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZQABD"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.01618369581645338,
+      "output_mass_kg": 0.01618369581645338,
+      "native_export_mass_kg": 0.0161837,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999964793,
+          -2.653589557838861e-06,
+          -6.499419916516047e-22
+        ],
+        [
+          2.653589557838861e-06,
+          0.9999999999964793,
+          3.598286079720047e-22
+        ],
+        [
+          6.499410368118797e-22,
+          -3.5983033261915873e-22,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.004963064431214216,
+        0.0063630963001466275,
+        -1.6497494688007478e-16
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          1.9319063657020825e-06,
+          3.4443150264966796e-08,
+          -5.22643903873325e-30
+        ],
+        [
+          3.4443150264966796e-08,
+          3.3542125376091205e-06,
+          -4.933683860318043e-28
+        ],
+        [
+          -5.22643903873325e-30,
+          -4.933683860318043e-28,
+          1.920878932690708e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "part_51_1",
+      "source_name": "Part 51",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M5ymqQ+gMNRqpEDQU"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZQABD"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.01618369581645338,
+      "output_mass_kg": 0.01618369581645338,
+      "native_export_mass_kg": 0.0161837,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          -1.3119744214853595e-19,
+          -5.078785964233727e-35
+        ],
+        [
+          1.3119744213136267e-19,
+          0.9999999999964793,
+          -2.653589793230265e-06
+        ],
+        [
+          3.481441933905186e-25,
+          2.653589793230265e-06,
+          0.9999999999964793
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.004963047546150873,
+        0.006362909470037738,
+        1.6884551792312473e-08
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          1.9319065485080653e-06,
+          3.4446924481166264e-08,
+          9.140800721171836e-14
+        ],
+        [
+          3.4446924481166264e-08,
+          3.3542123547930445e-06,
+          3.8034789391999576e-12
+        ],
+        [
+          9.140800721171836e-14,
+          3.8034789391999576e-12,
+          1.920878932700801e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "part_51_2",
+      "source_name": "Part 51",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MZi9yvvtPvDxCSzAi"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZQABD"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.01618369581645338,
+      "output_mass_kg": 0.01618369581645338,
+      "native_export_mass_kg": 0.0161837,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999964793,
+          -2.65358979335273e-06,
+          -9.749130740038508e-22
+        ],
+        [
+          2.653589793343387e-06,
+          0.9999999999929585,
+          -2.6535897929853358e-06
+        ],
+        [
+          7.041538791385784e-12,
+          2.653589792975993e-06,
+          0.9999999999964793
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.004963064430712059,
+        0.006362896300155737,
+        1.6884516817092433e-08
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          1.9319063657020664e-06,
+          3.444315026451056e-08,
+          9.139799198048719e-14
+        ],
+        [
+          3.444315026451056e-08,
+          3.3542125375990438e-06,
+          3.8034794239410266e-12
+        ],
+        [
+          9.139799198048719e-14,
+          3.8034794239410266e-12,
+          1.920878932700801e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "part_51_3",
+      "source_name": "Part 51",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M31K/15aH5TwJmq0y"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "ZQABD"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.01618369581645338,
+      "output_mass_kg": 0.01618369581645338,
+      "native_export_mass_kg": 0.0161837,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.004963047546177934,
+        0.006363109470092887,
+        -1.3877787807814457e-16
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          1.9319065485080653e-06,
+          3.444692448128754e-08,
+          0.0
+        ],
+        [
+          3.444692448128754e-08,
+          3.3542123548031373e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.920878932690708e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "rs02",
+      "source_name": "RS02",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M0YfBYTZT+qABsBVt",
+        "MLNWVFDkWmqekzKKM"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "R3WD"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.0003800000000000001,
+      "output_mass_kg": 0.38,
+      "native_export_mass_kg": 0.000182455,
+      "mass_basis": "Previously user-confirmed 0.38 kg RS02; source unit discrepancy remains (0.00038 kg).",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          -3.673205103457597e-06,
+          0.0
+        ],
+        [
+          3.6732051032355525e-06,
+          0.999999999993254,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.013192902505917474,
+        0.013216966217026834,
+        -1.0284217623682257e-06
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.00022487237489649567,
+          -4.0032788164896845e-05,
+          1.4991538939832098e-08
+        ],
+        [
+          -4.0032788164896845e-05,
+          0.00022479196797654807,
+          2.0234885973911844e-08
+        ],
+        [
+          1.4991538939832098e-08,
+          2.0234885973911844e-08,
+          0.00018531294876871347
+        ]
+      ],
+      "api_inertia_scale_factor": 999.9999999999998
+    },
+    {
+      "link": "rs02_1",
+      "source_name": "RS02",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MCXCAfzUphuOXnFrE",
+        "MLNWVFDkWmqekzKKM"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "R3WD"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.0003800000000000001,
+      "output_mass_kg": 0.38,
+      "native_export_mass_kg": 0.000182455,
+      "mass_basis": "Previously user-confirmed 0.38 kg RS02; source unit discrepancy remains (0.00038 kg).",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.013192955902794873,
+        0.013217108831158814,
+        -1.0284217623682257e-06
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.00022487208079921092,
+          -4.003278845916761e-05,
+          1.499161326661739e-08
+        ],
+        [
+          -4.003278845916761e-05,
+          0.00022479226207383266,
+          2.023483090677799e-08
+        ],
+        [
+          1.499161326661739e-08,
+          2.023483090677799e-08,
+          0.00018531294876871347
+        ]
+      ],
+      "api_inertia_scale_factor": 999.9999999999998
+    },
+    {
+      "link": "rs02_2",
+      "source_name": "RS02",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "Mv696tQdMPSrHS/hN",
+        "MLNWVFDkWmqekzKKM"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "R3WD"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.0003800000000000001,
+      "output_mass_kg": 0.38,
+      "native_export_mass_kg": 0.000182455,
+      "mass_basis": "Previously user-confirmed 0.38 kg RS02; source unit discrepancy remains (0.00038 kg).",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999964793,
+          -2.65358979335273e-06,
+          0.0
+        ],
+        [
+          2.65358979335273e-06,
+          0.9999999999964793,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.013192917327977519,
+        0.013217005804111141,
+        -1.0284217623682257e-06
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.0002248722932604081,
+          -4.003278824679767e-05,
+          1.4991559571623845e-08
+        ],
+        [
+          -4.003278824679767e-05,
+          0.0002247920496126355,
+          2.02348706882987e-08
+        ],
+        [
+          1.4991559571623845e-08,
+          2.02348706882987e-08,
+          0.00018531294876871347
+        ]
+      ],
+      "api_inertia_scale_factor": 999.9999999999998
+    },
+    {
+      "link": "rs02_3",
+      "source_name": "RS02",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MjByRCIUvdciOZ17D",
+        "MLNWVFDkWmqekzKKM"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "R3WD"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.0003800000000000001,
+      "output_mass_kg": 0.38,
+      "native_export_mass_kg": 0.000182455,
+      "mass_basis": "Previously user-confirmed 0.38 kg RS02; source unit discrepancy remains (0.00038 kg).",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          3.6732051032355525e-06,
+          0.0
+        ],
+        [
+          -3.673205103457597e-06,
+          0.999999999993254,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.013193009299148437,
+        0.013217251445486891,
+        -1.0284217623959813e-06
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.0002248717867019242,
+          -4.003278875127794e-05,
+          1.4991687593200403e-08
+        ],
+        [
+          -4.003278875127794e-05,
+          0.00022479255617111952,
+          2.0234775839371127e-08
+        ],
+        [
+          1.4991687593200403e-08,
+          2.0234775839371127e-08,
+          0.00018531294876871347
+        ]
+      ],
+      "api_inertia_scale_factor": 999.9999999999998
+    },
+    {
+      "link": "wheel_mot_back",
+      "source_name": "WHEEL_MOT_BACK",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M0YfBYTZT+qABsBVt",
+        "MScjy+9B8E/DlPVcB"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WXC"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.11085158902571977,
+      "output_mass_kg": 0.11085158902571977,
+      "native_export_mass_kg": 0.110852,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          -3.6732051034575967e-06,
+          5.55112e-17
+        ],
+        [
+          3.673205103235552e-06,
+          0.999999999993254,
+          5.55112e-17
+        ],
+        [
+          5.5510898558867027e-17,
+          5.551130636691328e-17,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.008462122954029897,
+        0.008529542977774784,
+        0.0022341000097453184
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          9.696921411504343e-05,
+          -2.424478402842521e-05,
+          -3.889340969155399e-06
+        ],
+        [
+          -2.424478402842521e-05,
+          9.68614519824596e-05,
+          3.1753046789805814e-06
+        ],
+        [
+          -3.889340969155399e-06,
+          3.1753046789805814e-06,
+          7.2145938616062e-05
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_back_1",
+      "source_name": "WHEEL_MOT_BACK",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MCXCAfzUphuOXnFrE",
+        "MScjy+9B8E/DlPVcB"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WXC"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.11085158902571977,
+      "output_mass_kg": 0.11085158902571977,
+      "native_export_mass_kg": 0.110852,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          3.024625156542301e-22,
+          0.0
+        ],
+        [
+          -3.024625156542301e-22,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.008462120842884698,
+        0.008529740940469014,
+        0.0022341000097453254
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          9.696903600291308e-05,
+          -2.4244784423603354e-05,
+          -3.889329305583817e-06
+        ],
+        [
+          -2.4244784423603354e-05,
+          9.686163009458986e-05,
+          3.1753189653062477e-06
+        ],
+        [
+          -3.889329305583817e-06,
+          3.1753189653062477e-06,
+          7.2145938616062e-05
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_back_2",
+      "source_name": "WHEEL_MOT_BACK",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "Mv696tQdMPSrHS/hN",
+        "MScjy+9B8E/DlPVcB"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WXC"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.11085158902571977,
+      "output_mass_kg": 0.11085158902571977,
+      "native_export_mass_kg": 0.110852,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999964793,
+          -2.6535897933527295e-06,
+          0.0
+        ],
+        [
+          2.6535897933527295e-06,
+          0.9999999999964793,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.008462122368087075,
+        0.008529597928639476,
+        0.0022341000097453254
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          9.69691646743373e-05,
+          -2.424478413825069e-05,
+          -3.8893377315641205e-06
+        ],
+        [
+          -2.424478413825069e-05,
+          9.686150142316565e-05,
+          3.17530864461052e-06
+        ],
+        [
+          -3.8893377315641205e-06,
+          3.17530864461052e-06,
+          7.2145938616062e-05
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_back_3",
+      "source_name": "WHEEL_MOT_BACK",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MjByRCIUvdciOZ17D",
+        "MScjy+9B8E/DlPVcB"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WXC"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.11085158902571977,
+      "output_mass_kg": 0.11085158902571977,
+      "native_export_mass_kg": 0.110852,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          3.673205103235553e-06,
+          5.55112e-17
+        ],
+        [
+          -3.6732051034575975e-06,
+          0.999999999993254,
+          5.55112e-17
+        ],
+        [
+          5.551130636691329e-17,
+          5.5510898558867e-17,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.008462118731012531,
+        0.00852993890315563,
+        0.0022341000097452907
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          9.696885789077994e-05,
+          -2.424478481747307e-05,
+          -3.889317641959743e-06
+        ],
+        [
+          -2.424478481747307e-05,
+          9.68618082067231e-05,
+          3.1753332515890893e-06
+        ],
+        [
+          -3.889317641959743e-06,
+          3.1753332515890893e-06,
+          7.2145938616062e-05
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_base",
+      "source_name": "WHEEL_MOT_BASE",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M0YfBYTZT+qABsBVt",
+        "MPPtx91mD6JN47wff"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WjC"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.20981590609728815,
+      "output_mass_kg": 0.20981590609728815,
+      "native_export_mass_kg": 0.209816,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          -3.673205103457597e-06,
+          0.0
+        ],
+        [
+          3.6732051032355525e-06,
+          0.999999999993254,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.030285122553626868,
+        -0.023100904925651367,
+        -0.03845144513384536
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.0002838091296489527,
+          -8.370454732250027e-05,
+          1.9732580588665587e-06
+        ],
+        [
+          -8.370454732250027e-05,
+          0.0002838078984000269,
+          -1.9732394164665697e-06
+        ],
+        [
+          1.9732580588665587e-06,
+          -1.9732394164665697e-06,
+          0.00021507841333592655
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_base_1",
+      "source_name": "WHEEL_MOT_BASE",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MCXCAfzUphuOXnFrE",
+        "MPPtx91mD6JN47wff"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WjC"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.20981590609728815,
+      "output_mass_kg": 0.20981590609728815,
+      "native_export_mass_kg": 0.209816,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.030285207407784398,
+        -0.02310079368202886,
+        -0.03845144513384536
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.0002838085147210118,
+          -8.370454732476405e-05,
+          1.9732508107401513e-06
+        ],
+        [
+          -8.370454732476405e-05,
+          0.0002838085133279676,
+          -1.9732466646348295e-06
+        ],
+        [
+          1.9732508107401513e-06,
+          -1.9732466646348295e-06,
+          0.00021507841333592655
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_base_2",
+      "source_name": "WHEEL_MOT_BASE",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "Mv696tQdMPSrHS/hN",
+        "MPPtx91mD6JN47wff"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WjC"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.20981590609728815,
+      "output_mass_kg": 0.20981590609728815,
+      "native_export_mass_kg": 0.209816,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999964793,
+          -2.65358979335273e-06,
+          0.0
+        ],
+        [
+          2.65358979335273e-06,
+          0.9999999999964793,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.03028514610764744,
+        -0.023100874046464766,
+        -0.03845144513384536
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.0002838089589560767,
+          -8.370454732358154e-05,
+          1.973256046920413e-06
+        ],
+        [
+          -8.370454732358154e-05,
+          0.00028380806909290276,
+          -1.973241428429671e-06
+        ],
+        [
+          1.973256046920413e-06,
+          -1.973241428429671e-06,
+          0.00021507841333592655
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_base_3",
+      "source_name": "WHEEL_MOT_BASE",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MjByRCIUvdciOZ17D",
+        "MPPtx91mD6JN47wff"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WjC"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.20981590609728815,
+      "output_mass_kg": 0.20981590609728815,
+      "native_export_mass_kg": 0.209816,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          3.6732051032355525e-06,
+          0.0
+        ],
+        [
+          -3.673205103457597e-06,
+          0.999999999993254,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -0.03028529226153333,
+        -0.023100682438094607,
+        -0.03845144513384536
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          0.00028380789979307107,
+          -8.370454732251051e-05,
+          1.973243562587121e-06
+        ],
+        [
+          -8.370454732251051e-05,
+          0.00028380912825590854,
+          -1.973253912776466e-06
+        ],
+        [
+          1.973243562587121e-06,
+          -1.973253912776466e-06,
+          0.00021507841333592655
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_con",
+      "source_name": "WHEEL_MOT_CON",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M0YfBYTZT+qABsBVt",
+        "MAtq6+c1zerDmR0kS"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WfB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.018629990010979747,
+      "output_mass_kg": 0.018629990010979747,
+      "native_export_mass_kg": 0.01863,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          -3.673205103457597e-06,
+          0.0
+        ],
+        [
+          3.6732051032355525e-06,
+          0.999999999993254,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.0021531406141270097,
+        -0.0021525962278556954,
+        4.163336342344337e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          2.9676390377673697e-06,
+          -9.444033234028511e-07,
+          0.0
+        ],
+        [
+          -9.444033234028511e-07,
+          2.9676251618188973e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.023228776364933e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_con_1",
+      "source_name": "WHEEL_MOT_CON",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MCXCAfzUphuOXnFrE",
+        "MAtq6+c1zerDmR0kS"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WfB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.018629990010979747,
+      "output_mass_kg": 0.018629990010979747,
+      "native_export_mass_kg": 0.01863,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.002153020372168274,
+        -0.0021525203721683983,
+        4.85722573273506e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          2.9676320997931534e-06,
+          -9.444033234283347e-07,
+          0.0
+        ],
+        [
+          -9.444033234283347e-07,
+          2.9676320997931102e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.023228776364933e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_con_2",
+      "source_name": "WHEEL_MOT_CON",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "Mv696tQdMPSrHS/hN",
+        "MAtq6+c1zerDmR0kS"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WfB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.018629990010979747,
+      "output_mass_kg": 0.018629990010979747,
+      "native_export_mass_kg": 0.01863,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999964793,
+          -2.65358979335273e-06,
+          0.0
+        ],
+        [
+          2.65358979335273e-06,
+          0.9999999999964793,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.002153107237105805,
+        -0.002152575171732961,
+        4.85722573273506e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          2.967637111911194e-06,
+          -9.444033234150346e-07,
+          0.0
+        ],
+        [
+          -9.444033234150346e-07,
+          2.9676270876750707e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.023228776364933e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_con_3",
+      "source_name": "WHEEL_MOT_CON",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MjByRCIUvdciOZ17D",
+        "MAtq6+c1zerDmR0kS"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WfB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.018629990010979747,
+      "output_mass_kg": 0.018629990010979747,
+      "native_export_mass_kg": 0.01863,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          3.6732051032355525e-06,
+          0.0
+        ],
+        [
+          -3.673205103457597e-06,
+          0.999999999993254,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.0021529001304881577,
+        -0.0021524445160393288,
+        1.3877787807814457e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          2.9676251618189405e-06,
+          -9.444033234028511e-07,
+          0.0
+        ],
+        [
+          -9.444033234028511e-07,
+          2.9676390377673257e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.023228776364933e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_drv",
+      "source_name": "WHEEL_MOT_DRV",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M0YfBYTZT+qABsBVt",
+        "MoH76KBQKZmxJc4Z7"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WjB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.059594534089215036,
+      "output_mass_kg": 0.059594534089215036,
+      "native_export_mass_kg": 0.0595945,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          -3.673205103457597e-06,
+          0.0
+        ],
+        [
+          3.6732051032355525e-06,
+          0.999999999993254,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.00677561618113198,
+        -0.006775004071010706,
+        0.0
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          9.545880185985157e-06,
+          -1.8033216131912517e-06,
+          0.0
+        ],
+        [
+          -1.8033216131912517e-06,
+          9.54585369010455e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          7.742545324804933e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_drv_1",
+      "source_name": "WHEEL_MOT_DRV",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MCXCAfzUphuOXnFrE",
+        "MoH76KBQKZmxJc4Z7"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WjB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.059594534089215036,
+      "output_mass_kg": 0.059594534089215036,
+      "native_export_mass_kg": 0.0595945,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.006775462077310446,
+        -0.006774962077310626,
+        2.0816681711721685e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          9.545866938044847e-06,
+          -1.8033216132399112e-06,
+          0.0
+        ],
+        [
+          -1.8033216132399112e-06,
+          9.545866938044852e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          7.742545324804933e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_drv_2",
+      "source_name": "WHEEL_MOT_DRV",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "Mv696tQdMPSrHS/hN",
+        "MoH76KBQKZmxJc4Z7"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WjB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.059594534089215036,
+      "output_mass_kg": 0.059594534089215036,
+      "native_export_mass_kg": 0.0595945,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999964793,
+          -2.65358979335273e-06,
+          0.0
+        ],
+        [
+          2.65358979335273e-06,
+          0.9999999999964793,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.006775573404682536,
+        -0.006774992414375742,
+        2.0816681711721685e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          9.5458765085965e-06,
+          -1.803321613214515e-06,
+          0.0
+        ],
+        [
+          -1.803321613214515e-06,
+          9.545857367493198e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          7.742545324804933e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_drv_3",
+      "source_name": "WHEEL_MOT_DRV",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MjByRCIUvdciOZ17D",
+        "MoH76KBQKZmxJc4Z7"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WjB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.059594534089215036,
+      "output_mass_kg": 0.059594534089215036,
+      "native_export_mass_kg": 0.0595945,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          3.6732051032355525e-06,
+          0.0
+        ],
+        [
+          -3.673205103457597e-06,
+          0.999999999993254,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.006775307973643085,
+        -0.006774920083044438,
+        -2.7755575615628914e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          9.545853690104545e-06,
+          -1.8033216131912517e-06,
+          0.0
+        ],
+        [
+          -1.8033216131912517e-06,
+          9.54588018598516e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          7.742545324804933e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_stop",
+      "source_name": "WHEEL_MOT_STOP",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "M0YfBYTZT+qABsBVt",
+        "MnEjLfvQoQE7T2DJW"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WbB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.009442712849443981,
+      "output_mass_kg": 0.009442712849443981,
+      "native_export_mass_kg": 0.00944271,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          -3.673205103457597e-06,
+          0.0
+        ],
+        [
+          3.6732051032355525e-06,
+          0.999999999993254,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.0010420682507333125,
+        -0.001041398261599266,
+        7.632783294297951e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          5.448642794368641e-06,
+          -1.8115783792708635e-06,
+          0.0
+        ],
+        [
+          -1.8115783792708635e-06,
+          5.448616177172846e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.6370511064510067e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_stop_1",
+      "source_name": "WHEEL_MOT_STOP",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MCXCAfzUphuOXnFrE",
+        "MnEjLfvQoQE7T2DJW"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WbB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.009442712849443981,
+      "output_mass_kg": 0.009442712849443981,
+      "native_export_mass_kg": 0.00944271,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.001041935207366701,
+        -0.0010413352073668225,
+        4.85722573273506e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          5.448629485770743e-06,
+          -1.8115783793197469e-06,
+          0.0
+        ],
+        [
+          -1.8115783793197469e-06,
+          5.44862948577074e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.6370511064510067e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_stop_2",
+      "source_name": "WHEEL_MOT_STOP",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "Mv696tQdMPSrHS/hN",
+        "MnEjLfvQoQE7T2DJW"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WbB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.009442712849443981,
+      "output_mass_kg": 0.009442712849443981,
+      "native_export_mass_kg": 0.00944271,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.9999999999964793,
+          -2.65358979335273e-06,
+          0.0
+        ],
+        [
+          2.65358979335273e-06,
+          0.9999999999964793,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.0010420313202775114,
+        -0.0010413807589336314,
+        4.85722573273506e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          5.448639100142537e-06,
+          -1.8115783792942344e-06,
+          0.0
+        ],
+        [
+          -1.8115783792942344e-06,
+          5.448619871398945e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.6370511064510067e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "wheel_mot_stop_3",
+      "source_name": "WHEEL_MOT_STOP",
+      "instance_path": [
+        "M8hHKJH7Y13G/TkhY",
+        "MjByRCIUvdciOZ17D",
+        "MnEjLfvQoQE7T2DJW"
+      ],
+      "source": {
+        "documentId": "cb96170df12cd30700c3a5ea",
+        "elementId": "94d9e6ac86762116c63abf0e",
+        "documentMicroversion": "9bd1fc50832501c55e1fb165",
+        "partId": "S3WbB"
+      },
+      "api_file": "wheel.json",
+      "api_mass_kg": 0.009442712849443981,
+      "output_mass_kg": 0.009442712849443981,
+      "native_export_mass_kg": 0.00944271,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          0.999999999993254,
+          3.6732051032355525e-06,
+          0.0
+        ],
+        [
+          -3.673205103457597e-06,
+          0.999999999993254,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        0.0010418021642316793,
+        -0.00104127215264577,
+        4.85722573273506e-17
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          5.4486161771728484e-06,
+          -1.8115783792708635e-06,
+          0.0
+        ],
+        [
+          -1.8115783792708635e-06,
+          5.448642794368638e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.6370511064510067e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    },
+    {
+      "link": "yis320",
+      "source_name": "YIS320",
+      "instance_path": [
+        "MNjQFxvYWc9ykTH3O"
+      ],
+      "source": {
+        "documentId": "44e3191a4139e337951f261f",
+        "elementId": "7142e9442016188ea7c5c3ea",
+        "documentMicroversion": "d949229783f31355a09eb3be",
+        "partId": "JFD"
+      },
+      "api_file": "imu.json",
+      "api_mass_kg": 0.011999999999999999,
+      "output_mass_kg": 0.011999999999999999,
+      "native_export_mass_kg": 4.46004e-06,
+      "mass_basis": "Latest source mass properties with useMassPropertyOverrides=true",
+      "source_to_inertial_rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "center_of_mass_link_m": [
+        -3.7838149341698065e-18,
+        -0.010115102077850114,
+        -0.004499295613261355
+      ],
+      "inertia_matrix_kg_m2": [
+        [
+          5.88802923870957e-07,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.775637031312518e-07,
+          1.9855077755553747e-12
+        ],
+        [
+          0.0,
+          1.9855077755553747e-12,
+          1.004406084567429e-06
+        ]
+      ],
+      "api_inertia_scale_factor": 1.0
+    }
+  ]
+}

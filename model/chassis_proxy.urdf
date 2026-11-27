@@ -1,0 +1,1243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="chassis_body_preview">
+  <link name="chassis_model_base" />
+  <link name="proxy_01_0">
+    <visual>
+      <origin xyz="0.17686724896513595 -0.17686789944616327 0.07999999967309923" rpy="0 0 0" />
+      <geometry>
+        <box size="0.12449611408024727 0.12449516491470605 0.16061458727223216" />
+      </geometry>
+      <material name="proxy_01_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.17686724896513595 -0.17686789944616327 0.07999999967309923" rpy="0 0 0" />
+      <geometry>
+        <box size="0.12449611408024727 0.12449516491470605 0.16061458727223216" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_01_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_01_0" />
+  </joint>
+  <link name="proxy_01_1_0">
+    <visual>
+      <origin xyz="-0.17686790395817606 -0.17686729888695768 0.08000000000000007" rpy="0 0 0" />
+      <geometry>
+        <box size="0.12449518698710031 0.12449609200820119 0.16061458727223432" />
+      </geometry>
+      <material name="proxy_01_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.17686790395817606 -0.17686729888695768 0.08000000000000007" rpy="0 0 0" />
+      <geometry>
+        <box size="0.12449518698710031 0.12449609200820119 0.16061458727223432" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_01_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_01_1_0" />
+  </joint>
+  <link name="proxy_01_2_0">
+    <visual>
+      <origin xyz="0.1796973177444376 0.17969681774443758 0.08000000000000004" rpy="0 0 0" />
+      <geometry>
+        <box size="0.12449563949940409 0.12449563949940412 0.16061458727223438" />
+      </geometry>
+      <material name="proxy_01_2_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1796973177444376 0.17969681774443758 0.08000000000000004" rpy="0 0 0" />
+      <geometry>
+        <box size="0.12449563949940409 0.12449563949940412 0.16061458727223438" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_01_2_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_01_2_0" />
+  </joint>
+  <link name="proxy_01_3_0">
+    <visual>
+      <origin xyz="-0.1768676009016725 0.17686793970871584 0.07999999967309923" rpy="0 0 0" />
+      <geometry>
+        <box size="0.12449548769877951 0.12449579129963596 0.16061458727223205" />
+      </geometry>
+      <material name="proxy_01_3_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.1768676009016725 0.17686793970871584 0.07999999967309923" rpy="0 0 0" />
+      <geometry>
+        <box size="0.12449548769877951 0.12449579129963596 0.16061458727223205" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_01_3_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_01_3_0" />
+  </joint>
+  <link name="proxy_4005_0">
+    <visual>
+      <origin xyz="0.1623719489369726 -0.1623724982848676 0.0799999982118607" rpy="0 0 0" />
+      <geometry>
+        <box size="0.039598092705246696 0.03959785374922084 0.05099999904632568" />
+      </geometry>
+      <material name="proxy_4005_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1623719489369726 -0.1623724982848676 0.0799999982118607" rpy="0 0 0" />
+      <geometry>
+        <box size="0.039598092705246696 0.03959785374922084 0.05099999904632568" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_4005_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_4005_0" />
+  </joint>
+  <link name="proxy_4005_1_0">
+    <visual>
+      <origin xyz="0.16237257166074753 0.1623720716607475 0.07999999821186064" rpy="0 0 0" />
+      <geometry>
+        <box size="0.039597973227500916 0.039597973227500916 0.050999999046325684" />
+      </geometry>
+      <material name="proxy_4005_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.16237257166074753 0.1623720716607475 0.07999999821186064" rpy="0 0 0" />
+      <geometry>
+        <box size="0.039597973227500916 0.039597973227500916 0.050999999046325684" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_4005_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_4005_1_0" />
+  </joint>
+  <link name="proxy_4005_2_0">
+    <visual>
+      <origin xyz="-0.16237251865273014 -0.1623719830028461 0.07999999821186067" rpy="0 0 0" />
+      <geometry>
+        <box size="0.039597886914284286 0.03959805954043871 0.050999999046325684" />
+      </geometry>
+      <material name="proxy_4005_2_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.16237251865273014 -0.1623719830028461 0.07999999821186067" rpy="0 0 0" />
+      <geometry>
+        <box size="0.039597886914284286 0.03959805954043871 0.050999999046325684" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_4005_2_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_4005_2_0" />
+  </joint>
+  <link name="proxy_4005_3_0">
+    <visual>
+      <origin xyz="-0.16237219438479197 0.16237264503617674 0.07999999821186073" rpy="0 0 0" />
+      <geometry>
+        <box size="0.03959785374922087 0.03959809270524667 0.05099999904632568" />
+      </geometry>
+      <material name="proxy_4005_3_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.16237219438479197 0.16237264503617674 0.07999999821186073" rpy="0 0 0" />
+      <geometry>
+        <box size="0.03959785374922087 0.03959809270524667 0.05099999904632568" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_4005_3_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_4005_3_0" />
+  </joint>
+  <link name="proxy_batt_id_u_0">
+    <visual>
+      <origin xyz="-6.204911248280931e-07 -0.15800085217222298 0.23875030729490254" rpy="0 0 0" />
+      <geometry>
+        <box size="0.2431166496358521 0.18824510775627612 0.036500623927988585" />
+      </geometry>
+      <material name="proxy_batt_id_u_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-6.204911248280931e-07 -0.15800085217222298 0.23875030729490254" rpy="0 0 0" />
+      <geometry>
+        <box size="0.2431166496358521 0.18824510775627612 0.036500623927988585" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_batt_id_u_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_batt_id_u_0" />
+  </joint>
+  <link name="proxy_batt_id_u_1_0">
+    <visual>
+      <origin xyz="-0.0008291176899260788 0.161878673306162 0.16875000065235976" rpy="0 0 0" />
+      <geometry>
+        <box size="0.2543829572926671 0.19600038576101542 0.11350049172910788" />
+      </geometry>
+      <material name="proxy_batt_id_u_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0008291176899260788 0.161878673306162 0.16875000065235976" rpy="0 0 0" />
+      <geometry>
+        <box size="0.2543829572926671 0.19600038576101542 0.11350049172910788" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_batt_id_u_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_batt_id_u_1_0" />
+  </joint>
+  <link name="proxy_batt_id_u_2_0">
+    <visual>
+      <origin xyz="-0.0008290666801847452 0.1580009913337323 0.23874971288860541" rpy="0 0 0" />
+      <geometry>
+        <box size="0.24311663898181382 0.18824507488815023 0.0365006239279885" />
+      </geometry>
+      <material name="proxy_batt_id_u_2_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0008290666801847452 0.1580009913337323 0.23874971288860541" rpy="0 0 0" />
+      <geometry>
+        <box size="0.24311663898181382 0.18824507488815023 0.0365006239279885" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_batt_id_u_2_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_batt_id_u_2_0" />
+  </joint>
+  <link name="proxy_batt_id_u_3_0">
+    <visual>
+      <origin xyz="-7.946418720261583e-07 -0.16187853414377176 0.16875059505865686" rpy="0 0 0" />
+      <geometry>
+        <box size="0.2543829597988724 0.19600041862791 0.11350049172910792" />
+      </geometry>
+      <material name="proxy_batt_id_u_3_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-7.946418720261583e-07 -0.16187853414377176 0.16875059505865686" rpy="0 0 0" />
+      <geometry>
+        <box size="0.2543829597988724 0.19600041862791 0.11350049172910792" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_batt_id_u_3_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_batt_id_u_3_0" />
+  </joint>
+  <link name="proxy_batt_sm_l_0">
+    <visual>
+      <origin xyz="-2.7755575615628914e-17 -0.1325407400727272 0.19900000095367432" rpy="0 0 0" />
+      <geometry>
+        <box size="0.38308146595954895 0.15800000727176672 0.12999999523162842" />
+      </geometry>
+      <material name="proxy_batt_sm_l_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.7755575615628914e-17 -0.1325407400727272 0.19900000095367432" rpy="0 0 0" />
+      <geometry>
+        <box size="0.38308146595954895 0.15800000727176672 0.12999999523162842" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_batt_sm_l_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_batt_sm_l_0" />
+  </joint>
+  <link name="proxy_batt_sm_r_0">
+    <visual>
+      <origin xyz="2.7755575615628914e-17 0.1325407400727272 0.19900000095367432" rpy="0 0 0" />
+      <geometry>
+        <box size="0.38308146595954895 0.15800000727176672 0.12999999523162842" />
+      </geometry>
+      <material name="proxy_batt_sm_r_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="2.7755575615628914e-17 0.1325407400727272 0.19900000095367432" rpy="0 0 0" />
+      <geometry>
+        <box size="0.38308146595954895 0.15800000727176672 0.12999999523162842" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_batt_sm_r_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_batt_sm_r_0" />
+  </joint>
+  <link name="proxy_cahssis_s_d_0">
+    <visual>
+      <origin xyz="0.0 0.0 0.10250000283122063" rpy="0 0 0" />
+      <geometry>
+        <box size="0.5199999809265137 0.500831127166748 0.13900000602006912" />
+      </geometry>
+      <material name="proxy_cahssis_s_d_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.10250000283122063" rpy="0 0 0" />
+      <geometry>
+        <box size="0.5199999809265137 0.500831127166748 0.13900000602006912" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_cahssis_s_d_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_cahssis_s_d_0" />
+  </joint>
+  <link name="proxy_cahssis_s_u_0">
+    <visual>
+      <origin xyz="-0.02674136310815814 -0.020718581974510472 0.2426537349820137" rpy="0 0 0" />
+      <geometry>
+        <box size="0.4665172547101974 0.4544716924428941 0.14530746638774872" />
+      </geometry>
+      <material name="proxy_cahssis_s_u_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.02674136310815814 -0.020718581974510472 0.2426537349820137" rpy="0 0 0" />
+      <geometry>
+        <box size="0.4665172547101974 0.4544716924428941 0.14530746638774872" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_cahssis_s_u_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_cahssis_s_u_0" />
+  </joint>
+  <link name="proxy_cahssis_s_u_1_0">
+    <visual>
+      <origin xyz="0.02674136310815814 0.02071858197450642 0.2426537200808525" rpy="0 0 0" />
+      <geometry>
+        <box size="0.4665172547101974 0.4544716924428941 0.1453074961900711" />
+      </geometry>
+      <material name="proxy_cahssis_s_u_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.02674136310815814 0.02071858197450642 0.2426537200808525" rpy="0 0 0" />
+      <geometry>
+        <box size="0.4665172547101974 0.4544716924428941 0.1453074961900711" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_cahssis_s_u_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_cahssis_s_u_1_0" />
+  </joint>
+  <link name="proxy_chassis_base_0">
+    <visual>
+      <origin xyz="0.0 0.0 0.08700000122189522" rpy="0 0 0" />
+      <geometry>
+        <box size="0.383081465959549 0.453081488609314 0.09400000423192978" />
+      </geometry>
+      <material name="proxy_chassis_base_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.08700000122189522" rpy="0 0 0" />
+      <geometry>
+        <box size="0.383081465959549 0.453081488609314 0.09400000423192978" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_chassis_base_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_chassis_base_0" />
+  </joint>
+  <link name="proxy_mid_360_0">
+    <visual>
+      <origin xyz="0.1399585104917948 0.1382626935463346 0.2881807765297288" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0895230472266746 0.08916397084742118 0.07522589224600362" />
+      </geometry>
+      <material name="proxy_mid_360_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1399585104917948 0.1382626935463346 0.2881807765297288" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0895230472266746 0.08916397084742118 0.07522589224600362" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_mid_360_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_mid_360_0" />
+  </joint>
+  <link name="proxy_mid_360_1_0">
+    <visual>
+      <origin xyz="-0.13995761038538854 -0.13826258000849645 0.2881807765297288" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08952305036216984 0.08916398480914248 0.07522589224600362" />
+      </geometry>
+      <material name="proxy_mid_360_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.13995761038538854 -0.13826258000849645 0.2881807765297288" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08952305036216984 0.08916398480914248 0.07522589224600362" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_mid_360_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_mid_360_1_0" />
+  </joint>
+  <link name="proxy_mid_360_rack_0">
+    <visual>
+      <origin xyz="-0.14485345634967897 -0.14467664635873329 0.20898525416851044" rpy="0 0 0" />
+      <geometry>
+        <box size="0.10115297163092934 0.10079981899835402 0.14597049355506897" />
+      </geometry>
+      <material name="proxy_mid_360_rack_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.14485345634967897 -0.14467664635873329 0.20898525416851044" rpy="0 0 0" />
+      <geometry>
+        <box size="0.10115297163092934 0.10079981899835402 0.14597049355506897" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_mid_360_rack_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_mid_360_rack_0" />
+  </joint>
+  <link name="proxy_mid_360_rack_1_0">
+    <visual>
+      <origin xyz="0.1448544022510092 0.1446767770465267 0.20898525416851044" rpy="0 0 0" />
+      <geometry>
+        <box size="0.1011529520370189 0.10079983650620447 0.14597049355506897" />
+      </geometry>
+      <material name="proxy_mid_360_rack_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1448544022510092 0.1446767770465267 0.20898525416851044" rpy="0 0 0" />
+      <geometry>
+        <box size="0.1011529520370189 0.10079983650620447 0.14597049355506897" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_mid_360_rack_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_mid_360_rack_1_0" />
+  </joint>
+  <link name="proxy_part_1_0">
+    <visual>
+      <origin xyz="0.11892067720783422 0.20037823833935575 0.1847494898447759" rpy="0 0 0" />
+      <geometry>
+        <box size="0.015500539995913498 0.08100015606020072 0.019500240551517528" />
+      </geometry>
+      <material name="proxy_part_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.11892067720783422 0.20037823833935575 0.1847494898447759" rpy="0 0 0" />
+      <geometry>
+        <box size="0.015500539995913498 0.08100015606020072 0.019500240551517528" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_part_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_part_1_0" />
+  </joint>
+  <link name="proxy_part_1_1_0">
+    <visual>
+      <origin xyz="-0.11975043738484457 -0.20037810463626862 0.18475071580790053" rpy="0 0 0" />
+      <geometry>
+        <box size="0.015500138360952848 0.08100006732243897 0.019500232590688338" />
+      </geometry>
+      <material name="proxy_part_1_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.11975043738484457 -0.20037810463626862 0.18475071580790053" rpy="0 0 0" />
+      <geometry>
+        <box size="0.015500138360952848 0.08100006732243897 0.019500232590688338" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_part_1_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_part_1_1_0" />
+  </joint>
+  <link name="proxy_part_1_2_0">
+    <visual>
+      <origin xyz="0.11974935922376874 -0.2003793559890461 0.18475010481679402" rpy="0 0 0" />
+      <geometry>
+        <box size="0.015500709196789225 0.08100013735548989 0.01950021003584873" />
+      </geometry>
+      <material name="proxy_part_1_2_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.11974935922376874 -0.2003793559890461 0.18475010481679402" rpy="0 0 0" />
+      <geometry>
+        <box size="0.015500709196789225 0.08100013735548989 0.01950021003584873" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_part_1_2_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_part_1_2_0" />
+  </joint>
+  <link name="proxy_part_1_3_0">
+    <visual>
+      <origin xyz="-0.12057942897036043 0.20037936667418238 0.18475010481679402" rpy="0 0 0" />
+      <geometry>
+        <box size="0.01550008029632069 0.08100005665136156 0.01950021003584873" />
+      </geometry>
+      <material name="proxy_part_1_3_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.12057942897036043 0.20037936667418238 0.18475010481679402" rpy="0 0 0" />
+      <geometry>
+        <box size="0.01550008029632069 0.08100005665136156 0.01950021003584873" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_part_1_3_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_part_1_3_0" />
+  </joint>
+  <link name="proxy_part_2_0">
+    <visual>
+      <origin xyz="-0.12049979093712804 0.15979108855525304 0.18475" rpy="0 0 0" />
+      <geometry>
+        <box size="0.014000018099572409 0.01650002853537555 0.032999999821186066" />
+      </geometry>
+      <material name="proxy_part_2_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.12049979093712804 0.15979108855525304 0.18475" rpy="0 0 0" />
+      <geometry>
+        <box size="0.014000018099572409 0.01650002853537555 0.032999999821186066" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_part_2_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_part_2_0" />
+  </joint>
+  <link name="proxy_part_2_1_0">
+    <visual>
+      <origin xyz="0.12049975113326189 -0.159791094914286 0.18475" rpy="0 0 0" />
+      <geometry>
+        <box size="0.014000031367335339 0.016500049214297624 0.032999999821186066" />
+      </geometry>
+      <material name="proxy_part_2_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.12049975113326189 -0.159791094914286 0.18475" rpy="0 0 0" />
+      <geometry>
+        <box size="0.014000031367335339 0.016500049214297624 0.032999999821186066" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_part_2_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_part_2_1_0" />
+  </joint>
+  <link name="proxy_part_2_2_0">
+    <visual>
+      <origin xyz="0.12050000906292409 0.15979109849772075 0.18475002122877723" rpy="0 0 0" />
+      <geometry>
+        <box size="0.014000068517876357 0.016500060428733754 0.03300001308895112" />
+      </geometry>
+      <material name="proxy_part_2_2_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.12050000906292409 0.15979109849772075 0.18475002122877723" rpy="0 0 0" />
+      <geometry>
+        <box size="0.014000068517876357 0.016500060428733754 0.03300001308895112" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_part_2_2_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_part_2_2_0" />
+  </joint>
+  <link name="proxy_part_2_3_0">
+    <visual>
+      <origin xyz="-0.1204999692589946 -0.1597911183332692 0.18475002122877723" rpy="0 0 0" />
+      <geometry>
+        <box size="0.014000055249882265 0.01650004726939258 0.03300001308895112" />
+      </geometry>
+      <material name="proxy_part_2_3_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.1204999692589946 -0.1597911183332692 0.18475002122877723" rpy="0 0 0" />
+      <geometry>
+        <box size="0.014000055249882265 0.01650004726939258 0.03300001308895112" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_part_2_3_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_part_2_3_0" />
+  </joint>
+  <link name="proxy_part_51_0">
+    <visual>
+      <origin xyz="0.12049981532498136 -0.13404085663563592 0.1847500056028366" rpy="0 0 0" />
+      <geometry>
+        <box size="0.01500010092222731 0.03500003837085659 0.034999996423721313" />
+      </geometry>
+      <material name="proxy_part_51_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.12049981532498136 -0.13404085663563592 0.1847500056028366" rpy="0 0 0" />
+      <geometry>
+        <box size="0.01500010092222731 0.03500003837085659 0.034999996423721313" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_part_51_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_part_51_0" />
+  </joint>
+  <link name="proxy_part_51_1_0">
+    <visual>
+      <origin xyz="0.12050000205635696 0.13404083938727532 0.18475000899191274" rpy="0 0 0" />
+      <geometry>
+        <box size="0.015000100922215737 0.035000003874304964 0.035000036227466336" />
+      </geometry>
+      <material name="proxy_part_51_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.12050000205635696 0.13404083938727532 0.18475000899191274" rpy="0 0 0" />
+      <geometry>
+        <box size="0.015000100922215737 0.035000003874304964 0.035000036227466336" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_part_51_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_part_51_1_0" />
+  </joint>
+  <link name="proxy_part_51_2_0">
+    <visual>
+      <origin xyz="-0.12050001532497695 -0.13404085663563584 0.18475000899191274" rpy="0 0 0" />
+      <geometry>
+        <box size="0.015000193797807718 0.035000038371103034 0.035000036227466336" />
+      </geometry>
+      <material name="proxy_part_51_2_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.12050001532497695 -0.13404085663563584 0.18475000899191274" rpy="0 0 0" />
+      <geometry>
+        <box size="0.015000193797807718 0.035000038371103034 0.035000036227466336" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_part_51_2_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_part_51_2_0" />
+  </joint>
+  <link name="proxy_part_51_3_0">
+    <visual>
+      <origin xyz="-0.12049980205636018 0.13404083938727385 0.1847500056028366" rpy="0 0 0" />
+      <geometry>
+        <box size="0.01500000804662703 0.03500000387430191 0.034999996423721313" />
+      </geometry>
+      <material name="proxy_part_51_3_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.12049980205636018 0.13404083938727385 0.1847500056028366" rpy="0 0 0" />
+      <geometry>
+        <box size="0.01500000804662703 0.03500000387430191 0.034999996423721313" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_part_51_3_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_part_51_3_0" />
+  </joint>
+  <link name="proxy_rs02_0">
+    <visual>
+      <origin xyz="0.1446717432014907 -0.14467212594498033 0.0800000000745058" rpy="0 0 0" />
+      <geometry>
+        <box size="0.07959465371388559 0.07959449602245332 0.07849999889731407" />
+      </geometry>
+      <material name="proxy_rs02_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1446717432014907 -0.14467212594498033 0.0800000000745058" rpy="0 0 0" />
+      <geometry>
+        <box size="0.07959465371388559 0.07959449602245332 0.07849999889731407" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_rs02_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_rs02_0" />
+  </joint>
+  <link name="proxy_rs02_1_0">
+    <visual>
+      <origin xyz="0.14467228262295725 0.1446717826229572 0.08000000007450579" rpy="0 0 0" />
+      <geometry>
+        <box size="0.07959457486867905 0.07959457486867905 0.07849999889731407" />
+      </geometry>
+      <material name="proxy_rs02_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.14467228262295725 0.1446717826229572 0.08000000007450579" rpy="0 0 0" />
+      <geometry>
+        <box size="0.07959457486867905 0.07959457486867905 0.07849999889731407" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_rs02_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_rs02_1_0" />
+  </joint>
+  <link name="proxy_rs02_2_0">
+    <visual>
+      <origin xyz="-0.14467216943597458 -0.14467175414412597 0.08000000007450579" rpy="0 0 0" />
+      <geometry>
+        <box size="0.07959451790884735 0.07959463182798979 0.07849999889731407" />
+      </geometry>
+      <material name="proxy_rs02_2_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.14467216943597458 -0.14467175414412597 0.08000000007450579" rpy="0 0 0" />
+      <geometry>
+        <box size="0.07959451790884735 0.07959463182798979 0.07849999889731407" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_rs02_2_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_rs02_2_0" />
+  </joint>
+  <link name="proxy_rs02_3_0">
+    <visual>
+      <origin xyz="-0.14467182204493206 0.1446724393007222 0.0800000000745058" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0795944960223986 0.07959465371383084 0.07849999889731407" />
+      </geometry>
+      <material name="proxy_rs02_3_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.14467182204493206 0.1446724393007222 0.0800000000745058" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0795944960223986 0.07959465371383084 0.07849999889731407" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_rs02_3_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_rs02_3_0" />
+  </joint>
+  <link name="proxy_wheel_mot_back_0">
+    <visual>
+      <origin xyz="0.1264837693784856 -0.12648398110828504 0.0796249993145466" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08415098478071757 0.08415082107199072 0.08874999731779099" />
+      </geometry>
+      <material name="proxy_wheel_mot_back_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1264837693784856 -0.12648398110828504 0.0796249993145466" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08415098478071757 0.08415082107199072 0.08874999731779099" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_back_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_back_0" />
+  </joint>
+  <link name="proxy_wheel_mot_back_1_0">
+    <visual>
+      <origin xyz="0.12648422329297063 0.12648372329297064 0.0796249993145466" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08415090292692183 0.08415090292692186 0.08874999731779099" />
+      </geometry>
+      <material name="proxy_wheel_mot_back_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.12648422329297063 0.12648372329297064 0.0796249993145466" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08415090292692183 0.08415090292692186 0.08874999731779099" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_back_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_back_1_0" />
+  </joint>
+  <link name="proxy_wheel_mot_back_2_0">
+    <visual>
+      <origin xyz="-0.1264840483343707 -0.1264837565859045 0.07962499931454657" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08415084379355317 0.08415096205969799 0.08874999731779099" />
+      </geometry>
+      <material name="proxy_wheel_mot_back_2_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.1264840483343707 -0.1264837565859045 0.07962499931454657" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08415084379355317 0.08415096205969799 0.08874999731779099" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_back_2_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_back_2_0" />
+  </joint>
+  <link name="proxy_wheel_mot_back_3_0">
+    <visual>
+      <origin xyz="-0.12648367720820944 0.1264844654776897 0.07962499931454663" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08415082107199072 0.08415098478071757 0.08874999731779099" />
+      </geometry>
+      <material name="proxy_wheel_mot_back_3_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.12648367720820944 0.1264844654776897 0.07962499931454663" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08415082107199072 0.08415098478071757 0.08874999731779099" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_back_3_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_back_3_0" />
+  </joint>
+  <link name="proxy_wheel_mot_base_0">
+    <visual>
+      <origin xyz="0.14840714941437128 -0.1484070974675776 0.07962499931454659" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08626717232693183 0.08626687882652669 0.08874999731779099" />
+      </geometry>
+      <material name="proxy_wheel_mot_base_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.14840714941437128 -0.1484070974675776 0.07962499931454659" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08626717232693183 0.08626687882652669 0.08874999731779099" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_base_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_base_0" />
+  </joint>
+  <link name="proxy_wheel_mot_base_1_0">
+    <visual>
+      <origin xyz="0.14840722084045413 0.14840722084045407 0.07962499931454659" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08626702427864073 0.08626702427864076 0.08874999731779099" />
+      </geometry>
+      <material name="proxy_wheel_mot_base_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.14840722084045413 0.14840722084045407 0.07962499931454659" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08626702427864073 0.08626702427864076 0.08874999731779099" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_base_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_base_1_0" />
+  </joint>
+  <link name="proxy_wheel_mot_base_2_0">
+    <visual>
+      <origin xyz="-0.1484071317136833 -0.1484071692409142 0.07962499931454659" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08626691920151985 0.08626713123152024 0.08874999731779099" />
+      </geometry>
+      <material name="proxy_wheel_mot_base_2_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.1484071317136833 -0.1484071692409142 0.07962499931454659" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08626691920151985 0.08626713123152024 0.08874999731779099" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_base_2_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_base_2_0" />
+  </joint>
+  <link name="proxy_wheel_mot_base_3_0">
+    <visual>
+      <origin xyz="-0.14840729356566532 0.1484073455117388 0.07962499931454659" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08626687882652671 0.0862671723269318 0.08874999731779099" />
+      </geometry>
+      <material name="proxy_wheel_mot_base_3_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.14840729356566532 0.1484073455117388 0.07962499931454659" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08626687882652671 0.0862671723269318 0.08874999731779099" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_base_3_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_base_3_0" />
+  </joint>
+  <link name="proxy_wheel_mot_con_0">
+    <visual>
+      <origin xyz="0.16131163173256075 -0.1613121810828988 0.07999999821186067" rpy="0 0 0" />
+      <geometry>
+        <box size="0.03394121081621035 0.03394102900190474 0.04299999773502349" />
+      </geometry>
+      <material name="proxy_wheel_mot_con_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.16131163173256075 -0.1613121810828988 0.07999999821186067" rpy="0 0 0" />
+      <geometry>
+        <box size="0.03394121081621035 0.03394102900190474 0.04299999773502349" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_con_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_con_0" />
+  </joint>
+  <link name="proxy_wheel_mot_con_1_0">
+    <visual>
+      <origin xyz="0.16131225445755007 0.16131175445755003 0.07999999821186064" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0339411199092865 0.0339411199092865 0.0429999977350235" />
+      </geometry>
+      <material name="proxy_wheel_mot_con_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.16131225445755007 0.16131175445755003 0.07999999821186064" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0339411199092865 0.0339411199092865 0.0429999977350235" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_con_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_con_1_0" />
+  </joint>
+  <link name="proxy_wheel_mot_con_2_0">
+    <visual>
+      <origin xyz="-0.16131220145041886 -0.16131166579876996 0.07999999821186067" rpy="0 0 0" />
+      <geometry>
+        <box size="0.03394105423619581 0.033941185582138156 0.0429999977350235" />
+      </geometry>
+      <material name="proxy_wheel_mot_con_2_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.16131220145041886 -0.16131166579876996 0.07999999821186067" rpy="0 0 0" />
+      <geometry>
+        <box size="0.03394105423619581 0.033941185582138156 0.0429999977350235" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_con_2_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_con_2_0" />
+  </joint>
+  <link name="proxy_wheel_mot_con_3_0">
+    <visual>
+      <origin xyz="-0.1613118771828232 0.16131232783176486 0.0799999982118607" rpy="0 0 0" />
+      <geometry>
+        <box size="0.03394102900190474 0.03394121081621035 0.04299999773502349" />
+      </geometry>
+      <material name="proxy_wheel_mot_con_3_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.1613118771828232 0.16131232783176486 0.0799999982118607" rpy="0 0 0" />
+      <geometry>
+        <box size="0.03394102900190474 0.03394121081621035 0.04299999773502349" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_con_3_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_con_3_0" />
+  </joint>
+  <link name="proxy_wheel_mot_drv_0">
+    <visual>
+      <origin xyz="0.1704352756751949 -0.1704358956614886 0.07999999821186073" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0429957751396606 0.042995667063281034 0.04299999773502349" />
+      </geometry>
+      <material name="proxy_wheel_mot_drv_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1704352756751949 -0.1704358956614886 0.07999999821186073" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0429957751396606 0.042995667063281034 0.04299999773502349" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_drv_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_drv_0" />
+  </joint>
+  <link name="proxy_wheel_mot_drv_1_0">
+    <visual>
+      <origin xyz="0.17043593371822358 0.17043543371822353 0.07999999821186064" rpy="0 0 0" />
+      <geometry>
+        <box size="0.042995721101760864 0.042995721101760864 0.0429999977350235" />
+      </geometry>
+      <material name="proxy_wheel_mot_drv_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.17043593371822358 0.17043543371822353 0.07999999821186064" rpy="0 0 0" />
+      <geometry>
+        <box size="0.042995721101760864 0.042995721101760864 0.0429999977350235" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_drv_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_drv_1_0" />
+  </joint>
+  <link name="proxy_wheel_mot_drv_2_0">
+    <visual>
+      <origin xyz="-0.17043590622540614 -0.17043531954506544 0.07999999821186067" rpy="0 0 0" />
+      <geometry>
+        <box size="0.04299568206344395 0.04299576013977502 0.0429999977350235" />
+      </geometry>
+      <material name="proxy_wheel_mot_drv_2_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.17043590622540614 -0.17043531954506544 0.07999999821186067" rpy="0 0 0" />
+      <geometry>
+        <box size="0.04299568206344395 0.04299576013977502 0.0429999977350235" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_drv_2_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_drv_2_0" />
+  </joint>
+  <link name="proxy_wheel_mot_drv_3_0">
+    <visual>
+      <origin xyz="-0.17043559176141293 0.17043597177439906 0.07999999821186075" rpy="0 0 0" />
+      <geometry>
+        <box size="0.042995667063281034 0.0429957751396606 0.04299999773502349" />
+      </geometry>
+      <material name="proxy_wheel_mot_drv_3_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.17043559176141293 0.17043597177439906 0.07999999821186075" rpy="0 0 0" />
+      <geometry>
+        <box size="0.042995667063281034 0.0429957751396606 0.04299999773502349" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_drv_3_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_drv_3_0" />
+  </joint>
+  <link name="proxy_wheel_mot_stop_0">
+    <visual>
+      <origin xyz="0.1655962342654509 -0.16480618917863005 0.07963606715202332" rpy="0 0 0" />
+      <geometry>
+        <box size="0.04860494934694762 0.04860462344439506 0.06593124568462372" />
+      </geometry>
+      <material name="proxy_wheel_mot_stop_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1655962342654509 -0.16480618917863005 0.07963606715202332" rpy="0 0 0" />
+      <geometry>
+        <box size="0.04860494934694762 0.04860462344439506 0.06593124568462372" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_stop_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_stop_0" />
+  </joint>
+  <link name="proxy_wheel_mot_stop_1_0">
+    <visual>
+      <origin xyz="0.1648062507110596 0.16559636592864987 0.0796360671520233" rpy="0 0 0" />
+      <geometry>
+        <box size="0.048604786396026584 0.04860478639602661 0.06593124568462372" />
+      </geometry>
+      <material name="proxy_wheel_mot_stop_1_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.1648062507110596 0.16559636592864987 0.0796360671520233" rpy="0 0 0" />
+      <geometry>
+        <box size="0.048604786396026584 0.04860478639602661 0.06593124568462372" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_stop_1_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_stop_1_0" />
+  </joint>
+  <link name="proxy_wheel_mot_stop_2_0">
+    <visual>
+      <origin xyz="-0.1648062062589682 -0.16559627081275125 0.0796360671520233" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0486046686768869 0.04860490411478455 0.06593124568462372" />
+      </geometry>
+      <material name="proxy_wheel_mot_stop_2_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.1648062062589682 -0.16559627081275125 0.0796360671520233" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0486046686768869 0.04860490411478455 0.06593124568462372" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_stop_2_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_stop_2_0" />
+  </joint>
+  <link name="proxy_wheel_mot_stop_3_0">
+    <visual>
+      <origin xyz="-0.1655964975920749 0.16480631224300551 0.07963606715202332" rpy="0 0 0" />
+      <geometry>
+        <box size="0.048604623444449824 0.048604949347002324 0.06593124568462372" />
+      </geometry>
+      <material name="proxy_wheel_mot_stop_3_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.1655964975920749 0.16480631224300551 0.07963606715202332" rpy="0 0 0" />
+      <geometry>
+        <box size="0.048604623444449824 0.048604949347002324 0.06593124568462372" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_wheel_mot_stop_3_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_wheel_mot_stop_3_0" />
+  </joint>
+  <link name="proxy_yis320_0">
+    <visual>
+      <origin xyz="-0.0009496803395450107 -8.673617379884035e-18 0.044499999806284905" rpy="0 0 0" />
+      <geometry>
+        <box size="0.024299359880387783 0.022399999201297763 0.008999999612569809" />
+      </geometry>
+      <material name="proxy_yis320_0">
+        <color rgba="0.15 0.55 0.85 0.7" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0009496803395450107 -8.673617379884035e-18 0.044499999806284905" rpy="0 0 0" />
+      <geometry>
+        <box size="0.024299359880387783 0.022399999201297763 0.008999999612569809" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="proxy_yis320_0_fixed" type="fixed">
+    <parent link="chassis_model_base" />
+    <child link="proxy_yis320_0" />
+  </joint>
+</robot>

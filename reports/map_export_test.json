@@ -1,0 +1,15 @@
+{
+  "source": "/home/pc/\u6587\u6863/ChatGPT/\u5e95\u76d8\u8c03\u8bd5/\u56de\u73af\u4e0e\u81ea\u4e3b\u5bfc\u822a\u63a5\u5165_20261127/reports/synthetic_20261127_145243/optimized",
+  "loop_factors": 1,
+  "keyframes": 17,
+  "floor_z": -1.0,
+  "height_band": [
+    0.02,
+    0.38
+  ],
+  "unknown_cells": 30096,
+  "occupied_cells": 876,
+  "free_cells": 71112,
+  "navigation_validated": false,
+  "note": "Height-filtered planar ray projection; physical clearance/near-field/localization acceptance still required"
+}

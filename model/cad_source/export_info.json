@@ -1,0 +1,14 @@
+{
+  "source": "https://cad.onshape.com/documents/cb96170df12cd30700c3a5ea/w/c4ab4dbbb476ebd8a2600a19/e/7b20cc179f7c09e84d58a4e4",
+  "source_microversion": "9bd1fc50832501c55e1fb165",
+  "translation_id": "6afae978502181391f2e5804",
+  "created_at": "2026-11-16T19:37:25+08:00",
+  "package_name": "chassis_id_me",
+  "version": "2",
+  "mesh_format": "binary STL",
+  "resolution": "fine",
+  "wheel_axes_reversed": true,
+  "collisions_added": false,
+  "mass_review": "mass_review.json",
+  "axis_changes": "axis_changes.json"
+}

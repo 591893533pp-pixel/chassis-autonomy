@@ -1,0 +1,17 @@
+{
+  "installed_at": "20261124_144808",
+  "backup": "/home/pc/rk3588 link/deployment_backups/handset_xinput_20261124_144808",
+  "files": {
+    "remote control/scripts/remote_session.py": "4bcdd708516ae0b22f6f91bf8ebcee42cdff72d82963a6f689f4b6cbac7aea67",
+    "remote control/lift_reference/lift_pv_remote.py": "9b4633061b50e1de01633e353eb675add15223cb54ab5a2cc825f3608e3c379c",
+    "mapping/programs/remote_control/scripts/remote_session.py": "1a962eae48cc8b13f948aab8f564b11e4bfed4daf8ef7bc5b145689858f27b17",
+    "mapping/programs/remote_control/lift_reference/lift_pv_remote.py": "dbe1db7e58939718fe5f2b9017a6ef4c9476019712e68dc310441a20711e764d",
+    "remote control/program/remote/joystick_layout.py": "80dfde168db802fd0b2090e5c79630c506d4e025018382117a33aafd37f7ce02",
+    "mapping/programs/remote_control/program/remote/joystick_layout.py": "80dfde168db802fd0b2090e5c79630c506d4e025018382117a33aafd37f7ce02"
+  },
+  "targets": [
+    "/home/pc/rk3588 link",
+    "/home/pc/chassis_deploy_20261123/rootfs/home/pc/rk3588 link"
+  ],
+  "motors_started": false
+}

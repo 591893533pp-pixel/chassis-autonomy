@@ -1,0 +1,238 @@
+{
+  "status": "EXPERIMENTAL_NOT_DEPLOYED_FRESH_VALIDATION_REQUIRED",
+  "T_rear_right_from_front_left": [
+    [
+      -0.6324384926164127,
+      0.0024777886007321124,
+      0.774606618626984,
+      0.36835980466809687
+    ],
+    [
+      -0.00259420634544142,
+      -0.9999960511029163,
+      0.0010806812715295688,
+      -0.007949043747421697
+    ],
+    [
+      0.7746062374849023,
+      -0.0013260249708980949,
+      0.6324424230768044,
+      -0.1928881337502181
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "convention": "p_rear_right = R @ p_front_left + t; meters",
+  "training_scenes": [
+    "A",
+    "B"
+  ],
+  "diagnostic_validation": "C already evaluated with original method; new holdout D required before acceptance",
+  "selection_rule": "Matched broad planes, >=5000 retained planar points each sensor and both tangent standard deviations >0.35m; equal weight per plane; no forced right angles.",
+  "selection": {
+    "A": [
+      {
+        "front_plane": 0,
+        "rear_plane": 0,
+        "front_support": 11422,
+        "rear_support": 12942
+      },
+      {
+        "front_plane": 1,
+        "rear_plane": 2,
+        "front_support": 7185,
+        "rear_support": 6962
+      },
+      {
+        "front_plane": 2,
+        "rear_plane": 1,
+        "front_support": 8015,
+        "rear_support": 10639
+      }
+    ],
+    "B": [
+      {
+        "front_plane": 0,
+        "rear_plane": 0,
+        "front_support": 9183,
+        "rear_support": 11470
+      },
+      {
+        "front_plane": 1,
+        "rear_plane": 2,
+        "front_support": 6870,
+        "rear_support": 6907
+      },
+      {
+        "front_plane": 2,
+        "rear_plane": 1,
+        "front_support": 5746,
+        "rear_support": 7436
+      }
+    ]
+  },
+  "training_scene_difference": {
+    "translation_m": 0.007108917097189571,
+    "rotation_deg": 0.21133930095747283
+  },
+  "per_scene": {
+    "A": {
+      "transform": [
+        [
+          -0.6338534436583475,
+          0.0022249116169512392,
+          0.7734499736445472,
+          0.3691197021672738
+        ],
+        [
+          -0.002406894943688284,
+          -0.9999966947134006,
+          0.0009041122738745776,
+          -0.007921445423680007
+        ],
+        [
+          0.7734494287406152,
+          -0.0012885381525117171,
+          0.6338567037195753,
+          -0.1963586822035054
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "residuals": {
+        "normal_angle_deg": [
+          0.2910932769218605,
+          0.27954017221974364,
+          0.13655270819196796
+        ],
+        "plane_distance_residual_m": [
+          -1.1102230246251565e-16,
+          -5.551115123125783e-17,
+          5.551115123125783e-17
+        ],
+        "direction_singular_values": [
+          1.0040577724462019,
+          1.0009215205894775,
+          0.9949995137268683
+        ]
+      }
+    },
+    "B": {
+      "transform": [
+        [
+          -0.6310227253588966,
+          0.0027291124791180544,
+          0.775759545236607,
+          0.36760086484874027
+        ],
+        [
+          -0.002779051543665092,
+          -0.9999953478736608,
+          0.001257419402616694,
+          -0.007986438063996383
+        ],
+        [
+          0.7757593679441767,
+          -0.00136241554334438,
+          0.6310273741057032,
+          -0.1894142159568275
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "residuals": {
+        "normal_angle_deg": [
+          0.3755615876115349,
+          0.26052692628072793,
+          0.3954476551257995
+        ],
+        "plane_distance_residual_m": [
+          0.0,
+          -1.1102230246251565e-16,
+          0.0
+        ],
+        "direction_singular_values": [
+          1.0039850747621581,
+          1.0004804179537012,
+          0.9955164509690525
+        ]
+      }
+    }
+  },
+  "joint_plane_residuals": {
+    "normal_angle_deg": [
+      0.25801286239708704,
+      0.31667721263607884,
+      0.1923089321476257,
+      0.41096410580715886,
+      0.1583818171081743,
+      0.44001526240359196
+    ],
+    "plane_distance_residual_m": [
+      0.0015765301697525658,
+      -0.001517974489223306,
+      0.0028013877571768375,
+      -0.0009691569299678515,
+      -0.0028098482971213035,
+      0.0019530084241770607
+    ],
+    "direction_singular_values": [
+      1.419534378698935,
+      1.4152373609206674,
+      1.4078442365033244
+    ]
+  },
+  "scores": {
+    "A": {
+      "matched_planar_points": 19686,
+      "plane_rmse_m": 0.017847871189011662,
+      "plane_abs_p95_m": 0.032268167623708044,
+      "mutual_overlap_within_10cm": 0.451092714415946
+    },
+    "B": {
+      "matched_planar_points": 18725,
+      "plane_rmse_m": 0.020779994633519618,
+      "plane_abs_p95_m": 0.039962186266517,
+      "mutual_overlap_within_10cm": 0.43275314566769335
+    },
+    "C": {
+      "matched_planar_points": 18624,
+      "plane_rmse_m": 0.019920370606269222,
+      "plane_abs_p95_m": 0.03979279873786202,
+      "mutual_overlap_within_10cm": 0.4597762595180974
+    }
+  },
+  "limits_unchanged": {
+    "min_matches": 1500,
+    "max_plane_rmse_m": 0.025,
+    "max_plane_p95_m": 0.05,
+    "min_normalized_information_eigenvalue": 0.015,
+    "max_initial_correction_angle_deg": 8,
+    "max_initial_correction_translation_m": 0.15,
+    "max_trial_translation_spread_m": 0.01,
+    "max_trial_rotation_spread_deg": 0.3,
+    "min_mutual_overlap": 0.15
+  },
+  "checks_passed": false,
+  "relative_calibrated": false,
+  "calibrated": false,
+  "limitations": [
+    "Automatic plane correspondences require visual/physical review",
+    "No internal range/angle calibration",
+    "No absolute chassis anchor calibration",
+    "No runtime config modified"
+  ],
+  "script_sha256": "bfd0fdb227705d303b9fd0b209c65894fdfe5a17b50158b868f3b8e64fec3fa3"
+}

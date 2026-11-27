@@ -1,0 +1,35 @@
+{
+  "20261125": {
+    "scene_difference": {
+      "translation_m": 0.007108917097189571,
+      "rotation_deg": 0.21133930095747283
+    },
+    "joint_vs_frozen": {
+      "translation_m": 0.0,
+      "rotation_deg": 0.0
+    },
+    "planes_per_scene": 3
+  },
+  "7": {
+    "scene_difference": {
+      "translation_m": 0.0071324388309853765,
+      "rotation_deg": 0.2095949790956095
+    },
+    "joint_vs_frozen": {
+      "translation_m": 7.095204655656968e-05,
+      "rotation_deg": 0.002158560211676226
+    },
+    "planes_per_scene": 3
+  },
+  "42": {
+    "scene_difference": {
+      "translation_m": 0.008101286223267088,
+      "rotation_deg": 0.2233644168131586
+    },
+    "joint_vs_frozen": {
+      "translation_m": 0.0006407296293340705,
+      "rotation_deg": 0.008487593644224873
+    },
+    "planes_per_scene": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "frozen_at": "2026-11-25T16:47:08.638642+08:00",
+  "fresh_holdout": "corner_20261125_02/D",
+  "rule": "Validate frozen transform without refitting or selecting on D. Preserve original rejected fit.",
+  "sha256": {
+    "标定稳定性复核_20261125/common_planes_candidate_v1/candidate.json": "dc1c200895777138dc54c426c59988070ea1b4abfbd12a0197861133df4bea96",
+    "标定稳定性复核_20261125/common_planes_candidate_v1/seed_stability.json": "05d85ef6b4c2ab7dd1f4502f2bcfbba9a83fcc296090e7989fa77fca1922d72b",
+    "标定稳定性复核_20261125/fit_common_planes_candidate.py": "bfd0fdb227705d303b9fd0b209c65894fdfe5a17b50158b868f3b8e64fec3fa3",
+    "标定稳定性复核_20261125/audit_planes.py": "d05d046cb8b03d5d10ca4b5740ec6cc4d01153956415e6e1dc0dcc1c5a04b1c9",
+    "双雷达标定工具/config/settings.json": "297fbabb9972016a3b78d960df517f046eb3fabc71cedd5a590c61f870af7037",
+    "双雷达标定工具/config/initial_body_estimate.json": "4403e8973e9aaaf995374746946c79073717b2b5b260f4b5e691dad0fa197df1"
+  }
+}

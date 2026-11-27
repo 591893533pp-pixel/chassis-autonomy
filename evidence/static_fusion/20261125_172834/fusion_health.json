@@ -1,0 +1,3778 @@
+[
+  {
+    "monotonic": 26343.026404268,
+    "phase": "startup",
+    "ok": false,
+    "fusion": {}
+  },
+  {
+    "monotonic": 26343.544969198,
+    "phase": "startup",
+    "ok": false,
+    "fusion": {}
+  },
+  {
+    "monotonic": 26344.051863502,
+    "phase": "startup",
+    "ok": false,
+    "fusion": {
+      "state": "WAIT_PTP",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 0,
+      "last_pair_dt_ms": null,
+      "last_output_age_s": null,
+      "rejected": 0,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26343.854485805,
+      "device_ptp_reason": "192.168.1.132:identity_workstate_or_hms",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {},
+      "device_hms_warnings": {}
+    }
+  },
+  {
+    "monotonic": 26344.561692794,
+    "phase": "startup",
+    "ok": false,
+    "fusion": {
+      "state": "WAIT_PTP",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 0,
+      "last_pair_dt_ms": null,
+      "last_output_age_s": null,
+      "rejected": 0,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26344.354528444,
+      "device_ptp_reason": "192.168.1.132:identity_workstate_or_hms",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {},
+      "device_hms_warnings": {}
+    }
+  },
+  {
+    "monotonic": 26345.072948172,
+    "phase": "startup",
+    "ok": false,
+    "fusion": {
+      "state": "WAIT_VALID_PAIR",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 0,
+      "last_pair_dt_ms": null,
+      "last_output_age_s": null,
+      "rejected": 0,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26344.854547724,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -101556,
+        "192.168.1.132": -85146
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26345.580414928,
+    "phase": "startup",
+    "ok": false,
+    "fusion": {
+      "state": "WAIT_VALID_PAIR",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 0,
+      "last_pair_dt_ms": null,
+      "last_output_age_s": null,
+      "rejected": 0,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26345.354558351,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -101556,
+        "192.168.1.132": -85146
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26346.080878563,
+    "phase": "startup",
+    "ok": false,
+    "fusion": {
+      "state": "WAIT_VALID_PAIR",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 0,
+      "last_pair_dt_ms": null,
+      "last_output_age_s": null,
+      "rejected": 0,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26345.854357806,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -41483,
+        "192.168.1.132": -24102
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26346.582488306,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 2,
+      "last_pair_dt_ms": 0.25043,
+      "last_output_age_s": 0.08239928699913435,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26346.354440409,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -41483,
+        "192.168.1.132": -24102
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26347.084500367,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 7,
+      "last_pair_dt_ms": 0.250958,
+      "last_output_age_s": 0.0811616060018423,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26346.854514318,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 140566,
+        "192.168.1.132": 101579
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26347.584826952,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 12,
+      "last_pair_dt_ms": 0.22005,
+      "last_output_age_s": 0.08275266800046666,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26347.354611138,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 140566,
+        "192.168.1.132": 101579
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26348.085153131,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 17,
+      "last_pair_dt_ms": 0.24751,
+      "last_output_age_s": 0.08287016300164396,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26347.854540405,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -92390,
+        "192.168.1.132": -49456
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26348.585319468,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 22,
+      "last_pair_dt_ms": 0.24925,
+      "last_output_age_s": 0.08371162099865614,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26348.354645038,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -92390,
+        "192.168.1.132": -49456
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26349.085340272,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 27,
+      "last_pair_dt_ms": 0.244078,
+      "last_output_age_s": 0.08301713100081543,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26348.85452775,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 6507,
+        "192.168.1.132": -3370
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26349.586139846,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 32,
+      "last_pair_dt_ms": 0.23283,
+      "last_output_age_s": 0.08249320300092222,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26349.354566414,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 6507,
+        "192.168.1.132": -3370
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26350.089279603,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 37,
+      "last_pair_dt_ms": 0.2195,
+      "last_output_age_s": 0.08276183999987552,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26349.854521602,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 6301,
+        "192.168.1.132": 62812
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26350.5914014,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 42,
+      "last_pair_dt_ms": 0.25955,
+      "last_output_age_s": 0.08222079799816129,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26350.354564559,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 6301,
+        "192.168.1.132": 62812
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26351.091580279,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 47,
+      "last_pair_dt_ms": 0.14491,
+      "last_output_age_s": 0.08244798499799799,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26350.854356879,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 4457,
+        "192.168.1.132": -42524
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26351.591614603,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 52,
+      "last_pair_dt_ms": 0.145432,
+      "last_output_age_s": 0.08277535099841771,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26351.354608454,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 4457,
+        "192.168.1.132": -42524
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26352.094254848,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 57,
+      "last_pair_dt_ms": 0.134686,
+      "last_output_age_s": 0.08267078599965316,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26351.854357344,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 68786,
+        "192.168.1.132": -1421
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26352.595594148,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 62,
+      "last_pair_dt_ms": 0.14899,
+      "last_output_age_s": 0.08402028999989852,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26352.354635285,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 68786,
+        "192.168.1.132": -1421
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26353.095750935,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 67,
+      "last_pair_dt_ms": 0.403984,
+      "last_output_age_s": 0.08340254100039601,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26352.854355512,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -112640,
+        "192.168.1.132": -75323
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26353.598430337,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 72,
+      "last_pair_dt_ms": 0.078358,
+      "last_output_age_s": 0.08384725100040669,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26353.35453985,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -112640,
+        "192.168.1.132": -75323
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26354.098549176,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 77,
+      "last_pair_dt_ms": 0.06715,
+      "last_output_age_s": 0.08209751899994444,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26353.854542391,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 68851,
+        "192.168.1.132": 116851
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26354.59899364,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 82,
+      "last_pair_dt_ms": 0.395578,
+      "last_output_age_s": 0.08429952799997409,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26354.354455761,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 68851,
+        "192.168.1.132": 116851
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26355.101476629,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 87,
+      "last_pair_dt_ms": 0.0646,
+      "last_output_age_s": 0.08423305700125638,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26354.854411625,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -20118,
+        "192.168.1.132": -58268
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26355.604354907,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 92,
+      "last_pair_dt_ms": 0.083414,
+      "last_output_age_s": 0.08553568799834466,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26355.354569044,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -20118,
+        "192.168.1.132": -58268
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26356.104370272,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 97,
+      "last_pair_dt_ms": 0.398348,
+      "last_output_age_s": 0.08572480600196286,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26355.854294758,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -21610,
+        "192.168.1.132": -40302
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26356.604476338,
+    "phase": "startup",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 102,
+      "last_pair_dt_ms": 0.087784,
+      "last_output_age_s": 0.08581735500047216,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26356.354494551,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -21610,
+        "192.168.1.132": -40302
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26357.105789181,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 107,
+      "last_pair_dt_ms": 0.07662,
+      "last_output_age_s": 0.08387356800085399,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26356.854205026,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -31580,
+        "192.168.1.132": -6981
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26357.60866806,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 112,
+      "last_pair_dt_ms": 0.406108,
+      "last_output_age_s": 0.0829515410005115,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26357.35455217,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -31580,
+        "192.168.1.132": -6981
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26358.108860237,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 117,
+      "last_pair_dt_ms": 0.075552,
+      "last_output_age_s": 0.08433282899932237,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26357.854284724,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 101934,
+        "192.168.1.132": 41843
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26358.609043477,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 122,
+      "last_pair_dt_ms": 0.07511,
+      "last_output_age_s": 0.08309158100018976,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26358.354468862,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 101934,
+        "192.168.1.132": 41843
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26359.110982924,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 127,
+      "last_pair_dt_ms": 0.412844,
+      "last_output_age_s": 0.08422699199945782,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26358.854377523,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 11768,
+        "192.168.1.132": -548
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26359.611164141,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 132,
+      "last_pair_dt_ms": 0.075654,
+      "last_output_age_s": 0.08406063400252606,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26359.354438367,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 11768,
+        "192.168.1.132": -548
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26360.111441264,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 137,
+      "last_pair_dt_ms": 0.076502,
+      "last_output_age_s": 0.08408443900043494,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26359.854290241,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 41038,
+        "192.168.1.132": 50422
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26360.611824059,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 142,
+      "last_pair_dt_ms": 0.38796,
+      "last_output_age_s": 0.08432284399896162,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26360.354527253,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 41038,
+        "192.168.1.132": 50422
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26361.11450368,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 147,
+      "last_pair_dt_ms": 0.04929,
+      "last_output_age_s": 0.08581037700059824,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26360.854257141,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -21644,
+        "192.168.1.132": -36115
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26361.616141778,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 152,
+      "last_pair_dt_ms": 0.037896,
+      "last_output_age_s": 0.08625175999986823,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26361.35450155,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -21644,
+        "192.168.1.132": -36115
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26362.118563355,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 157,
+      "last_pair_dt_ms": 0.042014,
+      "last_output_age_s": 0.08594750700285658,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26361.854264306,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -44738,
+        "192.168.1.132": -12513
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26362.61862762,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 162,
+      "last_pair_dt_ms": 0.044354,
+      "last_output_age_s": 0.08590058500340092,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26362.354458632,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -44738,
+        "192.168.1.132": -12513
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26363.121182183,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 167,
+      "last_pair_dt_ms": 0.063076,
+      "last_output_age_s": 0.08660444800261757,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26362.854304857,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -18502,
+        "192.168.1.132": 1145
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26363.62138068,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 172,
+      "last_pair_dt_ms": 0.054044,
+      "last_output_age_s": 0.08549870300339535,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26363.354599781,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -18502,
+        "192.168.1.132": 1145
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26364.124163287,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 177,
+      "last_pair_dt_ms": 0.064306,
+      "last_output_age_s": 0.08408658999906038,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26363.854278133,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 9870,
+        "192.168.1.132": -9969
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26364.62445801,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 182,
+      "last_pair_dt_ms": 0.056994,
+      "last_output_age_s": 0.08437428899924271,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26364.354495237,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 9870,
+        "192.168.1.132": -9969
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26365.125838345,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 187,
+      "last_pair_dt_ms": 0.058788,
+      "last_output_age_s": 0.08625506899988977,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26364.854269966,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 57745,
+        "192.168.1.132": 51374
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26365.629057054,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 192,
+      "last_pair_dt_ms": 0.06224,
+      "last_output_age_s": 0.08588399099971866,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26365.354483906,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 57745,
+        "192.168.1.132": 51374
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26366.129246732,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 197,
+      "last_pair_dt_ms": 0.417438,
+      "last_output_age_s": 0.08552438200058532,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26365.854285156,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -39839,
+        "192.168.1.132": 2993
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26366.631488231,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 202,
+      "last_pair_dt_ms": 0.052754,
+      "last_output_age_s": 0.08564687599937315,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26366.354552194,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -39839,
+        "192.168.1.132": 2993
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26367.134382578,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 207,
+      "last_pair_dt_ms": 0.062828,
+      "last_output_age_s": 0.08429298799819662,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26366.854325634,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -10618,
+        "192.168.1.132": 9175
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26367.634476383,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 212,
+      "last_pair_dt_ms": 0.427936,
+      "last_output_age_s": 0.08530643199992483,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26367.354457619,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -10618,
+        "192.168.1.132": 9175
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26368.135782214,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 217,
+      "last_pair_dt_ms": 0.049018,
+      "last_output_age_s": 0.08500762299809139,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26367.854264484,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 3173,
+        "192.168.1.132": -51848
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26368.635821392,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 222,
+      "last_pair_dt_ms": 0.043286,
+      "last_output_age_s": 0.08715071500046179,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26368.354575793,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 3173,
+        "192.168.1.132": -51848
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26369.135952246,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 227,
+      "last_pair_dt_ms": 0.422104,
+      "last_output_age_s": 0.08505208300266531,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26368.854283902,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 5095,
+        "192.168.1.132": -6911
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26369.638871841,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 232,
+      "last_pair_dt_ms": 0.057572,
+      "last_output_age_s": 0.08450414499748149,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26369.354505862,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 5095,
+        "192.168.1.132": -6911
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26370.141392251,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 237,
+      "last_pair_dt_ms": 0.05305,
+      "last_output_age_s": 0.08422857099867542,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26369.85430782,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 64244,
+        "192.168.1.132": 98707
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26370.644380472,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 242,
+      "last_pair_dt_ms": 0.43784,
+      "last_output_age_s": 0.08453781199932564,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26370.35456992,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 64244,
+        "192.168.1.132": 98707
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26371.144464409,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 247,
+      "last_pair_dt_ms": 0.047516,
+      "last_output_age_s": 0.08403771200028132,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26370.854303918,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -25139,
+        "192.168.1.132": -71945
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26371.64451672,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 252,
+      "last_pair_dt_ms": 0.045746,
+      "last_output_age_s": 0.08658642299997155,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26371.354578963,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -25139,
+        "192.168.1.132": -71945
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26372.146170463,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 257,
+      "last_pair_dt_ms": 0.42426,
+      "last_output_age_s": 0.08484333300293656,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26371.854282577,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 9767,
+        "192.168.1.132": 16924
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26372.648781228,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 262,
+      "last_pair_dt_ms": 0.037176,
+      "last_output_age_s": 0.08580750300097861,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26372.354565629,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 9767,
+        "192.168.1.132": 16924
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26373.151362646,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 267,
+      "last_pair_dt_ms": 0.049412,
+      "last_output_age_s": 0.08532818800085806,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26372.854300787,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -32239,
+        "192.168.1.132": -19172
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26373.654314532,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 272,
+      "last_pair_dt_ms": 0.033602,
+      "last_output_age_s": 0.08510028399905423,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26373.354595523,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -32239,
+        "192.168.1.132": -19172
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26374.154424006,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 277,
+      "last_pair_dt_ms": 0.034716,
+      "last_output_age_s": 0.08407968800020171,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26373.85425154,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -61362,
+        "192.168.1.132": -77069
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26374.654433562,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 282,
+      "last_pair_dt_ms": 0.01979,
+      "last_output_age_s": 0.08425499000077252,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26374.354587141,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -61362,
+        "192.168.1.132": -77069
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26375.154600247,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 287,
+      "last_pair_dt_ms": 0.034006,
+      "last_output_age_s": 0.08348793900222518,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26374.854305059,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 105794,
+        "192.168.1.132": 104035
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26375.655978798,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 292,
+      "last_pair_dt_ms": 0.017366,
+      "last_output_age_s": 0.08490323899968644,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26375.354543509,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 105794,
+        "192.168.1.132": 104035
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26376.159153004,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 297,
+      "last_pair_dt_ms": 0.024546,
+      "last_output_age_s": 0.08574676400166936,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26375.854311987,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 12693,
+        "192.168.1.132": -17077
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26376.661423938,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 302,
+      "last_pair_dt_ms": 0.016088,
+      "last_output_age_s": 0.08554346000164514,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26376.354593827,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 12693,
+        "192.168.1.132": -17077
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26377.161564879,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 307,
+      "last_pair_dt_ms": 0.025564,
+      "last_output_age_s": 0.08478070499768364,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26376.854357904,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 10624,
+        "192.168.1.132": 9961
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26377.664499357,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 312,
+      "last_pair_dt_ms": 0.013516,
+      "last_output_age_s": 0.08563937900180463,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26377.354474569,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 10624,
+        "192.168.1.132": 9961
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26378.166122577,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 317,
+      "last_pair_dt_ms": 0.030574,
+      "last_output_age_s": 0.0851102209999226,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26377.854309085,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -37252,
+        "192.168.1.132": -12903
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26378.668796165,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 322,
+      "last_pair_dt_ms": 0.020916,
+      "last_output_age_s": 0.08573773600073764,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26378.354522133,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -37252,
+        "192.168.1.132": -12903
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26379.169171483,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 327,
+      "last_pair_dt_ms": 0.027066,
+      "last_output_age_s": 0.08563525100180414,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26378.854276936,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -26724,
+        "192.168.1.132": -30344
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26379.671599466,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 332,
+      "last_pair_dt_ms": 0.030118,
+      "last_output_age_s": 0.0845979610021459,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26379.354506425,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -26724,
+        "192.168.1.132": -30344
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26380.171896435,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 337,
+      "last_pair_dt_ms": 0.028802,
+      "last_output_age_s": 0.08507494500008761,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26379.854535602,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 21666,
+        "192.168.1.132": 1803
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26380.674427281,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 342,
+      "last_pair_dt_ms": 0.021744,
+      "last_output_age_s": 0.08561477300099796,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26380.354550029,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 21666,
+        "192.168.1.132": 1803
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26381.174521753,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 347,
+      "last_pair_dt_ms": 0.044456,
+      "last_output_age_s": 0.0841655059994082,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26380.854282912,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 45734,
+        "192.168.1.132": 91784
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26381.675619503,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 352,
+      "last_pair_dt_ms": 0.058088,
+      "last_output_age_s": 0.08512804400015739,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26381.354536812,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 45734,
+        "192.168.1.132": 91784
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26382.175629138,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 357,
+      "last_pair_dt_ms": 0.048536,
+      "last_output_age_s": 0.08499965900045936,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26381.854286102,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -9346,
+        "192.168.1.132": -54390
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26382.675757691,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 362,
+      "last_pair_dt_ms": 0.108032,
+      "last_output_age_s": 0.085297093999543,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26382.354502877,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -9346,
+        "192.168.1.132": -54390
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26383.175828,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 367,
+      "last_pair_dt_ms": 0.101538,
+      "last_output_age_s": 0.0855471419999958,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26382.854306259,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -106687,
+        "192.168.1.132": -80610
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26383.679008145,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 372,
+      "last_pair_dt_ms": 0.099586,
+      "last_output_age_s": 0.08685699100169586,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26383.354482575,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -106687,
+        "192.168.1.132": -80610
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26384.181811215,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 377,
+      "last_pair_dt_ms": 0.08868,
+      "last_output_age_s": 0.08365616800074349,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26383.85433804,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 129032,
+        "192.168.1.132": 100667
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26384.682699472,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 382,
+      "last_pair_dt_ms": 0.09815,
+      "last_output_age_s": 0.08449646699955338,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26384.354527995,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": 129032,
+        "192.168.1.132": 100667
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26385.18288399,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 387,
+      "last_pair_dt_ms": 0.09768,
+      "last_output_age_s": 0.08470103900253889,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26384.854259922,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -40583,
+        "192.168.1.132": 10026
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26385.6829894,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 392,
+      "last_pair_dt_ms": 0.106268,
+      "last_output_age_s": 0.08505737300220062,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26385.354535021,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -40583,
+        "192.168.1.132": 10026
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26386.183433659,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 397,
+      "last_pair_dt_ms": 0.103288,
+      "last_output_age_s": 0.08431423499860102,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26385.854287376,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -22790,
+        "192.168.1.132": -90015
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  },
+  {
+    "monotonic": 26386.683816412,
+    "phase": "static_lio",
+    "ok": true,
+    "fusion": {
+      "state": "CAD_PREVIEW",
+      "ptp_packets_verified": true,
+      "ptp_master_healthy": true,
+      "ptp_master_reason": "ok",
+      "ptp_master_generation": "83c15b2b37014764b7386de9808fd383",
+      "calibrated": false,
+      "relative_calibrated": false,
+      "pairs": 402,
+      "last_pair_dt_ms": 0.366612,
+      "last_output_age_s": 0.08532924800238106,
+      "rejected": 32,
+      "motion_deskew": false,
+      "self_filter_enabled": false,
+      "self_filter_removed_last": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "self_filter_removed_total": {
+        "rear_right": 0,
+        "front_left": 0
+      },
+      "scope": "STATIONARY_TRIAL_NOT_NAVIGATION",
+      "monotonic": 26386.354429977,
+      "device_ptp_reason": "ok",
+      "device_offset_limit_ns": 500000,
+      "device_offset_ns": {
+        "192.168.1.159": -22790,
+        "192.168.1.132": -90015
+      },
+      "device_hms_warnings": {
+        "192.168.1.159": [
+          67436546
+        ],
+        "192.168.1.132": [
+          67436546
+        ]
+      }
+    }
+  }
+]

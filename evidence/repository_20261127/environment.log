@@ -1,0 +1,21 @@
+{
+  "fastlio_compiled": true,
+  "missing_packages": [
+    "nav2_map_server",
+    "nav2_amcl",
+    "nav2_smac_planner",
+    "dwb_core",
+    "nav2_bt_navigator",
+    "nav2_collision_monitor",
+    "nav2_lifecycle_manager",
+    "nav2_rviz_plugins",
+    "rviz2"
+  ],
+  "found_packages": {
+    "robot_state_publisher": "/opt/ros/jazzy"
+  },
+  "physical_acceptance": false,
+  "acceptance_reason": "现场验收尚未完成：body_anchor, physical_envelope, nearfield_obstacles, ptp_motion, map_and_relocalization, nav2_plan_and_cancel, stop_and_watchdogs",
+  "configuration_sha256": "275b9b1049ff9dc917b3d801bac2cb2234725271d5232a7e71b0c2e94cfe007c",
+  "hardware_started": false
+}
