@@ -52,3 +52,5 @@ cat /home/pc/.local/state/chassis-lidar-boot-guard/budget.json
 2026-11-27 开发时目标 NUC 的雷达网口没有物理链路，因此暂未实机验证新查询报文的响应和本服务自动恢复。历史人工重启成功不能替代本服务实机验证。下次供电和链路恢复后，先核对两台正常诊断查询；自然复现故障时检查是否保存 `REBOOT_EVIDENCE → REBOOT_ACK_OK / REBOOT_ACK_UNCONFIRMED → RECOVERED_SAMPLING`。不故意制造欠压、不重启健康雷达来测试。
 
 本轮离线、SDK 报文对照和 NUC 无链路试运行证据见 [验证记录](../evidence/lidar_boot_guard_20261127/validation.json)。
+
+安装复核：2026-11-27 17:49 用户完成安装；随后 SSH 确认服务 `enabled`、`active (running)`、`NRestarts=0`，以 pc 账户运行。当前 `WAIT_LINK`，两台自动重启次数均未消耗；这只证明服务安装和等待逻辑正常，不代表已完成真实故障恢复验证。

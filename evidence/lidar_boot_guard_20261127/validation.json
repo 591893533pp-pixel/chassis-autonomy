@@ -24,5 +24,17 @@
     "source_manifest": "all entries matched"
   },
   "hardware_recovery_verified": false,
-  "installation_at_smoke": "system unit not installed; sudo installer prepared and requested; installation must be checked separately"
+  "installation_at_smoke": "system unit not installed; sudo installer prepared and requested; installation must be checked separately",
+  "installation_verified": {
+    "host": "10.23.2.190",
+    "status_utc": 1795773040.0663486,
+    "enabled": true,
+    "active_state": "active",
+    "sub_state": "running",
+    "user": "pc",
+    "service_restarts": 0,
+    "phase": "WAIT_LINK",
+    "budget_attempts": {},
+    "hardware_recovery_verified": false
+  }
 }
