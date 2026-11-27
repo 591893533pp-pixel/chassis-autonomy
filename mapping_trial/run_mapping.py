@@ -4,6 +4,7 @@ import argparse,collections,datetime,fcntl,hashlib,json,os,pathlib,shutil,signal
 import uuid
 from live_gate import read as read_raw
 from motion_lease import publish
+from run_options import parse_args, scope
 import numpy as np
 import rclpy
 from nav_msgs.msg import Odometry
@@ -18,8 +19,7 @@ from capture import preflight
 
 def save(path,value):path.write_text(json.dumps(value,ensure_ascii=False,indent=2,allow_nan=False)+'\n')
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--seconds',type=int,default=30);ap.add_argument('--motion',action='store_true');a=ap.parse_args()
- if not 30<=a.seconds<=900:raise ValueError('seconds must be 30..900')
+ a=parse_args()
  preflight(json.loads((pathlib.Path(__file__).resolve().parents[1]/'calibration/config/settings.json').read_text()))
  conflicts=[]
  for p in pathlib.Path('/proc').iterdir():
@@ -38,8 +38,8 @@ def main():
  statuspath=ROOT/'logs/fusion_status.json'
  if statuspath.exists():statuspath.unlink()
  (ROOT/'STOP').unlink(missing_ok=True)
- save(ROOT/'STATE.json',{'running':True,'pid':os.getpid(),'run':str(run),'scope':'MANUAL_MAPPING_TRIAL' if a.motion else 'MAPPING_LOCKED_CONTROL_CHECK'})
- session=str(uuid.uuid4());boot=pathlib.Path('/proc/sys/kernel/random/boot_id').read_text().strip();permit=run/'motion_lease.json';control=None;control_started=None;raw_generation=None;raw_samples=[];map_samples=[];world_count=0;stop_reason=None
+ save(ROOT/'STATE.json',{'running':True,'pid':os.getpid(),'run':str(run),'scope':scope(a)})
+ session=str(uuid.uuid4());boot=pathlib.Path('/proc/sys/kernel/random/boot_id').read_text().strip();permit=run/'motion_lease.json';control=None;window_started=None;raw_generation=None;raw_samples=[];map_samples=[];world_count=0;stop_reason=None
  children=[];logs=[];cleanup=[];failure=None;poses=[];clouds=[];fusion=[];imu=collections.defaultdict(list);last={};world=None;sample=None;faults=[];started=time.monotonic();phase='startup';previous_stamp={}
  def launch(name,cmd):
   f=(run/(name+'.log')).open('w');logs.append(f)
@@ -123,7 +123,7 @@ def main():
      ptp_generation=f.get('ptp_master_generation')
      launch('bag',['ros2','bag','record','-o',str(run/'bag'),'/front_left/points','/rear_right/points','/livox/device_diagnostics','/slam/points','/rear_right/imu','/front_left/imu','/Odometry','/cloud_registered','/livox/fusion_status','/tf','/tf_static','/lio_sam/mapping/cloud_global','/lio_sam/mapping/path','/lio_sam/loop_closure_constraints'])
      launch('fastlio',[str(ROOT.parent/'mapping_ws/install/lib/fast_lio_sam/fastlio_mapping'),'--ros-args','--params-file',str(ROOT/'config/lio.yaml'),'-p','result_save/output_dir:='+str(run/'optimized')])
-     map_started=now;phase='static_lio';print('FAST-LIO已启动，保持静止约25秒，等待遥控入口就绪。',flush=True)
+     map_started=now;phase='static_lio';print('FAST-LIO已启动，保持静止约25秒，等待初始化检查完成。',flush=True)
    else:
     if not ok:raise RuntimeError('Health became invalid: '+str(f)+' raw='+str(raw))
     if shutil.disk_usage(run).free<5*1024**3:raise RuntimeError('Disk free below 5GiB')
@@ -137,14 +137,18 @@ def main():
      for frame in ['base_link_trial','livox_192_168_1_159','livox_192_168_1_132']:
       if not tf_buffer.can_transform('trial_map',frame,rclpy.time.Time()):raise RuntimeError('TF chain unavailable: '+frame)
      tf_checks+=1
-    if control is None and now-map_started>=25 and len(poses)>=100:
-     args=['python3',str(ROOT/'guarded_remote.py'),'--seconds',str(a.seconds),'--session-id',session,'--motion-enable-file',str(permit),'--log-dir',str(run/'control')]
-     if not a.motion:args.append('--lock-motion')
-     publish(permit,session,boot);control=launch('control',args);control_started=now
-     print(('运动窗口已开放：摇杆回中，按START后才可低速遥控；双扳机退出。' if a.motion else '控制器已启动但运动锁定，按START也不使能。')+' 窗口'+str(a.seconds)+'秒。',flush=True)
+    if window_started is None and now-map_started>=25 and len(poses)>=100:
+     if a.sensors_only:
+      print('纯传感器静止检查已开始，不启动控制桥。窗口'+str(a.seconds)+'秒。',flush=True)
+     else:
+      args=['python3',str(ROOT/'guarded_remote.py'),'--seconds',str(a.seconds),'--session-id',session,'--motion-enable-file',str(permit),'--log-dir',str(run/'control')]
+      if not a.motion:args.append('--lock-motion')
+      publish(permit,session,boot);control=launch('control',args)
+      print(('运动窗口已开放：摇杆回中，按START后才可低速遥控；双扳机退出。' if a.motion else '控制器已启动但运动锁定，按START也不使能。')+' 窗口'+str(a.seconds)+'秒。',flush=True)
+     window_started=now
     if control is not None:publish(permit,session,boot)
-    if control_started and now-control_started>=a.seconds-1:stop_reason='time_limit';break
-    if control is None and now-map_started>40:raise RuntimeError('Control readiness timed out')
+    if window_started and now-window_started>=a.seconds-1:stop_reason='time_limit';break
+    if window_started is None and now-map_started>40:raise RuntimeError('Mapping readiness timed out')
  except BaseException as exc:failure=type(exc).__name__+': '+str(exc)
  finally:
   permit.unlink(missing_ok=True)
@@ -161,7 +165,7 @@ def main():
   node.destroy_node()
   if rclpy.ok():rclpy.shutdown()
   lock.close()
- report={'scope':'MANUAL_MAPPING_TRIAL' if a.motion else 'MAPPING_LOCKED_CONTROL_CHECK','failure':failure,'requested_lio_seconds':a.seconds,'elapsed_s':time.monotonic()-started,'odom_messages':len(poses),'adapted_clouds':len(clouds),'cleanup':cleanup,'body_anchor_verified':False,'ground_issue_resolved':False,'controller_started':control is not None,'motion_allowed_by_option':a.motion,'operator_automatic_enable':False,'stop_reason':stop_reason,'nearfield_filter':'1m_per_sensor_excluded_mapping_experiment_only_not_obstacle_map','configuration_hashes':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (run/'config').iterdir()}}
+ report={'scope':scope(a),'failure':failure,'requested_lio_seconds':a.seconds,'elapsed_s':time.monotonic()-started,'odom_messages':len(poses),'adapted_clouds':len(clouds),'cleanup':cleanup,'body_anchor_verified':False,'ground_issue_resolved':False,'controller_started':control is not None,'motion_allowed_by_option':a.motion,'operator_automatic_enable':False,'stop_reason':stop_reason,'nearfield_filter':'1m_per_sensor_excluded_mapping_experiment_only_not_obstacle_map','configuration_hashes':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (run/'config').iterdir()}}
  if poses and not a.motion:
   p=np.array(poses);steady=p[p[:,0]>=p[0,0]+20];report['odom_span_s']=float(p[-1,0]-p[0,0])
   if len(steady):

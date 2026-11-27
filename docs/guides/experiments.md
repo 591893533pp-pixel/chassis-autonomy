@@ -35,10 +35,10 @@ python3 calibration/run_reposition.py --phase motion --seconds 900
 sudo python3 mapping_trial/raw_time_monitor.py --seconds 3600
 ```
 
-终端二运行锁定运动的静止融合与后端检查：
+终端二运行纯传感器静止融合与后端检查，不启动控制桥，不要求 CAN 或手柄在线：
 
 ```bash
-bash mapping_trial/start_mapping.sh --seconds 90
+bash mapping_trial/start_mapping.sh --sensors-only --seconds 90
 ```
 
 退出后检查本次 run 的报告、点云/IMU健康、TF 和导出完整性；同一时段不要另开定位或雷达采集。

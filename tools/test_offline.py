@@ -7,7 +7,7 @@ def main():
  env=dict(os.environ,OPENBLAS_NUM_THREADS='2',MPLBACKEND='Agg',PYTHONDONTWRITEBYTECODE='1')
  suites=[('footprint_navigation',ROOT,['-m','unittest','discover','-s','tests','-p','test_*.py','-v']),
  ('calibration',ROOT,['-m','unittest','discover','-s','calibration/tests','-p','test_*.py','-v']),
- ('timing_gates',ROOT/'mapping_trial',['-m','unittest','test_raw_monitor','test_live_gate','-v']),
+ ('timing_gates',ROOT/'mapping_trial',['-m','unittest','test_raw_monitor','test_live_gate','test_run_options','-v']),
  ('fusion_coordinates',ROOT/'mapping_trial',['test_geometry.py']),
  ('gamepad_core',ROOT/'control/program/remote',['-m','pytest','-q','test_button_core.py','test_full_manual.py','vendor/test_upstream_core.py'])]
  out=ROOT/'.validation';out.mkdir(exist_ok=True);results=[]
