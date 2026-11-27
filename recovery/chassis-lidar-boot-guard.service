@@ -1,0 +1,18 @@
+[Unit]
+Description=Bounded MID-360S startup scan-fault recovery
+After=network.target
+
+[Service]
+Type=simple
+User=pc
+Group=pc
+ExecStart=/usr/bin/python3 /home/pc/chassis-autonomy/recovery/lidar_boot_guard.py
+Restart=on-failure
+RestartSec=15
+UMask=0077
+NoNewPrivileges=true
+# Share the same /tmp motor lock namespace as the control processes.
+PrivateTmp=false
+
+[Install]
+WantedBy=multi-user.target

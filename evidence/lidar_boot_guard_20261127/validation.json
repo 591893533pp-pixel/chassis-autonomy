@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-27",
+  "offline_tests": {
+    "command": "python3 -m unittest discover -s tests -p test_lidar_boot_guard.py -v",
+    "tests": 14,
+    "passed": 14,
+    "hardware_access": false
+  },
+  "wire_comparison": {
+    "matches_bundled_sdk": true,
+    "reboot": "aa001a002a00000000020000000000000000a0625cbc48406400",
+    "query": "aa0024002a00000001010000000000000000819432d79a0d040000000080068008801180"
+  },
+  "repository_audit": "passed",
+  "systemd_unit_verify": "passed locally and on target",
+  "target_smoke": {
+    "host": "10.23.2.190",
+    "duration_seconds": 7,
+    "exit_status": 124,
+    "exit_explanation": "intentional timeout of continuous monitor",
+    "phase": "WAIT_LINK",
+    "budget_attempts": {},
+    "status_utc": 1795772799.8836565,
+    "source_manifest": "all entries matched"
+  },
+  "hardware_recovery_verified": false,
+  "installation_at_smoke": "system unit not installed; sudo installer prepared and requested; installation must be checked separately"
+}

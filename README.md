@@ -37,6 +37,7 @@ chassis-autonomy/
 ├── calibration/             # 静止采集、双雷达几何标定、独立验证、低速移位入口
 ├── sensors/                 # 真正的 Livox SDK2 与 ROS2 驱动源码
 ├── timing/                  # PTP 抓包和诊断解析工具
+├── recovery/                # 雷达启动扫描故障检测与有限次自动重启
 ├── mapping_trial/           # 当前双雷达融合、前端输入、原始时间监测、运动许可
 ├── mapping_ws/src/fast_lio_sam/ # FAST-LIO 前端与回环、iSAM2 后端
 ├── config/                  # 当前 Nav2 / 定位 / 验收配置
