@@ -9,6 +9,12 @@ def source_files():
  return sorted({ROOT/p.decode() for p in out.split(b'\0') if p})
 def main():
  errors=[];files=source_files();total=0
+ # A local ignored manifest can make in-place builds pass while fresh deployments fail.
+ for rel in ['sensors/driver_workspace/src/livox_ros_driver2/package.xml',
+             'mapping_ws/src/fast_lio_sam/package.xml',
+             'build_support/livox_ros_driver2/package.xml']:
+  p=ROOT/rel
+  if p not in files or not p.is_file():errors.append(rel+': required ROS package manifest missing from Git source set')
  # Patterns are a bounded source audit, not a guarantee of complete secret detection.
  secret=re.compile(rb'-----BEGIN (?:OPENSSH |RSA |EC |DSA )?PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{30,}|AKIA[0-9A-Z]{16}')
  for p in files:
